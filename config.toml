@@ -36,6 +36,24 @@ pluralizelisttitles = false
     weight     = 2
 
 [[menu.main]]
+    name       = "Core Project Team"
+    url        = "/team/"
+    weight     = 1
+    parent     = "menu.people"
+
+[[menu.main]]
+    name       = "Advisory board"
+    url        = "/advisory board/"
+    weight     = 2
+    parent     = "menu.people"
+
+[[menu.main]]
+    name       = "Project collaborator"
+    url        = "/project collaborator/"
+    weight     = 3
+    parent     = "menu.people"
+
+[[menu.main]]
     name       = "News"
     identifier = "menu.news"
     url        = "/news/"
@@ -48,9 +66,9 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    # mainSections = ["news", "team", "advisory board", "project collaborator"]
-    mainSections = ["news", "people"]
-    peopleSections = ["team", "advisory board", "project collaborator"]
+    mainSections = ["news", "team", "advisory board", "project collaborator"]
+    # mainSections = ["news", "people"]
+    # peopleSections = ["team", "advisory board", "project collaborator"]
     newsSections = ["news"]
     defaultDescription = "Site template made by Devcows using Hugo"
 

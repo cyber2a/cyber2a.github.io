@@ -1,6 +1,6 @@
 +++
 title = "Xiao Chen"
-banner = "img/people/Unknown.jpg"
+banner = "img/people/Xiao.jpg"
 descriptions = ["PhD student","Arizona State University"]
 +++
 

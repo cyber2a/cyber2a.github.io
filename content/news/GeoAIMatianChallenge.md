@@ -2,9 +2,9 @@
 title = "Winners announced for the 1st GeoAI Martian Challenge!"
 date = "2023-05-01T21:29:20+02:00"
 tags = ["Award"]
-categories = ["project launching"]
-banner = "https://news.asu.edu/sites/default/files/styles/asu_news_article_hero/public/two_ivory_gulls_in_the_drift_ice_of_the_arctic.jpeg?itok=3heaMFIr"
-authors = ["Dolores Tropiano"]
+categories = ["Martian"]
+banner = "img/news/MartianChallenge.jpg"
+authors = ["Wenwen Li"]
 +++
 
 <!-- # ASU AI project analyzes big data to help analysts find solutions to Arctic warmin -->g

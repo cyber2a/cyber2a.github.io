@@ -2618,6 +2618,10 @@ fieldset[disabled] .btn-template-primary.active {
 #footer .social a:hover {
   color: var(--primary-accent);
 }
+#footer .project_sponsor {
+  float: left;
+  max-width: 60% !important;
+}
 #copyright {
   background: #333;
   color: #ccc;
