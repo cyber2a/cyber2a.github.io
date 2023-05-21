@@ -1159,7 +1159,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/banners/polarbear.jpg') center center repeat;
+  background: url('../img/banners/polarbear_rShift.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -2827,7 +2827,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* navbar */
 .navbar {
   position: relative;
-  min-height: 100px;
+  /* min-height: 100px; */
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
 }
