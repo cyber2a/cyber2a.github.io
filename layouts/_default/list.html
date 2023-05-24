@@ -30,6 +30,7 @@
                         
                         <section class="post">
                             <div class="row">
+                                {{ if .Params.banner }}
                                 <div class="col-md-4">
                                     <div class="image">
                                         <a href="{{ .Permalink }}">
@@ -89,6 +90,25 @@
                                     </p> -->
                                     {{ end }}
                                 </div>
+                                
+                                {{ else }}
+                                <div class="col-md-12">
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                </div>
+                                <strong style="padding-left: 1.5rem;">
+                                    {{ if isset .Params "descriptions" }}
+                                        {{ $n_desp := add (len .Params.descriptions) -1 }}
+                                        {{ range $index, $description := .Params.descriptions }}
+                                            {{ if lt $index $n_desp }}
+                                                {{ $description }},&nbsp;
+                                            {{ else }}
+                                                {{ $description }}
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                    <br>
+                                </strong>
+                                {{ end }}
                             </div>
                         </section>
                         {{ end }}

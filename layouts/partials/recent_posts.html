@@ -15,7 +15,7 @@
             <!-- *** BLOG HOMEPAGE *** -->
 
             <div class="row">
-                {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+                {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.newsSections) }}
                 {{ range first 4 $posts.Pages }}
                 <div class="col-md-3 col-sm-6">
                     <div class="box-image-text blog">

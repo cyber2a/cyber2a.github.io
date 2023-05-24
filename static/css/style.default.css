@@ -2135,6 +2135,7 @@ fieldset[disabled] .btn-template-primary.active {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  width: 20rem;
 }
 @media (max-width: 767px) {
   #blog-listing-medium .post .image img.img-responsive {
@@ -2625,7 +2626,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright {
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 5px 0;
   font-size: 12px;
   line-height: 28px;
 }

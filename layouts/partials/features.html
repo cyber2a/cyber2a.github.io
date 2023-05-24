@@ -2,7 +2,7 @@
 {{ if .Site.Params.features.enable }}
 {{ if isset .Site.Data "features" }}
 {{ if gt (len .Site.Data.features) 0 }}
-<section class="bar background-white">
+<section class="bar background-white" style="margin-bottom: 0; padding-bottom: 0;">
     <div class="container">
         <div class="heading text-center">
             <h2>{{ .Site.Params.goals.title | markdownify }}</h2>
