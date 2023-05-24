@@ -64,13 +64,13 @@ pluralizelisttitles = false
 # Top bar social links menu
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "CICI-Lab"
+    defaultKeywords = ["Arctic-AI", "Science Enabling CI", "CI Training Activities"]
     mainSections = ["news", "team", "advisory board", "project collaborator"]
     # mainSections = ["news", "people"]
     # peopleSections = ["team", "advisory board", "project collaborator"]
     newsSections = ["news"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "Arctic-AI Research · Science Enabling CI · CI Training Activities"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
