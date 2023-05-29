@@ -4,6 +4,10 @@ date = "2023-05-07T21:29:20+02:00"
 tags = ["Introduction"]
 # categories = ["project launching"]
 banner = "https://news.asu.edu/sites/default/files/styles/asu_news_article_hero/public/two_ivory_gulls_in_the_drift_ice_of_the_arctic.jpeg?itok=3heaMFIr"
+
+summary = '''In August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project. 
+
+“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”'''
     
 [[authors]]
     name = "Dolores Tropiano"
@@ -11,6 +15,8 @@ banner = "https://news.asu.edu/sites/default/files/styles/asu_news_article_hero/
 +++
 
 # ASU AI project analyzes big data to help analysts find solutions to Arctic warming
+
+*__Source:__ [https://news.asu.edu/20221007-solutions-ai-answer-arctics-climate-change-problems](https://news.asu.edu/20221007-solutions-ai-answer-arctics-climate-change-problems)*
 
 The Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach. 
 

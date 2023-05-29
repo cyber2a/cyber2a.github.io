@@ -84,11 +84,11 @@
                                         </p>
                                         {{ end }}
                                     </div>
-                                    {{ if not .Site.Params.recent_posts.hide_summary }}
-                                    <p class="intro">{{ .Summary }}</p>
+                                    <!-- {{ if not .Site.Params.recent_posts.hide_summary }} -->
+                                    <p class="intro">{{ .Params.summary }}</p>
                                     <!-- <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p> -->
-                                    {{ end }}
+                                    <!-- {{ end }} -->
                                 </div>
                                 
                                 {{ else }}
