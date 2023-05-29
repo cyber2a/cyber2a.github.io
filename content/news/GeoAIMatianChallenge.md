@@ -2,9 +2,12 @@
 title = "Winners announced for the 1st GeoAI Martian Challenge!"
 date = "2023-05-01T21:29:20+02:00"
 tags = ["Award"]
-categories = ["Martian"]
+# categories = ["Martian"]
 banner = "img/news/MartianChallenge.jpg"
-authors = ["Wenwen Li"]
+
+[[authors]]
+    name = "Wenwen Li"
+    url = "/team/wenwen_li"
 +++
 
 <!-- # ASU AI project analyzes big data to help analysts find solutions to Arctic warmin -->g
