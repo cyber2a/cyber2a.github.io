@@ -1,7 +1,7 @@
 +++
 title = "Sizhe Wang"
 banner = "img/people/Sizhe.jpg"
-descriptions = ["PhD student","Arizona State University"m "wsizhe@asu.edu"]
+descriptions = ["PhD student","Arizona State University", "wsizhe@asu.edu"]
 weight = 9
 +++
 
