@@ -5,4 +5,4 @@ descriptions = ["Senior Personnel","Arizona State University", "chsu53@asu.edu"]
 weight = 5
 +++
 
-Deep Learning, Object Detection on Remote Sensing Image
+I am a research professional specializing in deep learning and computer vision for remote sensing image analysis.
