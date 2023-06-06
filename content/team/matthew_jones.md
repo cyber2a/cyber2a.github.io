@@ -1,7 +1,7 @@
 +++
 title = "Matthew Jones"
 banner = "https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A38436d3b-ded8-4271-b7eb-f292f8094dad"
-descriptions = ["Co-PI","NSF Award 2230034"]
+descriptions = ["Co-PI, NSF Award 2230034", "University of California, Santa Barbara"]
 weight = 3
 +++
 
