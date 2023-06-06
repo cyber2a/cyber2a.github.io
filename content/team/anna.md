@@ -1,7 +1,7 @@
 +++
 title = "Anna Liljedahl"
 banner = "https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A8a9b7d67-a23c-4295-888a-6f3365d87b41"
-descriptions = ["PI","NSF Award 2230035"]
+descriptions = ["PI, NSF Award 2230035", "Woodwell Climate Research Center", "Webpage: https://www.woodwellclimate.org/staff/anna-liljedahl/", "Email: aliljedahl@woodwellclimate.org"]
 weight = 2
 +++
 
