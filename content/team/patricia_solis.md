@@ -5,4 +5,4 @@ descriptions = ["Senior Personnel","Knowledge Exchange for Resilience","Arizona 
 weight = 6
 +++
 
-PhD, is Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience
+I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience.
