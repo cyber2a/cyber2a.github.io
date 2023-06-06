@@ -1,7 +1,7 @@
 +++
 title = "Wenwen Li"
 banner = "img/people/wenwen.jpg"
-descriptions = ["Project lead","PI, NSF Award 2230034", "Professor, Arizona State University", "Email: wenwen@asu.edu"]
+descriptions = ["Project lead","PI, NSF Award 2230034", "Arizona State University", "Webpage: https://www.public.asu.edu/~wenwenl1/", "Email: wenwen@asu.edu"]
 weight = 1
 +++
 
