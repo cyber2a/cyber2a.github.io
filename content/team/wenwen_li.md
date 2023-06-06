@@ -5,4 +5,4 @@ descriptions = ["Project Lead","Principal Investigator, NSF Award 2230034", "Ari
 weight = 1
 +++
 
-Li is a passionate researcher and educator specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science. 
+I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science. 
