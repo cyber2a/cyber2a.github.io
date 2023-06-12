@@ -1236,6 +1236,14 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel ul li {
   margin-bottom: 10px;
 }
+.home-carousel .image-credits {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font: italic 10px serif;
+  color: #fff;
+  text-shadow: #000 0 0 2px;
+}
 .customers {
   padding: 0;
   margin-bottom: 40px;
