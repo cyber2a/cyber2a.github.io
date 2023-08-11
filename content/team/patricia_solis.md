@@ -1,7 +1,7 @@
 +++
 title = "Patricia Solis"
 banner = "img/people/Patricia Solis.jpg"
-descriptions = ["Senior Personnel","Knowledge Exchange for Resilience","Executive Director, Arizona State University", "patricia.solis@asu.edu"]
+descriptions = ["Senior Personnel","Executive Director, Knowledge Exchange for Resilience","Arizona State University", "patricia.solis@asu.edu"]
 weight = 6
 +++
 
