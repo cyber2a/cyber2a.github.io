@@ -1,7 +1,7 @@
 +++
 title = "Kenton McHenry"
 banner = "https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A54eb8be4-2820-4c51-9bd7-2e87ab9e6c4d"
-descriptions = ["Co-Principal Investigator, NSF Award 2230035", "National Center for Supercomputing Applications", "mchenry@illinois.edu"]
+descriptions = ["Co-Principal Investigator, NSF Award 2230035", "Associate Director of Software, National Center for Supercomputing Applications", "mchenry@illinois.edu"]
 weight = 4
 +++
 
