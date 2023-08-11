@@ -1,0 +1,55 @@
++++
+title = "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw"
+date = "2023-08-10T22:29:20+02:00"
+tags = ["Introduction"]
+# categories = ["Project Grant"]
+banner = "https://news.asu.edu/sites/default/files/styles/asu_news_article_hero/public/jeremy-bishop-h7bq8veztws-unsplash.jpg?itok=6F-MJGKy"
+
+summary = '''The project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.'''
+    
+[[authors]]
+    name = "David Rozul"
+    url = "https://search.asu.edu/profile/3625613"
++++
+
+*__Source:__ [https://news.asu.edu/20230728-solutions-asu-research-use-ai-advance-arctic-science](https://news.asu.edu/20230728-solutions-asu-research-use-ai-advance-arctic-science)*
+
+![Glacier](https://news.asu.edu/sites/default/files/styles/asu_news_article_hero/public/jeremy-bishop-h7bq8veztws-unsplash.jpg?itok=6F-MJGKy)
+
+As the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.
+
+To date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.
+
+New research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time. 
+
+The project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.
+
+“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth's environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”
+
+The three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.
+
+“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”
+
+In particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:
+
+• Explore permafrost thaw features that formed during the previous month.
+
+• Check out seasonal forecasts of permafrost thaw.
+
+• Predict disturbance events based on weather forecasts.
+
+• Estimate carbon and infrastructure loss from abrupt permafrost thaw.
+
+• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time. 
+
+This resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.
+
+“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center. 
+
+"Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge," Li said. "Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”
+
+The research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium. 
+
+Maddie Rocklin with the Woodwell Climate Research Center contributed to this article.
+
+Top photo courtesy Unsplash
