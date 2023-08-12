@@ -44,12 +44,11 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Advisory board"
     url        = "/advisory board/"
-    weight     = 2
     parent     = "menu.people"
 
 [[menu.main]]
-    name       = "Project collaborator"
-    url        = "/project collaborator/"
+    name       = "Project collaborators"
+    url        = "/project collaborators/"
     weight     = 3
     parent     = "menu.people"
 
@@ -66,9 +65,9 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "CICI-Lab"
     defaultKeywords = ["Arctic-AI", "Science Enabling CI", "CI Training Activities"]
-    mainSections = ["news", "team", "advisory board", "project collaborator"]
+    mainSections = ["news", "team", "advisory board", "project collaborators"]
     # mainSections = ["news", "people"]
-    # peopleSections = ["team", "advisory board", "project collaborator"]
+    # peopleSections = ["team", "advisory board", "project collaborators"]
     newsSections = ["news"]
     defaultDescription = "Arctic-AI Research · Science Enabling CI · CI Training Activities"
 
@@ -190,7 +189,7 @@ pluralizelisttitles = false
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
-[params.project_collaborator]
+[params.project_collaborators]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
