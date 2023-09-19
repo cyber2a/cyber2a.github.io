@@ -35,6 +35,10 @@
 .pull-left {
   float: left !important;
 }
+.pull-center {
+  float: left !important;
+  padding-left: 25%;
+}
 .hide {
   display: none !important;
 }

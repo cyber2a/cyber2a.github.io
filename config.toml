@@ -42,13 +42,14 @@ pluralizelisttitles = false
     parent     = "menu.people"
 
 [[menu.main]]
-    name       = "Advisory board"
-    url        = "/advisory board/"
+    name       = "Project collaborators"
+    url        = "/projectCollaborators/"
+    weight     = 2
     parent     = "menu.people"
 
 [[menu.main]]
-    name       = "Project collaborators"
-    url        = "/project collaborators/"
+    name       = "Advisory board"
+    url        = "/advisoryBoard/"
     weight     = 3
     parent     = "menu.people"
 
@@ -58,6 +59,25 @@ pluralizelisttitles = false
     url        = "/news/"
     weight     = 3
 
+[[menu.main]]
+    name       = "Webinars"
+    identifier = "menu.webinars"
+    url        = "/webinars/"
+    weight     = 4
+
+
+[[menu.main]]
+    name       = "Upcoming webinars"
+    url        = "/upcomingWebinars/"
+    weight     = 1
+    parent     = "menu.webinars"
+
+[[menu.main]]
+    name       = "Past webinars"
+    url        = "/pastWebinars/"
+    weight     = 2
+    parent     = "menu.webinars"
+
 
 
 # Top bar social links menu
@@ -65,9 +85,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "CICI-Lab"
     defaultKeywords = ["Arctic-AI", "Science Enabling CI", "CI Training Activities"]
-    mainSections = ["news", "team", "advisory board", "project collaborators"]
-    # mainSections = ["news", "people"]
-    # peopleSections = ["team", "advisory board", "project collaborators"]
+    mainSections = ["news", "team", "advisoryBoard", "projectCollaborators", "upcomingWebinars", "pastWebinars"]
     newsSections = ["news"]
     defaultDescription = "Arctic-AI Research · Science Enabling CI · CI Training Activities"
 
