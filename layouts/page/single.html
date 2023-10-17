@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
+  {{ if isset .Params "redir" }}
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url={{ .Params.redir }}">
+    <title>Redirecting...</title>
+  {{ end }}
+
   <head>
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
@@ -31,6 +37,12 @@
                         <div>
                           {{ .Content }}
                         </div>
+
+                        {{ if isset .Params "redir" }}
+                          <div>
+                            If you are not redirected, <a href="{{ .Params.redir }}">click here</a>.
+                          </div>
+                        {{ end }}
 
                     </div>
 
