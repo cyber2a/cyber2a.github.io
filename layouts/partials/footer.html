@@ -42,13 +42,12 @@
       <h4>{{ i18n "contactTitle" }}</h4>
       <hr />
       <p><a href="https://twitter.com/cyber2a_nsf" target="_blank">
-          <img src="../img/twitter_logo.png" width="30" height="24">
+          <img src="/img/twitter_logo.png" width="30" height="24">
         </a></p>
       <p>Check out our team members here to contact us!</p>
       <!-- {{ .Site.Params.address | safeHTML }} -->
 
-      <a href="{{ default " /contact" .Site.Params.contact_url }}" class="btn btn-small btn-template-main">{{ i18n
-        "contactGoTo" }}</a>
+      <a href="{{ default " /contact" .Site.Params.contact_url }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 
       <hr class="hidden-md hidden-lg hidden-sm">
 
