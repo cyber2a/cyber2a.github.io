@@ -2,7 +2,10 @@
 title = "Semi-arid carbon stocks of 9.9 billion trees from 326,000 commercial satellite images"
 date = "2024-01-15T12:00:00-05:00"
 tags = ["Semi-arid carbon"]
-descriptions = ["Speakers", "Compton Tucker"]
+descriptions = [
+    "Speakers:", 
+    "Compton Tucker, NASA/Goddard Space Flight Center"
+]
 banner = "img/banners/placeholder.png"
 logo = "img/pathfinders.png"
 

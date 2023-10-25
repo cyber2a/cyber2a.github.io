@@ -2,9 +2,15 @@
 title = "A Framework for Building and Finetuning Geospatial Foundation Models"
 date = "2023-11-13T12:00:00-05:00"
 tags = ["Geospatial foundation model"]
-descriptions = ["Speakers", "Daniela Szwarcman, Paolo Fraccaro"]
+descriptions = [
+    "Speakers:", 
+    "Daniela Szwarcman, IBM Research",
+    "Paolo Fraccaro, IBM Research"
+]
 banner = "img/banners/gfm-webinar.jpg"
 logo = "img/pathfinders.png"
+
+register="https://asu.zoom.us/webinar/register/WN_XdJKEbmZQ0SqWKQNGcyhOw#/registration"
 
 summary = '''Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different downstream tasks. There is increasing interest in the scientific community to investigate whether this approach can be successfully applied to domains beyond natural language processing and computer vision to effectively build generalist AI models that make use of different types of data. Here, IBM and NASA present the first end-to-end framework for pre-training and fine-tuning foundation models efficiently from a large source of geospatial data. We have implemented and applied this framework to produce Prithvi, a geospatial foundation model pre-trained on multispectral satellite imagery from the NASA Harmonized Landsat-Sentinel 2 (HLS) dataset. The framework supports automated statistical smart sampling strategies based on whether, land cover and other datasets to maximize impact and minimize waste of resources (e.g. avoiding areas and time ranges that would not bring any new information). 
 '''
