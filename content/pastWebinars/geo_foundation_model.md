@@ -10,7 +10,7 @@ descriptions = [
 banner = "img/banners/gfm-webinar.jpg"
 logo = "img/pathfinders.png"
 
-video = "https://www.youtube.com/embed/wjWHQJRg4eU"
+
 
 register="https://asu.zoom.us/webinar/register/WN_XdJKEbmZQ0SqWKQNGcyhOw#/registration"
 
