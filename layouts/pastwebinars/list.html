@@ -63,6 +63,11 @@
                                                         {{ end }}
                                                     </a>
                                                 </div>
+                                                <div style="text-align:center">
+                                                    <b> View recording
+                                                        <a href="{{ .Permalink }}">here</a>
+                                                    </b>
+                                                </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
@@ -111,6 +116,9 @@
                                                 </div>
                                                 <!-- {{ if not .Site.Params.recent_posts.hide_summary }} -->
                                                 <p class="intro">{{ .Params.summary }}</p>
+                                                <p>Youtube link: 
+                                                    <a href="{{ .Params.video }}" target="_blank">{{ .Params.video }}</a>
+                                                </p>
                                                 <!-- <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                              </p> -->
                                                 <!-- {{ end }} -->
