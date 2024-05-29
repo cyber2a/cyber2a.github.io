@@ -1,0 +1,133 @@
+project:
+  type: website
+
+website:
+  title: ""
+  bread-crumbs: false
+  back-to-top-navigation: true
+
+  navbar:
+    logo: assets/images/logo.png
+    logo-alt: "Cyber2A"
+    logo-href: https://cyber2a.github.io
+    tools:
+      - icon: twitter
+        href: https://twitter.com/cyber2a_nsf
+    left:
+      - href: index.qmd
+        text: Home
+      - text: People
+        menu:
+          - text: "Core Project Team"
+            href: team.qmd
+          - text: "Project Collaborators"
+            href: collaborators.qmd
+          - text: "Advisory Board"
+            href: advisoryboard.qmd
+      - text: "News"
+        href: news.qmd
+      - text: Webinars
+        menu: 
+          - text: "Upcoming Webinars"
+            href: upcoming_webinars.qmd
+          - text: "Past Webinars"
+            href: past_webinars.qmd
+      - text: "Workshop"
+        href: workshop.qmd
+
+
+  sidebar:
+
+    - title: "Workshop"
+      collapse-level: 1
+      style: "floating"
+      background: light
+      contents:
+        - text: "Workshop Information"
+          href: workshop.qmd
+        - section: "Workshop Curriculum Preview"
+          contents:
+          - text: "<b>1. Introduction to AI and Arctic science</b>"
+          - text: "---"
+          - text: "\u2022 Breaking the ice with AI in Arctic Science"
+            href: content/workshop/breaking-the-ice-with-ai-in-arctic-science.qmd
+          - text: "\u2022 AI for everyone: an introductory overview"
+            href: content/workshop/ai-for-everyone.qmd
+          - text: "\u2022 Guest lecture (Anna)"
+            href: content/workshop/guest-lecture-anna.qmd
+          - text: "\u2022 The Fun and frontiers of AI: innovation, imagination, interaction"
+            href: content/workshop/the-fun-and-frontiers-of-ai.qmd
+
+          - text: "<b>2. Data management and preparation for AI</b>"
+          - text: "---"
+          - text: "\u2022 AI-ready data in Arctic research: principles and practices"
+            href: content/workshop/ai-ready-data-in-arctic-research.qmd
+          - text: "\u2022 Guest lecture: unveiling the ARTS dataset for a thawing frontier"
+            href: content/workshop/guest-lecture-yili-rts-introduction.qmd
+          - text: "\u2022 Data annotation: the foundation of deep learning models"
+            href: content/workshop/data-annotation.qmd
+          - text: "\u2022 Hands on lab: data annotation"
+            href: content/workshop/hands-on-lab-data-annotation.qmd
+
+          - text: "<b>3. AI fundamentals and techniques</b>"
+          - text: "---"
+          - text: "\u2022 The building blocks of neural networks and deep learning"
+            href: content/workshop/the-building-blocks-of-nn-and-dl.qmd
+          - text: "\u2022 Introduction to PyTorch: core functionalities and advantages"
+            href: content/workshop/intro-to-pytorch.qmd
+          - text: "\u2022 Hands-on-lab: PyTorch"
+            href: content/workshop/hands-on-lab-pytorch.qmd
+          - text: "\u2022 Exploring advanced neural networks: semantic segmentation"
+            href: content/workshop/exploring-advanced-neural-networks.qmd
+          - text: "\u2022 Introduction to deep learning libraries for image analysis"
+            href: content/workshop/intro-to-dl-libraries-for-image-analysis.qmd
+          - text: "\u2022 Hands-on-lab: Detectron2"
+            href: content/workshop/hands-on-lab-detectron2.qmd
+
+
+          - text: "<b>4. Advanced AI workflows and models</b>"
+          - text: "---"
+          - text: "\u2022 AI workflows and MLOps: from development to deployment"
+            href: content/workshop/ai-workflows-and-mlops.qmd
+          - text: "\u2022 Hands-on-lab: AI workflows"
+            href: content/workshop/hands-on-lab-ai-workflows.qmd
+          - text: "\u2022 Foundation models: the cornerstones of modern AI"
+            href: content/workshop/foundation-models.qmd
+          - text: "\u2022 Hands-on-lab: foundation models"
+            href: content/workshop/hands-on-lab-foundation-models.qmd
+
+          - text: "<b>5. Ethics and social implications of AI</b>"
+          - text: "---"
+          - text: "\u2022 AI ethics"
+            href: content/workshop/ai-ethics.qmd
+          - text: "\u2022 Socially responsible AI"
+            href: content/workshop/socially-responsible-ai.qmd
+          - text: "\u2022 Reproducibility"
+            href: content/workshop/reproducibility.qmd   
+     
+
+  page-footer:
+    background: dark
+    left: |
+      Copyright &copy; Cyber2A. All Rights Reserved. <br>
+      This website was created with 
+      [![](/assets/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)
+
+    # center: |
+    #  [View My Stats]()
+      
+    right: |
+      Check out our [team members](/team.qmd) to contact us!
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+    grid:
+      body-width: 950px
+    title-block-banner: assets/images/texture-bw.png
+
+
+
