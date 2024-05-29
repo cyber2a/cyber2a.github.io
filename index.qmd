@@ -1,0 +1,238 @@
+---
+# title: Cyber2A
+title-block-banner: false
+listing:
+  id: recent-news
+  type: table
+  contents:
+    - "content/news"
+    - "content/webinars"
+  sort: 
+    - "date desc"
+  fields: [date, type, title]
+  sort-ui: false
+  filter-ui: false
+  table-hover: true
+  date-format: short
+  field-display-names: 
+    type: Category
+    title: News
+  max-items: 5
+---
+
+:::{.column-screen}
+```{=html}
+
+<style>
+    .banner {
+        background-image: url(assets/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;    
+        background-position: center;
+        height: 30vw;
+        margin-top: -30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4vw;
+    }
+    .banner-content {
+        display: flex;
+        align-items: top;
+    }
+    .banner-icon {
+        width: 15vw;  /* Adjust size as needed */
+        height: 15vw; /* Adjust size as needed */
+        margin-right: 10px; /* Space between icon and text */
+    }
+    .banner-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-title {
+        font-size: 7vw; /* Adjust size as needed */
+        font-weight: bold;
+        color: white; /* Adjust color as needed */
+    }
+    .banner-subtitle {
+        font-size: 2vw;
+        font-weight: bold;
+        color: #A9A9A9;
+    }
+    .banner-image-credit {
+        position: absolute;
+        margin-top: -2vw;
+        right: 1vw;
+        font: italic bold 1vw serif;
+        color: #DCDCDC;
+        text-shadow: #000 0 0 2px;
+    }
+</style>
+
+<div class="banner">
+    <div class="banner-content">
+        <img src="assets/images/logo.png", alt="Icon", class="banner-icon">
+        <div class="banner-text-container">
+            <div class="banner-title">Cyber2A</div>
+            <div class="banner-subtitle">Arctic-AI Research &bull; Science Enabling CI &bull; <br> CI Training Activities</div>
+        </div>
+    </div>
+</div>
+<div class="banner-image-credit">Image credit: Shutterstock</div>
+```
+:::
+
+# OBJECTIVES
+---
+
+```{=html}
+<style>
+    .obj-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .obj-card {
+        padding: 10px;
+        flex: 1 1 calc(33.333% - 20px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .obj-icon {
+        font-size: 50px;
+        transition: transform 0.3s;
+    }
+    .obj-card:hover .obj-icon {
+        transform: scale(1.2);
+    }
+    .obj-title {
+        font-size: 24px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .obj-description {
+        font-size: 14px;
+        color: #666;
+    }
+    @media (max-width: 768px) {
+        .obj-card {
+            flex: 1 1 100%;
+        }
+    }
+</style>
+
+<div class="obj-container">
+    <div class="obj-card">
+        <div class="obj-icon">🌐</div>
+        <div class="obj-title">Expand the Arctic-AI research network</div>
+        <div class="obj-description">This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.</div>
+    </div>
+    <div class="obj-card">
+        <div class="obj-icon">🎓</div>
+        <div class="obj-title">Develop customized training materials, webinars, in-person workshops</div>
+        <div class="obj-description">This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.</div>
+    </div>
+    <div class="obj-card">
+        <div class="obj-icon">👥</div>
+        <div class="obj-title">Create a sustainable and scalable learning community</div>
+        <div class="obj-description">All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.</div>
+    </div>
+</div>
+
+```
+
+```{=html}
+<style>
+    .col-container {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .col-column {
+        box-sizing: border-box; 
+    }
+    .column1 {
+        width: 70%;
+    }
+    .column2 {
+        width: 25%;
+    }
+    @media (max-width: 768px) {
+        .col-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .col-column {
+            width: 100%;
+            text-align: left;
+        }
+    }
+</style>
+
+<div class="col-container">
+    <div class="col-column column1">
+        <h1>COLLABORATORS</h1>
+        <hr>
+        <div class="quarto-layout-panel" data-layout-ncol="4">
+            <div class="quarto-layout-row quarto-layout-valign-center">
+                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
+                    <div class="quarto-figure quarto-figure-center">
+                        <figure class="figure">
+                        <p><img src="assets/clients/ASU.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+                        </figure>
+                    </div>
+                </div>
+                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
+                    <div class="quarto-figure quarto-figure-center">
+                        <figure class="figure">
+                        <p><img src="assets/clients/Woodwell.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+                        </figure>
+                    </div>
+                </div>
+                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
+                    <div class="quarto-figure quarto-figure-center">
+                        <figure class="figure">
+                        <p><img src="assets/clients/ArcticDataCenter.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+                        </figure>
+                    </div>
+                </div>
+                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
+                    <div class="quarto-figure quarto-figure-center">
+                        <figure class="figure">
+                        <p><img src="assets/clients/Ncsa_logo.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-column column2">
+        <h1>SPONSOR</h1>
+        <hr>
+        <div class="quarto-layout-panel" data-layout-ncol="1">
+            <div class="quarto-layout-row quarto-layout-valign-center">
+                <div class="quarto-layout-cell" style="flex-basis: 50%;justify-content: center;">
+                    <div class="quarto-figure quarto-figure-center">
+                        <figure class="figure">
+                        <p><img src="assets/clients/NSF.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+```
+
+
+
+
+# RECENT NEWS
+---
+
+::: {#recent-news}
+:::
+
