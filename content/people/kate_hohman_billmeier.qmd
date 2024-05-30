@@ -1,0 +1,23 @@
+---
+title: "Kate Hohman Billmeier"
+subtitle: | 
+    External Evaluator<br>
+    Wellspring Group Consulting, LLC<br>
+    kate@wellspringalaska.com
+image: https://static.wixstatic.com/media/9f44a9_ce960bce73e540f29cbe38c968abd832~mv2.jpg/v1/fill/w_430,h_430,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kate-king_ed_edited_edited_edited.jpg
+
+id: 10
+about:
+    template: jolla
+    image: https://static.wixstatic.com/media/9f44a9_ce960bce73e540f29cbe38c968abd832~mv2.jpg/v1/fill/w_430,h_430,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kate-king_ed_edited_edited_edited.jpg
+title-block-banner: false
+
+---
+
+Together with [Caleb](caleb_billmeier.qmd), Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.
+
+Since 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.
+
+Kate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.
+
+Kate lives in Seldovia, Alaska with her family.

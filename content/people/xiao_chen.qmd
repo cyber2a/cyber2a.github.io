@@ -1,0 +1,17 @@
+---
+title: "Xiao Chen"
+subtitle: | 
+    PhD student<br>
+    Arizona State University<br>
+    xchen414@asu.edu
+image: images/xiao.jpg
+
+id: 8
+about:
+    template: jolla
+    image: images/xiao.jpg
+title-block-banner: false
+
+---
+
+I am a PhD student in GIScience interested in GeoAI and web-based visualization.

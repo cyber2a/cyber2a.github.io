@@ -1,0 +1,18 @@
+---
+title: "Wenwen Li"
+subtitle: | 
+    Project Lead <br>
+    Principal Investigator, NSF Award 2230034 <br>
+    Professor, Arizona State University <br>
+    wenwen@asu.edu
+image: images/wenwen.jpg
+
+id: 0
+about:
+    template: jolla
+    image: images/wenwen.jpg
+title-block-banner: false
+
+---
+
+I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science.

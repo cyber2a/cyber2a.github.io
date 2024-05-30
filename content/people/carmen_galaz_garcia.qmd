@@ -1,0 +1,15 @@
+---
+title: "Carmen Galaz García"
+subtitle: | 
+    Data Scientist<br>
+    National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara
+image: images/carmen.jpg
+
+id: 7
+about:
+    template: jolla
+    image: images/carmen.jpg
+title-block-banner: false
+
+---
+

@@ -1,0 +1,17 @@
+---
+title: "Sizhe Wang"
+subtitle: | 
+    PhD student<br>
+    Arizona State University<br>
+    wsizhe@asu.edu
+image: images/sizhe.jpg
+
+id: 9
+about:
+    template: jolla
+    image: images/sizhe.jpg
+title-block-banner: false
+
+---
+
+I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis.

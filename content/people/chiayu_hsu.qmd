@@ -1,0 +1,17 @@
+---
+title: "Chia-Yu Hsu"
+subtitle: | 
+    Senior Personnel<br>
+    Research Professional, Arizona State University<br>
+    chsu53@asu.edu
+image: images/chiayu.jpg
+
+id: 4
+about:
+    template: jolla
+    image: images/chiayu.jpg
+title-block-banner: false
+
+---
+
+I am a research professional specializing in deep learning and computer vision for remote sensing image analysis.

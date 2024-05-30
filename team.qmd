@@ -1,0 +1,12 @@
+---
+title: "Core Project Team"
+listing: 
+  image-align: left
+  contents: 
+    - content/people
+  sort:
+   - "id"
+  max-description-length: 100
+  filter-ui: true
+---
+
