@@ -32,8 +32,8 @@ website:
             href: upcoming_webinars.qmd
           - text: "Past Webinars"
             href: past_webinars.qmd
-      - text: "Workshop"
-        href: workshop.qmd
+#      - text: "Workshop"
+#        href: workshop.qmd
 
 
   sidebar:
@@ -122,7 +122,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    # css: styles.css
     toc: false
     link-external-newwindow: true
     grid:
