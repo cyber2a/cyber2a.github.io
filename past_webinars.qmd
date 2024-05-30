@@ -1,0 +1,16 @@
+---
+title: "Past Webinars"
+listing:
+  image-align: left
+  contents:
+    - content/webinars
+  sort:
+    - "date desc"
+  include: 
+    id: 1
+  sort-ui: true
+  filter-ui: true
+  field-display-names: 
+    author: "Speakers"
+    title: "Topic"
+---
