@@ -129,5 +129,8 @@ format:
       body-width: 950px
     title-block-banner: assets/images/texture-bw.png
 
+execute: 
+  freeze: auto
+
 
 
