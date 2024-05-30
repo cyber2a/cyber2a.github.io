@@ -14,6 +14,8 @@ format:
 
 ---
 
+![*photo by Andreas Weith, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons*](images/two_ivory_gulls_in_the_drift_ice_of_the_arctic.jpeg)
+
 The Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.
 
 For years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.
