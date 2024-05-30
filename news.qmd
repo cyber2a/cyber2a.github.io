@@ -1,0 +1,13 @@
+---
+title: "News"
+listing:
+  image-align: left
+  contents:
+    - content/news
+  sort:
+    - "date desc"
+    - "title"
+  sort-ui: true
+  filter-ui: true
+
+---
