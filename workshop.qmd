@@ -1,0 +1,81 @@
+---
+title: "Cyber2A Workshop"
+---
+
+Welcome to our groundbreaking workshop aimed at empowering Arctic scientists with the essential tools and knowledge of Artificial Intelligence (AI). In an era where data-driven science is revolutionizing research methodologies, the Arctic region's intricate and dynamic nature poses unique challenges and opportunities. This workshop is specifically tailored for scientists engaged in Arctic research who may have limited backgrounds in computer science and computing but are eager to integrate AI into their research.
+
+Our comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.
+
+## Objectives
+
+- Understand AI Fundamentals
+- Hands-on Experience with AI Tools
+- Address Arctic-Specific Challenges
+- Promote Collaborative Learning
+- Facilitate Future Research
+
+## Who Should Attend
+
+- Arctic researchers and scientists with limited computing or AI background
+- Data analysts and scientists in related fields seeking to apply AI in Arctic research
+- Educators and trainers looking to incorporate AI into their science curricula
+
+## Dates
+
+**Workshop Dates**: 10/21/2024 - 10/25/2024
+
+## Location
+
+**Venue**: [Venue Name]
+
+**Address**: [Street Address, City, State, Zip Code]
+
+**Room Details**: [Room Number or Area]
+
+**Map and Directions**: [Link to Map or Embedded Map]
+
+## Registration and Fees
+
+**Registration Process**: [Details on how to register]
+
+**Fees**: [Registration Fee]
+
+**Early Bird Discount**: [Details on any discounts]
+
+## Instructors and Speakers
+
+### Wenwen Li 
+
+**Bio**: [Short biography]
+
+**Photo**: ![Instructor Photo]
+
+## Workshop Schedule
+
+![](assets/images/schedule-draft.png)
+
+## Pre-Workshop Preparation
+
+**Prerequisites**: [Required prior knowledge]
+
+**Preparation Materials**: [Materials to review or complete before the workshop]
+
+## Contact Information
+
+**Contact Person**: [Name]
+
+**Email**: [Email Address]
+
+**Phone**: [Phone Number]
+
+## Additional Information
+
+**Accommodations**: [Nearby hotels or accommodations]
+
+**Meals and Refreshments**: [Details on provided meals or refreshments]
+
+**Accessibility**: [Accessibility options]
+
+**Policies**: [Cancellation policy, code of conduct]
+
+

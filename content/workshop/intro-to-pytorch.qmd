@@ -1,0 +1,17 @@
+---
+title: "Cyber2A Workshop"
+---
+
+# Introduction to PyTorch: Core Functionalities and Advantages
+
+## Goal
+ This session will guide participants through the basics of PyTorch's core functionalities. We'll closely examine PyTorch's capabilities with a specific focus on applying it to a sample dataset, setting the stage for a subsequent hands-on session. The goal is to arm participants with the essential knowledge and confidence required to begin utilizing PyTorch in their deep learning endeavors, ensuring they're well-prepared for practical application and further exploration.
+
+## Outline
+* Introduction
+* Understanding PyTorch’s Core Functionalities
+* Working with Data in PyTorch
+* Building a Simple Neural Network in PyTorch
+* Training a Model
+* Applying PyTorch to a Sample Dataset
+* Conclusion and Preparing for Hands-On Session
