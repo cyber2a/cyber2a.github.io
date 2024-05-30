@@ -1,109 +1,10 @@
 [
   {
-    "objectID": "collaborators.html",
-    "href": "collaborators.html",
-    "title": "Project Collaborators",
-    "section": "",
-    "text": "Roman Dial\nProfessor, Alaska Pacific University\n\n\nAaron Dotson\nVice Chancellor for Research, University of Alaska Anchorage\n\n\nHoward Epstein\nProfessor, University of Virginia\n\n\nTrudi Hoogenboom\nAstra Nova School\n\n\nShishay T. Kidanu\nAssistant Professor, University of Alaska Fairbanks\n\n\nDmitry (Dima) Streletskiy\nAssociate Professor, The George Washington University\n\n\nCriag E. Tweedie\nProfessor, University of Texas at El Paso\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/matthew_jones.html",
-    "href": "content/people/matthew_jones.html",
-    "title": "Matthew Jones",
-    "section": "",
-    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/wenwen_li.html",
-    "href": "content/people/wenwen_li.html",
-    "title": "Wenwen Li",
-    "section": "",
-    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/caleb_billmeier.html",
-    "href": "content/people/caleb_billmeier.html",
-    "title": "Caleb Billmeier",
-    "section": "",
-    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/luigi_marini.html",
-    "href": "content/people/luigi_marini.html",
-    "title": "Luigi Marini",
-    "section": "",
-    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA).\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/kate_hohman_billmeier.html",
-    "href": "content/people/kate_hohman_billmeier.html",
-    "title": "Kate Hohman Billmeier",
-    "section": "",
-    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/patricia_solis.html",
-    "href": "content/people/patricia_solis.html",
-    "title": "Patricia Solis",
-    "section": "",
-    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/news/050723_asu_ai_project.html",
-    "href": "content/news/050723_asu_ai_project.html",
-    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
-    "section": "",
-    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet.\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/news/050123_geo_ai_martian_challenge.html",
-    "href": "content/news/050123_geo_ai_martian_challenge.html",
-    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
-    "section": "",
-    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/webinars/111323_geofm.html",
-    "href": "content/webinars/111323_geofm.html",
-    "title": "A Framework for Building and Finetuning Geospatial Foundation Models",
-    "section": "",
-    "text": "Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different downstream tasks. There is increasing interest in the scientific community to investigate whether this approach can be successfully applied to domains beyond natural language processing and computer vision to effectively build generalist AI models that make use of different types of data. Here, IBM and NASA present the first end-to-end framework for pre-training and fine-tuning foundation models efficiently from a large source of geospatial data. We have implemented and applied this framework to produce Prithvi, a geospatial foundation model pre-trained on multispectral satellite imagery from the NASA Harmonized Landsat-Sentinel 2 (HLS) dataset. The framework supports automated statistical smart sampling strategies based on whether, land cover and other datasets to maximize impact and minimize waste of resources (e.g. avoiding areas and time ranges that would not bring any new information). Prithvi is a Temporal Vision Transformer that includes positional and temporal embeddings, which was trained on IBM Cloud Vela cluster (NVIDIA A100 GPUs) using a Masked Auto Encoder approach and Mean Squared Error loss function for a total of 10k GPUs hours. We demonstrated using the fine-tuning workflows built in our framework that Prithvi could be successfully fine-tuned to produce state-of-the-art AI models for Earth observation tasks: flood mapping, burn scar identification and multi-temporal crop classification. We carefully studied the impact of Prithvi’s pre-trained weights on the downstream tasks by comparing learning curves for 1) fine-tuning the whole model, 2) fine-tuning only the downstream task decoder, 3) training the model without taking advantage of Prithvi’s pre-trained weights. Furthermore, given the scarcity of labeled data for Earth observation tasks, we progressively decreased the amount of labeled data available for fine-tuning the model to assess data efficiency. This analysis showed that using Prithvi we could achieve peak performance on test data quicker and with less training data (i.e. up to 50% less). Finally, in order to increase the impact of this work, the pre-trained model and fine-tuning workflows have been made publicly available through Hugging Face.\n\nRecording\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/workshop/ai-ethics.html",
-    "href": "content/workshop/ai-ethics.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• AI ethics"
-    ]
-  },
-  {
-    "objectID": "content/workshop/ai-ethics.html#reference",
-    "href": "content/workshop/ai-ethics.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• AI ethics"
-    ]
-  },
-  {
     "objectID": "advisoryboard.html",
     "href": "advisoryboard.html",
     "title": "Advisory Board",
     "section": "",
     "text": "Samantha T. Arundel\nUnited States Geological Survey, Rolla, MO, USA\n\n\nLingcao Huang\nPostdoctoral scholar, University of Victoria, Canada\n\n\nVera Kuklina\nResearch Professor, The George Washington University\n\n\nJianwu Wang\nAssociate Professor, University of Maryland, Baltimore County\n\n\nElizabeth A. Wentz\nVice Provost and Dean, Arizona State University\n\n\nLawrence M. Vulis\nPostdocral Scientist, Los Alamos National Laboratory\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "past_webinars.html",
-    "href": "past_webinars.html",
-    "title": "Past Webinars",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Topic\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Speakers\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDaniela Szwarcman, IBM ResearchPaolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "workshop.html",
@@ -216,6 +117,142 @@
     ]
   },
   {
+    "objectID": "past_webinars.html",
+    "href": "past_webinars.html",
+    "title": "Past Webinars",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Topic\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Speakers\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDaniela Szwarcman, IBM ResearchPaolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "content/people/anna_liljedahl.html",
+    "href": "content/people/anna_liljedahl.html",
+    "title": "Anna Liljedahl",
+    "section": "",
+    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle.\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/people/kenton_mchenry.html",
+    "href": "content/people/kenton_mchenry.html",
+    "title": "Kenton McHenry",
+    "section": "",
+    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections).\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/people/sizhe_wang.html",
+    "href": "content/people/sizhe_wang.html",
+    "title": "Sizhe Wang",
+    "section": "",
+    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis.\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/people/carmen_galaz_garcia.html",
+    "href": "content/people/carmen_galaz_garcia.html",
+    "title": "Carmen Galaz García",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/people/caleb_billmeier.html",
+    "href": "content/people/caleb_billmeier.html",
+    "title": "Caleb Billmeier",
+    "section": "",
+    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska.\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/people/patricia_solis.html",
+    "href": "content/people/patricia_solis.html",
+    "title": "Patricia Solis",
+    "section": "",
+    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience.\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html",
+    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.\n\n\n\n\nFundamentals of Neural Network: History and Evolution\nCore Components: Neurons, Layers, and Weights\nArchitecture of Neural Netowrk: Layers and Activation Functions\nTraining Neural Networks: Loss functions and Optimizers\nConclusion and Q&A\n\n\n\n\n\nhttps://cs231n.stanford.edu",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#overview",
+    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#outline",
+    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Fundamentals of Neural Network: History and Evolution\nCore Components: Neurons, Layers, and Weights\nArchitecture of Neural Netowrk: Layers and Activation Functions\nTraining Neural Networks: Loss functions and Optimizers\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#reference",
+    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://cs231n.stanford.edu",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "content/workshop/ai-ethics.html",
+    "href": "content/workshop/ai-ethics.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI ethics"
+    ]
+  },
+  {
+    "objectID": "content/workshop/ai-ethics.html#reference",
+    "href": "content/workshop/ai-ethics.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI ethics"
+    ]
+  },
+  {
+    "objectID": "content/news/050723_asu_ai_project.html",
+    "href": "content/news/050723_asu_ai_project.html",
+    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
+    "section": "",
+    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/news/050123_geo_ai_martian_challenge.html",
+    "href": "content/news/050123_geo_ai_martian_challenge.html",
+    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
+    "section": "",
+    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/webinars/111323_geofm.html",
+    "href": "content/webinars/111323_geofm.html",
+    "title": "A Framework for Building and Finetuning Geospatial Foundation Models",
+    "section": "",
+    "text": "Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different downstream tasks. There is increasing interest in the scientific community to investigate whether this approach can be successfully applied to domains beyond natural language processing and computer vision to effectively build generalist AI models that make use of different types of data. Here, IBM and NASA present the first end-to-end framework for pre-training and fine-tuning foundation models efficiently from a large source of geospatial data. We have implemented and applied this framework to produce Prithvi, a geospatial foundation model pre-trained on multispectral satellite imagery from the NASA Harmonized Landsat-Sentinel 2 (HLS) dataset. The framework supports automated statistical smart sampling strategies based on whether, land cover and other datasets to maximize impact and minimize waste of resources (e.g. avoiding areas and time ranges that would not bring any new information). Prithvi is a Temporal Vision Transformer that includes positional and temporal embeddings, which was trained on IBM Cloud Vela cluster (NVIDIA A100 GPUs) using a Masked Auto Encoder approach and Mean Squared Error loss function for a total of 10k GPUs hours. We demonstrated using the fine-tuning workflows built in our framework that Prithvi could be successfully fine-tuned to produce state-of-the-art AI models for Earth observation tasks: flood mapping, burn scar identification and multi-temporal crop classification. We carefully studied the impact of Prithvi’s pre-trained weights on the downstream tasks by comparing learning curves for 1) fine-tuning the whole model, 2) fine-tuning only the downstream task decoder, 3) training the model without taking advantage of Prithvi’s pre-trained weights. Furthermore, given the scarcity of labeled data for Earth observation tasks, we progressively decreased the amount of labeled data available for fine-tuning the model to assess data efficiency. This analysis showed that using Prithvi we could achieve peak performance on test data quicker and with less training data (i.e. up to 50% less). Finally, in order to increase the impact of this work, the pre-trained model and fine-tuning workflows have been made publicly available through Hugging Face.\n\nRecording\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "upcoming_webinars.html",
     "href": "upcoming_webinars.html",
     "title": "Upcoming Webinars",
@@ -230,11 +267,25 @@
     "text": "Wenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenton McHenry\n\n\nCo-Principal Investigator, NSF Award 2230035 Associate Director of Software, National Center for Supercomputing Applications mchenry@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatricia Solis\n\n\nSenior Personnel Executive Director, Knowledge Exchange for Resilience, Arizona State University patricia.solis@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuigi Marini\n\n\nSenior Personnel Lead Research Software Engineer, National Center for Supercomputing Applications lmarini@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarmen Galaz García\n\n\nData Scientist National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXiao Chen\n\n\nPhD student Arizona State University xchen414@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSizhe Wang\n\n\nPhD student Arizona State University wsizhe@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Hohman Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC kate@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaleb Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC caleb@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "Project Collaborators",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Roman Dial\nProfessor, Alaska Pacific University\n\n\nAaron Dotson\nVice Chancellor for Research, University of Alaska Anchorage\n\n\nHoward Epstein\nProfessor, University of Virginia\n\n\nTrudi Hoogenboom\nAstra Nova School\n\n\nShishay T. Kidanu\nAssistant Professor, University of Alaska Fairbanks\n\n\nDmitry (Dima) Streletskiy\nAssociate Professor, The George Washington University\n\n\nCriag E. Tweedie\nProfessor, University of Texas at El Paso\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/news/081023_multi_institution_project.html",
+    "href": "content/news/081023_multi_institution_project.html",
+    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
+    "section": "",
+    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/news/081023_google_org_grant.html",
+    "href": "content/news/081023_google_org_grant.html",
+    "title": "Google.org’s new grant to help track permafrost thaw",
+    "section": "",
+    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org\n\n\n\n Back to top"
   },
   {
     "objectID": "content/workshop/intro-to-pytorch.html",
@@ -314,69 +365,25 @@
     ]
   },
   {
-    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html",
-    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html",
-    "title": "Cyber2A Workshop",
+    "objectID": "content/people/luigi_marini.html",
+    "href": "content/people/luigi_marini.html",
+    "title": "Luigi Marini",
     "section": "",
-    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.\n\n\n\n\nFundamentals of Neural Network: History and Evolution\nCore Components: Neurons, Layers, and Weights\nArchitecture of Neural Netowrk: Layers and Activation Functions\nTraining Neural Networks: Loss functions and Optimizers\nConclusion and Q&A\n\n\n\n\n\nhttps://cs231n.stanford.edu",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
+    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA).\n\n\n Back to top"
   },
   {
-    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#overview",
-    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#overview",
-    "title": "Cyber2A Workshop",
+    "objectID": "content/people/matthew_jones.html",
+    "href": "content/people/matthew_jones.html",
+    "title": "Matthew Jones",
     "section": "",
-    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
+    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems\n\n\n Back to top"
   },
   {
-    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#outline",
-    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#outline",
-    "title": "Cyber2A Workshop",
+    "objectID": "content/people/kate_hohman_billmeier.html",
+    "href": "content/people/kate_hohman_billmeier.html",
+    "title": "Kate Hohman Billmeier",
     "section": "",
-    "text": "Fundamentals of Neural Network: History and Evolution\nCore Components: Neurons, Layers, and Weights\nArchitecture of Neural Netowrk: Layers and Activation Functions\nTraining Neural Networks: Loss functions and Optimizers\nConclusion and Q&A",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "content/workshop/the-building-blocks-of-nn-and-dl.html#reference",
-    "href": "content/workshop/the-building-blocks-of-nn-and-dl.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "https://cs231n.stanford.edu",
-    "crumbs": [
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "content/news/081023_google_org_grant.html",
-    "href": "content/news/081023_google_org_grant.html",
-    "title": "Google.org’s new grant to help track permafrost thaw",
-    "section": "",
-    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/news/081023_multi_institution_project.html",
-    "href": "content/news/081023_multi_institution_project.html",
-    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
-    "section": "",
-    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/kenton_mchenry.html",
-    "href": "content/people/kenton_mchenry.html",
-    "title": "Kenton McHenry",
-    "section": "",
-    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections).\n\n\n Back to top"
+    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family.\n\n\n Back to top"
   },
   {
     "objectID": "content/people/chiayu_hsu.html",
@@ -386,6 +393,13 @@
     "text": "I am a research professional specializing in deep learning and computer vision for remote sensing image analysis.\n\n\n Back to top"
   },
   {
+    "objectID": "content/people/wenwen_li.html",
+    "href": "content/people/wenwen_li.html",
+    "title": "Wenwen Li",
+    "section": "",
+    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science.\n\n\n Back to top"
+  },
+  {
     "objectID": "content/people/xiao_chen.html",
     "href": "content/people/xiao_chen.html",
     "title": "Xiao Chen",
@@ -393,31 +407,17 @@
     "text": "I am a PhD student in GIScience interested in GeoAI and web-based visualization.\n\n\n Back to top"
   },
   {
-    "objectID": "content/people/sizhe_wang.html",
-    "href": "content/people/sizhe_wang.html",
-    "title": "Sizhe Wang",
-    "section": "",
-    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/anna_liljedahl.html",
-    "href": "content/people/anna_liljedahl.html",
-    "title": "Anna Liljedahl",
-    "section": "",
-    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle.\n\n\n Back to top"
-  },
-  {
-    "objectID": "content/people/carmen_galaz_garcia.html",
-    "href": "content/people/carmen_galaz_garcia.html",
-    "title": "Carmen Galaz García",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "OBJECTIVES",
     "section": "",
-    "text": "Cyber2A\n            Arctic-AI Research • Science Enabling CI •  CI Training Activities\n        \n    \n\nImage credit: Shutterstock\n\n\nOBJECTIVES\n\n\n\n\n    \n        🌐\n        Expand the Arctic-AI research network\n        This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.\n    \n    \n        🎓\n        Develop customized training materials, webinars, in-person workshops\n        This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.\n    \n    \n        👥\n        Create a sustainable and scalable learning community\n        All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.\n    \n\n\n\n\n\n    \n        COLLABORATORS\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n    \n        SPONSOR\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n\n\n\n\nRECENT NEWS\n\n\n\n\n\n\nDate\n\n\nCategory\n\n\nNews\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n5/7/23\n\n\nNews\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n5/1/23\n\n\nNews\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
+    "text": "Cyber2A\n            Arctic-AI Research • Science Enabling CI •  CI Training Activities\n        \n    \n\nImage credit: Shutterstock\n\n\nOBJECTIVES\n\n\n\n\n    \n        🌐\n        Expand the Arctic-AI research network\n        This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.\n    \n    \n        🎓\n        Develop customized training materials, webinars, in-person workshops\n        This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.\n    \n    \n        👥\n        Create a sustainable and scalable learning community\n        All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.\n    \n\n\n\n\n\n    \n        COLLABORATORS\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n    \n        SPONSOR\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n\n\n\n\nRECENT NEWS\n\n\n\n\n\n\nDate\n\n\nCategory\n\n\nNews\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n5/7/23\n\n\nNews\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n5/1/23\n\n\nNews\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   }
 ]

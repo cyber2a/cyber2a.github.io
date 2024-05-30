@@ -27,18 +27,18 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
-      "/content/news/081023_google_org_grant.html",
+      "/content/webinars/111323_geofm.html",
       "/content/news/081023_multi_institution_project.html",
+      "/content/news/081023_google_org_grant.html",
       "/content/news/050723_asu_ai_project.html",
       "/content/news/050123_geo_ai_martian_challenge.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
-      "/content/webinars/111323_geofm.html",
       "/content/news/081023_google_org_grant.html",
       "/content/news/081023_multi_institution_project.html",
       "/content/news/050723_asu_ai_project.html",
