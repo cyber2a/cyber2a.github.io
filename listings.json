@@ -1,0 +1,48 @@
+[
+  {
+    "listing": "/past_webinars.html",
+    "items": [
+      "/content/webinars/111323_geofm.html"
+    ]
+  },
+  {
+    "listing": "/upcoming_webinars.html",
+    "items": []
+  },
+  {
+    "listing": "/team.html",
+    "items": [
+      "/content/people/wenwen_li.html",
+      "/content/people/anna_liljedahl.html",
+      "/content/people/matthew_jones.html",
+      "/content/people/kenton_mchenry.html",
+      "/content/people/chiayu_hsu.html",
+      "/content/people/patricia_solis.html",
+      "/content/people/luigi_marini.html",
+      "/content/people/carmen_galaz_garcia.html",
+      "/content/people/xiao_chen.html",
+      "/content/people/sizhe_wang.html",
+      "/content/people/kate_hohman_billmeier.html",
+      "/content/people/caleb_billmeier.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/content/news/081023_google_org_grant.html",
+      "/content/news/081023_multi_institution_project.html",
+      "/content/news/050723_asu_ai_project.html",
+      "/content/news/050123_geo_ai_martian_challenge.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/content/webinars/111323_geofm.html",
+      "/content/news/081023_google_org_grant.html",
+      "/content/news/081023_multi_institution_project.html",
+      "/content/news/050723_asu_ai_project.html",
+      "/content/news/050123_geo_ai_martian_challenge.html"
+    ]
+  }
+]
