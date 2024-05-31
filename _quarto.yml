@@ -4,7 +4,7 @@ project:
 website:
   title: ""
   bread-crumbs: false
-  back-to-top-navigation: true
+  # back-to-top-navigation: true
 
   navbar:
     logo: assets/images/logo.png
@@ -34,6 +34,8 @@ website:
             href: past_webinars.qmd
 #      - text: "Workshop"
 #        href: workshop.qmd
+#      - text: "Discussions"
+#        href: discussions.qmd
 
 
   sidebar:
@@ -115,9 +117,17 @@ website:
 
     # center: |
     #  [View My Stats]()
+    center: 
+      - icon: github
+      - text: Report an issue
+        href: https://github.com/cyber2a/cyber2a-community/issues/new
       
-    right: |
-      Check out our [team members](/team.qmd) to contact us!
+    right:
+      - text: "Contact us:"
+      - icon: twitter
+        href: https://twitter.com/cyber2a_nsf
+      - icon: envelope
+        href: mailto:cyber2a@googlegroups.com
 
 format:
   html:
