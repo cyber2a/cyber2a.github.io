@@ -3,7 +3,7 @@ title: "A Framework for Building and Finetuning Geospatial Foundation Models"
 date: 11/13/23
 image: images/gfm-webinar.jpg
 id: 1
-author: "Daniela Szwarcman, IBM Research<br>Paolo Fraccaro, IBM Research"
+author: "Dr. Daniela Szwarcman, IBM Research<br>Dr. Paolo Fraccaro, IBM Research"
 author-title: SPEAKERS
 published-title: DATE
 type: Webinar
