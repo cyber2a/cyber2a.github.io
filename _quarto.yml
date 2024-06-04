@@ -138,6 +138,8 @@ format:
     grid:
       body-width: 950px
     title-block-banner: assets/images/texture-bw.png
+    include-after-body: 
+      - file: _statcounter.html
 
 execute: 
   freeze: auto
