@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/past_webinars.html",
-    "items": [
-      "/content/webinars/111323_geofm.html"
-    ]
-  },
-  {
-    "listing": "/upcoming_webinars.html",
-    "items": []
-  },
-  {
     "listing": "/team.html",
     "items": [
       "/content/people/wenwen_li.html",
@@ -24,6 +14,16 @@
       "/content/people/sizhe_wang.html",
       "/content/people/kate_hohman_billmeier.html",
       "/content/people/caleb_billmeier.html"
+    ]
+  },
+  {
+    "listing": "/upcoming_webinars.html",
+    "items": []
+  },
+  {
+    "listing": "/past_webinars.html",
+    "items": [
+      "/content/webinars/111323_geofm.html"
     ]
   },
   {
