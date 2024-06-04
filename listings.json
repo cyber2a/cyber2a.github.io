@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/upcoming_webinars.html",
+    "items": []
+  },
+  {
     "listing": "/team.html",
     "items": [
       "/content/people/wenwen_li.html",
@@ -17,10 +21,6 @@
     ]
   },
   {
-    "listing": "/upcoming_webinars.html",
-    "items": []
-  },
-  {
     "listing": "/past_webinars.html",
     "items": [
       "/content/webinars/111323_geofm.html"
@@ -29,6 +29,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/content/webinars/062424-neural-representations-earth-observation.html",
       "/content/webinars/111323_geofm.html",
       "/content/news/081023_multi_institution_project.html",
       "/content/news/081023_google_org_grant.html",
