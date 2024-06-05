@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/workshop.html",
+    "items": [
+      "/content/people/wenwen_li.html",
+      "/content/people/anna_liljedahl.html",
+      "/content/people/matthew_jones.html",
+      "/content/people/chiayu_hsu.html"
+    ]
+  },
+  {
     "listing": "/upcoming_webinars.html",
     "items": [
       "/content/webinars/062424-neural-representations-earth-observation.html"
