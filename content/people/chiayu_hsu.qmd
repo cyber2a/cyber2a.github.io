@@ -11,7 +11,7 @@ about:
     template: jolla
     image: images/chiayu.jpg
 title-block-banner: false
-
+workshop: 1
 ---
 
 I am a research professional specializing in deep learning and computer vision for remote sensing image analysis.

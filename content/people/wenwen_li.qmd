@@ -12,7 +12,7 @@ about:
     template: jolla
     image: images/wenwen.jpg
 title-block-banner: false
-
+workshop: 1
 ---
 
 I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science.

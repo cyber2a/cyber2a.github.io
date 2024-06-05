@@ -1,10 +1,20 @@
 ---
 title: "Cyber2A Workshop"
+listing:
+  contents:
+   - content/people
+  type: grid 
+  id: instructors
+  sort: id
+  fields: [image, title, subtitle]
+  include:
+    workshop: 1
+  image-height: 250px
 ---
 
-Welcome to our groundbreaking workshop aimed at empowering Arctic scientists with the essential tools and knowledge of Artificial Intelligence (AI). In an era where data-driven science is revolutionizing research methodologies, the Arctic region's intricate and dynamic nature poses unique challenges and opportunities. This workshop is specifically tailored for scientists engaged in Arctic research who may have limited backgrounds in computer science and computing but are eager to integrate AI into their research.
+Welcome to our groundbreaking workshop aimed at empowering Arctic scientists with the essential tools and knowledge of Artificial Intelligence (AI). In an era where data-driven science is revolutionizing research methodologies, the Arctic region's intricate and dynamic nature poses unique challenges and opportunities. This 5-day in-person workshop, hosted by ASU, UCSB, Woodwell, UIIC, and NCSA as part of the NSF Cyber2A training program, is specifically tailored for scientists engaged in Arctic research who may have limited backgrounds in computer science and computing but are eager to integrate AI into their research.
 
-Our comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.
+Our comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Participants will gain an overview of AI basics, including key concepts, methodologies, and the language of AI that every scientist should know. Additionally, the workshop will delve into practical AI applications, such as using AI models and tools to analyze data, predict outcomes, and gain insights into complex Arctic phenomena. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.
 
 ## Objectives
 
@@ -26,29 +36,20 @@ Our comprehensive curriculum, developed through extensive research and training,
 
 ## Location
 
-**Venue**: [Venue Name]
-
-**Address**: [Street Address, City, State, Zip Code]
-
-**Room Details**: [Room Number or Area]
-
-**Map and Directions**: [Link to Map or Embedded Map]
+**Venue**: National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, California
 
 ## Registration and Fees
 
 **Registration Process**: [Details on how to register]
 
-**Fees**: [Registration Fee]
-
-**Early Bird Discount**: [Details on any discounts]
+**Fees**: Tuition is covered by the Cyber2A award from NSF
 
 ## Instructors and Speakers
 
-### Wenwen Li 
+To be added
 
-**Bio**: [Short biography]
-
-**Photo**: ![Instructor Photo]
+:::{#instructors}
+:::
 
 ## Workshop Schedule
 
