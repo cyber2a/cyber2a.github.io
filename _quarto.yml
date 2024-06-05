@@ -4,6 +4,8 @@ project:
 website:
   title: ""
   bread-crumbs: false
+  twitter-card: true
+  open-graph: true
   # back-to-top-navigation: true
 
   navbar:
