@@ -1,7 +1,9 @@
 [
   {
     "listing": "/upcoming_webinars.html",
-    "items": []
+    "items": [
+      "/content/webinars/062424-neural-representations-earth-observation.html"
+    ]
   },
   {
     "listing": "/team.html",
