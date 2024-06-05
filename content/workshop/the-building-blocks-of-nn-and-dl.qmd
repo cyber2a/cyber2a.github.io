@@ -8,10 +8,10 @@ title: "Cyber2A Workshop"
 This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.
 
 ## Outline
-* Fundamentals of Neural Network: History and Evolution 
-* Core Components: Neurons, Layers, and Weights
-* Architecture of Neural Netowrk: Layers and Activation Functions
-* Training Neural Networks: Loss functions and Optimizers
+* Fundamentals of neural network: history and evolution 
+* Core components: neurons, layers, and weights
+* Architecture of neural networks: layers and activation functions
+* Training neural networks: loss functions and optimizers
 * Conclusion and Q&A
 
 ## Reference

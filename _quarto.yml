@@ -83,8 +83,8 @@ website:
             href: content/workshop/exploring-advanced-neural-networks.qmd
           - text: "\u2022 Introduction to deep learning libraries for image analysis"
             href: content/workshop/intro-to-dl-libraries-for-image-analysis.qmd
-          - text: "\u2022 Hands-on-lab: Detectron2"
-            href: content/workshop/hands-on-lab-detectron2.qmd
+          - text: "\u2022 Hands-on-lab: MMSegmentation"
+            href: content/workshop/hands-on-lab-mmsegmentation.qmd
 
 
           - text: "<b>4. Advanced AI workflows and models</b>"
