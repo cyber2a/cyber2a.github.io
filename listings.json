@@ -1,60 +1,60 @@
 [
   {
-    "listing": "/workshop.html",
+    "listing": "/webinars/upcoming-webinars.html",
     "items": [
-      "/content/people/wenwen_li.html",
-      "/content/people/anna_liljedahl.html",
-      "/content/people/matthew_jones.html",
-      "/content/people/chiayu_hsu.html"
+      "/webinars/content/062424-neural-representations-earth-observation.html"
     ]
   },
   {
-    "listing": "/upcoming_webinars.html",
+    "listing": "/people/core-project-team.html",
     "items": [
-      "/content/webinars/062424-neural-representations-earth-observation.html"
+      "/people/content/wenwen_li.html",
+      "/people/content/anna_liljedahl.html",
+      "/people/content/matthew_jones.html",
+      "/people/content/kenton_mchenry.html",
+      "/people/content/chiayu_hsu.html",
+      "/people/content/patricia_solis.html",
+      "/people/content/luigi_marini.html",
+      "/people/content/carmen_galaz_garcia.html",
+      "/people/content/xiao_chen.html",
+      "/people/content/sizhe_wang.html",
+      "/people/content/kate_hohman_billmeier.html",
+      "/people/content/caleb_billmeier.html"
     ]
   },
   {
-    "listing": "/team.html",
+    "listing": "/news/index.html",
     "items": [
-      "/content/people/wenwen_li.html",
-      "/content/people/anna_liljedahl.html",
-      "/content/people/matthew_jones.html",
-      "/content/people/kenton_mchenry.html",
-      "/content/people/chiayu_hsu.html",
-      "/content/people/patricia_solis.html",
-      "/content/people/luigi_marini.html",
-      "/content/people/carmen_galaz_garcia.html",
-      "/content/people/xiao_chen.html",
-      "/content/people/sizhe_wang.html",
-      "/content/people/kate_hohman_billmeier.html",
-      "/content/people/caleb_billmeier.html"
-    ]
-  },
-  {
-    "listing": "/past_webinars.html",
-    "items": [
-      "/content/webinars/111323_geofm.html"
+      "/news/content/081023_google_org_grant.html",
+      "/news/content/081023_multi_institution_project.html",
+      "/news/content/050723_asu_ai_project.html",
+      "/news/content/050123_geo_ai_martian_challenge.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/content/webinars/062424-neural-representations-earth-observation.html",
-      "/content/webinars/111323_geofm.html",
-      "/content/news/081023_multi_institution_project.html",
-      "/content/news/081023_google_org_grant.html",
-      "/content/news/050723_asu_ai_project.html",
-      "/content/news/050123_geo_ai_martian_challenge.html"
+      "/webinars/content/062424-neural-representations-earth-observation.html",
+      "/webinars/content/111323_geofm.html",
+      "/news/content/081023_google_org_grant.html",
+      "/news/content/081023_multi_institution_project.html",
+      "/news/content/050723_asu_ai_project.html",
+      "/news/content/050123_geo_ai_martian_challenge.html"
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/webinars/past-webinars.html",
     "items": [
-      "/content/news/081023_google_org_grant.html",
-      "/content/news/081023_multi_institution_project.html",
-      "/content/news/050723_asu_ai_project.html",
-      "/content/news/050123_geo_ai_martian_challenge.html"
+      "/webinars/content/111323_geofm.html"
+    ]
+  },
+  {
+    "listing": "/workshop/index.html",
+    "items": [
+      "/people/content/wenwen_li.html",
+      "/people/content/anna_liljedahl.html",
+      "/people/content/matthew_jones.html",
+      "/people/content/chiayu_hsu.html"
     ]
   }
 ]

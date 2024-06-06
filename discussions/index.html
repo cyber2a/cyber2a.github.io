@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Discussions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +66,29 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-type','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(../assets/images/texture-bw.png);
+background-size: cover;
       }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+</style>
 
+
+<meta property="og:title" content="Discussions">
+<meta name="twitter:title" content="Discussions">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://cyber2a.github.io" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
+    <img src="../assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -148,7 +98,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -157,21 +107,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-people">    
         <li>
-    <a class="dropdown-item" href="./people/core-project-team.html">
+    <a class="dropdown-item" href="../people/core-project-team.html">
  <span class="dropdown-text">Core Project Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./people/project-collaborators.html">
+    <a class="dropdown-item" href="../people/project-collaborators.html">
  <span class="dropdown-text">Project Collaborators</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./people/advisory-board.html">
+    <a class="dropdown-item" href="../people/advisory-board.html">
  <span class="dropdown-text">Advisory Board</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./news/index.html"> 
+    <a class="nav-link" href="../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -180,11 +130,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-webinars">    
         <li>
-    <a class="dropdown-item" href="./webinars/upcoming-webinars.html">
+    <a class="dropdown-item" href="../webinars/upcoming-webinars.html">
  <span class="dropdown-text">Upcoming Webinars</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./webinars/past-webinars.html">
+    <a class="dropdown-item" href="../webinars/past-webinars.html">
  <span class="dropdown-text">Past Webinars</span></a>
   </li>  
     </ul>
@@ -198,304 +148,36 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Discussions</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<div class="column-screen">
 
-<style>
-    .banner {
-        background-image: url(assets/images/banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;    
-        background-position: center;
-        height: 30vw;
-        margin-top: -30px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 4vw;
-    }
-    .banner-content {
-        display: flex;
-        align-items: top;
-    }
-    .banner-icon {
-        width: 15vw;  /* Adjust size as needed */
-        height: 15vw; /* Adjust size as needed */
-        margin-right: 10px; /* Space between icon and text */
-    }
-    .banner-text-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .banner-title {
-        font-size: 7vw; /* Adjust size as needed */
-        font-weight: bold;
-        color: white; /* Adjust color as needed */
-    }
-    .banner-subtitle {
-        font-size: 2vw;
-        font-weight: bold;
-        color: #A9A9A9;
-    }
-    .banner-image-credit {
-        position: absolute;
-        margin-top: -2vw;
-        right: 1vw;
-        font: italic bold 1vw serif;
-        color: #DCDCDC;
-        text-shadow: #000 0 0 2px;
-    }
-</style>
-
-<div class="banner">
-    <div class="banner-content">
-        <img src="assets/images/logo.png" ,="" alt="Icon" class="banner-icon">
-        <div class="banner-text-container">
-            <div class="banner-title">Cyber2A</div>
-            <div class="banner-subtitle">Arctic-AI Research • Science Enabling CI • <br> CI Training Activities</div>
-        </div>
-    </div>
-</div>
-<div class="banner-image-credit">Image credit: Shutterstock</div>
-</div>
-<section id="objectives" class="level1">
-<h1>OBJECTIVES</h1>
-<hr>
-<style>
-    .obj-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        text-align: center;
-    }
-    .obj-card {
-        padding: 10px;
-        flex: 1 1 calc(33.333% - 20px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .obj-icon {
-        font-size: 50px;
-        transition: transform 0.3s;
-    }
-    .obj-card:hover .obj-icon {
-        transform: scale(1.2);
-    }
-    .obj-title {
-        font-size: 24px;
-        margin: 10px 0;
-        font-weight: bold;
-    }
-    .obj-description {
-        font-size: 14px;
-        color: #666;
-    }
-    @media (max-width: 768px) {
-        .obj-card {
-            flex: 1 1 100%;
-        }
-    }
-</style>
-
-<div class="obj-container">
-    <div class="obj-card">
-        <div class="obj-icon">🌐</div>
-        <div class="obj-title">Expand the Arctic-AI research network</div>
-        <div class="obj-description">This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.</div>
-    </div>
-    <div class="obj-card">
-        <div class="obj-icon">🎓</div>
-        <div class="obj-title">Develop customized training materials, webinars, in-person workshops</div>
-        <div class="obj-description">This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.</div>
-    </div>
-    <div class="obj-card">
-        <div class="obj-icon">👥</div>
-        <div class="obj-title">Create a sustainable and scalable learning community</div>
-        <div class="obj-description">All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.</div>
-    </div>
-</div>
-
-<style>
-    .col-container {
-        display: flex;
-        justify-content: space-between;
-        
-    }
-    .col-column {
-        box-sizing: border-box; 
-    }
-    .column1 {
-        width: 70%;
-    }
-    .column2 {
-        width: 25%;
-    }
-    @media (max-width: 768px) {
-        .col-container {
-            flex-direction: column;
-            align-items: center;
-        }
-        .col-column {
-            width: 100%;
-            text-align: left;
-        }
-    }
-</style>
-
-<div class="col-container">
-    <div class="col-column column1">
-        <h1>COLLABORATORS</h1>
-        <hr>
-        <div class="quarto-layout-panel" data-layout-ncol="4">
-            <div class="quarto-layout-row quarto-layout-valign-center">
-                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
-                    <div class="quarto-figure quarto-figure-center">
-                        <figure class="figure">
-                        <p><img src="assets/clients/ASU.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-                        </figure>
-                    </div>
-                </div>
-                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
-                    <div class="quarto-figure quarto-figure-center">
-                        <figure class="figure">
-                        <p><img src="assets/clients/Woodwell.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-                        </figure>
-                    </div>
-                </div>
-                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
-                    <div class="quarto-figure quarto-figure-center">
-                        <figure class="figure">
-                        <p><img src="assets/clients/ArcticDataCenter.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-                        </figure>
-                    </div>
-                </div>
-                <div class="quarto-layout-cell" style="flex-basis: 25%;justify-content: center;">
-                    <div class="quarto-figure quarto-figure-center">
-                        <figure class="figure">
-                        <p><img src="assets/clients/Ncsa_logo.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-column column2">
-        <h1>SPONSOR</h1>
-        <hr>
-        <div class="quarto-layout-panel" data-layout-ncol="1">
-            <div class="quarto-layout-row quarto-layout-valign-center">
-                <div class="quarto-layout-cell" style="flex-basis: 50%;justify-content: center;">
-                    <div class="quarto-figure quarto-figure-center">
-                        <figure class="figure">
-                        <p><img src="assets/clients/NSF.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section>
-<section id="recent-news" class="level1">
-<h1>RECENT NEWS</h1>
-<hr>
-<div id="listing-recent-news" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Category
-</th>
-<th>
-News
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1717697015151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="451" data-listing-title-sort="Learning Neural Representations of our Planet from Earth Observation Data" data-listing-filename-sort="062424-neural-representations-earth-observation.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">6/24/24</span>
-</td>
-<td>
-<span class="listing-type">Webinar</span>
-</td>
-<td>
-<a href="./webinars/content/062424-neural-representations-earth-observation.html" class="title listing-title">Learning Neural Representations of our Planet from Earth Observation Data</a>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1717697015151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347" data-listing-title-sort="A Framework for Building and Finetuning Geospatial Foundation Models" data-listing-filename-sort="111323_geofm.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">11/13/23</span>
-</td>
-<td>
-<span class="listing-type">Webinar</span>
-</td>
-<td>
-<a href="./webinars/content/111323_geofm.html" class="title listing-title">A Framework for Building and Finetuning Geospatial Foundation Models</a>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1691625600000" data-listing-file-modified-sort="1717697015143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190" data-listing-title-sort="Google.org’s new grant to help track permafrost thaw" data-listing-filename-sort="081023_google_org_grant.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">8/10/23</span>
-</td>
-<td>
-<span class="listing-type">News</span>
-</td>
-<td>
-<a href="./news/content/081023_google_org_grant.html" class="title listing-title">Google.org’s new grant to help track permafrost thaw</a>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1691625600000" data-listing-file-modified-sort="1717697015143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="632" data-listing-title-sort="The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw" data-listing-filename-sort="081023_multi_institution_project.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">8/10/23</span>
-</td>
-<td>
-<span class="listing-type">News</span>
-</td>
-<td>
-<a href="./news/content/081023_multi_institution_project.html" class="title listing-title">The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw</a>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1683417600000" data-listing-file-modified-sort="1717697015143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="960" data-listing-title-sort="ASU AI project analyzes big data to help analysts find solutions to Arctic warming" data-listing-filename-sort="050723_asu_ai_project.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">5/7/23</span>
-</td>
-<td>
-<span class="listing-type">News</span>
-</td>
-<td>
-<a href="./news/content/050723_asu_ai_project.html" class="title listing-title">ASU AI project analyzes big data to help analysts find solutions to Arctic warming</a>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<meta http-equiv="refresh" content="0; URL=https://github.com/cyber2a/cyber2a-community/discussions">
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -916,7 +598,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="./assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="../assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
