@@ -113,19 +113,17 @@ website:
   page-footer:
     background: dark
     left: |
-      Copyright &copy; Cyber2A. All Rights Reserved. <br>
+      Copyright &copy; Cyber2A. All Rights Reserved. [View Stats](http://statcounter.com/p12923770/summary/?guest=1) <br>
       This website was created with 
       [![](/assets/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)
 
-    # center: |
-    #  [View My Stats]()
     center: 
       - icon: github
       - text: Report an issue
         href: https://github.com/cyber2a/cyber2a-community/issues/new
       
-    right:
-      - text: "Contact us:"
+    right: 
+      - text: "Contact Us:"
       - icon: twitter
         href: https://twitter.com/cyber2a_nsf
       - icon: envelope
