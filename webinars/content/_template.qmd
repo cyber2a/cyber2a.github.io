@@ -1,0 +1,23 @@
+---
+# This is a template for webinars
+
+title: webinar title
+date: webinar date in format MM/DD/YY
+image: webinar flyer
+id: 0 # 0 for upcoming, 1 for past
+author: speaker name
+
+# don't change the following
+author-title: SPEAKERS
+published-title: DATE
+type: Webinar 
+title-block-banner: false 
+---
+
+### Abstract
+
+### Date and Time
+
+### Speaker Biography
+
+### Recording

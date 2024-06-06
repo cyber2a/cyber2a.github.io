@@ -1,0 +1,18 @@
+---
+# This is a template for a person profile page
+
+title: "person name"
+subtitle: | 
+    affiliation, institution <br>
+    email <br>
+    etc. <br>
+image: profile image url 
+id: 12 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: profile image url
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+About me

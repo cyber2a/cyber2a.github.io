@@ -11,7 +11,6 @@ format:
   html:
     template-partials: 
       - title-metadata.html
-
 ---
 
 ![*photo by Andreas Weith, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons*](images/two_ivory_gulls_in_the_drift_ice_of_the_arctic.jpeg)

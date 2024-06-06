@@ -3,7 +3,7 @@ title: "News"
 listing:
   image-align: left
   contents:
-    - content/news
+    - content
   sort:
     - "date desc"
     - "title"

@@ -2,7 +2,8 @@
 title: "Cyber2A Workshop"
 listing:
   contents:
-   - content/people
+   - ../people/content/*.qmd
+   - "!../people/content/_template.qmd"
   type: grid 
   id: instructors
   sort: id
@@ -53,7 +54,7 @@ To be added
 
 ## Workshop Schedule
 
-![](assets/images/schedule-draft.png)
+![](schedule-draft.png)
 
 ## Pre-Workshop Preparation
 

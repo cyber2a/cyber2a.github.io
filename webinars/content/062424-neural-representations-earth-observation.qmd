@@ -8,6 +8,8 @@ author-title: SPEAKERS
 published-title: DATE
 type: Webinar
 title-block-banner: false
+aliases: 
+  - /content/webinars/062424-neural-representations-earth-observation.html
 ---
 
 ### Registration Link

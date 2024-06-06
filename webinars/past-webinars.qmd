@@ -3,14 +3,12 @@ title: "Past Webinars"
 listing:
   image-align: left
   contents:
-    - content/webinars
+    - content
   sort:
     - "date desc"
   include: 
     id: 1
   sort-ui: true
   filter-ui: true
-  field-display-names: 
-    author: "Speakers"
-    title: "Topic"
+
 ---

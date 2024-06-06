@@ -1,0 +1,19 @@
+--- 
+# this is a template for a news item
+
+title: title of the news 
+author: author of the news
+date: date of the publication in the format MM/DD/YY
+image: preview image of the news
+source: source url 
+
+# don't the change the settings below
+type: News 
+title-block-banner: false 
+
+format: 
+  html:
+    template-partials: 
+      - title-metadata.html
+---
+

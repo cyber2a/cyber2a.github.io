@@ -3,7 +3,7 @@ title: "Core Project Team"
 listing: 
   image-align: left
   contents: 
-    - content/people
+    - content
   sort:
    - "id"
   max-description-length: 100

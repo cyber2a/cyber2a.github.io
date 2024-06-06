@@ -11,7 +11,6 @@ format:
   html:
     template-partials: 
       - title-metadata.html
-
 ---
 
 ![_Photo courtesy Unsplash_](https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/jeremy-bishop-h7bq8veztws-unsplash.jpg?h=414ed2c5&itok=fQ-e2bNg)

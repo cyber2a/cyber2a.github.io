@@ -1,6 +1,6 @@
 ---
 title: "Winners announced for the 1st GeoAI Martian Challenge!"
-author: "[Wenwen Li](/content/people/wenwen_li.qmd)"
+author: "[Wenwen Li](/people/content/wenwen_li.qmd)"
 date: 05/01/23
 image: images/martianchallenge.png
 source: "[http://cici.lab.asu.edu/martian/#eval-leaderboard](http://cici.lab.asu.edu/martian/#eval-leaderboard)"

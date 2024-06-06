@@ -5,8 +5,8 @@ listing:
   id: recent-news
   type: table
   contents:
-    - "content/news"
-    - "content/webinars"
+    - "news/content"
+    - "webinars/content"
   sort: 
     - "date desc"
   fields: [date, type, title]
