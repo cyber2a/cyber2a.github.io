@@ -72,7 +72,7 @@ To be added
 
 ## Additional Information
 
-**Accommodations**: [Nearby hotels or accommodations]
+**Accommodations**: Lodging will be covered by the Cyber2A award from NSF and will be located at NCEAS in Santa Barbara, CA
 
 **Meals and Refreshments**: [Details on provided meals or refreshments]
 
@@ -80,4 +80,6 @@ To be added
 
 **Policies**: [Cancellation policy, code of conduct]
 
+## Workshop Application
 
+** Please complete all parts of the workshop application here: https://forms.gle/BbPMen1KCCAmgham7
