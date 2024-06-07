@@ -426,7 +426,17 @@
     "href": "workshop/index.html#additional-information",
     "title": "Cyber2A Workshop",
     "section": "Additional Information",
-    "text": "Additional Information\nAccommodations: [Nearby hotels or accommodations]\nMeals and Refreshments: [Details on provided meals or refreshments]\nAccessibility: [Accessibility options]\nPolicies: [Cancellation policy, code of conduct]",
+    "text": "Additional Information\nAccommodations: Lodging will be covered by the Cyber2A award from NSF and will be located at NCEAS in Santa Barbara, CA\nMeals and Refreshments: [Details on provided meals or refreshments]\nAccessibility: [Accessibility options]\nPolicies: [Cancellation policy, code of conduct]",
+    "crumbs": [
+      "Workshop Information"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#workshop-application",
+    "href": "workshop/index.html#workshop-application",
+    "title": "Cyber2A Workshop",
+    "section": "Workshop Application",
+    "text": "Workshop Application\n** Please complete all parts of the workshop application here: https://forms.gle/BbPMen1KCCAmgham7",
     "crumbs": [
       "Workshop Information"
     ]
