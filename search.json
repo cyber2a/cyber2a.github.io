@@ -332,11 +332,11 @@
     ]
   },
   {
-    "objectID": "workshop/index.html#objectives",
-    "href": "workshop/index.html#objectives",
+    "objectID": "workshop/index.html#in-this-course-you-will-learn-to",
+    "href": "workshop/index.html#in-this-course-you-will-learn-to",
     "title": "Cyber2A Workshop",
-    "section": "Objectives",
-    "text": "Objectives\n\nUnderstand AI Fundamentals\nHands-on Experience with AI Tools\nAddress Arctic-Specific Challenges\nPromote Collaborative Learning\nFacilitate Future Research",
+    "section": "In this course, you will learn to:",
+    "text": "In this course, you will learn to:\n\nUnderstand AI Fundamentals\nHands-on Experience with AI Tools\nAddress Arctic-Specific Challenges\nPromote Collaborative Learning\nFacilitate Future Research",
     "crumbs": [
       "Workshop Information"
     ]
@@ -436,7 +436,7 @@
     "href": "workshop/index.html#workshop-application",
     "title": "Cyber2A Workshop",
     "section": "Workshop Application",
-    "text": "Workshop Application\n** Please complete all parts of the workshop application here: https://forms.gle/BbPMen1KCCAmgham7",
+    "text": "Workshop Application\nPlease complete all parts of the workshop application here: https://forms.gle/BbPMen1KCCAmgham7 Direct any issues or questions regarding the application to greco@nceas.ucsb.edu",
     "crumbs": [
       "Workshop Information"
     ]
