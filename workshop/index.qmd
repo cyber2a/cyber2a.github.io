@@ -17,7 +17,7 @@ Welcome to our groundbreaking workshop aimed at empowering Arctic scientists wit
 
 Our comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Participants will gain an overview of AI basics, including key concepts, methodologies, and the language of AI that every scientist should know. Additionally, the workshop will delve into practical AI applications, such as using AI models and tools to analyze data, predict outcomes, and gain insights into complex Arctic phenomena. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.
 
-## Objectives
+## In this course, you will learn to:
 
 - Understand AI Fundamentals
 - Hands-on Experience with AI Tools
@@ -82,4 +82,5 @@ To be added
 
 ## Workshop Application
 
-** Please complete all parts of the workshop application here: https://forms.gle/BbPMen1KCCAmgham7
+**Please complete all parts of the workshop application here**: https://forms.gle/BbPMen1KCCAmgham7
+Direct any issues or questions regarding the application to greco@nceas.ucsb.edu
