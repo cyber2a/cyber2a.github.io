@@ -452,6 +452,50 @@
     ]
   },
   {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html",
+    "href": "workshop/preview/ai-workflows-and-mlops.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Ben Galewsky, Sr. Research Software Engineer National Center for Supercomputing Applications (NCSA) University of Illinois Urbana-Champaign\n\n\nMachine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.\n\n\n\n\nIntroduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden\n\n\n\n\n\nMLflow\nGarden",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#overview",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Machine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#outline",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#reference",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "MLflow\nGarden",
+    "crumbs": [
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
     "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html",
     "href": "workshop/preview/guest-lecture-yili-rts-introduction.html",
     "title": "Cyber2A Workshop",
