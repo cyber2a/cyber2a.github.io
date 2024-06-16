@@ -19,16 +19,8 @@
       "/people/content/xiao_chen.html",
       "/people/content/sizhe_wang.html",
       "/people/content/kate_hohman_billmeier.html",
-      "/people/content/caleb_billmeier.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/content/081023_google_org_grant.html",
-      "/news/content/081023_multi_institution_project.html",
-      "/news/content/050723_asu_ai_project.html",
-      "/news/content/050123_geo_ai_martian_challenge.html"
+      "/people/content/caleb_billmeier.html",
+      "/people/content/minu_mathew.html"
     ]
   },
   {
@@ -36,6 +28,15 @@
     "items": [
       "/webinars/content/062424-neural-representations-earth-observation.html",
       "/webinars/content/111323_geofm.html",
+      "/news/content/081023_google_org_grant.html",
+      "/news/content/081023_multi_institution_project.html",
+      "/news/content/050723_asu_ai_project.html",
+      "/news/content/050123_geo_ai_martian_challenge.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
       "/news/content/081023_google_org_grant.html",
       "/news/content/081023_multi_institution_project.html",
       "/news/content/050723_asu_ai_project.html",
@@ -54,7 +55,8 @@
       "/people/content/wenwen_li.html",
       "/people/content/anna_liljedahl.html",
       "/people/content/matthew_jones.html",
-      "/people/content/chiayu_hsu.html"
+      "/people/content/chiayu_hsu.html",
+      "/people/content/minu_mathew.html"
     ]
   }
 ]
