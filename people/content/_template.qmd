@@ -7,7 +7,7 @@ subtitle: |
     email <br>
     etc. <br>
 image: profile image url 
-id: 12 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+id: 13 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
 about:
     template: jolla # do not change this
     image: profile image url

@@ -1,0 +1,17 @@
+---
+# This is a template for a person profile page
+
+title: "Minu Mathew"
+subtitle: | 
+    Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
+    minum@illinois.edu <br>
+image: images/minu.jpeg
+id: 12 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: images/minu.jpeg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+I'm a Research Software Engineer at the National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign. My primary interests are in the field of ML/AI with a focus in NLP. Having a background in Computer Science and Wireless communication, I try to utilize the knowledge gained across multiple verticals to deliver better solutions and software. At NCSA, I work on multiple projects ranging from implementing LLM agents for RNA Sequencing tasks to development of a cloud native data management framework. Outside of work, I like badminton, swimming, traveling, painting and attending concerts.
