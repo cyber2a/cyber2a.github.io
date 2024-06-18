@@ -17,7 +17,7 @@ Welcome to our groundbreaking workshop aimed at empowering Arctic scientists wit
 
 Our comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Participants will gain an overview of AI basics, including key concepts, methodologies, and the language of AI that every scientist should know. Additionally, the workshop will delve into practical AI applications, such as using AI models and tools to analyze data, predict outcomes, and gain insights into complex Arctic phenomena. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.
 
-## In this course, you will learn to:
+## In this course, participants will learn to:
 
 - Understand AI Fundamentals
 - Hands-on Experience with AI Tools
@@ -37,13 +37,13 @@ Our comprehensive curriculum, developed through extensive research and training,
 
 ## Location
 
-**Venue**: National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, California
+**Venue**: In-Person at the National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, California
 
 ## Registration and Fees
 
 **Registration Process**: [Details on how to register]
 
-**Fees**: Tuition is covered by the Cyber2A award from NSF
+**Fees**: Tuition is covered for the accepted participants by the Cyber2A award from NSF
 
 ## Instructors and Speakers
 
@@ -64,15 +64,15 @@ To be added
 
 ## Contact Information
 
-**Contact Person**: [Name]
+**Contact Person**: WenWen Li, Arizona State University
 
-**Email**: [Email Address]
+**Email**: Please reach out to wenwen@asu.edu with any questions or concerns
 
-**Phone**: [Phone Number]
+**Phone**: For urgent concerns, please contact 480-727-5987
 
 ## Additional Information
 
-**Accommodations**: Lodging will be covered by the Cyber2A award from NSF and will be located at NCEAS in Santa Barbara, CA
+**Accommodations**: Lodging will be covered by the Cyber2A award from NSF and will be located in Santa Barbara, CA. Additional information about lodging and transportation will be provided to accepted participants.
 
 **Meals and Refreshments**: [Details on provided meals or refreshments]
 
@@ -82,7 +82,7 @@ To be added
 
 ## Workshop Application
 
-**Please complete all parts of the workshop application here**: [https://forms.gle/BbPMen1KCCAmgham7](https://forms.gle/BbPMen1KCCAmgham7)
+**Please complete all parts of the workshop application here**: [Cyber2A Workshop Application](https://forms.gle/BbPMen1KCCAmgham7)
 
 **Direct any issues or questions regarding the application to**: [greco@nceas.ucsb.edu](mailto:greco@nceas.ucsb.edu)
 
