@@ -1,0 +1,15 @@
+---
+title: "Sandeep Puthanveetil Satheesan"
+subtitle: | 
+    Senior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign <br>
+    sandeeps@illinois.edu <br>
+image: images/sandeep.jpg
+id: 13 
+about:
+    template: jolla # do not change this
+    image: images/sandeep.jpg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+I am a Senior Research Software Engineer at NCSA. My educational background and experience are in Computer Science and Applied Computer Vision. I collaborate with faculty, researchers, students, industry partners, and other fellow research software engineers to design and develop software to support research. I have previously worked on research projects spanning the areas of biometrics, face recognition, image and video analytics, unstructured data curation, digital humanities, research data management, agriculture, policy design, and palynology. My research interests are in computer vision, artificial intelligence, research data analysis and management, and research software engineering.

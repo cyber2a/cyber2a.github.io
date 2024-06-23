@@ -1,12 +1,10 @@
 ---
-# This is a template for a person profile page
-
 title: "Minu Mathew"
 subtitle: | 
     Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
     minum@illinois.edu <br>
 image: images/minu.jpeg
-id: 12 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+id: 12
 about:
     template: jolla # do not change this
     image: images/minu.jpeg
