@@ -54,7 +54,7 @@ To be added
 
 ## Workshop Schedule
 
-![](schedule-draft.png)
+![](Cyber2AScheduleDraft.PNG)
 
 ## Pre-Workshop Preparation
 
@@ -89,10 +89,4 @@ To be added
 ## Cyber2A Webinars
 
 **Upcoming webinars will be posted here as they are organized**
-
-**Next Webinar**: 
-
-Supported by the NSF and Google.org, and collaborating with its sister project Permafrost Discovery Gateway, the Cyber2A team is excited to host an upcoming webinar on June 24 at 1 PM EDT featuring Dr. Konstantin Klemmer from Microsoft Research. The topic will be location embedding using satellite imagery. We believe this work could be of interest to those of you who work at the intersection of GeoAI and remote sensing, and beyond.
-
-**More information about the talk and webinar registration can be found here**: [https://cyber2a.github.io/webinars/content/062424-neural-representations-earth-observation.html](https://cyber2a.github.io/webinars/content/062424-neural-representations-earth-observation.html)
 
