@@ -27,4 +27,4 @@ Konstantin Klemmer is a postdoctoral researcher at Microsoft Research New Englan
 
 ### Recording
 
-To be uploaded. 
+{{< video https://www.youtube.com/embed/mYPzojvb_Ao >}}
