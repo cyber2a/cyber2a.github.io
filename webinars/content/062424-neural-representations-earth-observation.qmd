@@ -2,7 +2,7 @@
 title: "Learning Neural Representations of our Planet from Earth Observation Data"
 date: 06/24/24
 image: images/062424-neural-representations-webinar.png
-id: 0
+id: 1
 author: "Dr. Konstantin Klemmer, Microsoft Research"
 author-title: SPEAKERS
 published-title: DATE
@@ -11,10 +11,6 @@ title-block-banner: false
 aliases: 
   - /content/webinars/062424-neural-representations-earth-observation.html
 ---
-
-### Registration Link
-
-[http://cyber2a.github.io/webinar-registration](http://cyber2a.github.io/webinar-registration)
 
 ![](images/062424-neural-representations-webinar.png)
 
