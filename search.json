@@ -400,7 +400,7 @@
     "href": "workshop/index.html#instructors-and-speakers",
     "title": "Cyber2A Workshop",
     "section": "Instructors and Speakers",
-    "text": "Instructors and Speakers\nTo be added\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\nNo matching items",
+    "text": "Instructors and Speakers\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop Information"
     ]
@@ -420,7 +420,7 @@
     "href": "workshop/index.html#pre-workshop-preparation",
     "title": "Cyber2A Workshop",
     "section": "Pre-Workshop Preparation",
-    "text": "Pre-Workshop Preparation\nPrerequisites: [Required prior knowledge]\nPreparation Materials: [Materials to review or complete before the workshop]",
+    "text": "Pre-Workshop Preparation\nPrerequisites:\n\nBasic programming knowledge, preferably in Python\nMathematics background, including linear algebra, calculus, and statistics\nExperience with data manipulation using tools like Pandas, NumPy, etc.\nIntroductory knowledge of AI and machine learning concepts\n\nPreparation Materials: Please refer to the reference section of each workshop curriculum preview for review and further reading.",
     "crumbs": [
       "Workshop Information"
     ]
