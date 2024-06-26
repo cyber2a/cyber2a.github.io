@@ -47,8 +47,6 @@ Our comprehensive curriculum, developed through extensive research and training,
 
 ## Instructors and Speakers
 
-To be added
-
 :::{#instructors}
 :::
 
@@ -58,9 +56,14 @@ To be added
 
 ## Pre-Workshop Preparation
 
-**Prerequisites**: [Required prior knowledge]
+**Prerequisites**: 
 
-**Preparation Materials**: [Materials to review or complete before the workshop]
+* Basic programming knowledge, preferably in Python
+* Mathematics background, including linear algebra, calculus, and statistics
+* Experience with data manipulation using tools like Pandas, NumPy, etc. 
+* Introductory knowledge of AI and machine learning concepts
+
+**Preparation Materials**: Please refer to the reference section of each workshop curriculum preview for review and further reading.
 
 ## Contact Information
 
