@@ -5,7 +5,9 @@ listing:
   contents: 
     - content
   sort:
-   - "id"
+    - "id"
+  exclude: 
+    core-project-team: 0
   max-description-length: 100
   filter-ui: true
 ---

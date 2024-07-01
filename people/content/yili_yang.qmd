@@ -1,0 +1,26 @@
+---
+# This is a template for a person profile page
+
+title: "Yili Yang"
+subtitle: | 
+    Data Scientist Specialist, Woodwell Climate Research Center <br>
+    yyang@woodwellclimate.org <br>
+    [https://www.woodwellclimate.org/staff/yili-yang/](https://www.woodwellclimate.org/staff/yili-yang/) <br>
+
+image: https://assets-woodwell.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/03111754/yang_y-300x300.jpg
+id: 14 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: https://assets-woodwell.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/03111754/yang_y-300x300.jpg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+core-project-team: 0
+---
+
+Dr. Yili Yang’s passion for earth sciences and data science stems from a deep motivation to address the pressing challenges our planet faces today. With a background in geology and petrophysics, Dr. Yang possesses a strong foundation in understanding the intricacies of the Earth’s systems. However, recognizing the transformative potential of data science, he has shifted his focus towards utilizing state-of-the-art technologies such as deep learning and computer vision (image processing) to tackle earth science challenges.
+
+Dr. Yang’s expertise lies in satellite image processing, object detection, and semantic segmentation, which he believes can empower traditional earth sciences with the power of AI. By leveraging advanced data science techniques, he aims to unlock new insights and enhance our understanding of complex environmental processes.
+
+Currently, Dr. Yang is engaged in a critical project that involves using deep neural networks to map retrogressive thaw slumps in northern Siberia. This research is vital in modeling carbon emissions resulting from permafrost thaw, contributing to a comprehensive understanding of the impact of climate change. Additionally, he actively participates in other projects that harness the potential of machine learning, such as mapping small water bodies, mapping wildfires, and modeling carbon fluxes in the Arctic.
+
+Dr. Yang’s interdisciplinary approach, combining his background in earth sciences with the power of data science, allows him to bridge the gap between traditional methodologies and cutting-edge technologies. By embracing this convergence, he aims to address the complex environmental challenges we face today more effectively.
