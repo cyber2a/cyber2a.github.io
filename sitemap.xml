@@ -2,206 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cyber2a.github.io/index.html</loc>
-    <lastmod>2024-07-01T21:17:08.701Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/webinars/content/062424-neural-representations-earth-observation.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/the-building-blocks-of-nn-and-dl.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/reproducibility.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/intro-to-dl-libraries-for-image-analysis.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/hands-on-lab-mmsegmentation.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/hands-on-lab-data-annotation.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/guest-lecture-yili-rts-introduction.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/foundation-models.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/data-annotation.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/ai-workflows-and-mlops.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/ai-for-everyone.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/index.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/webinars/past-webinars.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/people/project-collaborators.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
-    <loc>https://cyber2a.github.io/people/content/xiao_chen.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/sizhe_wang.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/patricia_solis.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/matthew_jones.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/kenton_mchenry.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/chiayu_hsu.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/caleb_billmeier.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/advisory-board.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/news/content/081023_multi_institution_project.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/news/content/050723_asu_ai_project.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/discussions/index.html</loc>
-    <lastmod>2024-07-01T21:17:08.701Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/news/content/050123_geo_ai_martian_challenge.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/news/content/081023_google_org_grant.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/news/index.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/anna_liljedahl.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/carmen_galaz_garcia.html</loc>
-    <lastmod>2024-07-01T21:17:08.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/kate_hohman_billmeier.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/luigi_marini.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/minu_mathew.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cyber2a.github.io/people/content/sandeep_puthanveetil_satheesan.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <loc>https://cyber2a.github.io/people/content/yili_yang.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/people/content/wenwen_li.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/sandeep_puthanveetil_satheesan.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/minu_mathew.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/luigi_marini.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/kate_hohman_billmeier.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/carmen_galaz_garcia.html</loc>
+    <lastmod>2024-07-01T21:35:38.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/anna_liljedahl.html</loc>
+    <lastmod>2024-07-01T21:35:38.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/news/index.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/news/content/081023_google_org_grant.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/news/content/050123_geo_ai_martian_challenge.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/discussions/index.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/news/content/050723_asu_ai_project.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/news/content/081023_multi_institution_project.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/advisory-board.html</loc>
+    <lastmod>2024-07-01T21:35:38.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/caleb_billmeier.html</loc>
+    <lastmod>2024-07-01T21:35:38.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/chiayu_hsu.html</loc>
+    <lastmod>2024-07-01T21:35:38.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/kenton_mchenry.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/matthew_jones.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/patricia_solis.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/sizhe_wang.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cyber2a.github.io/people/content/xiao_chen.html</loc>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/people/core-project-team.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/webinar-registration.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/webinars/upcoming-webinars.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/ai-ethics.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/ai-ready-data-in-arctic-research.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/breaking-the-ice-with-ai-in-arctic-science.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/exploring-advanced-neural-networks.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/guest-lecture-anna.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/hands-on-lab-ai-workflows.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/hands-on-lab-foundation-models.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/hands-on-lab-pytorch.html</loc>
-    <lastmod>2024-07-01T21:17:08.773Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.952Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/intro-to-pytorch.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/socially-responsible-ai.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/workshop/preview/the-fun-and-frontiers-of-ai.html</loc>
-    <lastmod>2024-07-01T21:17:08.777Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.956Z</lastmod>
   </url>
   <url>
     <loc>https://cyber2a.github.io/webinars/content/111323_geofm.html</loc>
-    <lastmod>2024-07-01T21:17:08.765Z</lastmod>
+    <lastmod>2024-07-01T21:35:38.944Z</lastmod>
   </url>
 </urlset>

@@ -324,7 +324,7 @@
     "href": "workshop/index.html#instructors-and-speakers",
     "title": "Cyber2A Workshop",
     "section": "Instructors and Speakers",
-    "text": "Instructors and Speakers\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\nNo matching items",
+    "text": "Instructors and Speakers\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nYili Yang\n\n\nData Scientist Specialist, Woodwell Climate Research Center  yyang@woodwellclimate.org  https://www.woodwellclimate.org/staff/yili-yang/ \n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop",
       "Workshop Information"
@@ -411,123 +411,18 @@
     "text": "Roman Dial\nProfessor, Alaska Pacific University\n\n\nAaron Dotson\nVice Chancellor for Research, University of Alaska Anchorage\n\n\nHoward Epstein\nProfessor, University of Virginia\n\n\nTrudi Hoogenboom\nAstra Nova School\n\n\nShishay T. Kidanu\nAssistant Professor, University of Alaska Fairbanks\n\n\nDmitry (Dima) Streletskiy\nAssociate Professor, The George Washington University\n\n\nCriag E. Tweedie\nProfessor, University of Texas at El Paso"
   },
   {
-    "objectID": "people/content/xiao_chen.html",
-    "href": "people/content/xiao_chen.html",
-    "title": "Xiao Chen",
+    "objectID": "people/content/yili_yang.html",
+    "href": "people/content/yili_yang.html",
+    "title": "Yili Yang",
     "section": "",
-    "text": "I am a PhD student in GIScience interested in GeoAI and web-based visualization."
+    "text": "Dr. Yili Yang’s passion for earth sciences and data science stems from a deep motivation to address the pressing challenges our planet faces today. With a background in geology and petrophysics, Dr. Yang possesses a strong foundation in understanding the intricacies of the Earth’s systems. However, recognizing the transformative potential of data science, he has shifted his focus towards utilizing state-of-the-art technologies such as deep learning and computer vision (image processing) to tackle earth science challenges.\nDr. Yang’s expertise lies in satellite image processing, object detection, and semantic segmentation, which he believes can empower traditional earth sciences with the power of AI. By leveraging advanced data science techniques, he aims to unlock new insights and enhance our understanding of complex environmental processes.\nCurrently, Dr. Yang is engaged in a critical project that involves using deep neural networks to map retrogressive thaw slumps in northern Siberia. This research is vital in modeling carbon emissions resulting from permafrost thaw, contributing to a comprehensive understanding of the impact of climate change. Additionally, he actively participates in other projects that harness the potential of machine learning, such as mapping small water bodies, mapping wildfires, and modeling carbon fluxes in the Arctic.\nDr. Yang’s interdisciplinary approach, combining his background in earth sciences with the power of data science, allows him to bridge the gap between traditional methodologies and cutting-edge technologies. By embracing this convergence, he aims to address the complex environmental challenges we face today more effectively."
   },
   {
-    "objectID": "people/content/sizhe_wang.html",
-    "href": "people/content/sizhe_wang.html",
-    "title": "Sizhe Wang",
+    "objectID": "people/content/wenwen_li.html",
+    "href": "people/content/wenwen_li.html",
+    "title": "Wenwen Li",
     "section": "",
-    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis."
-  },
-  {
-    "objectID": "people/content/patricia_solis.html",
-    "href": "people/content/patricia_solis.html",
-    "title": "Patricia Solis",
-    "section": "",
-    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience."
-  },
-  {
-    "objectID": "people/content/matthew_jones.html",
-    "href": "people/content/matthew_jones.html",
-    "title": "Matthew Jones",
-    "section": "",
-    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems"
-  },
-  {
-    "objectID": "people/content/kenton_mchenry.html",
-    "href": "people/content/kenton_mchenry.html",
-    "title": "Kenton McHenry",
-    "section": "",
-    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections)."
-  },
-  {
-    "objectID": "people/content/chiayu_hsu.html",
-    "href": "people/content/chiayu_hsu.html",
-    "title": "Chia-Yu Hsu",
-    "section": "",
-    "text": "I am a research professional specializing in deep learning and computer vision for remote sensing image analysis."
-  },
-  {
-    "objectID": "people/content/caleb_billmeier.html",
-    "href": "people/content/caleb_billmeier.html",
-    "title": "Caleb Billmeier",
-    "section": "",
-    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska."
-  },
-  {
-    "objectID": "people/advisory-board.html",
-    "href": "people/advisory-board.html",
-    "title": "Advisory Board",
-    "section": "",
-    "text": "Samantha T. Arundel\nUnited States Geological Survey, Rolla, MO, USA\n\n\nLingcao Huang\nPostdoctoral scholar, University of Victoria, Canada\n\n\nVera Kuklina\nResearch Professor, The George Washington University\n\n\nJianwu Wang\nAssociate Professor, University of Maryland, Baltimore County\n\n\nElizabeth A. Wentz\nVice Provost and Dean, Arizona State University\n\n\nLawrence M. Vulis\nPostdocral Scientist, Los Alamos National Laboratory"
-  },
-  {
-    "objectID": "news/content/081023_multi_institution_project.html",
-    "href": "news/content/081023_multi_institution_project.html",
-    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
-    "section": "",
-    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash"
-  },
-  {
-    "objectID": "news/content/050723_asu_ai_project.html",
-    "href": "news/content/050723_asu_ai_project.html",
-    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
-    "section": "",
-    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet."
-  },
-  {
-    "objectID": "news/content/050123_geo_ai_martian_challenge.html",
-    "href": "news/content/050123_geo_ai_martian_challenge.html",
-    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
-    "section": "",
-    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains."
-  },
-  {
-    "objectID": "news/content/081023_google_org_grant.html",
-    "href": "news/content/081023_google_org_grant.html",
-    "title": "Google.org’s new grant to help track permafrost thaw",
-    "section": "",
-    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org"
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/content/anna_liljedahl.html",
-    "href": "people/content/anna_liljedahl.html",
-    "title": "Anna Liljedahl",
-    "section": "",
-    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle."
-  },
-  {
-    "objectID": "people/content/kate_hohman_billmeier.html",
-    "href": "people/content/kate_hohman_billmeier.html",
-    "title": "Kate Hohman Billmeier",
-    "section": "",
-    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family."
-  },
-  {
-    "objectID": "people/content/luigi_marini.html",
-    "href": "people/content/luigi_marini.html",
-    "title": "Luigi Marini",
-    "section": "",
-    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA)."
-  },
-  {
-    "objectID": "people/content/minu_mathew.html",
-    "href": "people/content/minu_mathew.html",
-    "title": "Minu Mathew",
-    "section": "",
-    "text": "I’m a Research Software Engineer at the National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign. My primary interests are in the field of ML/AI with a focus in NLP. Having a background in Computer Science and Wireless communication, I try to utilize the knowledge gained across multiple verticals to deliver better solutions and software. At NCSA, I work on multiple projects ranging from implementing LLM agents for RNA Sequencing tasks to development of a cloud native data management framework. Outside of work, I like badminton, swimming, traveling, painting and attending concerts."
+    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science."
   },
   {
     "objectID": "people/content/sandeep_puthanveetil_satheesan.html",
@@ -537,11 +432,123 @@
     "text": "I am a Senior Research Software Engineer at NCSA. My educational background and experience are in Computer Science and Applied Computer Vision. I collaborate with faculty, researchers, students, industry partners, and other fellow research software engineers to design and develop software to support research. I have previously worked on research projects spanning the areas of biometrics, face recognition, image and video analytics, unstructured data curation, digital humanities, research data management, agriculture, policy design, and palynology. My research interests are in computer vision, artificial intelligence, research data analysis and management, and research software engineering."
   },
   {
-    "objectID": "people/content/wenwen_li.html",
-    "href": "people/content/wenwen_li.html",
-    "title": "Wenwen Li",
+    "objectID": "people/content/minu_mathew.html",
+    "href": "people/content/minu_mathew.html",
+    "title": "Minu Mathew",
     "section": "",
-    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science."
+    "text": "I’m a Research Software Engineer at the National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign. My primary interests are in the field of ML/AI with a focus in NLP. Having a background in Computer Science and Wireless communication, I try to utilize the knowledge gained across multiple verticals to deliver better solutions and software. At NCSA, I work on multiple projects ranging from implementing LLM agents for RNA Sequencing tasks to development of a cloud native data management framework. Outside of work, I like badminton, swimming, traveling, painting and attending concerts."
+  },
+  {
+    "objectID": "people/content/luigi_marini.html",
+    "href": "people/content/luigi_marini.html",
+    "title": "Luigi Marini",
+    "section": "",
+    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA)."
+  },
+  {
+    "objectID": "people/content/kate_hohman_billmeier.html",
+    "href": "people/content/kate_hohman_billmeier.html",
+    "title": "Kate Hohman Billmeier",
+    "section": "",
+    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family."
+  },
+  {
+    "objectID": "people/content/anna_liljedahl.html",
+    "href": "people/content/anna_liljedahl.html",
+    "title": "Anna Liljedahl",
+    "section": "",
+    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/content/081023_google_org_grant.html",
+    "href": "news/content/081023_google_org_grant.html",
+    "title": "Google.org’s new grant to help track permafrost thaw",
+    "section": "",
+    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org"
+  },
+  {
+    "objectID": "news/content/050123_geo_ai_martian_challenge.html",
+    "href": "news/content/050123_geo_ai_martian_challenge.html",
+    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
+    "section": "",
+    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains."
+  },
+  {
+    "objectID": "news/content/050723_asu_ai_project.html",
+    "href": "news/content/050723_asu_ai_project.html",
+    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
+    "section": "",
+    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet."
+  },
+  {
+    "objectID": "news/content/081023_multi_institution_project.html",
+    "href": "news/content/081023_multi_institution_project.html",
+    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
+    "section": "",
+    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash"
+  },
+  {
+    "objectID": "people/advisory-board.html",
+    "href": "people/advisory-board.html",
+    "title": "Advisory Board",
+    "section": "",
+    "text": "Samantha T. Arundel\nUnited States Geological Survey, Rolla, MO, USA\n\n\nLingcao Huang\nPostdoctoral scholar, University of Victoria, Canada\n\n\nVera Kuklina\nResearch Professor, The George Washington University\n\n\nJianwu Wang\nAssociate Professor, University of Maryland, Baltimore County\n\n\nElizabeth A. Wentz\nVice Provost and Dean, Arizona State University\n\n\nLawrence M. Vulis\nPostdocral Scientist, Los Alamos National Laboratory"
+  },
+  {
+    "objectID": "people/content/caleb_billmeier.html",
+    "href": "people/content/caleb_billmeier.html",
+    "title": "Caleb Billmeier",
+    "section": "",
+    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska."
+  },
+  {
+    "objectID": "people/content/chiayu_hsu.html",
+    "href": "people/content/chiayu_hsu.html",
+    "title": "Chia-Yu Hsu",
+    "section": "",
+    "text": "I am a research professional specializing in deep learning and computer vision for remote sensing image analysis."
+  },
+  {
+    "objectID": "people/content/kenton_mchenry.html",
+    "href": "people/content/kenton_mchenry.html",
+    "title": "Kenton McHenry",
+    "section": "",
+    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections)."
+  },
+  {
+    "objectID": "people/content/matthew_jones.html",
+    "href": "people/content/matthew_jones.html",
+    "title": "Matthew Jones",
+    "section": "",
+    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems"
+  },
+  {
+    "objectID": "people/content/patricia_solis.html",
+    "href": "people/content/patricia_solis.html",
+    "title": "Patricia Solis",
+    "section": "",
+    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience."
+  },
+  {
+    "objectID": "people/content/sizhe_wang.html",
+    "href": "people/content/sizhe_wang.html",
+    "title": "Sizhe Wang",
+    "section": "",
+    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis."
+  },
+  {
+    "objectID": "people/content/xiao_chen.html",
+    "href": "people/content/xiao_chen.html",
+    "title": "Xiao Chen",
+    "section": "",
+    "text": "I am a PhD student in GIScience interested in GeoAI and web-based visualization."
   },
   {
     "objectID": "people/core-project-team.html",
