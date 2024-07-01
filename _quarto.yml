@@ -38,8 +38,8 @@ website:
             href: webinars/upcoming-webinars.qmd
           - text: "Past Webinars"
             href: webinars/past-webinars.qmd
-#      - text: "Workshop"
-#        href: workshop/index.qmd
+      - text: "Workshop"
+        href: workshop/index.qmd
 #      - text: "Discussions"
 #        href: discussions/index.qmd
 
