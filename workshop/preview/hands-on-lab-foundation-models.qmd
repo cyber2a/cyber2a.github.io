@@ -5,8 +5,13 @@ title: "Cyber2A Workshop"
 # Hands-On Lab: Foundation Models
 
 ## Overview
+The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.
 
-## Outline 
+## Outline
+1. Image Segmentation using Segment Anything Model (SAM)
+2. Chatbot using LLMs + RAG
 
-## Reference 
+## References
+[1] [Segment Anything](https://segment-anything.com/)
+[2] [Segment Anything Notebook](https://github.com/facebookresearch/segment-anything/tree/main/notebooks)
 
