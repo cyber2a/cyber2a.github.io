@@ -206,6 +206,54 @@
     ]
   },
   {
+    "objectID": "workshop/preview/foundation-models.html",
+    "href": "workshop/preview/foundation-models.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.\n\n\n\n\nIntroduction to foundation models, its history and evolution\nKey features of foundation models\n\n\nTypes of foundation models: Language, Vision, Generative, and Multimodal\n\n\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?\n\n\n\n\n[1] On the opportunities and risk of Foundation models [2] You Only Look Once [3] BERT [4] GPT3 [5] Segment Anything Model [6] NVIDIA blog post on foundation models [7] What are Foundation Models? - Generative AI",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#overview",
+    "href": "workshop/preview/foundation-models.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#outline",
+    "href": "workshop/preview/foundation-models.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to foundation models, its history and evolution\nKey features of foundation models\n\n\nTypes of foundation models: Language, Vision, Generative, and Multimodal\n\n\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#reference",
+    "href": "workshop/preview/foundation-models.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "[1] On the opportunities and risk of Foundation models [2] You Only Look Once [3] BERT [4] GPT3 [5] Segment Anything Model [6] NVIDIA blog post on foundation models [7] What are Foundation Models? - Generative AI",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
     "objectID": "workshop/preview/ai-workflows-and-mlops.html",
     "href": "workshop/preview/ai-workflows-and-mlops.html",
     "title": "Cyber2A Workshop",
@@ -634,6 +682,54 @@
       "Workshop",
       "Workshop Curriculum Preview",
       "• Exploring advanced neural networks: semantic segmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.\n\n\n\n\nImage Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG\n\n\n\n\n[1] Segment Anything [2] Segment Anything Notebook",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#overview",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#outline",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Image Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#references",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#references",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "[1] Segment Anything [2] Segment Anything Notebook",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
     ]
   },
   {
