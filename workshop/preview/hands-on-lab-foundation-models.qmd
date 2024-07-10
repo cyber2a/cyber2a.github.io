@@ -12,6 +12,6 @@ The hands-on lab on foundation models will focus on building and applying small-
 2. Chatbot using LLMs + RAG
 
 ## References
-[1] [Segment Anything](https://segment-anything.com/)
-[2] [Segment Anything Notebook](https://github.com/facebookresearch/segment-anything/tree/main/notebooks)
+1. [Segment Anything](https://segment-anything.com/)
+2. [Segment Anything Notebook](https://github.com/facebookresearch/segment-anything/tree/main/notebooks)
 

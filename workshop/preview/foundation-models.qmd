@@ -16,15 +16,15 @@ In this session, we take a closer look at what constitutes a foundation model, a
 ## Outline 
 1. Introduction to foundation models, its history and evolution
 2. Key features of foundation models
-  * Types of foundation models: Language, Vision, Generative, and Multimodal
-3. Examples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2
-4. How do foundation models work?
+3. Types of foundation models: Language, Vision, Generative, and Multimodal
+4. Examples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2
+5. How do foundation models work?
 
 ## Reference 
-[1] [On the opportunities and risk of Foundation models](https://arxiv.org/abs/2108.07258) 
-[2] [You Only Look Once](https://arxiv.org/abs/1506.02640) 
-[3] [BERT](https://arxiv.org/abs/1810.04805)
-[4] [GPT3](https://arxiv.org/abs/2005.14165)
-[5] [Segment Anything Model](https://segment-anything.com/)
-[6] [NVIDIA blog post on foundation models](https://blogs.nvidia.com/blog/what-are-foundation-models/)
-[7] [What are Foundation Models? - Generative AI](https://aws.amazon.com/what-is/foundation-models/)
+1. [On the opportunities and risk of Foundation models](https://arxiv.org/abs/2108.07258) 
+2. [You Only Look Once](https://arxiv.org/abs/1506.02640) 
+3. [BERT](https://arxiv.org/abs/1810.04805)
+4. [GPT3](https://arxiv.org/abs/2005.14165)
+5. [Segment Anything Model](https://segment-anything.com/)
+6. [NVIDIA blog post on foundation models](https://blogs.nvidia.com/blog/what-are-foundation-models/)
+7. [What are Foundation Models? - Generative AI](https://aws.amazon.com/what-is/foundation-models/)
