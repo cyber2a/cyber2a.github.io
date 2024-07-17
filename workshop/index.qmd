@@ -51,8 +51,7 @@ Our comprehensive curriculum, developed through extensive research and training,
 :::
 
 ## Workshop Schedule
-
-![](Cyber2AScheduleDraft.PNG)
+![](workshop-schedule.png)
 
 ## Pre-Workshop Preparation
 
