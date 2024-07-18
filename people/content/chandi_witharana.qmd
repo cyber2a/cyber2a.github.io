@@ -1,0 +1,17 @@
+---
+title: Chandi Witharana
+subtitle: | 
+    Assistant Professor, University of Connecticut <br>
+    Chandi.Witharana@uconn.edu <br>
+    [https://nre.uconn.edu/chandi-witharana/](https://nre.uconn.edu/chandi-witharana/)
+image: https://nre.media.uconn.edu/wp-content/uploads/sites/3356/2022/03/ChandiWitharanapage.jpg
+id: 15 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: https://nre.media.uconn.edu/wp-content/uploads/sites/3356/2022/03/ChandiWitharanapage.jpg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+core-project-team: 0
+---
+
+My research efforts broadly capture the methodological developments and adaptations to unseal faster, deeper, and more accurate analysis of large volumes of high-resolution remote sensing data. Object-based image analysis, point cloud analytics, machine learning, unmanned aerial systems (UAS) stand out as some of the key pitches in my agenda. I conduct interdisciplinary remote sensing research with high international visibility, speaking equally to the transformational uses of remote sensing in environmental, industrial, agricultural, and humanitarian applications. My scope is global. Diversity is an integral part of myself, as well as my research. Some of my work includes mapping ice-wedge polygonal Arctic tundra from sub-meter satellite imagery, on-demand censusing of Antarctic wildlife from space, 3D infrastructure analytics for electric utility industry, unmanned aerial spectroscopy for integrated pest management applications, and on-demand censusing of refugees in armed-conflicted areas in South Asia. Thinking beyond its research and industrial merits, I always value the strengths of remote sensing to address the requirements of the Next Generation Science Standards via the key elements from physics and engineering. I am actively seeking creative ways, such as imagery-enabled lesson plans to harness remote sensing in K-12 STEM education.
