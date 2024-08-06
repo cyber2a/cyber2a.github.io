@@ -1,0 +1,16 @@
+---
+title: "Ben Galewsky"
+subtitle: |
+    Sr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
+    bengal1@illinois.edu <br>
+image: images/bengal1.jpeg
+id: 16
+about:
+    template: jolla # do not change this
+    image: images/bengal1.jpeg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+After working for several years as an IT Consultant in industry I've happily switched
+to a career in research software engineering, which I think of as IT Consulting for Science! I'm currently a Senior Research Software Engineer at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana Champaign. I work with researchers to understand their needs and design software solutions to help advance their research goals. I'm particularly intersted in data management and machine learning operations.
