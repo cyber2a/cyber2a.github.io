@@ -3,11 +3,11 @@ title: "Ben Galewsky"
 subtitle: |
     Sr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
     bengal1@illinois.edu <br>
-image: images/bengal1.jpeg
+image: images/bengal1.jpg
 id: 16
 about:
     template: jolla # do not change this
-    image: images/bengal1.jpeg
+    image: images/bengal1.jpg
 title-block-banner: false # do not change this
 workshop: 1 # 1 if the person is a workshop instructor, 0 if not
 ---
