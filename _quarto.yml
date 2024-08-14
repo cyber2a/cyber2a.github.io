@@ -33,11 +33,12 @@ website:
       - text: "News"
         href: news/index.qmd
       - text: Webinars
-        menu: 
-          - text: "Upcoming Webinars"
-            href: webinars/upcoming-webinars.qmd
-          - text: "Past Webinars"
-            href: webinars/past-webinars.qmd
+        href: webinars/index.qmd
+#        menu: 
+#          - text: "Upcoming Webinars"
+#            href: webinars/upcoming-webinars.qmd
+#          - text: "Past Webinars"
+#            href: webinars/past-webinars.qmd
       - text: "Workshop"
         href: workshop/index.qmd
 #      - text: "Discussions"

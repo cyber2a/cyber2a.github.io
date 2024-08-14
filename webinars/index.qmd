@@ -1,0 +1,34 @@
+---
+title: "Webinars"
+listing:
+  - id: past-webinars
+    contents:
+    - content
+    include: 
+      id: 1
+    image-align: left
+    sort:
+      - "date desc"
+    sort-ui: true
+    filter-ui: true
+    
+  - id: upcoming-webinars
+    contents:
+    - content
+    include: 
+      id: 0
+    image-align: left
+    sort:
+      - "date desc"
+    sort-ui: true
+    filter-ui: true
+
+---
+
+## Upcoming Webinars
+:::{#upcoming-webinars}
+:::
+
+## Past Webinars
+:::{#past-webinars}
+:::
