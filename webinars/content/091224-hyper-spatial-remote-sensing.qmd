@@ -2,7 +2,7 @@
 title: "Hyper-Spatial Remote Sensing"
 date: 09/12/24
 image: images/091224-hyper-spatial-remote-sensing.jpg
-id: 0
+id: 1
 author: "Dr. Compton Tucker, National Aeronautics and Space Administration (NASA)"
 author-title: SPEAKERS
 published-title: DATE
