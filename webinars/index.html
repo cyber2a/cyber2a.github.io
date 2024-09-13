@@ -106,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -260,59 +260,13 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="upcoming-webinars">Upcoming Webinars</h2>
 <div id="listing-upcoming-webinars" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-upcoming-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-upcoming-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1726099200000" data-listing-file-modified-sort="1726202034883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
-<div class="thumbnail">
-<p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a></p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-<p><img loading="lazy" src="../webinars/content/images/091224-hyper-spatial-remote-sensing.jpg" class="thumbnail-image"></p>
-</a><p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Hyper-Spatial Remote Sensing</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Large volumes of sub-meter commercial satellite data coupled with high performance computing &amp; machine learning provide new insights for Earth Science. This includes digital…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-<div class="listing-date">
-Sep 12, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Compton Tucker, National Aeronautics and Space Administration (NASA)
-</div>
-</a>
-</div>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -348,7 +302,35 @@ No matching items
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1726202034883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1726099200000" data-listing-file-modified-sort="1726202131746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="thumbnail">
+<p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a></p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
+<p><img loading="lazy" src="../webinars/content/images/091224-hyper-spatial-remote-sensing.jpg" class="thumbnail-image"></p>
+</a><p><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Hyper-Spatial Remote Sensing</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Large volumes of sub-meter commercial satellite data coupled with high performance computing &amp; machine learning provide new insights for Earth Science. This includes digital…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
+<div class="listing-date">
+Sep 12, 2024
+</div>
+<div class="listing-author">
+Dr.&nbsp;Compton Tucker, National Aeronautics and Space Administration (NASA)
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1726202131746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
 <div class="thumbnail">
 <p><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external"></a></p><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
 <p><img loading="lazy" src="../webinars/content/images/062424-neural-representations-webinar.png" class="thumbnail-image"></p>
@@ -376,7 +358,7 @@ Dr.&nbsp;Konstantin Klemmer, Microsoft Research
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1726202034883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
+<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1726202131746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
 <div class="thumbnail">
 <p><a href="../webinars/content/111323_geofm.html" class="no-external"></a></p><a href="../webinars/content/111323_geofm.html" class="no-external">
 <p><img loading="lazy" src="../webinars/content/images/gfm-webinar.jpg" class="thumbnail-image"></p>
