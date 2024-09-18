@@ -12,21 +12,11 @@
     ]
   },
   {
-    "listing": "/workshop/index.html",
-    "items": [
-      "/people/content/wenwen_li.html",
-      "/people/content/anna_liljedahl.html",
-      "/people/content/matthew_jones.html",
-      "/people/content/chiayu_hsu.html",
-      "/people/content/minu_mathew.html",
-      "/people/content/sandeep_puthanveetil_satheesan.html",
-      "/people/content/yili_yang.html",
-      "/people/content/chandi_witharana.html",
-      "/people/content/ben_galewsky.html"
-    ]
+    "listing": "/webinars/upcoming-webinars.html",
+    "items": []
   },
   {
-    "listing": "/webinars/past-webinars.html",
+    "listing": "/webinars/index.html",
     "items": [
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
       "/webinars/content/062424-neural-representations-earth-observation.html",
@@ -63,7 +53,7 @@
     ]
   },
   {
-    "listing": "/webinars/index.html",
+    "listing": "/webinars/past-webinars.html",
     "items": [
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
       "/webinars/content/062424-neural-representations-earth-observation.html",
@@ -71,7 +61,17 @@
     ]
   },
   {
-    "listing": "/webinars/upcoming-webinars.html",
-    "items": []
+    "listing": "/workshop/index.html",
+    "items": [
+      "/people/content/wenwen_li.html",
+      "/people/content/anna_liljedahl.html",
+      "/people/content/matthew_jones.html",
+      "/people/content/chiayu_hsu.html",
+      "/people/content/minu_mathew.html",
+      "/people/content/sandeep_puthanveetil_satheesan.html",
+      "/people/content/yili_yang.html",
+      "/people/content/chandi_witharana.html",
+      "/people/content/ben_galewsky.html"
+    ]
   }
 ]

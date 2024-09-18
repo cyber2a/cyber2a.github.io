@@ -7,504 +7,255 @@
     "text": "Cyber2A\n            Arctic-AI Research • Science Enabling CI •  CI Training Activities\n        \n    \n\nImage credit: Shutterstock\n\n\nOBJECTIVES\n\n\n\n\n    \n        🌐\n        Expand the Arctic-AI research network\n        This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.\n    \n    \n        🎓\n        Develop customized training materials, webinars, in-person workshops\n        This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.\n    \n    \n        👥\n        Create a sustainable and scalable learning community\n        All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.\n    \n\n\n\n\n\n    \n        COLLABORATORS\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n    \n        SPONSOR\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n\n\n\n\nRECENT NEWS\n\n\n\n\n\n\nDate\n\n\nCategory\n\n\nNews\n\n\n\n\n\n\n9/12/24\n\n\nWebinar\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n6/24/24\n\n\nWebinar\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "webinars/content/062424-neural-representations-earth-observation.html",
-    "href": "webinars/content/062424-neural-representations-earth-observation.html",
-    "title": "Learning Neural Representations of our Planet from Earth Observation Data",
-    "section": "",
-    "text": "Abstract\nEarth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be mapped into the same geometric space: the sphere of planet Earth. It can be crucial in supporting decision making in the private and public sector alike, from improving flood resilience to forecasting crop yields. But making sense of the vast amounts of Earth observation data is difficult as it is often unstructured, unlabeled and multi-modal. Neural networks have emerged as a powerful tool for processing such large quantities of unstructured data but are not equipped to handle the spatial and temporal dependencies and spherical geometry of Earth observation data. In this talk, I will present a new class of neural network models purpose-built for Earth observation data: geographic location encoders. These models combine the scalability of neural networks with geospatial domain knowledge and traditional intuitions from geodesy and spatial statistics. I will highlight how location encoders can be used for fast and accurate predictive modeling on the sphere, with applications in climate modeling and species distribution modeling. I will then present means of training location encoders in the absence of labels—using globally distributed satellite imagery and contrastive self-supervised learning. The resulting pretrained location encoders produce general-purpose location embeddings that learn the natural and physical characteristics of locations around the world. These embeddings are powerful features in downstream modeling and can help tackle long-standing challenges in geospatial machine learning such as geographic distribution shift. Finally, I will outline future challenges in AI for Earth and present an ambitious goal: “digitally twinning” our planet with the support of large-scale, self-supervised learning and Earth observation data.\n\n\nDate and Time\nJune 24, 2024, 1:00 - 2:00 PM EST\n\n\nSpeaker Biography\nKonstantin Klemmer is a postdoctoral researcher at Microsoft Research New England and part of the Machine Learning and Statistics group. His research focuses on the representation of geographic phenomena in machine learning methods, particularly in neural networks. Konstantin’s recent work includes the integration of notions of spatial dependency into neural networks and the unsupervised training of location encoders that learn characteristics of a given location and can be deployed in various downstream tasks. His work is motivated by real-world challenges such as climate change and increasing urbanization, combining technical and methodological research with application and deployment studies. Konstantin has a PhD in Computer Science and Urban Science from the University of Warwick and spent time as a visiting student at NYU, as an Enrichment student at the Alan Turing Institute and as a Beyond Fellow at TUM and DLR. He also holds a Master’s in Transportation from Imperial College London and University College London. Website: https://konstantinklemmer.github.io\n\n\nRecording"
-  },
-  {
-    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html",
-    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.\n\n\n\n\nFundamentals of neural network: history and evolution\nCore components: neurons, layers, and weights\nArchitecture of neural networks: layers and activation functions\nTraining neural networks: loss functions and optimizers\nConclusion and Q&A\n\n\n\n\n\nhttps://cs231n.stanford.edu",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#overview",
-    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#outline",
-    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Fundamentals of neural network: history and evolution\nCore components: neurons, layers, and weights\nArchitecture of neural networks: layers and activation functions\nTraining neural networks: loss functions and optimizers\nConclusion and Q&A",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#reference",
-    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "https://cs231n.stanford.edu",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• The building blocks of neural networks and deep learning"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html",
-    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "his session introduces participants to MMSegmentation, a specialized deep learning library designed for semantic segmentation tasks. Participants will explore the unique capabilities of MMSegmentation in handling sophisticated image analysis projects. The session will cover how to navigate the library, implement advanced features, and apply them to real-world datasets, particularly in the context of Arctic research. While the focus will be on MMSegmentation, Detectron2 will also be mentioned as another powerful tool for image analysis. By the end of this session, participants will have a theoretical understanding of MMSegmentation and be prepared for a more extensive hands-on lab session.\n\n\n\n\nIntroduction to MMSegmentation: features and capabilities\nNavigating MMSegmentation: tools and techniques\nImplementing semantic segmentation with MMSegmentation\nPractical applications in Arctic research\nBrief overview of Detectron2 for comparison\nConclusion and Q&A\n\n\n\n\n\nhttps://github.com/open-mmlab/mmsegmentation\nhttps://github.com/facebookresearch/detectron2 (for further exploration)",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Introduction to deep learning libraries for image analysis"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#overview",
-    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "his session introduces participants to MMSegmentation, a specialized deep learning library designed for semantic segmentation tasks. Participants will explore the unique capabilities of MMSegmentation in handling sophisticated image analysis projects. The session will cover how to navigate the library, implement advanced features, and apply them to real-world datasets, particularly in the context of Arctic research. While the focus will be on MMSegmentation, Detectron2 will also be mentioned as another powerful tool for image analysis. By the end of this session, participants will have a theoretical understanding of MMSegmentation and be prepared for a more extensive hands-on lab session.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Introduction to deep learning libraries for image analysis"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#outline",
-    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Introduction to MMSegmentation: features and capabilities\nNavigating MMSegmentation: tools and techniques\nImplementing semantic segmentation with MMSegmentation\nPractical applications in Arctic research\nBrief overview of Detectron2 for comparison\nConclusion and Q&A",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Introduction to deep learning libraries for image analysis"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#reference",
-    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "https://github.com/open-mmlab/mmsegmentation\nhttps://github.com/facebookresearch/detectron2 (for further exploration)",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Introduction to deep learning libraries for image analysis"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html",
-    "href": "workshop/preview/hands-on-lab-mmsegmentation.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This hands-on lab session provides participants with practical experience using MMSegmentation to perform semantic segmentation tasks. Participants will engage in guided exercises that build on the concepts introduced in the previous session, applying MMSegmentation to real-world datasets relevant to Arctic research. By the end of this session, participants will have gained the practical skills necessary to implement and fine-tune semantic segmentation models using MMSegmentation, enabling them to effectively apply these techniques in their own research projects.\n\n\n\n\nRecap of MMSegmentation core functionalities\nGuided exercise 1: preparing and loading data\nGuided exercise 2: building and training a semantic segmentation model\nGuided exercise 3: evaluating and fine-tuning the model\nWorking with real-world datasets: Arctic research applications\nTroubleshooting and optimization tips\nConclusion and Q&A\n\n\n\n\n\nhttps://mmsegmentation.readthedocs.io/en/latest/user_guides/index.html",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: MMSegmentation"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#overview",
-    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This hands-on lab session provides participants with practical experience using MMSegmentation to perform semantic segmentation tasks. Participants will engage in guided exercises that build on the concepts introduced in the previous session, applying MMSegmentation to real-world datasets relevant to Arctic research. By the end of this session, participants will have gained the practical skills necessary to implement and fine-tune semantic segmentation models using MMSegmentation, enabling them to effectively apply these techniques in their own research projects.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: MMSegmentation"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#outline",
-    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Recap of MMSegmentation core functionalities\nGuided exercise 1: preparing and loading data\nGuided exercise 2: building and training a semantic segmentation model\nGuided exercise 3: evaluating and fine-tuning the model\nWorking with real-world datasets: Arctic research applications\nTroubleshooting and optimization tips\nConclusion and Q&A",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: MMSegmentation"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#reference",
-    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "https://mmsegmentation.readthedocs.io/en/latest/user_guides/index.html",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: MMSegmentation"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html",
-    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "In this session, we will introduce and explore the Arctic Retrogressive Thaw Slump (ARTS) dataset. We aim to illuminate the background and motivation behind the ARTS dataset, detail its design elements including functions, metadata, and usage, and underscore its defining features such as scalability, scientific integrity, and the potential for community contribution.\n\n\n\n\nBackground and motivation of the Arctic\nRetrogressive Thaw Slump (ARTS) data set.\nSource data for the ARTS data set\nDesign of the data set - functions, metadata, usage\nFeatures of the data set - scalable, scientific, contributable\nData Curation Framework - standards, protocols\nThe ARTS repository - user and contributor guideline\nQuestions and discussions\n\n\n\n\n\nhttps://github.com/whrc/ARTS",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#overview",
-    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "In this session, we will introduce and explore the Arctic Retrogressive Thaw Slump (ARTS) dataset. We aim to illuminate the background and motivation behind the ARTS dataset, detail its design elements including functions, metadata, and usage, and underscore its defining features such as scalability, scientific integrity, and the potential for community contribution.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#outline",
-    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Background and motivation of the Arctic\nRetrogressive Thaw Slump (ARTS) data set.\nSource data for the ARTS data set\nDesign of the data set - functions, metadata, usage\nFeatures of the data set - scalable, scientific, contributable\nData Curation Framework - standards, protocols\nThe ARTS repository - user and contributor guideline\nQuestions and discussions",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#reference",
-    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "https://github.com/whrc/ARTS",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/foundation-models.html",
-    "href": "workshop/preview/foundation-models.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.\n\n\n\n\nIntroduction to foundation models, its history and evolution\nKey features of foundation models\nTypes of foundation models: Language, Vision, Generative, and Multimodal\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?\n\n\n\n\n\nOn the opportunities and risk of Foundation models\nYou Only Look Once\nBERT\nGPT3\nSegment Anything Model\nNVIDIA blog post on foundation models\nWhat are Foundation Models? - Generative AI",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Foundation models: the cornerstones of modern AI"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/foundation-models.html#overview",
-    "href": "workshop/preview/foundation-models.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Foundation models: the cornerstones of modern AI"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/foundation-models.html#outline",
-    "href": "workshop/preview/foundation-models.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Introduction to foundation models, its history and evolution\nKey features of foundation models\nTypes of foundation models: Language, Vision, Generative, and Multimodal\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Foundation models: the cornerstones of modern AI"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/foundation-models.html#reference",
-    "href": "workshop/preview/foundation-models.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "On the opportunities and risk of Foundation models\nYou Only Look Once\nBERT\nGPT3\nSegment Anything Model\nNVIDIA blog post on foundation models\nWhat are Foundation Models? - Generative AI",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• Foundation models: the cornerstones of modern AI"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-workflows-and-mlops.html",
-    "href": "workshop/preview/ai-workflows-and-mlops.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Ben Galewsky, Sr. Research Software Engineer National Center for Supercomputing Applications (NCSA) University of Illinois Urbana-Champaign\n\n\nMachine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.\n\n\n\n\nIntroduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden\n\n\n\n\n\nMLflow\nGarden",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI workflows and MLOps: from development to deployment"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-workflows-and-mlops.html#overview",
-    "href": "workshop/preview/ai-workflows-and-mlops.html#overview",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Machine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI workflows and MLOps: from development to deployment"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-workflows-and-mlops.html#outline",
-    "href": "workshop/preview/ai-workflows-and-mlops.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Introduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI workflows and MLOps: from development to deployment"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-workflows-and-mlops.html#reference",
-    "href": "workshop/preview/ai-workflows-and-mlops.html#reference",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "MLflow\nGarden",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI workflows and MLOps: from development to deployment"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-for-everyone.html",
-    "href": "workshop/preview/ai-for-everyone.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session aims to introduce AI to a non-specialist audience, ensuring that participants from any background can understand these essential concepts. The focus will be on explaining key terminology and the basic principles of machine learning and deep learning. By the end of this session, participants will have a solid foundational knowledge of key AI concepts, enabling them to better appreciate and engage with more advanced topics in the following sessions.\n\n\n\nML, DL, NN, CNN, datasets and annotations, training and inference, accuracy and validation, supervised learning, etc.\n\n\n\n\n\n\nWhat is AI?\n\nDefinition and core concepts.\nBrief history and its role in modern research.\n\nKey takeaway: – Artificial Intelligence as a tool, that helps you find insight and patterns in data by applying specific types of algorithms. – Artificial Intelligence can be useful during not only the data analysis phase of a scientific method but every step from generating a hypothesis to publishing results. (Let’s find out how together)\n\n\n\n\n\nSupervised vs. Unsupervised Learning\n\nDefinitions and examples of each.\nWhen to use them in scientific research.\n\nTechniques Overview\n\nMachine Learning (ML)\nDeep Learning (DL)\nNatural Language Processing (NLP)\n\nKey takeaway: Different types and techniques of AI can be applied depending on the type of data and research questions.\n\n\n\n\n\nImportance of Data\n\nHow AI models depend on good data (quality over quantity).\n\nTypes of Datasets\n\nStructured vs. unstructured data.\nExamples relevant to Arctic science.\n\nKey takeaway: Data is the foundation of AI; understanding it improves AI’s accuracy and usefulness.\n\n\n\n\n\nIntroduction to a Dataset\n\nStep-by-step Model Creation (Python)\n\nTesting and Evaluating Results\n\nShow how to evaluate the performance of the model.\n\nKey takeaway: Building an AI model is more accessible than it seems, even for beginners.\n\n\n\n\n\nEmerging AI Trends\n\n\n\n\n\nDiscussion:\n\nLet’s think about specific Arctic science-related problems.\nExplore how AI might help address these problems.\nKey takeaway: AI can be applied at every stage of scientific research.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI for everyone: an introductory overview"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-for-everyone.html#goal",
-    "href": "workshop/preview/ai-for-everyone.html#goal",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session aims to introduce AI to a non-specialist audience, ensuring that participants from any background can understand these essential concepts. The focus will be on explaining key terminology and the basic principles of machine learning and deep learning. By the end of this session, participants will have a solid foundational knowledge of key AI concepts, enabling them to better appreciate and engage with more advanced topics in the following sessions.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI for everyone: an introductory overview"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-for-everyone.html#key-elements",
-    "href": "workshop/preview/ai-for-everyone.html#key-elements",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "ML, DL, NN, CNN, datasets and annotations, training and inference, accuracy and validation, supervised learning, etc.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI for everyone: an introductory overview"
-    ]
-  },
-  {
-    "objectID": "workshop/preview/ai-for-everyone.html#outline",
-    "href": "workshop/preview/ai-for-everyone.html#outline",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "What is AI?\n\nDefinition and core concepts.\nBrief history and its role in modern research.\n\nKey takeaway: – Artificial Intelligence as a tool, that helps you find insight and patterns in data by applying specific types of algorithms. – Artificial Intelligence can be useful during not only the data analysis phase of a scientific method but every step from generating a hypothesis to publishing results. (Let’s find out how together)\n\n\n\n\n\nSupervised vs. Unsupervised Learning\n\nDefinitions and examples of each.\nWhen to use them in scientific research.\n\nTechniques Overview\n\nMachine Learning (ML)\nDeep Learning (DL)\nNatural Language Processing (NLP)\n\nKey takeaway: Different types and techniques of AI can be applied depending on the type of data and research questions.\n\n\n\n\n\nImportance of Data\n\nHow AI models depend on good data (quality over quantity).\n\nTypes of Datasets\n\nStructured vs. unstructured data.\nExamples relevant to Arctic science.\n\nKey takeaway: Data is the foundation of AI; understanding it improves AI’s accuracy and usefulness.\n\n\n\n\n\nIntroduction to a Dataset\n\nStep-by-step Model Creation (Python)\n\nTesting and Evaluating Results\n\nShow how to evaluate the performance of the model.\n\nKey takeaway: Building an AI model is more accessible than it seems, even for beginners.\n\n\n\n\n\nEmerging AI Trends\n\n\n\n\n\nDiscussion:\n\nLet’s think about specific Arctic science-related problems.\nExplore how AI might help address these problems.\nKey takeaway: AI can be applied at every stage of scientific research.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI for everyone: an introductory overview"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html",
-    "href": "workshop/index.html",
-    "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Welcome to our groundbreaking workshop aimed at empowering Arctic scientists with the essential tools and knowledge of Artificial Intelligence (AI). In an era where data-driven science is revolutionizing research methodologies, the Arctic region’s intricate and dynamic nature poses unique challenges and opportunities. This 5-day in-person workshop, hosted by ASU, UCSB, Woodwell, UIIC, and NCSA as part of the NSF Cyber2A training program, is specifically tailored for scientists engaged in Arctic research who may have limited backgrounds in computer science and computing but are eager to integrate AI into their research.\nOur comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Participants will gain an overview of AI basics, including key concepts, methodologies, and the language of AI that every scientist should know. Additionally, the workshop will delve into practical AI applications, such as using AI models and tools to analyze data, predict outcomes, and gain insights into complex Arctic phenomena. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#in-this-course-participants-will-learn-to",
-    "href": "workshop/index.html#in-this-course-participants-will-learn-to",
-    "title": "Cyber2A Workshop",
-    "section": "In this course, participants will learn to:",
-    "text": "In this course, participants will learn to:\n\nUnderstand AI Fundamentals\nHands-on Experience with AI Tools\nAddress Arctic-Specific Challenges\nPromote Collaborative Learning\nFacilitate Future Research",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#who-should-attend",
-    "href": "workshop/index.html#who-should-attend",
-    "title": "Cyber2A Workshop",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\n\nArctic researchers and scientists with limited computing or AI background\nData analysts and scientists in related fields seeking to apply AI in Arctic research\nEducators and trainers looking to incorporate AI into their science curricula",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#dates",
-    "href": "workshop/index.html#dates",
-    "title": "Cyber2A Workshop",
-    "section": "Dates",
-    "text": "Dates\nWorkshop Dates: October 21st, 2024 - October 25th, 2024",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#location",
-    "href": "workshop/index.html#location",
-    "title": "Cyber2A Workshop",
-    "section": "Location",
-    "text": "Location\nVenue: In-Person at the National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, California",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#registration-and-fees",
-    "href": "workshop/index.html#registration-and-fees",
-    "title": "Cyber2A Workshop",
-    "section": "Registration and Fees",
-    "text": "Registration and Fees\nRegistration Process: Participants will be selected based on responses to questions in the workshop application (linked at the bottom of this page). Registration details will be provided to selected participants after the application period concludes.\nFees: Tuition is covered for the accepted participants by the Cyber2A award from NSF",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#instructors-and-speakers",
-    "href": "workshop/index.html#instructors-and-speakers",
-    "title": "Cyber2A Workshop",
-    "section": "Instructors and Speakers",
-    "text": "Instructors and Speakers\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nYili Yang\n\n\nData Scientist Specialist, Woodwell Climate Research Center  yyang@woodwellclimate.org  https://www.woodwellclimate.org/staff/yili-yang/ \n\n\n\n\n\n\n\n\n\n\n\n\n\nChandi Witharana\n\n\nAssistant Professor, University of Connecticut  Chandi.Witharana@uconn.edu  https://nre.uconn.edu/chandi-witharana/\n\n\n\n\n\n\n\n\n\n\n\n\n\nBen Galewsky\n\n\nSr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  bengal1@illinois.edu \n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#workshop-schedule",
-    "href": "workshop/index.html#workshop-schedule",
-    "title": "Cyber2A Workshop",
-    "section": "Workshop Schedule",
-    "text": "Workshop Schedule",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#pre-workshop-preparation",
-    "href": "workshop/index.html#pre-workshop-preparation",
-    "title": "Cyber2A Workshop",
-    "section": "Pre-Workshop Preparation",
-    "text": "Pre-Workshop Preparation\nPrerequisites:\n\nBasic programming knowledge, preferably in Python\nMathematics background, including linear algebra, calculus, and statistics\nExperience with data manipulation using tools like Pandas, NumPy, etc.\nIntroductory knowledge of AI and machine learning concepts\n\nPreparation Materials: Please refer to the reference section of each workshop curriculum preview for review and further reading.",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#contact-information",
-    "href": "workshop/index.html#contact-information",
-    "title": "Cyber2A Workshop",
-    "section": "Contact Information",
-    "text": "Contact Information\nContact Person: WenWen Li, Arizona State University\nEmail: Please reach out to wenwen@asu.edu with any questions or concerns\nPhone: For urgent concerns, please contact 480-727-5987",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#additional-information",
-    "href": "workshop/index.html#additional-information",
-    "title": "Cyber2A Workshop",
-    "section": "Additional Information",
-    "text": "Additional Information\nAccommodations: Lodging will be covered by the Cyber2A award from NSF and will be located in Santa Barbara, CA. Additional information about lodging and transportation will be provided to accepted participants.\nPolicies: Please review the NCEAS Code of Conduct prior to applying for this workshop",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#workshop-application",
-    "href": "workshop/index.html#workshop-application",
-    "title": "Cyber2A Workshop",
-    "section": "Workshop Application",
-    "text": "Workshop Application\n**Applications for this workshop closed on August 1st, 2024\nDirect any issues or questions regarding the application to: greco@nceas.ucsb.edu",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#cyber2a-webinars",
-    "href": "workshop/index.html#cyber2a-webinars",
-    "title": "Cyber2A Workshop",
-    "section": "Cyber2A Webinars",
-    "text": "Cyber2A Webinars\nUpcoming webinars will be posted here as they are organized",
-    "crumbs": [
-      "Workshop",
-      "Workshop Information"
-    ]
-  },
-  {
-    "objectID": "webinars/past-webinars.html",
-    "href": "webinars/past-webinars.html",
-    "title": "Past Webinars",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nDr. Compton Tucker, National Aeronautics and Space Administration (NASA)\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nDr. Konstantin Klemmer, Microsoft Research\n\n\n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDr. Daniela Szwarcman, IBM ResearchDr. Paolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "webinars/content/091224-hyper-spatial-remote-sensing.html",
     "href": "webinars/content/091224-hyper-spatial-remote-sensing.html",
     "title": "Hyper-Spatial Remote Sensing",
     "section": "",
-    "text": "Abstract\nLarge volumes of sub-meter commercial satellite data coupled with high performance computing & machine learning provide new insights for Earth Science. This includes digital elevation retrievals at the meter x-y scale, the ability to map trees & bushes over large areas with high accuracy, and the possibility to map other features with high accuracy using machine learning. Several examples of these new possibilities will be discussed & illustrated with recent successful studies.\n\n\nDate and Time\nSeptember 12, 2024, 1:00 - 2:00 PM EST\n\n\nLink\nhttps://asu.zoom.us/j/84337093581\n\n\nSpeaker Biography\nDr. Tucker specializes in studying the earth with satellite data. He was among the first researchers to employ coarse-resolution satellite data to exploit the time domain for studying global photosynthesis on land, determining land cover, monitoring droughts, providing famine early warning, and predicting ecologically-coupled disease outbreaks. He has also used large quantities of Landsat data to study forest condition, deforestation, and forest fragmentation in temperate, subtropical, and tropical forests; and to study glacier extent. From 2005 to 2010, he was on NASA detail to the U.S. Global Change Program where he was the co-chairperson of two Interagency Working Groups, for Observations and for Land Use and Land Cover Change. He was active in NASA’s Space Archaeology Program and has conducted ground-based radar and magnetic surveys at Troy, the Granicus River Valley, and Gordion in Turkey, with University of Pennsylvania projects working at these locations from 2001 to 2012. Since 2014, he has been active in mapping land and forest degradation and attempting to quantify arid and semi-arid woody biomass using Landsat, MODIS, and large volumes of commercial satellite data. More recently, Tucker and colleagues have mastered mapping billions of trees and converting these into carbon at tree-level using machine learning coupled to high-performance computing. https://science.gsfc.nasa.gov/sci/bio/compton.j.tucker\n\n\nRecording\nWill be uploaded later."
+    "text": "Abstract\nLarge volumes of sub-meter commercial satellite data coupled with high performance computing & machine learning provide new insights for Earth Science. This includes digital elevation retrievals at the meter x-y scale, the ability to map trees & bushes over large areas with high accuracy, and the possibility to map other features with high accuracy using machine learning. Several examples of these new possibilities will be discussed & illustrated with recent successful studies.\n\n\nDate and Time\nSeptember 12, 2024, 1:00 - 2:00 PM EST\n\n\nLink\nhttps://asu.zoom.us/j/84337093581\n\n\nSpeaker Biography\nDr. Tucker specializes in studying the earth with satellite data. He was among the first researchers to employ coarse-resolution satellite data to exploit the time domain for studying global photosynthesis on land, determining land cover, monitoring droughts, providing famine early warning, and predicting ecologically-coupled disease outbreaks. He has also used large quantities of Landsat data to study forest condition, deforestation, and forest fragmentation in temperate, subtropical, and tropical forests; and to study glacier extent. From 2005 to 2010, he was on NASA detail to the U.S. Global Change Program where he was the co-chairperson of two Interagency Working Groups, for Observations and for Land Use and Land Cover Change. He was active in NASA’s Space Archaeology Program and has conducted ground-based radar and magnetic surveys at Troy, the Granicus River Valley, and Gordion in Turkey, with University of Pennsylvania projects working at these locations from 2001 to 2012. Since 2014, he has been active in mapping land and forest degradation and attempting to quantify arid and semi-arid woody biomass using Landsat, MODIS, and large volumes of commercial satellite data. More recently, Tucker and colleagues have mastered mapping billions of trees and converting these into carbon at tree-level using machine learning coupled to high-performance computing. https://science.gsfc.nasa.gov/sci/bio/compton.j.tucker\n\n\nRecording"
+  },
+  {
+    "objectID": "workshop/preview/intro-to-pytorch.html",
+    "href": "workshop/preview/intro-to-pytorch.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session introduces PyTorch, one of the most popular deep learning frameworks, known for its flexibility and ease of use. Participants will gain hands-on experience with PyTorch’s core functionalities and apply them to a sample dataset, setting the stage for a subsequent hands-on session. The goal is to arm participants with the essential knowledge and confidence required to begin utilizing PyTorch in their deep learning endeavors, ensuring they’re well-prepared for practical application and further exploration.\n\n\n\n\nIntroduction to PyTorch\nUnderstanding PyTorch’s core functionalities\nWorking with data in PyTorch\nBuilding a simple neural network in PyTorch\nTraining a model\nEvaluating a model\nConclusion and preparing for hands-on session\n\n\n\n\n\nhttps://pytorch.org\nhttps://pytorch.org/tutorials/",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to PyTorch: core functionalities and advantages"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-pytorch.html#goal",
+    "href": "workshop/preview/intro-to-pytorch.html#goal",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session introduces PyTorch, one of the most popular deep learning frameworks, known for its flexibility and ease of use. Participants will gain hands-on experience with PyTorch’s core functionalities and apply them to a sample dataset, setting the stage for a subsequent hands-on session. The goal is to arm participants with the essential knowledge and confidence required to begin utilizing PyTorch in their deep learning endeavors, ensuring they’re well-prepared for practical application and further exploration.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to PyTorch: core functionalities and advantages"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-pytorch.html#outline",
+    "href": "workshop/preview/intro-to-pytorch.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to PyTorch\nUnderstanding PyTorch’s core functionalities\nWorking with data in PyTorch\nBuilding a simple neural network in PyTorch\nTraining a model\nEvaluating a model\nConclusion and preparing for hands-on session",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to PyTorch: core functionalities and advantages"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-pytorch.html#reference",
+    "href": "workshop/preview/intro-to-pytorch.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://pytorch.org\nhttps://pytorch.org/tutorials/",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to PyTorch: core functionalities and advantages"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-pytorch.html",
+    "href": "workshop/preview/hands-on-lab-pytorch.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This hands-on lab session is designed to provide participants with practical experience using PyTorch to build, train, and evaluate neural network models. Participants will work through guided exercises that reinforce the concepts introduced in the previous session, applying PyTorch to real-world datasets relevant to Arctic research. By the end of this session, participants will have a solid understanding of how to implement deep learning models using PyTorch, empowering them to tackle their own projects with confidence.\n\n\n\n\nRecap of PyTorch core functionalities\nGuided exercise 1: working with real-world datasets\nGuided exercise 2: building a simple neural network\nGuided exercise 3: training and evaluating the model\nTroubleshooting and optimization tips\nConclusion and Q&A\n\n\n\n\n\nhttps://pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nhttps://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html\nhttps://pytorch.org/tutorials/beginner/vt_tutorial.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: PyTorch"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-pytorch.html#overview",
+    "href": "workshop/preview/hands-on-lab-pytorch.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This hands-on lab session is designed to provide participants with practical experience using PyTorch to build, train, and evaluate neural network models. Participants will work through guided exercises that reinforce the concepts introduced in the previous session, applying PyTorch to real-world datasets relevant to Arctic research. By the end of this session, participants will have a solid understanding of how to implement deep learning models using PyTorch, empowering them to tackle their own projects with confidence.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: PyTorch"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-pytorch.html#outline",
+    "href": "workshop/preview/hands-on-lab-pytorch.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Recap of PyTorch core functionalities\nGuided exercise 1: working with real-world datasets\nGuided exercise 2: building a simple neural network\nGuided exercise 3: training and evaluating the model\nTroubleshooting and optimization tips\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: PyTorch"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-pytorch.html#reference",
+    "href": "workshop/preview/hands-on-lab-pytorch.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nhttps://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html\nhttps://pytorch.org/tutorials/beginner/vt_tutorial.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: PyTorch"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.\n\n\n\n\nImage Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG\n\n\n\n\n\nSegment Anything\nSegment Anything Notebook",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#overview",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#outline",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Image Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#references",
+    "href": "workshop/preview/hands-on-lab-foundation-models.html#references",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Segment Anything\nSegment Anything Notebook",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: foundation models"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/exploring-advanced-neural-networks.html",
+    "href": "workshop/preview/exploring-advanced-neural-networks.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session focuses on advanced neural networks, specifically targeting semantic segmentation. Participants will delve into models such as Fully Convolutional Networks (FCNs) and U-Net, learning how these networks are structured, how they function, and how they can be applied to accurately segment and label each pixel of an image according to the object it represents. The goal is to deepen participants’ understanding of the technical foundations and practical applications of semantic segmentation, equipping them with the skills needed for hands-on implementation and exploration of its real-world utility, particularly in the context of Arctic research.\n\n\n\n\nIntroduction to semantic segmentation\nOverview of key models: Fully Convolutional Networks (FCNs) and U-Net\nDetailed architecture and functionality\nApplications in Arctic research: case studies\nConclusion and Q&A\n\n\n\n\n\nRonneberger, Olaf, Philipp Fischer, and Thomas Brox. “U-net: Convolutional networks for biomedical image segmentation.” Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer International Publishing, 2015. https://arxiv.org/abs/1505.04597\nMinaee, Shervin, et al. “Image segmentation using deep learning: A survey.” IEEE transactions on pattern analysis and machine intelligence 44.7 (2021): 3523-3542. http://www.arxiv.org/abs/2001.05566",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Exploring advanced neural networks: semantic segmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#overview",
+    "href": "workshop/preview/exploring-advanced-neural-networks.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session focuses on advanced neural networks, specifically targeting semantic segmentation. Participants will delve into models such as Fully Convolutional Networks (FCNs) and U-Net, learning how these networks are structured, how they function, and how they can be applied to accurately segment and label each pixel of an image according to the object it represents. The goal is to deepen participants’ understanding of the technical foundations and practical applications of semantic segmentation, equipping them with the skills needed for hands-on implementation and exploration of its real-world utility, particularly in the context of Arctic research.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Exploring advanced neural networks: semantic segmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#outline",
+    "href": "workshop/preview/exploring-advanced-neural-networks.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to semantic segmentation\nOverview of key models: Fully Convolutional Networks (FCNs) and U-Net\nDetailed architecture and functionality\nApplications in Arctic research: case studies\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Exploring advanced neural networks: semantic segmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#reference",
+    "href": "workshop/preview/exploring-advanced-neural-networks.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. “U-net: Convolutional networks for biomedical image segmentation.” Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer International Publishing, 2015. https://arxiv.org/abs/1505.04597\nMinaee, Shervin, et al. “Image segmentation using deep learning: A survey.” IEEE transactions on pattern analysis and machine intelligence 44.7 (2021): 3523-3542. http://www.arxiv.org/abs/2001.05566",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Exploring advanced neural networks: semantic segmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-ethics.html",
+    "href": "workshop/preview/ai-ethics.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• AI ethics"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-ethics.html#reference",
+    "href": "workshop/preview/ai-ethics.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• AI ethics"
+    ]
+  },
+  {
+    "objectID": "webinars/upcoming-webinars.html",
+    "href": "webinars/upcoming-webinars.html",
+    "title": "Upcoming Webinars",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "webinars/index.html",
+    "href": "webinars/index.html",
+    "title": "Webinars",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "webinars/index.html#upcoming-webinars",
+    "href": "webinars/index.html#upcoming-webinars",
+    "title": "Webinars",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "webinars/index.html#past-webinars",
+    "href": "webinars/index.html#past-webinars",
+    "title": "Webinars",
+    "section": "Past Webinars",
+    "text": "Past Webinars\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nDr. Compton Tucker, National Aeronautics and Space Administration (NASA)\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nDr. Konstantin Klemmer, Microsoft Research\n\n\n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDr. Daniela Szwarcman, IBM ResearchDr. Paolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/project-collaborators.html",
@@ -675,248 +426,497 @@
     "text": "Wenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenton McHenry\n\n\nCo-Principal Investigator, NSF Award 2230035 Associate Director of Software, National Center for Supercomputing Applications mchenry@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatricia Solis\n\n\nSenior Personnel Executive Director, Knowledge Exchange for Resilience, Arizona State University patricia.solis@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuigi Marini\n\n\nSenior Personnel Lead Research Software Engineer, National Center for Supercomputing Applications lmarini@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarmen Galaz García\n\n\nData Scientist National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXiao Chen\n\n\nPhD student Arizona State University xchen414@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSizhe Wang\n\n\nPhD student Arizona State University wsizhe@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Hohman Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC kate@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaleb Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC caleb@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBen Galewsky\n\n\nSr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  bengal1@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "webinars/index.html",
-    "href": "webinars/index.html",
-    "title": "Webinars",
+    "objectID": "webinars/past-webinars.html",
+    "href": "webinars/past-webinars.html",
+    "title": "Past Webinars",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nDr. Compton Tucker, National Aeronautics and Space Administration (NASA)\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nDr. Konstantin Klemmer, Microsoft Research\n\n\n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDr. Daniela Szwarcman, IBM ResearchDr. Paolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "webinars/index.html#upcoming-webinars",
-    "href": "webinars/index.html#upcoming-webinars",
-    "title": "Webinars",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "webinars/index.html#past-webinars",
-    "href": "webinars/index.html#past-webinars",
-    "title": "Webinars",
-    "section": "Past Webinars",
-    "text": "Past Webinars\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nDr. Compton Tucker, National Aeronautics and Space Administration (NASA)\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nDr. Konstantin Klemmer, Microsoft Research\n\n\n\n\n\n\n\n\n\n\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nDr. Daniela Szwarcman, IBM ResearchDr. Paolo Fraccaro, IBM Research\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "webinars/upcoming-webinars.html",
-    "href": "webinars/upcoming-webinars.html",
-    "title": "Upcoming Webinars",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "workshop/preview/ai-ethics.html",
-    "href": "workshop/preview/ai-ethics.html",
+    "objectID": "workshop/index.html",
+    "href": "workshop/index.html",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "text": "Welcome to our groundbreaking workshop aimed at empowering Arctic scientists with the essential tools and knowledge of Artificial Intelligence (AI). In an era where data-driven science is revolutionizing research methodologies, the Arctic region’s intricate and dynamic nature poses unique challenges and opportunities. This 5-day in-person workshop, hosted by ASU, UCSB, Woodwell, UIIC, and NCSA as part of the NSF Cyber2A training program, is specifically tailored for scientists engaged in Arctic research who may have limited backgrounds in computer science and computing but are eager to integrate AI into their research.\nOur comprehensive curriculum, developed through extensive research and training, emphasizes fundamental AI concepts, hands-on experiences, and addresses the particular challenges encountered in Arctic research. Participants will gain an overview of AI basics, including key concepts, methodologies, and the language of AI that every scientist should know. Additionally, the workshop will delve into practical AI applications, such as using AI models and tools to analyze data, predict outcomes, and gain insights into complex Arctic phenomena. Join us in this transformative journey to understand and interact with the Arctic environment through the powerful lens of AI.",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI ethics"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/ai-ethics.html#reference",
-    "href": "workshop/preview/ai-ethics.html#reference",
+    "objectID": "workshop/index.html#in-this-course-participants-will-learn-to",
+    "href": "workshop/index.html#in-this-course-participants-will-learn-to",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Review FAIR and CARE Principles, and their relevance to data ethics. Examine how ethical considerations are shared and considered at the Arctic Data Center. Discuss ethical considerations in machine learning.\nNotes: see https://learning.nceas.ucsb.edu/2022-09-arctic/sections/14-data-ethics.html",
+    "section": "In this course, participants will learn to:",
+    "text": "In this course, participants will learn to:\n\nUnderstand AI Fundamentals\nHands-on Experience with AI Tools\nAddress Arctic-Specific Challenges\nPromote Collaborative Learning\nFacilitate Future Research",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• AI ethics"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/exploring-advanced-neural-networks.html",
-    "href": "workshop/preview/exploring-advanced-neural-networks.html",
+    "objectID": "workshop/index.html#who-should-attend",
+    "href": "workshop/index.html#who-should-attend",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session focuses on advanced neural networks, specifically targeting semantic segmentation. Participants will delve into models such as Fully Convolutional Networks (FCNs) and U-Net, learning how these networks are structured, how they function, and how they can be applied to accurately segment and label each pixel of an image according to the object it represents. The goal is to deepen participants’ understanding of the technical foundations and practical applications of semantic segmentation, equipping them with the skills needed for hands-on implementation and exploration of its real-world utility, particularly in the context of Arctic research.\n\n\n\n\nIntroduction to semantic segmentation\nOverview of key models: Fully Convolutional Networks (FCNs) and U-Net\nDetailed architecture and functionality\nApplications in Arctic research: case studies\nConclusion and Q&A\n\n\n\n\n\nRonneberger, Olaf, Philipp Fischer, and Thomas Brox. “U-net: Convolutional networks for biomedical image segmentation.” Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer International Publishing, 2015. https://arxiv.org/abs/1505.04597\nMinaee, Shervin, et al. “Image segmentation using deep learning: A survey.” IEEE transactions on pattern analysis and machine intelligence 44.7 (2021): 3523-3542. http://www.arxiv.org/abs/2001.05566",
+    "section": "Who Should Attend",
+    "text": "Who Should Attend\n\nArctic researchers and scientists with limited computing or AI background\nData analysts and scientists in related fields seeking to apply AI in Arctic research\nEducators and trainers looking to incorporate AI into their science curricula",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Exploring advanced neural networks: semantic segmentation"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#overview",
-    "href": "workshop/preview/exploring-advanced-neural-networks.html#overview",
+    "objectID": "workshop/index.html#dates",
+    "href": "workshop/index.html#dates",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This session focuses on advanced neural networks, specifically targeting semantic segmentation. Participants will delve into models such as Fully Convolutional Networks (FCNs) and U-Net, learning how these networks are structured, how they function, and how they can be applied to accurately segment and label each pixel of an image according to the object it represents. The goal is to deepen participants’ understanding of the technical foundations and practical applications of semantic segmentation, equipping them with the skills needed for hands-on implementation and exploration of its real-world utility, particularly in the context of Arctic research.",
+    "section": "Dates",
+    "text": "Dates\nWorkshop Dates: October 21st, 2024 - October 25th, 2024",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Exploring advanced neural networks: semantic segmentation"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#outline",
-    "href": "workshop/preview/exploring-advanced-neural-networks.html#outline",
+    "objectID": "workshop/index.html#location",
+    "href": "workshop/index.html#location",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Introduction to semantic segmentation\nOverview of key models: Fully Convolutional Networks (FCNs) and U-Net\nDetailed architecture and functionality\nApplications in Arctic research: case studies\nConclusion and Q&A",
+    "section": "Location",
+    "text": "Location\nVenue: In-Person at the National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, California",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Exploring advanced neural networks: semantic segmentation"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/exploring-advanced-neural-networks.html#reference",
-    "href": "workshop/preview/exploring-advanced-neural-networks.html#reference",
+    "objectID": "workshop/index.html#registration-and-fees",
+    "href": "workshop/index.html#registration-and-fees",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. “U-net: Convolutional networks for biomedical image segmentation.” Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer International Publishing, 2015. https://arxiv.org/abs/1505.04597\nMinaee, Shervin, et al. “Image segmentation using deep learning: A survey.” IEEE transactions on pattern analysis and machine intelligence 44.7 (2021): 3523-3542. http://www.arxiv.org/abs/2001.05566",
+    "section": "Registration and Fees",
+    "text": "Registration and Fees\nRegistration Process: Participants will be selected based on responses to questions in the workshop application (linked at the bottom of this page). Registration details will be provided to selected participants after the application period concludes.\nFees: Tuition is covered for the accepted participants by the Cyber2A award from NSF",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Exploring advanced neural networks: semantic segmentation"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-foundation-models.html",
-    "href": "workshop/preview/hands-on-lab-foundation-models.html",
+    "objectID": "workshop/index.html#instructors-and-speakers",
+    "href": "workshop/index.html#instructors-and-speakers",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.\n\n\n\n\nImage Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG\n\n\n\n\n\nSegment Anything\nSegment Anything Notebook",
+    "section": "Instructors and Speakers",
+    "text": "Instructors and Speakers\n\n\n\n\n\n\n\n\n\n\nWenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor, Arizona State University  wenwen@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist, Woodwell Climate Research Center aliljedahl@woodwellclimate.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional, Arizona State University chsu53@asu.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\nYili Yang\n\n\nData Scientist Specialist, Woodwell Climate Research Center  yyang@woodwellclimate.org  https://www.woodwellclimate.org/staff/yili-yang/ \n\n\n\n\n\n\n\n\n\n\n\n\n\nChandi Witharana\n\n\nAssistant Professor, University of Connecticut  Chandi.Witharana@uconn.edu  https://nre.uconn.edu/chandi-witharana/\n\n\n\n\n\n\n\n\n\n\n\n\n\nBen Galewsky\n\n\nSr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  bengal1@illinois.edu \n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: foundation models"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#overview",
-    "href": "workshop/preview/hands-on-lab-foundation-models.html#overview",
+    "objectID": "workshop/index.html#workshop-schedule",
+    "href": "workshop/index.html#workshop-schedule",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "The hands-on lab on foundation models will focus on building and applying small-scale foundation models for some example use cases. The main goal of this 1-hour session will be to get more familiarized with foundation models and in interacting with them.",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: foundation models"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#outline",
-    "href": "workshop/preview/hands-on-lab-foundation-models.html#outline",
+    "objectID": "workshop/index.html#pre-workshop-preparation",
+    "href": "workshop/index.html#pre-workshop-preparation",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Image Segmentation using Segment Anything Model (SAM)\nChatbot using LLMs + RAG",
+    "section": "Pre-Workshop Preparation",
+    "text": "Pre-Workshop Preparation\nPrerequisites:\n\nBasic programming knowledge, preferably in Python\nMathematics background, including linear algebra, calculus, and statistics\nExperience with data manipulation using tools like Pandas, NumPy, etc.\nIntroductory knowledge of AI and machine learning concepts\n\nPreparation Materials: Please refer to the reference section of each workshop curriculum preview for review and further reading.",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: foundation models"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-foundation-models.html#references",
-    "href": "workshop/preview/hands-on-lab-foundation-models.html#references",
+    "objectID": "workshop/index.html#contact-information",
+    "href": "workshop/index.html#contact-information",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Segment Anything\nSegment Anything Notebook",
+    "section": "Contact Information",
+    "text": "Contact Information\nContact Person: WenWen Li, Arizona State University\nEmail: Please reach out to wenwen@asu.edu with any questions or concerns\nPhone: For urgent concerns, please contact 480-727-5987",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: foundation models"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-pytorch.html",
-    "href": "workshop/preview/hands-on-lab-pytorch.html",
+    "objectID": "workshop/index.html#additional-information",
+    "href": "workshop/index.html#additional-information",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This hands-on lab session is designed to provide participants with practical experience using PyTorch to build, train, and evaluate neural network models. Participants will work through guided exercises that reinforce the concepts introduced in the previous session, applying PyTorch to real-world datasets relevant to Arctic research. By the end of this session, participants will have a solid understanding of how to implement deep learning models using PyTorch, empowering them to tackle their own projects with confidence.\n\n\n\n\nRecap of PyTorch core functionalities\nGuided exercise 1: working with real-world datasets\nGuided exercise 2: building a simple neural network\nGuided exercise 3: training and evaluating the model\nTroubleshooting and optimization tips\nConclusion and Q&A\n\n\n\n\n\nhttps://pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nhttps://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html\nhttps://pytorch.org/tutorials/beginner/vt_tutorial.html",
+    "section": "Additional Information",
+    "text": "Additional Information\nAccommodations: Lodging will be covered by the Cyber2A award from NSF and will be located in Santa Barbara, CA. Additional information about lodging and transportation will be provided to accepted participants.\nPolicies: Please review the NCEAS Code of Conduct prior to applying for this workshop",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: PyTorch"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-pytorch.html#overview",
-    "href": "workshop/preview/hands-on-lab-pytorch.html#overview",
+    "objectID": "workshop/index.html#workshop-application",
+    "href": "workshop/index.html#workshop-application",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "This hands-on lab session is designed to provide participants with practical experience using PyTorch to build, train, and evaluate neural network models. Participants will work through guided exercises that reinforce the concepts introduced in the previous session, applying PyTorch to real-world datasets relevant to Arctic research. By the end of this session, participants will have a solid understanding of how to implement deep learning models using PyTorch, empowering them to tackle their own projects with confidence.",
+    "section": "Workshop Application",
+    "text": "Workshop Application\n**Applications for this workshop closed on August 1st, 2024\nDirect any issues or questions regarding the application to: greco@nceas.ucsb.edu",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: PyTorch"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-pytorch.html#outline",
-    "href": "workshop/preview/hands-on-lab-pytorch.html#outline",
+    "objectID": "workshop/index.html#cyber2a-webinars",
+    "href": "workshop/index.html#cyber2a-webinars",
     "title": "Cyber2A Workshop",
-    "section": "",
-    "text": "Recap of PyTorch core functionalities\nGuided exercise 1: working with real-world datasets\nGuided exercise 2: building a simple neural network\nGuided exercise 3: training and evaluating the model\nTroubleshooting and optimization tips\nConclusion and Q&A",
+    "section": "Cyber2A Webinars",
+    "text": "Cyber2A Webinars\nUpcoming webinars will be posted here as they are organized",
     "crumbs": [
       "Workshop",
-      "Workshop Curriculum Preview",
-      "• Hands-on-lab: PyTorch"
+      "Workshop Information"
     ]
   },
   {
-    "objectID": "workshop/preview/hands-on-lab-pytorch.html#reference",
-    "href": "workshop/preview/hands-on-lab-pytorch.html#reference",
+    "objectID": "workshop/preview/ai-for-everyone.html",
+    "href": "workshop/preview/ai-for-everyone.html",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nhttps://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html\nhttps://pytorch.org/tutorials/beginner/vt_tutorial.html",
+    "text": "This session aims to introduce AI to a non-specialist audience, ensuring that participants from any background can understand these essential concepts. The focus will be on explaining key terminology and the basic principles of machine learning and deep learning. By the end of this session, participants will have a solid foundational knowledge of key AI concepts, enabling them to better appreciate and engage with more advanced topics in the following sessions.\n\n\n\nML, DL, NN, CNN, datasets and annotations, training and inference, accuracy and validation, supervised learning, etc.\n\n\n\n\n\n\nWhat is AI?\n\nDefinition and core concepts.\nBrief history and its role in modern research.\n\nKey takeaway: – Artificial Intelligence as a tool, that helps you find insight and patterns in data by applying specific types of algorithms. – Artificial Intelligence can be useful during not only the data analysis phase of a scientific method but every step from generating a hypothesis to publishing results. (Let’s find out how together)\n\n\n\n\n\nSupervised vs. Unsupervised Learning\n\nDefinitions and examples of each.\nWhen to use them in scientific research.\n\nTechniques Overview\n\nMachine Learning (ML)\nDeep Learning (DL)\nNatural Language Processing (NLP)\n\nKey takeaway: Different types and techniques of AI can be applied depending on the type of data and research questions.\n\n\n\n\n\nImportance of Data\n\nHow AI models depend on good data (quality over quantity).\n\nTypes of Datasets\n\nStructured vs. unstructured data.\nExamples relevant to Arctic science.\n\nKey takeaway: Data is the foundation of AI; understanding it improves AI’s accuracy and usefulness.\n\n\n\n\n\nIntroduction to a Dataset\n\nStep-by-step Model Creation (Python)\n\nTesting and Evaluating Results\n\nShow how to evaluate the performance of the model.\n\nKey takeaway: Building an AI model is more accessible than it seems, even for beginners.\n\n\n\n\n\nEmerging AI Trends\n\n\n\n\n\nDiscussion:\n\nLet’s think about specific Arctic science-related problems.\nExplore how AI might help address these problems.\nKey takeaway: AI can be applied at every stage of scientific research.",
     "crumbs": [
       "Workshop",
       "Workshop Curriculum Preview",
-      "• Hands-on-lab: PyTorch"
+      "• AI for everyone: an introductory overview"
     ]
   },
   {
-    "objectID": "workshop/preview/intro-to-pytorch.html",
-    "href": "workshop/preview/intro-to-pytorch.html",
+    "objectID": "workshop/preview/ai-for-everyone.html#goal",
+    "href": "workshop/preview/ai-for-everyone.html#goal",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "This session introduces PyTorch, one of the most popular deep learning frameworks, known for its flexibility and ease of use. Participants will gain hands-on experience with PyTorch’s core functionalities and apply them to a sample dataset, setting the stage for a subsequent hands-on session. The goal is to arm participants with the essential knowledge and confidence required to begin utilizing PyTorch in their deep learning endeavors, ensuring they’re well-prepared for practical application and further exploration.\n\n\n\n\nIntroduction to PyTorch\nUnderstanding PyTorch’s core functionalities\nWorking with data in PyTorch\nBuilding a simple neural network in PyTorch\nTraining a model\nEvaluating a model\nConclusion and preparing for hands-on session\n\n\n\n\n\nhttps://pytorch.org\nhttps://pytorch.org/tutorials/",
+    "text": "This session aims to introduce AI to a non-specialist audience, ensuring that participants from any background can understand these essential concepts. The focus will be on explaining key terminology and the basic principles of machine learning and deep learning. By the end of this session, participants will have a solid foundational knowledge of key AI concepts, enabling them to better appreciate and engage with more advanced topics in the following sessions.",
     "crumbs": [
       "Workshop",
       "Workshop Curriculum Preview",
-      "• Introduction to PyTorch: core functionalities and advantages"
+      "• AI for everyone: an introductory overview"
     ]
   },
   {
-    "objectID": "workshop/preview/intro-to-pytorch.html#goal",
-    "href": "workshop/preview/intro-to-pytorch.html#goal",
+    "objectID": "workshop/preview/ai-for-everyone.html#key-elements",
+    "href": "workshop/preview/ai-for-everyone.html#key-elements",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "This session introduces PyTorch, one of the most popular deep learning frameworks, known for its flexibility and ease of use. Participants will gain hands-on experience with PyTorch’s core functionalities and apply them to a sample dataset, setting the stage for a subsequent hands-on session. The goal is to arm participants with the essential knowledge and confidence required to begin utilizing PyTorch in their deep learning endeavors, ensuring they’re well-prepared for practical application and further exploration.",
+    "text": "ML, DL, NN, CNN, datasets and annotations, training and inference, accuracy and validation, supervised learning, etc.",
     "crumbs": [
       "Workshop",
       "Workshop Curriculum Preview",
-      "• Introduction to PyTorch: core functionalities and advantages"
+      "• AI for everyone: an introductory overview"
     ]
   },
   {
-    "objectID": "workshop/preview/intro-to-pytorch.html#outline",
-    "href": "workshop/preview/intro-to-pytorch.html#outline",
+    "objectID": "workshop/preview/ai-for-everyone.html#outline",
+    "href": "workshop/preview/ai-for-everyone.html#outline",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "Introduction to PyTorch\nUnderstanding PyTorch’s core functionalities\nWorking with data in PyTorch\nBuilding a simple neural network in PyTorch\nTraining a model\nEvaluating a model\nConclusion and preparing for hands-on session",
+    "text": "What is AI?\n\nDefinition and core concepts.\nBrief history and its role in modern research.\n\nKey takeaway: – Artificial Intelligence as a tool, that helps you find insight and patterns in data by applying specific types of algorithms. – Artificial Intelligence can be useful during not only the data analysis phase of a scientific method but every step from generating a hypothesis to publishing results. (Let’s find out how together)\n\n\n\n\n\nSupervised vs. Unsupervised Learning\n\nDefinitions and examples of each.\nWhen to use them in scientific research.\n\nTechniques Overview\n\nMachine Learning (ML)\nDeep Learning (DL)\nNatural Language Processing (NLP)\n\nKey takeaway: Different types and techniques of AI can be applied depending on the type of data and research questions.\n\n\n\n\n\nImportance of Data\n\nHow AI models depend on good data (quality over quantity).\n\nTypes of Datasets\n\nStructured vs. unstructured data.\nExamples relevant to Arctic science.\n\nKey takeaway: Data is the foundation of AI; understanding it improves AI’s accuracy and usefulness.\n\n\n\n\n\nIntroduction to a Dataset\n\nStep-by-step Model Creation (Python)\n\nTesting and Evaluating Results\n\nShow how to evaluate the performance of the model.\n\nKey takeaway: Building an AI model is more accessible than it seems, even for beginners.\n\n\n\n\n\nEmerging AI Trends\n\n\n\n\n\nDiscussion:\n\nLet’s think about specific Arctic science-related problems.\nExplore how AI might help address these problems.\nKey takeaway: AI can be applied at every stage of scientific research.",
     "crumbs": [
       "Workshop",
       "Workshop Curriculum Preview",
-      "• Introduction to PyTorch: core functionalities and advantages"
+      "• AI for everyone: an introductory overview"
     ]
   },
   {
-    "objectID": "workshop/preview/intro-to-pytorch.html#reference",
-    "href": "workshop/preview/intro-to-pytorch.html#reference",
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html",
+    "href": "workshop/preview/ai-workflows-and-mlops.html",
     "title": "Cyber2A Workshop",
     "section": "",
-    "text": "https://pytorch.org\nhttps://pytorch.org/tutorials/",
+    "text": "Ben Galewsky, Sr. Research Software Engineer National Center for Supercomputing Applications (NCSA) University of Illinois Urbana-Champaign\n\n\nMachine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.\n\n\n\n\nIntroduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden\n\n\n\n\n\nMLflow\nGarden",
     "crumbs": [
       "Workshop",
       "Workshop Curriculum Preview",
-      "• Introduction to PyTorch: core functionalities and advantages"
+      "• AI workflows and MLOps: from development to deployment"
     ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#overview",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Machine learning models have become a vital tool for most branches of science. The process and tools for training these models on the lab’s desktop is often fragile, slow, and not reproducible. In this workshop, we will introduce the concept of MLOps, which is a set of practices that aims to streamline the process of developing, training, and deploying machine learning models. We will use the popular open source MLOps tool, MLflow, to demonstrate how to track experiments, package code, and deploy models. We will also introduce Garden, a tool that allows researchers to publish ML Models as citable objects.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#outline",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to MLOps\nIntroduction to MLflow\nTracking experiments with MLflow\nPackaging code with MLflow\nDeploying models with MLflow\nPublishing models with Garden",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/ai-workflows-and-mlops.html#reference",
+    "href": "workshop/preview/ai-workflows-and-mlops.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "MLflow\nGarden",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• AI workflows and MLOps: from development to deployment"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html",
+    "href": "workshop/preview/foundation-models.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.\n\n\n\n\nIntroduction to foundation models, its history and evolution\nKey features of foundation models\nTypes of foundation models: Language, Vision, Generative, and Multimodal\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?\n\n\n\n\n\nOn the opportunities and risk of Foundation models\nYou Only Look Once\nBERT\nGPT3\nSegment Anything Model\nNVIDIA blog post on foundation models\nWhat are Foundation Models? - Generative AI",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#overview",
+    "href": "workshop/preview/foundation-models.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Foundation models (FM) are deep learning models trained on massive raw unlabelled datasets usually through self-supervised learning. FMs enable today’s data scientists to use them as the base and fine-tune using domain specific data to obtain models that can handle a wide range of tasks [1, 6, 7]. In this talk, we provide an introduction to FMs, its history, evolution, and go through its key features and categories, and a few examples. We also briefly discuss how foundation models work. This talk will be a precursor to the hands-on session that follows on the same topic.\n Image source: 2021 paper on foundation models by Stanford researchers [1].\nIn this session, we take a closer look at what constitutes a foundation model, a few examples, and some basic principles around how it works.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#outline",
+    "href": "workshop/preview/foundation-models.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to foundation models, its history and evolution\nKey features of foundation models\nTypes of foundation models: Language, Vision, Generative, and Multimodal\nExamples of foundation models: BERT [3], GPT [4], YOLO [2], SAM [5], DALLE-2\nHow do foundation models work?",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/foundation-models.html#reference",
+    "href": "workshop/preview/foundation-models.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "On the opportunities and risk of Foundation models\nYou Only Look Once\nBERT\nGPT3\nSegment Anything Model\nNVIDIA blog post on foundation models\nWhat are Foundation Models? - Generative AI",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Foundation models: the cornerstones of modern AI"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html",
+    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "In this session, we will introduce and explore the Arctic Retrogressive Thaw Slump (ARTS) dataset. We aim to illuminate the background and motivation behind the ARTS dataset, detail its design elements including functions, metadata, and usage, and underscore its defining features such as scalability, scientific integrity, and the potential for community contribution.\n\n\n\n\nBackground and motivation of the Arctic\nRetrogressive Thaw Slump (ARTS) data set.\nSource data for the ARTS data set\nDesign of the data set - functions, metadata, usage\nFeatures of the data set - scalable, scientific, contributable\nData Curation Framework - standards, protocols\nThe ARTS repository - user and contributor guideline\nQuestions and discussions\n\n\n\n\n\nhttps://github.com/whrc/ARTS",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#overview",
+    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "In this session, we will introduce and explore the Arctic Retrogressive Thaw Slump (ARTS) dataset. We aim to illuminate the background and motivation behind the ARTS dataset, detail its design elements including functions, metadata, and usage, and underscore its defining features such as scalability, scientific integrity, and the potential for community contribution.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#outline",
+    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Background and motivation of the Arctic\nRetrogressive Thaw Slump (ARTS) data set.\nSource data for the ARTS data set\nDesign of the data set - functions, metadata, usage\nFeatures of the data set - scalable, scientific, contributable\nData Curation Framework - standards, protocols\nThe ARTS repository - user and contributor guideline\nQuestions and discussions",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/guest-lecture-yili-rts-introduction.html#reference",
+    "href": "workshop/preview/guest-lecture-yili-rts-introduction.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://github.com/whrc/ARTS",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Guest lecture: unveiling the ARTS dataset for a thawing frontier"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html",
+    "href": "workshop/preview/hands-on-lab-mmsegmentation.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This hands-on lab session provides participants with practical experience using MMSegmentation to perform semantic segmentation tasks. Participants will engage in guided exercises that build on the concepts introduced in the previous session, applying MMSegmentation to real-world datasets relevant to Arctic research. By the end of this session, participants will have gained the practical skills necessary to implement and fine-tune semantic segmentation models using MMSegmentation, enabling them to effectively apply these techniques in their own research projects.\n\n\n\n\nRecap of MMSegmentation core functionalities\nGuided exercise 1: preparing and loading data\nGuided exercise 2: building and training a semantic segmentation model\nGuided exercise 3: evaluating and fine-tuning the model\nWorking with real-world datasets: Arctic research applications\nTroubleshooting and optimization tips\nConclusion and Q&A\n\n\n\n\n\nhttps://mmsegmentation.readthedocs.io/en/latest/user_guides/index.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: MMSegmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#overview",
+    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This hands-on lab session provides participants with practical experience using MMSegmentation to perform semantic segmentation tasks. Participants will engage in guided exercises that build on the concepts introduced in the previous session, applying MMSegmentation to real-world datasets relevant to Arctic research. By the end of this session, participants will have gained the practical skills necessary to implement and fine-tune semantic segmentation models using MMSegmentation, enabling them to effectively apply these techniques in their own research projects.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: MMSegmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#outline",
+    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Recap of MMSegmentation core functionalities\nGuided exercise 1: preparing and loading data\nGuided exercise 2: building and training a semantic segmentation model\nGuided exercise 3: evaluating and fine-tuning the model\nWorking with real-world datasets: Arctic research applications\nTroubleshooting and optimization tips\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: MMSegmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/hands-on-lab-mmsegmentation.html#reference",
+    "href": "workshop/preview/hands-on-lab-mmsegmentation.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://mmsegmentation.readthedocs.io/en/latest/user_guides/index.html",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Hands-on-lab: MMSegmentation"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html",
+    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "his session introduces participants to MMSegmentation, a specialized deep learning library designed for semantic segmentation tasks. Participants will explore the unique capabilities of MMSegmentation in handling sophisticated image analysis projects. The session will cover how to navigate the library, implement advanced features, and apply them to real-world datasets, particularly in the context of Arctic research. While the focus will be on MMSegmentation, Detectron2 will also be mentioned as another powerful tool for image analysis. By the end of this session, participants will have a theoretical understanding of MMSegmentation and be prepared for a more extensive hands-on lab session.\n\n\n\n\nIntroduction to MMSegmentation: features and capabilities\nNavigating MMSegmentation: tools and techniques\nImplementing semantic segmentation with MMSegmentation\nPractical applications in Arctic research\nBrief overview of Detectron2 for comparison\nConclusion and Q&A\n\n\n\n\n\nhttps://github.com/open-mmlab/mmsegmentation\nhttps://github.com/facebookresearch/detectron2 (for further exploration)",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to deep learning libraries for image analysis"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#overview",
+    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "his session introduces participants to MMSegmentation, a specialized deep learning library designed for semantic segmentation tasks. Participants will explore the unique capabilities of MMSegmentation in handling sophisticated image analysis projects. The session will cover how to navigate the library, implement advanced features, and apply them to real-world datasets, particularly in the context of Arctic research. While the focus will be on MMSegmentation, Detectron2 will also be mentioned as another powerful tool for image analysis. By the end of this session, participants will have a theoretical understanding of MMSegmentation and be prepared for a more extensive hands-on lab session.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to deep learning libraries for image analysis"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#outline",
+    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Introduction to MMSegmentation: features and capabilities\nNavigating MMSegmentation: tools and techniques\nImplementing semantic segmentation with MMSegmentation\nPractical applications in Arctic research\nBrief overview of Detectron2 for comparison\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to deep learning libraries for image analysis"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#reference",
+    "href": "workshop/preview/intro-to-dl-libraries-for-image-analysis.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://github.com/open-mmlab/mmsegmentation\nhttps://github.com/facebookresearch/detectron2 (for further exploration)",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• Introduction to deep learning libraries for image analysis"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html",
+    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.\n\n\n\n\nFundamentals of neural network: history and evolution\nCore components: neurons, layers, and weights\nArchitecture of neural networks: layers and activation functions\nTraining neural networks: loss functions and optimizers\nConclusion and Q&A\n\n\n\n\n\nhttps://cs231n.stanford.edu",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#overview",
+    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#overview",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "This session aims to provide a comprehensive introduction to the fundamental components of neural networks and deep learning. Participants will explore the architecture of neural networks, including layers, neurons, weights, and activation functions, as well as the principles behind training models, such as loss functions and optimizers. The goal is to equip participants with a solid understanding of how neural networks are constructed and how they learn, paving the way for deeper dives into specific neural network models and applications in future sessions.",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#outline",
+    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#outline",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "Fundamentals of neural network: history and evolution\nCore components: neurons, layers, and weights\nArchitecture of neural networks: layers and activation functions\nTraining neural networks: loss functions and optimizers\nConclusion and Q&A",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "workshop/preview/the-building-blocks-of-nn-and-dl.html#reference",
+    "href": "workshop/preview/the-building-blocks-of-nn-and-dl.html#reference",
+    "title": "Cyber2A Workshop",
+    "section": "",
+    "text": "https://cs231n.stanford.edu",
+    "crumbs": [
+      "Workshop",
+      "Workshop Curriculum Preview",
+      "• The building blocks of neural networks and deep learning"
+    ]
+  },
+  {
+    "objectID": "webinars/content/062424-neural-representations-earth-observation.html",
+    "href": "webinars/content/062424-neural-representations-earth-observation.html",
+    "title": "Learning Neural Representations of our Planet from Earth Observation Data",
+    "section": "",
+    "text": "Abstract\nEarth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be mapped into the same geometric space: the sphere of planet Earth. It can be crucial in supporting decision making in the private and public sector alike, from improving flood resilience to forecasting crop yields. But making sense of the vast amounts of Earth observation data is difficult as it is often unstructured, unlabeled and multi-modal. Neural networks have emerged as a powerful tool for processing such large quantities of unstructured data but are not equipped to handle the spatial and temporal dependencies and spherical geometry of Earth observation data. In this talk, I will present a new class of neural network models purpose-built for Earth observation data: geographic location encoders. These models combine the scalability of neural networks with geospatial domain knowledge and traditional intuitions from geodesy and spatial statistics. I will highlight how location encoders can be used for fast and accurate predictive modeling on the sphere, with applications in climate modeling and species distribution modeling. I will then present means of training location encoders in the absence of labels—using globally distributed satellite imagery and contrastive self-supervised learning. The resulting pretrained location encoders produce general-purpose location embeddings that learn the natural and physical characteristics of locations around the world. These embeddings are powerful features in downstream modeling and can help tackle long-standing challenges in geospatial machine learning such as geographic distribution shift. Finally, I will outline future challenges in AI for Earth and present an ambitious goal: “digitally twinning” our planet with the support of large-scale, self-supervised learning and Earth observation data.\n\n\nDate and Time\nJune 24, 2024, 1:00 - 2:00 PM EST\n\n\nSpeaker Biography\nKonstantin Klemmer is a postdoctoral researcher at Microsoft Research New England and part of the Machine Learning and Statistics group. His research focuses on the representation of geographic phenomena in machine learning methods, particularly in neural networks. Konstantin’s recent work includes the integration of notions of spatial dependency into neural networks and the unsupervised training of location encoders that learn characteristics of a given location and can be deployed in various downstream tasks. His work is motivated by real-world challenges such as climate change and increasing urbanization, combining technical and methodological research with application and deployment studies. Konstantin has a PhD in Computer Science and Urban Science from the University of Warwick and spent time as a visiting student at NYU, as an Enrichment student at the Alan Turing Institute and as a Beyond Fellow at TUM and DLR. He also holds a Master’s in Transportation from Imperial College London and University College London. Website: https://konstantinklemmer.github.io\n\n\nRecording"
   },
   {
     "objectID": "webinars/content/111323_geofm.html",
