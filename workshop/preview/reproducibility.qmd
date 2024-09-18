@@ -12,9 +12,13 @@ This session aims to highlight the importance of reproducibility in AI-driven Ar
 
 ## Key Elements & Terminology
 Importance of reproducibility, challenges to achieving reproducibility, best practices for reproducible research, tools and techniques to enhance reproducibility
+
 ### Key terms:
+
 **Hyperparameter:** parameters whose values control the learning process and determine the values of model parameters that a learning algorithm ends up learning. The prefix “hyper” in the term indicates their role as top-level parameters controlling the learning process. Hyperparameters exist externally in the model and cannot be estimated using the data because the developer sets these values before the model training begins.
+
 **Modeling code:** code used to implement the model
+
 **Implementation code:** code used for inference
 
 ## Outline 
