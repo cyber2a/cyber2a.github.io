@@ -26,4 +26,4 @@ Dr. Tucker specializes in studying the earth with satellite data. He was among t
 
 ### Recording
 
-Will be uploaded later. 
+{{< video https://www.youtube.com/embed/6yqDPCot4pQ >}}
