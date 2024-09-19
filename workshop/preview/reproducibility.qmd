@@ -86,11 +86,13 @@ Despite this, sharing code does not always mean that models are fully reproducib
 
 ### Model Repositories
 **PyTorch Hub** is a pre-trained model repository designed to facilitate reproducibility and enable new research. It is easily usable with Colab and Papers with Code, but models must be trained on openly accessible data.
-	- Papers with Code is an open source hub for publications that include direct links to GitHub code, no account needed to access datasets.
+	
+- Papers with Code is an open source hub for publications that include direct links to GitHub code, no account needed to access datasets.
 
 ### Version Control
 **Version control** is the process of keeping track of every individual change by each contributor that’s saved in a version control framework, or a special database. Keeping a history of these changes to track model performance relative to model parameters saves the time you’d spend retraining the model.
 Using a version control system ensures easier:
+
 + **Collaboration**
 
 + **Versioning**
