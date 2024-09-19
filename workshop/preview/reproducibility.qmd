@@ -25,6 +25,7 @@ Importance of reproducibility, challenges to achieving reproducibility, best pra
 The Reproducibility Checklist was created by Canadian computer scientist, Joelle Pineau, with the goal of facilitating reproducible machine learning algorithms that can be tested and replicated. Their checklist is as follows:
 
 **For all models and algorithms, check that you include:**
+
 + A clear description of the mathematical setting, algorithm, and/or model.
 
 + An analysis of the complexity (time, space, sample size) of any algorithm.
@@ -32,6 +33,7 @@ The Reproducibility Checklist was created by Canadian computer scientist, Joelle
 + A link to a downloadable source code*, with specification of all dependencies, including external libraries.
 
 **For any theoretical claim, check that you include:**
+
 + A statement of the result.
 
 + A clear explanation of each assumption.
@@ -39,6 +41,7 @@ The Reproducibility Checklist was created by Canadian computer scientist, Joelle
 + A complete proof of the claim.
 
 **For all figures and tables that include empirical results, check that you include:**
+
 + A complete description of the data collection process, including sample size.
 
 + A link to a downloadable version of the dataset or simulation environment.
