@@ -25,43 +25,65 @@ Importance of reproducibility, challenges to achieving reproducibility, best pra
 The Reproducibility Checklist was created by Canadian computer scientist, Joelle Pineau, with the goal of facilitating reproducible machine learning algorithms that can be tested and replicated. Their checklist is as follows:
 
 **For all models and algorithms, check that you include:**
-+A clear description of the mathematical setting, algorithm, and/or model.
-+An analysis of the complexity (time, space, sample size) of any algorithm.
-+A link to a downloadable source code*, with specification of all dependencies, including external libraries.
++ A clear description of the mathematical setting, algorithm, and/or model.
+
++ An analysis of the complexity (time, space, sample size) of any algorithm.
+
++ A link to a downloadable source code*, with specification of all dependencies, including external libraries.
+
 **For any theoretical claim, check that you include:**
-+A statement of the result.
-+A clear explanation of each assumption.
-+A complete proof of the claim.
++ A statement of the result.
+
++ A clear explanation of each assumption.
+
++ A complete proof of the claim.
+
 **For all figures and tables that include empirical results, check that you include:**
-+A complete description of the data collection process, including sample size.
-+A link to a downloadable version of the dataset or simulation environment.
-+An explanation of any data that was excluded and a description of any preprocessing step.
-+An explanation of how samples were allocated for training, validation, and testing
-+The range of hyperparameters considered, method to select the best hyperparameter configuration, and specification of each hyperparameter used to generate results.
-+The exact number of evaluation runs.
-+A description of how experiments were run.
-+A clear definition of the specific measure of statistics used to report results.
-+Clearly defined error bars.
-+A description of results with central tendency (e.g., mean) and variation (e.g., standard deviation).
-+A description of the computing infrastructure used.
++ A complete description of the data collection process, including sample size.
+
++ A link to a downloadable version of the dataset or simulation environment.
+
++ An explanation of any data that was excluded and a description of any preprocessing step.
+
++ An explanation of how samples were allocated for training, validation, and testing
+
++ The range of hyperparameters considered, method to select the best hyperparameter configuration, and specification of each hyperparameter used to generate results.
+
++ The exact number of evaluation runs.
+
++ A description of how experiments were run.
+
++ A clear definition of the specific measure of statistics used to report results.
+
++ Clearly defined error bars.
+
++ A description of results with central tendency (e.g., mean) and variation (e.g., standard deviation).
+
++ A description of the computing infrastructure used.
 
 *With sensitive data or proprietary code, scientists may not wish to release all of its code and data. In this case, data can be anonymized and/or partial code can be released that won’t run but can be read and reproduced. 
 
 ### Sharing Code
 The first step to solving the problem of reproducibility is **sharing the code** that was used to generate the model. This allows other researchers to:
-+Validate the model
-+Track code construction and see any author annotations
-+Expand on published work
++ Validate the model
+
++ Track code construction and see any author annotations
+
++ Expand on published work
 
 Despite this, sharing code does not always mean that models are fully reproducible. Many machine learning models are trained on restricted datasets or require extensive computing power for training the model. Because of this, there are a few additional criteria that improve reproducibility including:
-+Data and metadata availability (must be included without question)
-+Transparency of the code you’re using and dependencies needed to run the code
-+Easily installable computational analysis tools and pipelines
-+Installed software should behave the same on every machine and should have the same runtime
+
++ Data and metadata availability (must be included without question)
+
++ Transparency of the code you’re using and dependencies needed to run the code
+
++ Easily installable computational analysis tools and pipelines
+
++ Installed software should behave the same on every machine and should have the same runtime
 
 ### Model Repositories
 **PyTorch Hub** is a pre-trained model repository designed to facilitate reproducibility and enable new research. It is easily usable with Colab and Papers with Code, but models must be trained on openly accessible data.
-	Papers with Code is an open source hub for publications that include direct links to GitHub code, no account needed to access datasets.
+	- Papers with Code is an open source hub for publications that include direct links to GitHub code, no account needed to access datasets.
 
 ### Version Control
 **Version control** is the process of keeping track of every individual change by each contributor that’s saved in a version control framework, or a special database. Keeping a history of these changes to track model performance relative to model parameters saves the time you’d spend retraining the model.
