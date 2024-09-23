@@ -1,7 +1,8 @@
 ---
 title: "Ben Galewsky"
 subtitle: |
-    Sr. Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
+    Sr. Research Software Engineer <br> 
+    National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
     bengal1@illinois.edu <br>
 image: images/bengal1.jpg
 id: 16

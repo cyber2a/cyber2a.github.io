@@ -3,7 +3,8 @@ title: "Wenwen Li"
 subtitle: | 
     Project Lead <br>
     Principal Investigator, NSF Award 2230034 <br>
-    Professor, Arizona State University <br>
+    Professor <br> 
+    Arizona State University <br>
     wenwen@asu.edu
 image: images/wenwen.jpg
 

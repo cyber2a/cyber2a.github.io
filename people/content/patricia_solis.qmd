@@ -2,7 +2,8 @@
 title: "Patricia Solis"
 subtitle: | 
     Senior Personnel<br>
-    Executive Director, Knowledge Exchange for Resilience, Arizona State University<br>
+    Executive Director, Knowledge Exchange for Resilience <br> 
+    Arizona State University<br>
     patricia.solis@asu.edu
 image: images/patricia.jpg
 

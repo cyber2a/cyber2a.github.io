@@ -1,0 +1,18 @@
+---
+# This is a template for a person profile page
+
+title: "Jim Regetz"
+subtitle: |
+    Director of Research Software Engineering <br> 
+    National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara <br>
+    regetz@nceas.ucsb.edu <br>
+image: images/jim.jpg
+id: 19 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: images/jim.jpg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+At NCEAS, I lead an environmental data science program focused on enabling individual researchers and teams to achieve more impactful outcomes through better analysis, modeling, visualization, and data management. With a career arc traversing both academia and the commercial software industry, I've delivered data-driven insights and helped build new data/analytics infrastructure across diverse application domains, and am especially passionate about expanding data science literacy and expertise in the practitioner community.

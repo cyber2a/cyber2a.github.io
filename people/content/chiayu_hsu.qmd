@@ -2,7 +2,8 @@
 title: "Chia-Yu Hsu"
 subtitle: | 
     Senior Personnel<br>
-    Research Professional, Arizona State University<br>
+    Research Professional <br> 
+    Arizona State University<br>
     chsu53@asu.edu
 image: images/chiayu.jpg
 

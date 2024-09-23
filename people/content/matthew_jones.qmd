@@ -2,7 +2,8 @@
 title: "Matthew Jones"
 subtitle: | 
     Co-Principal Investigator, NSF Award 2230034<br>
-    Director of Research and Development, Informatics, National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara<br>
+    Director of Research and Development, Informatics <br> 
+    National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara<br>
     jones@nceas.ucsb.edu
 image: https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A38436d3b-ded8-4271-b7eb-f292f8094dad
 

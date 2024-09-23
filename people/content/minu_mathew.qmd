@@ -1,7 +1,8 @@
 ---
 title: "Minu Mathew"
 subtitle: | 
-    Research Software Engineer, National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
+    Research Software Engineer <br> 
+    National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign <br>
     minum@illinois.edu <br>
 image: images/minu.jpeg
 id: 12

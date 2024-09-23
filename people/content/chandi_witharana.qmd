@@ -1,7 +1,8 @@
 ---
 title: Chandi Witharana
 subtitle: | 
-    Assistant Professor, University of Connecticut <br>
+    Assistant Professor <br> 
+    University of Connecticut <br>
     Chandi.Witharana@uconn.edu <br>
     [https://nre.uconn.edu/chandi-witharana/](https://nre.uconn.edu/chandi-witharana/)
 image: https://nre.media.uconn.edu/wp-content/uploads/sites/3356/2022/03/ChandiWitharanapage.jpg

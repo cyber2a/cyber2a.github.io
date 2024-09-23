@@ -2,7 +2,8 @@
 title: "Luigi Marini"
 subtitle: | 
     Senior Personnel<br>
-    Lead Research Software Engineer, National Center for Supercomputing Applications<br>
+    Lead Research Software Engineer <br> 
+    National Center for Supercomputing Applications<br>
     lmarini@illinois.edu
 image: https://arcticdata.io/metacat/d1/mn/v2/object/urn:uuid:1fb000a7-6714-4d37-945f-0bf365e71bf1
 

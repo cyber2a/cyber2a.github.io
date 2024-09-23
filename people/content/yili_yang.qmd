@@ -3,7 +3,8 @@
 
 title: "Yili Yang"
 subtitle: | 
-    Data Scientist Specialist, Woodwell Climate Research Center <br>
+    Data Scientist Specialist<br> 
+    Woodwell Climate Research Center <br>
     yyang@woodwellclimate.org <br>
     [https://www.woodwellclimate.org/staff/yili-yang/](https://www.woodwellclimate.org/staff/yili-yang/) <br>
 

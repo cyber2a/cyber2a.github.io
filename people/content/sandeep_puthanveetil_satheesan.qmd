@@ -1,7 +1,8 @@
 ---
 title: "Sandeep Puthanveetil Satheesan"
 subtitle: | 
-    Senior Research Software Engineer, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign <br>
+    Senior Research Software Engineer <br> 
+    National Center for Supercomputing Applications, University of Illinois Urbana-Champaign <br>
     sandeeps@illinois.edu <br>
 image: images/sandeep.jpg
 id: 13 

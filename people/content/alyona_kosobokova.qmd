@@ -1,0 +1,17 @@
+---
+# This is a template for a person profile page
+
+title: "Alyona Kosobokova"
+subtitle: |
+    Senior Research Software Engineer <br> 
+    National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara <br>
+image: images/alyona.jpg
+id: 18 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
+about:
+    template: jolla # do not change this
+    image: images/alyona.jpg
+title-block-banner: false # do not change this
+workshop: 1 # 1 if the person is a workshop instructor, 0 if not
+---
+
+Alyona is a Senior Research Software Engineer with extensive experience building and architecting infrastructure for leading companies such as Disney, Airtable and Hulu. She has also provided strategic guidance for two successful AI startups. Alyona holds a Bachelor’s degree in Computational Astrophysics and is currently pursuing a Master’s in Applied Artificial Intelligence. Throughout her career, she has collaborated with various research groups, including UCSB, UCSC, Harvard, and SFSU astrophysics teams. Beyond engineering and science, check out her silly sciencepop Youtube Channel: [Dork Matter Girl](https://www.youtube.com/channel/UC4E_b6JfOE9PlJqLWZ0LdlA).
