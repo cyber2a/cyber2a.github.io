@@ -1,0 +1,28 @@
+--- 
+title: "Cyber2A kicks off: Arctic researchers dive into AI and ML for transformative science in first Cyber2A workshop"
+author: "[Nicole Greco](/people/content/nicole_greco.qmd)"
+date: 10/29/24
+image: images/cyber2a_workshop_1.png
+
+# don't the change the settings below
+type: News 
+title-block-banner: false 
+
+format: 
+  html:
+    template-partials: 
+      - title-metadata.html
+---
+
+![Arctic researchers gather in Santa Barbara, CA for the first NSF Cyber2A workshop, exploring AI and ML applications in polar science.](images/cyber2a_workshop_1.png)
+
+Last week, 20 Arctic researchers gathered in Santa Barbara, CA for the first NSF Cyber2A workshop to learn more about incorporating artificial intelligence (AI) and machine learning (ML) techniques into their research. Topics covered in this workshop included AI fundamentals and tools, AI-ready data, data annotation, neural networks and deep learning, AI ethics, reproducibility, and more. Participant’s research and experiences varied widely. While some researchers are focusing on sea ice and ice-sheet dynamics, others are studying similarities between the Arctic and otherworldly bodies such as Europa. All participants had one thing in common- their interest in using machine learning and artificial intelligence to further their research. Interested in learning more about using ML and AI in your research? Visit the Cyber2A [course book](https://cyber2a.github.io/cyber2a-course/) to access all open-source materials from the workshop. We are enhancing our step-by-step AI training materials with lectures and code to support self-paced learning and lifelong learners, wherever you are in the world. Check out our website for updates and stay tuned for our 2025 training!
+
+::: {layout="[[1,1], [1]]"}
+
+![](images/cyber2a_workshop_2.jpg)
+
+![](images/cyber2a_workshop_3.jpg)
+
+Cyber2A workshop participants and instructors celebrate a successful week of hands-on learning in AI and ML for Arctic research.
+:::
