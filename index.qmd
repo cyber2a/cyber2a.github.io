@@ -17,7 +17,7 @@ listing:
   field-display-names: 
     type: Category
     title: News
-  max-items: 5
+  max-items: 10
 ---
 
 :::{.column-screen}
@@ -230,7 +230,7 @@ listing:
 
 
 
-# RECENT NEWS
+# NEWS
 ---
 
 ::: {#recent-news}

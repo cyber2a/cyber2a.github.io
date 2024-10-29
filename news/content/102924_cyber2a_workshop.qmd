@@ -1,5 +1,5 @@
 --- 
-title: "Cyber2A kicks off: Arctic researchers dive into AI and ML for transformative science in first Cyber2A workshop"
+title: "Arctic researchers dive into AI and ML for transformative science in first Cyber2A workshop"
 author: "[Nicole Greco](/people/content/nicole_greco.qmd)"
 date: 10/29/24
 image: images/cyber2a_workshop_1.png
@@ -20,7 +20,7 @@ Last week, 20 Arctic researchers gathered in Santa Barbara, CA for the first NSF
 
 ::: {layout="[[1,1], [1]]"}
 
-![](images/cyber2a_workshop_2.jpg)
+![](images/cyber2a_workshop_2.jpeg)
 
 ![](images/cyber2a_workshop_3.jpg)
 
