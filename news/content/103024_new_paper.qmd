@@ -1,0 +1,26 @@
+--- 
+title: "New review paper on AI in Arctic Sea Ice Remote Sensing!"
+author: "[Wenwen Li](/people/content/wenwen_li.qmd)"
+date: 10/30/24
+image: images/sea_ice_review_1.png
+
+# don't the change the settings below
+type: News 
+title-block-banner: false 
+
+format: 
+  html:
+    template-partials: 
+      - title-metadata.html
+---
+
+As AI continues to advance climate science, a recent paper from the Cyber2A team explores its unique contributions to Arctic sea ice remote sensing. The study reviewed over 160 papers, summarizing AI applications addressing key challenges such as sea ice lead detection, thickness estimation, concentration and extent forecasting, motion detection, and type classification. The paper also discusses future research directions, highlighting how the sea ice community can further benefit from cutting-edge AI technology. Read it here: [https://www.mdpi.com/2072-4292/16/20/3764](https://www.mdpi.com/2072-4292/16/20/3764)
+
+![Advancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges.](images/sea_ice_review_2.png)
+
+![An overview of AI applications in Arctic sea ice research.](images/sea_ice_review_1.png)
+
+:::{.callout-tip}
+## Reference
+Li, W., Hsu, C. Y., & Tedesco, M. (2024). Advancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges. Remote Sensing, 16(20), 3764.
+:::
