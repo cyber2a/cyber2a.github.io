@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/content/103024_new_paper.html",
       "/news/content/102924_cyber2a_workshop.html",
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
       "/webinars/content/062424-neural-representations-earth-observation.html",
@@ -27,6 +28,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/news/content/103024_new_paper.html",
       "/news/content/102924_cyber2a_workshop.html",
       "/news/content/081023_google_org_grant.html",
       "/news/content/081023_multi_institution_project.html",
