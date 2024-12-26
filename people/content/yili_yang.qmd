@@ -8,11 +8,11 @@ subtitle: |
     yyang@woodwellclimate.org <br>
     [https://www.woodwellclimate.org/staff/yili-yang/](https://www.woodwellclimate.org/staff/yili-yang/) <br>
 
-image: https://assets-woodwell.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/03111754/yang_y-300x300.jpg
+image: https://www.woodwellclimate.org/wp-content/uploads/2022/04/yang_y-300x300.jpg
 id: 14 # this is the number for sorting the profiles on the team page. please add 1 if you add a new profile
 about:
     template: jolla # do not change this
-    image: https://assets-woodwell.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/03111754/yang_y-300x300.jpg
+    image: https://www.woodwellclimate.org/wp-content/uploads/2022/04/yang_y-300x300.jpg
 title-block-banner: false # do not change this
 workshop: 1 # 1 if the person is a workshop instructor, 0 if not
 core-project-team: 0
