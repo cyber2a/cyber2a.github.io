@@ -1,5 +1,5 @@
 ---
-# title: Cyber2A
+title: Cyber2A
 title-block-banner: false
 listing:
   id: recent-news
@@ -30,11 +30,11 @@ listing:
         background-size: cover;    
         background-position: center;
         height: 30vw;
-        margin-top: -30px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         padding: 4vw;
+        margin-top: -10vw;
     }
     .banner-content {
         display: flex;
