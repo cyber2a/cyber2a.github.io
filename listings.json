@@ -37,6 +37,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/news/content/060225_2025_workshop.html",
       "/news/content/103024_review_on_ai_in_arctic_sea_ice.html",
       "/news/content/102924_cyber2a_workshop.html",
       "/news/content/081023_google_org_grant.html",
@@ -48,6 +49,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/content/060225_2025_workshop.html",
       "/news/content/103024_review_on_ai_in_arctic_sea_ice.html",
       "/news/content/102924_cyber2a_workshop.html",
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
