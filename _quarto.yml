@@ -43,6 +43,8 @@ website:
         href: workshop/index.qmd
 #      - text: "Discussions"
 #        href: discussions/index.qmd
+      - text: "CFP2025"
+        href: cfp2025.qmd
 
 
   sidebar:

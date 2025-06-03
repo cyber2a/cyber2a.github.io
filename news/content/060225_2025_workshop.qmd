@@ -1,0 +1,42 @@
+--- 
+title: "Announcing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research"
+author: ""
+date: 06/02/25
+image: /assets/images/logo.png
+
+# don't the change the settings below
+type: News 
+title-block-banner: false 
+
+format: 
+  html:
+    template-partials: 
+      - title-metadata.html
+---
+
+We are excited to announce the upcoming second **"Scaling Impact: Co-Creating a Shared Framework for Teaching AI and Machine Learning with Applications in Arctic Research"** workshop, to be held from **October 20-24, 2025**, in beautiful Santa Barbara, CA!
+
+Building on the success of our [2024 workshop](https://cyber2a.github.io/cyber2a-course/), this highly collaborative event will bring together AI/ML practitioners, dedicated instructors, and subject matter experts. Our collective goal is to enhance and expand the existing curriculum for teaching AI/ML in Earth sciences, with a special focus on Arctic research applications. Participants will play a key role in designing an extensible framework to support AI/ML training across various course formats and learning environments.
+
+This workshop is a unique opportunity for faculty, trainers, and researchers with a background in programming and AI/ML to:
+
+- Collaboratively review, design, and create reusable AI/ML training content.
+- Develop new pedagogical strategies for interdisciplinary teams.
+- Foster a network of educators to build AI/ML capacity in geosciences.
+
+**Key Details:**
+
+- **Workshop Dates:** October 20-24, 2025
+- **Location:** The National Center for Ecological Analysis and Synthesis (NCEAS), Santa Barbara, CA
+- **Application Deadline: June 30, 2025**
+
+Travel and accommodation support is available for a limited number of participants, thanks to funding from the National Science Foundation.
+
+**Interested in shaping the future of AI/ML education in Earth sciences?**
+
+We invite you to learn more about the workshop objectives, who should attend, and how to apply by visiting our full [Call for Participation](/cfp2025.qmd).
+
+We look forward to your applications and another impactful workshop!
+
+
+
