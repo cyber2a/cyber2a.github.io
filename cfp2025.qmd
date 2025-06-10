@@ -8,10 +8,6 @@ Artificial intelligence (AI) and machine learning (ML) play an increasingly cruc
 
 The 2025 workshop will bring together AI and ML practitioners, instructors, and other experts to collaboratively improve and expand upon this curriculum while designing an extensible framework for delivering training in different course formats. The expected outcome of the workshop is a modular set of instructional materials and supporting guidance that educators can use to teach useful AI/ML techniques to environmental and geosciences researchers, and that self-motivated learners can use themselves to develop useful skills directly. While the instructional examples will focus on Arctic research contexts, we invite applications from individuals across a range of disciplines, professional backgrounds, and career stages who are actively engaged in the application of AI and ML in their teaching. 
 
-> “I found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.”
->
-> -- *Mikhail Schee, Postdoctoral Fellow at the University of Toronto*
-
 ## Who Should Attend
 
 This workshop is ideal for: 
@@ -50,6 +46,26 @@ This is a highly collaborative and discussion-driven workshop. Expect a mix of p
 - **Dates:** October 20-24, 2025
 - **Location:** In-person at The National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, CA
 - **Cost:** Support is provided by the Cyber2A award from NSF and we have limited funds to support travel and accommodations for onsite courses.
+
+## Hear From Our Alumni
+
+> I found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.
+>
+> ***- Mikhail Schee**, Postdoctoral Fellow at the University of Toronto*
+
+---
+
+> Since attending, I’ve been developing a KMeans-based method to classify glacier surface conditions using Sentinel-2 imagery. This unsupervised approach has helped me label snow, ice, and land areas, which I then use to train supervised machine learning classifiers to estimate snow cover ratios and snowline altitudes across the Canadian Arctic.
+>
+> ***- Wai-Yin Cheung***
+>
+> **Project Showcase:** *Click an image to enlarge*
+> 
+> | | |
+> |:---:|:---:|
+> | ![](assets/testimonials/testimonial_1.png){.lightbox} | ![](assets/testimonials/testimonial_2.png){.lightbox width=50%} | 
+> | ![](assets/testimonials/testimonial_3.png){.lightbox} | ![](assets/testimonials/testimonial_4.png){.lightbox} |
+
 
 ## Application
 
