@@ -1,0 +1,50 @@
+---
+title: "Infrastructure Mapping with AI"
+date: 04/07/25
+image: images/040725-infrastructure-mapping-with-AI.png
+id: 1
+author: "Bessie Lea Weston, NSF NNA Project, Meq Unguvatarkarput <br> Dr. Chandi Witharana, University of Connecticut <br> Elias Manos, University of Connecticut <br> Dr. Wenwen Li, Arizona State University"
+author-title: SPEAKERS
+published-title: DATE
+type: Webinar
+title-block-banner: false
+---
+
+![](images/040725-infrastructure-mapping-with-AI.png)
+
+### Abstract
+
+Artificial Intelligence for mapping Arctic infrastructures on April 7, 9 am AKT/ 1 pm ET was co-hosted by NSF Cyber2A project,  the CRAFT Research Coordination Network (Co-creating Research for Just Arctic Future Infrastructure Transformations, Resilience, and Adaptation), and the Permafrost Discovery Gateway project. The Webinar’s host: Wenwen Li (School of Geographical Sciences and Urban Planning, Arizona State University). Panelists: Chandi Witharana (Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut), Elias Manos (PhD student at the University of Connecticut Department of Natural Resources & the Environment), and Bessie Weston (Indigenous Alaska Native of Cup’ig decent, Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput).
+
+### Date and Time
+April 7, 2025, 9:00 - 10:00 AM AKT/ 1:00 - 2:00 PM ET
+
+### Speaker Biography
+
+::: {layout="[[20, 80]]"}
+![](images/Bessie-Weston.png)
+
+**Bessie Lea Weston** is an Indigenous Alaska Native of Cup'ig decent and was raised in the Bering Sea on Nunivak Island. Bessie currently serves as a Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput. Her background includes visioning, planning, and implementing rural environmental and small scale infrastructural improvements.
+:::
+
+::: {layout="[[20, 80]]"}
+![](images/Chandi-Witharana.png)
+
+**Chandi Witharana** is an Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut. His research focuses on AI-driven methodological advancements and adaptations to enhance the efficiency and accuracy of large-scale analyses of high-resolution remote sensing data across multiple application domains.
+:::
+
+::: {layout="[[20, 80]]"}
+![](images/Elias-Manos.png)
+
+**Elias Manos** is a geographer and PhD student at the University of Connecticut Department of Natural Resources & the Environment. He is also a team member on the Permafrost Discovery Gateway project. He is broadly interested in using earth observation for disaster risk management and monitoring human exposure to hazards. His research focuses on developing a comprehensive, publicly available, pan-Arctic geospatial data inventory of community infrastructure to further knowledge of the socioeconomic risks of permafrost thaw at multiple scales. This work leverages artificial intelligence techniques to automatically map buildings and roads from high-resolution satellite imagery of Arctic communities. Recent findings of this research indicate that estimated infrastructure damages caused by projected permafrost thaw in Alaska may cost double the amount found in previous studies
+:::
+
+::: {layout="[[20, 80]]"}
+![](images/Wenwen-Li.png)
+
+**Wenwen Li** is a professor in the School of Geographical Sciences and Urban Planning at Arizona State University. My research focuses on cyberinfrastructure, big data, and geospatial artificial intelligence and their applications in data- and computation-intensive challenges, particularly in the Arctic. My interest in Arctic research began during my PhD, when I helped build a virtual spatial data infrastructure to make Arctic data more easily shareable, accessible, and reusable across national boundaries. Since then, I have been developing cyberinfrastructure solutions, such as PolarHub and PolarGlobe, to advance our understanding of Arctic changes and their impact on ecosystems and communities.
+:::
+
+### Recording
+
+{{< video https://www.youtube.com/embed/E9JcC7gf8Fo >}}
