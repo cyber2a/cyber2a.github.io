@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Xiaogang Ma, Associate Professor of Computer Science, University of Idaho">
+<meta name="dcterms.date" content="2025-08-18">
 
-<title>Webinars</title>
+<title>Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ba2b94d3d8fc20cc1c9a129c044d7df4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ba2b94d3d8fc20cc1c9a129c044d7df4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,104 +69,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past-webinars'] = new List('listing-past-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-upcoming-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-upcoming-webinars'] = new List('listing-upcoming-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background-image: url(../assets/images/texture-bw.png);
-background-size: cover;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Webinars">
+<meta property="og:title" content="Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
-<meta name="twitter:title" content="Webinars">
+<meta name="twitter:title" content="Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -174,12 +83,12 @@ window.Quarto = {
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://cyber2a.github.io" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
+    <img src="../../assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -189,7 +98,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -198,33 +107,33 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-people">    
         <li>
-    <a class="dropdown-item" href="../people/core-project-team.html">
+    <a class="dropdown-item" href="../../people/core-project-team.html">
  <span class="dropdown-text">Core Project Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../people/project-collaborators.html">
+    <a class="dropdown-item" href="../../people/project-collaborators.html">
  <span class="dropdown-text">Project Collaborators</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../people/advisory-board.html">
+    <a class="dropdown-item" href="../../people/advisory-board.html">
  <span class="dropdown-text">Advisory Board</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
+    <a class="nav-link" href="../../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../webinars/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../webinars/index.html"> 
 <span class="menu-text">Webinars</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../workshop/index.html"> 
+    <a class="nav-link" href="../../workshop/index.html"> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cfp2025.html"> 
+    <a class="nav-link" href="../../cfp2025.html"> 
 <span class="menu-text">CFP2025</span></a>
   </li>  
 </ul>
@@ -236,199 +145,64 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Webinars</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-
-<section id="upcoming-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-webinars">Upcoming Webinars</h2>
-<div id="listing-upcoming-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-upcoming-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-upcoming-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
+    <div>
+    <div class="quarto-title-meta-heading">SPEAKERS</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Xiaogang Ma, Associate Professor of Computer Science, University of Idaho </p>
+          </div>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+    
+    <div>
+    <div class="quarto-title-meta-heading">DATE</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 18, 2025</p>
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1755475200000" data-listing-file-modified-sort="1751548967498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
-<div class="thumbnail"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
+  </div>
+  
+    
+  </div>
+  
 
-<img loading="lazy" src="../webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-Mindat is the world’s largest open mineral database, featuring over 6,600 mineral species and 430,000 localities. Recently, through NSF and NAIRR support, we have made…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-<div class="listing-date">
-Aug 18, 2025
-</div>
-<div class="listing-author">
-Dr.&nbsp;Xiaogang Ma, Associate Professor of Computer Science, University of Idaho
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+</header>
+
+
+<p><img src="images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg" class="img-fluid"></p>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Mindat is the world’s largest open mineral database, featuring over 6,600 mineral species and 430,000 localities. Recently, through NSF and NAIRR support, we have made enhancements to the Mindat open data service by integrating semantic technologies and large language models (LLMs) to improve data quality, usability, and accessibility. We have aligned records with community standards (e.g., rock and mineral nomenclature and classification) and persistent identifiers, which enable FAIR-compliant, machine-readable data access via a new open data API. On top of this infrastructure, LLMs assist with natural-language querying, record cleansing, synonym resolution, and geospatial disambiguation. Embedding-based search and interactive visualizations, such as mineral–element networks and locality heatmaps, allow users to explore data with minimal coding. These innovations reduce barriers to data use, enhance transparency, and support reproducible geoscience research. This work demonstrates how semantic enrichment and LLM tools can transform domain-specific data services into intelligent, user-friendly platforms for data science in the Earth sciences.</p>
 </section>
-<section id="past-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="past-webinars">Past Webinars</h2>
-<div id="listing-past-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-past-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1726099200000" data-listing-file-modified-sort="1751548967499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/091224-hyper-spatial-remote-sensing.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Hyper-Spatial Remote Sensing</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-Large volumes of sub-meter commercial satellite data coupled with high performance computing &amp; machine learning provide new insights for Earth Science. This includes digital…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-<div class="listing-date">
-Sep 12, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Compton Tucker, National Aeronautics and Space Administration (NASA)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1751548967498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/062424-neural-representations-webinar.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">Learning Neural Representations of our Planet from Earth Observation Data</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-Earth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Konstantin Klemmer, Microsoft Research
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1751548967499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
-<div class="thumbnail"><a href="../webinars/content/111323_geofm.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/gfm-webinar.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/111323_geofm.html" class="no-external">A Framework for Building and Finetuning Geospatial Foundation Models</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/111323_geofm.html" class="no-external">
-Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/111323_geofm.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-<div class="listing-author">
-Dr.&nbsp;Daniela Szwarcman, IBM Research<br>Dr.&nbsp;Paolo Fraccaro, IBM Research
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<section id="date-and-time" class="level3">
+<h3 class="anchored" data-anchor-id="date-and-time">Date and Time</h3>
+<p>August 18, 2025, 10:00 - 11:00 AM PDT</p>
+</section>
+<section id="registration-link" class="level3">
+<h3 class="anchored" data-anchor-id="registration-link">Registration Link</h3>
+<p>To be announced.</p>
+</section>
+<section id="speaker-biography" class="level3">
+<h3 class="anchored" data-anchor-id="speaker-biography">Speaker Biography</h3>
+<p>Xiaogang (Marshall) Ma is an Associate Professor of Computer Science at the University of Idaho. He received his Ph.D.&nbsp;degree of Earth Systems Science and GIScience from University of Twente, Netherlands in 2011, and then completed postdoctoral training of Data Science at Rensselaer Polytechnic Institute. His research focuses on deploying data science in the Semantic Web to support cross-disciplinary collaboration and scientific discovery, with broad interests in complex systems in Earth and environmental sciences, data interoperability and provenance, and visualized exploratory analysis of Big and Small Data.</p>
+</section>
+<section id="recording" class="level3">
+<h3 class="anchored" data-anchor-id="recording">Recording</h3>
+<p>To be uploaded.</p>
 
 
 </section>
@@ -842,7 +616,7 @@ Dr.&nbsp;Daniela Szwarcman, IBM Research<br>Dr.&nbsp;Paolo Fraccaro, IBM Researc
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="../assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="../../assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
