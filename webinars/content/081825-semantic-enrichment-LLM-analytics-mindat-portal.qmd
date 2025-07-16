@@ -20,7 +20,7 @@ Mindat is the world’s largest open mineral database, featuring over 6,600 mine
 August 18, 2025, 10:00 - 11:00 AM PDT
 
 ### Registration Link
-To be announced.
+[https://cyber2a.github.io/webinar-registration](https://cyber2a.github.io/webinar-registration)
 
 ### Speaker Biography
 Xiaogang (Marshall) Ma is an Associate Professor of Computer Science at the University of Idaho. He received his Ph.D. degree of Earth Systems Science and GIScience from University of Twente, Netherlands in 2011, and then completed postdoctoral training of Data Science at Rensselaer Polytechnic Institute. His research focuses on deploying data science in the Semantic Web to support cross-disciplinary collaboration and scientific discovery, with broad interests in complex systems in Earth and environmental sciences, data interoperability and provenance, and visualized exploratory analysis of Big and Small Data.
