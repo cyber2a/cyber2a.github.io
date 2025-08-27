@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Cyber2A Workshop</title>
+<title>GeoAI Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-886bc4f5ce3347cb1e5d9bd543a15199.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-886bc4f5ce3347cb1e5d9bd543a15199.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,18 +105,28 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(../../assets/images/texture-bw.png);
+        background-image: url(assets/images/texture-bw.png);
 background-size: cover;
       }
 </style>
 
 
-<meta property="og:title" content="Cyber2A Workshop">
-<meta name="twitter:title" content="Cyber2A Workshop">
-<meta name="twitter:card" content="summary">
+<meta property="og:title" content="GeoAI Challenge">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://cyber2a.github.io/assets/challenge/rts_1_rgb.png">
+<meta property="og:image:alt" content="Satelite Image">
+<meta property="og:image:height" content="228">
+<meta property="og:image:width" content="288">
+<meta name="twitter:title" content="GeoAI Challenge">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://cyber2a.github.io/assets/challenge/rts_1_rgb.png">
+<meta name="twitter:image:alt" content="Satelite Image">
+<meta name="twitter:image-height" content="228">
+<meta name="twitter:image-width" content="288">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -89,7 +134,7 @@ background-size: cover;
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://cyber2a.github.io" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
+    <img src="./assets/images/logo.png" alt="Cyber2A" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -99,7 +144,7 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -108,33 +153,33 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-people">    
         <li>
-    <a class="dropdown-item" href="../../people/core-project-team.html">
+    <a class="dropdown-item" href="./people/core-project-team.html">
  <span class="dropdown-text">Core Project Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../people/project-collaborators.html">
+    <a class="dropdown-item" href="./people/project-collaborators.html">
  <span class="dropdown-text">Project Collaborators</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../people/advisory-board.html">
+    <a class="dropdown-item" href="./people/advisory-board.html">
  <span class="dropdown-text">Advisory Board</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html"> 
+    <a class="nav-link" href="./news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../webinars/index.html"> 
+    <a class="nav-link" href="./webinars/index.html"> 
 <span class="menu-text">Webinars</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../workshop/index.html" aria-current="page"> 
+    <a class="nav-link" href="./workshop/index.html"> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cfp2025.html"> 
+    <a class="nav-link" href="./cfp2025.html"> 
 <span class="menu-text">CFP2025</span></a>
   </li>  
 </ul>
@@ -144,22 +189,12 @@ background-size: cover;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Cyber2A Workshop</h1>
-        </a>     
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Cyber2A Workshop</h1>
+      <h1 class="title">GeoAI Challenge</h1>
                       </div>
   </div>
     
@@ -174,176 +209,6 @@ background-size: cover;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workshop Information</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Workshop Curriculum Preview</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
- <span class="menu-text"><b>1. Introduction to AI and Arctic science</b></span>
-  </li>
-          <li class="px-0"><hr class="sidebar-divider hi "></li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/breaking-the-ice-with-ai-in-arctic-science.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Breaking the ice with AI in Arctic Science</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/ai-for-everyone.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• AI for everyone: an introductory overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/guest-lecture-anna.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Guest lecture (Anna)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/the-fun-and-frontiers-of-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• The Fun and frontiers of AI: innovation, imagination, interaction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text"><b>2. Data management and preparation for AI</b></span>
-  </li>
-          <li class="px-0"><hr class="sidebar-divider hi "></li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/ai-ready-data-in-arctic-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• AI-ready data in Arctic research: principles and practices</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/guest-lecture-yili-rts-introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Guest lecture: unveiling the ARTS dataset for a thawing frontier</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/data-annotation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">• Data annotation: the foundation of deep learning models</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/hands-on-lab-data-annotation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Hands on lab: data annotation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text"><b>3. AI fundamentals and techniques</b></span>
-  </li>
-          <li class="px-0"><hr class="sidebar-divider hi "></li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/the-building-blocks-of-nn-and-dl.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• The building blocks of neural networks and deep learning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/intro-to-pytorch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Introduction to PyTorch: core functionalities and advantages</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/hands-on-lab-pytorch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Hands-on-lab: PyTorch</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/exploring-advanced-neural-networks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Exploring advanced neural networks: semantic segmentation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/intro-to-dl-libraries-for-image-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Introduction to deep learning libraries for image analysis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/hands-on-lab-mmsegmentation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Hands-on-lab: MMSegmentation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text"><b>4. Advanced AI workflows and models</b></span>
-  </li>
-          <li class="px-0"><hr class="sidebar-divider hi "></li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/ai-workflows-and-mlops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• AI workflows and MLOps: from development to deployment</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/hands-on-lab-ai-workflows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Hands-on-lab: AI workflows</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/foundation-models.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Foundation models: the cornerstones of modern AI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/hands-on-lab-foundation-models.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Hands-on-lab: foundation models</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text"><b>5. Ethics and social implications of AI</b></span>
-  </li>
-          <li class="px-0"><hr class="sidebar-divider hi "></li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/ai-ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• AI ethics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/socially-responsible-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Socially responsible AI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/preview/reproducibility.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">• Reproducibility</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -353,16 +218,111 @@ background-size: cover;
 
 
 
-<section id="data-annotation-the-foundation-of-deep-learning-models" class="level1">
-<h1>Data Annotation: The Foundation of Deep Learning Models</h1>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="mapping-retrogressive-thaw-slumps-with-ai" class="level1">
+<h1>Mapping Retrogressive Thaw Slumps with AI</h1>
+<p>Welcome to the <strong>GeoAI Challenge</strong>, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps, a critical indicator of climate change in the Arctic.</p>
+<section id="about-the-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-challenge">About the Challenge</h2>
+<p>Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have a significant impact on the environment, including the release of greenhouse gases.</p>
+<p>Mapping RTS is a challenging task due to their dynamic nature, small scale, and often subtle appearance in satellite imagery. This competition challenges you to leverage deep learning and AI to automatically identify and map these important features. By participating, you will contribute to a better understanding of permafrost thaw and its consequences.</p>
 </section>
-<section id="outline" class="level2">
-<h2 class="anchored" data-anchor-id="outline">Outline</h2>
+<section id="dataset-samples" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-samples">Dataset Samples</h2>
+<p>The dataset consists of high-resolution satellite imagery paired with corresponding segmentation masks that outline the retrogressive thaw slumps. Your goal is to train a model that can accurately generate these masks from the satellite images.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Satelite Image (Input)</th>
+<th style="text-align: center;">Ground Truth Mask (Target)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="assets/challenge/rts_1_rgb.png" class="img-fluid" alt="Satelite Image"></td>
+<td style="text-align: center;"><img src="assets/challenge/rts_1_mask.png" class="img-fluid" alt="Ground Truth Mask"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="assets/challenge/rts_2_rgb.png" class="img-fluid" alt="Satelite Image"></td>
+<td style="text-align: center;"><img src="assets/challenge/rts_2_mask.png" class="img-fluid" alt="Ground Truth Mask"></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="reference" class="level2">
-<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
+<ul>
+<li><strong>Competition Launch:</strong> [Start Date]</li>
+<li><strong>Registration Deadline:</strong> [Date]</li>
+<li><strong>Final Submission Deadline:</strong> [Date]</li>
+<li><strong>Winner Announcement:</strong> [Date]</li>
+</ul>
+</section>
+<section id="qualification-rules-and-awards" class="level2">
+<h2 class="anchored" data-anchor-id="qualification-rules-and-awards">Qualification, Rules, and Awards</h2>
+<section id="qualification" class="level3">
+<h3 class="anchored" data-anchor-id="qualification">Qualification</h3>
+<p>The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.</p>
+</section>
+<section id="rules" class="level3">
+<h3 class="anchored" data-anchor-id="rules">Rules</h3>
+<ul>
+<li>Each team can consist of 1 to [Number] members.</li>
+<li>Each team is limited to [Number] submissions per day.</li>
+<li>The use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.</li>
+<li>Code for the top-performing models must be submitted for verification to be eligible for awards.</li>
+<li>For a complete list of rules, please visit the competition page on Codabench.</li>
+</ul>
+</section>
+<section id="awards" class="level3">
+<h3 class="anchored" data-anchor-id="awards">Awards</h3>
+<p>Prizes will be awarded to the top-performing teams based on the final leaderboard standings.</p>
+<ul>
+<li><strong>1st Place:</strong> [Prize]</li>
+<li><strong>2nd Place:</strong> [Prize]</li>
+<li><strong>3rd Place:</strong> [Prize]</li>
+</ul>
+</section>
+</section>
+<section id="registration" class="level2">
+<h2 class="anchored" data-anchor-id="registration">Registration</h2>
+<p>To participate in the challenge, please register on our Codabench competition page: [Link to Codabench Page]</p>
+<p>Detailed technical information, the dataset, and the starter kit are also available on the Codabench page.</p>
+</section>
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news">News</h2>
+<ul>
+<li><strong>Competition Kick-off!</strong> We are excited to announce the official launch of the GeoAI Challenge. The dataset and starter notebooks are now available on our Codabench page.</li>
+</ul>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>The dataset for this challenge is provided by the authors of the following paper. We request that participants cite this work in any publications that use the dataset.</p>
+<p>Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">yang2023mapping</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Mapping retrogressive thaw slumps using deep neural networks},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Remote Sensing of Environment},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={288},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={113495},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="organizers" class="level2">
+<h2 class="anchored" data-anchor-id="organizers">Organizers</h2>
+<p>ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA</p>
+</section>
+<section id="sponsors" class="level2">
+<h2 class="anchored" data-anchor-id="sponsors">Sponsors</h2>
+<p>National Science Foundation under awards 2230034 and 2230035.</p>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>For any questions or inquiries, please contact [Name] at [Email].</p>
 
 
 </section>
@@ -777,7 +737,7 @@ background-size: cover;
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="../../assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>Copyright © Cyber2A. All Rights Reserved. <a href="http://statcounter.com/p12923770/summary/?guest=1">View Stats</a> <br> This website was created with <a href="https://quarto.org"><img src="./assets/images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

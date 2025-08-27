@@ -377,6 +377,83 @@
     "text": "# NEWS\n\n\n\n\n\n\nDate\n\n\n\nCategory\n\n\n\nNews\n\n\n\n\n\n\n\n\n8/18/25\n\n\nWebinar\n\n\nSemantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal\n\n\n\n\n\n\n6/2/25\n\n\nNews\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n4/7/25\n\n\nWebinar\n\n\nInfrastructure Mapping with AI\n\n\n\n\n\n\n10/30/24\n\n\nNews\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n10/29/24\n\n\nNews\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n9/12/24\n\n\nWebinar\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n6/24/24\n\n\nWebinar\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "Welcome to the GeoAI Challenge, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps, a critical indicator of climate change in the Arctic.\n\n\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have a significant impact on the environment, including the release of greenhouse gases.\nMapping RTS is a challenging task due to their dynamic nature, small scale, and often subtle appearance in satellite imagery. This competition challenges you to leverage deep learning and AI to automatically identify and map these important features. By participating, you will contribute to a better understanding of permafrost thaw and its consequences.\n\n\n\nThe dataset consists of high-resolution satellite imagery paired with corresponding segmentation masks that outline the retrogressive thaw slumps. Your goal is to train a model that can accurately generate these masks from the satellite images.\n\n\n\n\n\n\n\nSatelite Image (Input)\nGround Truth Mask (Target)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompetition Launch: [Start Date]\nRegistration Deadline: [Date]\nFinal Submission Deadline: [Date]\nWinner Announcement: [Date]\n\n\n\n\n\n\nThe competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.\n\n\n\n\nEach team can consist of 1 to [Number] members.\nEach team is limited to [Number] submissions per day.\nThe use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.\nCode for the top-performing models must be submitted for verification to be eligible for awards.\nFor a complete list of rules, please visit the competition page on Codabench.\n\n\n\n\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: [Prize]\n2nd Place: [Prize]\n3rd Place: [Prize]\n\n\n\n\n\nTo participate in the challenge, please register on our Codabench competition page: [Link to Codabench Page]\nDetailed technical information, the dataset, and the starter kit are also available on the Codabench page.\n\n\n\n\nCompetition Kick-off! We are excited to announce the official launch of the GeoAI Challenge. The dataset and starter notebooks are now available on our Codabench page.\n\n\n\n\nThe dataset for this challenge is provided by the authors of the following paper. We request that participants cite this work in any publications that use the dataset.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495.\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\n\nASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA\n\n\n\nNational Science Foundation under awards 2230034 and 2230035.\n\n\n\nFor any questions or inquiries, please contact [Name] at [Email]."
+  },
+  {
+    "objectID": "challenge.html#about-the-challenge",
+    "href": "challenge.html#about-the-challenge",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have a significant impact on the environment, including the release of greenhouse gases.\nMapping RTS is a challenging task due to their dynamic nature, small scale, and often subtle appearance in satellite imagery. This competition challenges you to leverage deep learning and AI to automatically identify and map these important features. By participating, you will contribute to a better understanding of permafrost thaw and its consequences."
+  },
+  {
+    "objectID": "challenge.html#dataset-samples",
+    "href": "challenge.html#dataset-samples",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "The dataset consists of high-resolution satellite imagery paired with corresponding segmentation masks that outline the retrogressive thaw slumps. Your goal is to train a model that can accurately generate these masks from the satellite images.\n\n\n\n\n\n\n\nSatelite Image (Input)\nGround Truth Mask (Target)"
+  },
+  {
+    "objectID": "challenge.html#timeline",
+    "href": "challenge.html#timeline",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "Competition Launch: [Start Date]\nRegistration Deadline: [Date]\nFinal Submission Deadline: [Date]\nWinner Announcement: [Date]"
+  },
+  {
+    "objectID": "challenge.html#qualification-rules-and-awards",
+    "href": "challenge.html#qualification-rules-and-awards",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.\n\n\n\n\nEach team can consist of 1 to [Number] members.\nEach team is limited to [Number] submissions per day.\nThe use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.\nCode for the top-performing models must be submitted for verification to be eligible for awards.\nFor a complete list of rules, please visit the competition page on Codabench.\n\n\n\n\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: [Prize]\n2nd Place: [Prize]\n3rd Place: [Prize]"
+  },
+  {
+    "objectID": "challenge.html#registration",
+    "href": "challenge.html#registration",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "To participate in the challenge, please register on our Codabench competition page: [Link to Codabench Page]\nDetailed technical information, the dataset, and the starter kit are also available on the Codabench page."
+  },
+  {
+    "objectID": "challenge.html#news",
+    "href": "challenge.html#news",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "Competition Kick-off! We are excited to announce the official launch of the GeoAI Challenge. The dataset and starter notebooks are now available on our Codabench page."
+  },
+  {
+    "objectID": "challenge.html#citation",
+    "href": "challenge.html#citation",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "The dataset for this challenge is provided by the authors of the following paper. We request that participants cite this work in any publications that use the dataset.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495.\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "challenge.html#organizers",
+    "href": "challenge.html#organizers",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA"
+  },
+  {
+    "objectID": "challenge.html#sponsors",
+    "href": "challenge.html#sponsors",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "National Science Foundation under awards 2230034 and 2230035."
+  },
+  {
+    "objectID": "challenge.html#contact",
+    "href": "challenge.html#contact",
+    "title": "GeoAI Challenge",
+    "section": "",
+    "text": "For any questions or inquiries, please contact [Name] at [Email]."
+  },
+  {
     "objectID": "cfp2025.html",
     "href": "cfp2025.html",
     "title": "2025 Call for Participation",
