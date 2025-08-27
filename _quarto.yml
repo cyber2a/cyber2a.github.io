@@ -45,6 +45,8 @@ website:
 #        href: discussions/index.qmd
       - text: "CFP2025"
         href: cfp2025.qmd
+      # - text: "GeoAI Challenge"
+      #  href: challenge.qmd
 
 
   sidebar:
