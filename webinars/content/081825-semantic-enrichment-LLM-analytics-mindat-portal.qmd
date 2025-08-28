@@ -2,7 +2,7 @@
 title: Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal
 date: 08/18/25
 image: images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg
-id: 0 # 0 for upcoming, 1 for past
+id: 1 # 0 for upcoming, 1 for past
 author: "Dr. Xiaogang Ma, Associate Professor of Computer Science, University of Idaho"
 
 # don't change the following
