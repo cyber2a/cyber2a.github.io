@@ -1,18 +1,16 @@
 [
   {
     "listing": "/webinars/upcoming-webinars.html",
-    "items": [
-      "/webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html"
-    ]
+    "items": []
   },
   {
     "listing": "/webinars/index.html",
     "items": [
+      "/webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html",
       "/webinars/content/040725-infrastructure-mapping-with-AI.html",
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
       "/webinars/content/062424-neural-representations-earth-observation.html",
-      "/webinars/content/111323_geofm.html",
-      "/webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html"
+      "/webinars/content/111323_geofm.html"
     ]
   },
   {
@@ -70,6 +68,7 @@
   {
     "listing": "/webinars/past-webinars.html",
     "items": [
+      "/webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html",
       "/webinars/content/040725-infrastructure-mapping-with-AI.html",
       "/webinars/content/091224-hyper-spatial-remote-sensing.html",
       "/webinars/content/062424-neural-representations-earth-observation.html",
