@@ -45,10 +45,17 @@ website:
 #        href: discussions/index.qmd
       - text: "CFP2025"
         href: cfp2025.qmd
-      # - text: "GeoAI Challenge"
-      #  href: challenge.qmd
-
-
+#      - text: "GeoAI Challenge"
+#        menu:
+#          - text: "Overview"
+#            href: challenge/index.qmd
+#          - text: "Dataset"
+#            href: challenge/dataset.qmd
+#          - text: "Participate"
+#            href: challenge/participate.qmd
+#          - text: "Resources"
+#            href: challenge/resources.qmd
+    
   sidebar:
 
     - title: "Workshop"
@@ -117,6 +124,20 @@ website:
             href: workshop/preview/socially-responsible-ai.qmd
           - text: "\u2022 Reproducibility"
             href: workshop/preview/reproducibility.qmd   
+
+    - title: "GeoAI Challenge"
+      collapse-level: 1
+      style: "floating"
+      background: light
+      contents:
+        - text: "Overview"
+          href: challenge/index.qmd
+        - text: "Dataset"
+          href: challenge/dataset.qmd
+        - text: "Participate"
+          href: challenge/participate.qmd
+        - text: "Resources"
+          href: challenge/resources.qmd
      
 
   page-footer:

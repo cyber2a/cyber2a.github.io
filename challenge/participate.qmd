@@ -1,0 +1,183 @@
+---
+title: "GeoAI RTS Mapping Challenge"
+---
+
+## Welcome to the 2025 GeoAI RTS Mapping Challenge
+
+words from organizers
+
+## 📝 Registration & Setup
+
+1. Go to the [CodeBench Challenge Page](https://codebench.com/geoai-rts).
+2. Click **“Join Challenge”**.
+3. Sign in using GitHub, Google, or your institutional email.
+4. Accept the **data license agreement** before accessing the dataset.
+5. You’re ready to start! 🚀
+
+## 📂 Download the Dataset
+
+Once registered, you can:
+- Download the dataset directly from **CodeBench**.
+- Or visit the [Dataset Page](./dataset.qmd) for detailed information and visualizations.
+
+**Dataset Highlights:**
+
+- RGB + Sentinel-2 multi-spectral imagery.
+- High-resolution ArcticDEM elevation data.
+- COCO-style instance segmentation annotations.
+
+## 🧱 Data Format
+
+The dataset is organized into **train** and **test** splits with COCO-style annotations:
+
+```bash
+dataset/
+├── train/
+│   ├── images/              # Multi-band GeoTIFFs
+│   ├── masks/               # Per-instance RTS masks
+│   └── annotations.json     # COCO-style labels
+└── test/
+    ├── images/
+    └── sample_submission.json
+```
+
+| **Item**    | **Format** | **Description**                  |
+| ----------- | ---------- | -------------------------------- |
+| Imagery     | `.tif`     | Multi-band satellite imagery     |
+| Annotations | `.json`    | COCO-style instance segmentation |
+| Masks       | `.png`     | Per-instance RTS masks           |
+
+## 💻 Baseline Notebook & Starter Kit
+
+We provide a [baseline notebook](https://codebench.com/geoai-rts/starter-kit) to help you get started quickly.
+
+**Starter Kit Includes:**
+
+- Data loading & visualization examples.
+- Baseline multimodal GeoAI model from **Li *et al.* (2025)**.
+- Sample inference code.
+- Example submission formatting.
+
+## 🧩 Task Description
+
+Your task is to **predict per-instance RTS masks** using satellite imagery and topographic data.
+
+| Input	| Output |
+| ----------- | ----------- |
+| Multi-band satellite imagery (.tif)	| RTS instance segmentation masks |
+
+## 🧪 Evaluation Metrics
+
+Submissions are ranked on **CodeBench** using the following metrics:
+
+| Metric	| Definition	| Range	| Higher = Better? |
+| ----------- | ----------- | ----------- | ----------- |
+| mAP	| Mean Average Precision over IoU thresholds	| 0–1	| ✅ |
+| mAP50	| Mean Average Precision over IoU thresholds at 0.5	| 0–1	| ✅ |
+| mAP75	| Mean Average Precision over IoU thresholds at 0.75	| 0–1	| ✅ |
+| mAP-small	| Mean Average Precision over IoU thresholds at 0.5 for small objects	| 0–1	| ✅ |
+| mAP-medium	| Mean Average Precision over IoU thresholds at 0.5 for medium objects	| 0–1	| ✅ |
+| mAP-large	| Mean Average Precision over IoU thresholds at 0.5 for large objects	| 0–1	| ✅ |
+
+> Primary ranking is based on **mAP**.
+
+## 📦 Results Format (Submission Format)
+
+Your submission must follow the **CodeBench COCO-style JSON format**.
+
+**Submission Folder Structure:**
+
+```bash
+submission/
+├── predictions/
+│   ├── image_001.json
+│   ├── image_002.json
+│   └── ...
+└── submission.json
+```
+
+**Example submission.json:**
+
+```json
+[
+  {
+    "image_id": "image_001",
+    "category_id": 1,
+    "segmentation": [ ... ],
+    "score": 0.93
+  },
+  {
+    "image_id": "image_002",
+    "category_id": 1,
+    "segmentation": [ ... ],
+    "score": 0.87
+  }
+]
+```
+
+> ⚠️ **Important**: Submissions that do not follow this format will be **automatically rejected**.
+
+## 🚀 Submission Instructions
+
+1. Train your model locally.
+2. Generate predictions for the **test set**.
+3. Package predictions in the required **submission format**.
+4. Compress into a `.zip` file.
+5. Upload to [CodeBench Submissions](https://codebench.com/geoai-rts/submissions).
+6. Check your score on the leaderboard.
+
+## 🏆 Challenge Phases
+
+The competition consists of **two phases**:
+
+| Phase	| Timeline	| Description	| Awards	| Leaderboard |
+| ----------- | ----------- | ----------- | ----------- |
+| **Challenge Phase**	| Sep 09 → Nov 30, 2025	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
+| **Benchmark Phase**	| Starts Dec 01, 2025	| Evaluate models freely, test reproducibility, no awards	| ❌ No	| Public & Continuous |
+
+* **Challenge Phase** → Compete for prizes and leaderboard positions.
+* **Benchmark Phase** → Keep testing your models after the official challenge ends.
+
+
+## 📅 Important Dates
+
+| Event	| Date |
+| ----------- | ----------- |
+| Competition Opens	| Sep 09, 2025 |
+| Dataset Released	| Sep 09, 2025 |
+| Final Submission	| Nov 30, 2025 |
+| Winners Announced	| Dec 15, 2025 |
+| Benchmark Phase Starts	| Dec 01, 2025 |
+
+## 📜 Qualification, Rules, and Awards
+
+### 📝 Qualification
+
+The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.
+
+### 📝 Rules
+
+- Each team can consist of 1 to [Number] members.
+- Each team is limited to [Number] submissions per day.
+- The use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.
+- Code for the top-performing models must be submitted for verification to be eligible for awards.
+- For a complete list of rules, please visit the competition page on Codabench.
+
+### 🏆 Awards
+
+Prizes will be awarded to the top-performing teams based on the final leaderboard standings.
+
+- **1st Place:** [Prize]
+- **2nd Place:** [Prize]
+- **3rd Place:** [Prize]
+
+## 📬 Support & Discussion
+
+* **CodeBench Discussion Forum**: [Join Here](https://codebench.com/geoai-rts/discussions)
+* **Contact Email**: email
+
+## Leaderboard
+
+The leaderboard will be updated regularly with the latest submissions.
+
+

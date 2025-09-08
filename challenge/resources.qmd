@@ -1,0 +1,170 @@
+---
+title: "GeoAI RTS Mapping Challenge"
+---
+
+# 🔗 Resources
+
+A central hub for help, learning materials, and policies for the **GeoAI RTS Mapping Challenge**.
+
+> 💡 Tip: If you’re new here, start with the **Quick Links** below.
+
+## ⚡ Quick Links
+
+<style>
+  .card-grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+  .card { border:1px solid #e5e7eb; border-radius:12px; padding:1rem; }
+  .card h3 { margin:0 0 .25rem 0; font-size:1.05rem; }
+  .muted { color:#6b7280; font-size:.95rem; }
+</style>
+
+<div class="card-grid">
+
+<div class="card">
+  <h3>📘 Baseline Notebook</h3>
+  <p class="muted">Starter code to load data, train, and format submissions.</p>
+  <p><a href="../assets/baseline_notebook.ipynb">Open notebook</a></p>
+</div>
+
+<div class="card">
+  <h3>🌍 Dataset Page</h3>
+  <p class="muted">Data description, formats, and visualization gallery.</p>
+  <p><a href="./dataset.qmd">View dataset</a></p>
+</div>
+
+<div class="card">
+  <h3>🧭 Participate</h3>
+  <p class="muted">Step-by-step guide to register, submit, and score.</p>
+  <p><a href="./participate.qmd">How to participate</a></p>
+</div>
+
+<div class="card">
+  <h3>🏆 Leaderboard</h3>
+  <p class="muted">Track your standing and compare approaches.</p>
+  <p><a href="https://codebench.com/geoai-rts/leaderboard">Open leaderboard</a></p>
+</div>
+
+<div class="card">
+  <h3>💬 Discussion Forum</h3>
+  <p class="muted">Ask questions and share insights with peers.</p>
+  <p><a href="https://codebench.com/geoai-rts/forum">Go to forum</a></p>
+</div>
+
+<div class="card">
+  <h3>📧 Contact</h3>
+  <p class="muted">Email the organizing team for help.</p>
+  <p><a href="mailto:geoai-rts@asu.edu">geoai-rts@asu.edu</a></p>
+</div>
+
+</div>
+
+---
+
+## 📬 Contact Us
+
+- **Competition support:** 
+- **Technical Q&A:** Use the **CodeBench forum** for public questions: <https://codebench.com/geoai-rts/forum>  
+
+## 📘 Tutorials & Learning Materials
+
+### 🧰 Official
+- **Baseline notebook:** `../assets/baseline_notebook.ipynb`  
+  Includes data loading, visualization, baseline model, and submission formatter.
+- **Submission format mini-guide:** See **Participate → Results Format** for JSON schema.
+
+### 🎓 External
+- **PyTorch segmentation recipes** (Instance/semantic fundamentals)  
+- **Detectron2 / MaskRCNN** quickstarts (for instance masks)  
+- **GeoTIFF & raster I/O** (rasterio, xarray, rioxarray)  
+- **Geospatial features** (GDAL, PROJ, coordinate systems refresher)
+
+## 📜 Terms & Conditions 
+
+- **Data Usage**
+  - The dataset is provided for **research and competition** purposes within this challenge.
+  - Redistribution of the dataset or derivatives **outside** the challenge requires permission from the original data owners and curators.
+
+- **Attribution**
+  - Works or publications using this dataset should **cite**:  
+    **Yang et al., 2023 (dataset)** and **Li et al., 2025 (baseline model)** (see citations below).
+
+- **Submissions**
+  - Predictions must follow the **required submission format** and reflect **automated model outputs** (no manual labeling of test sets).
+  - External data usage, if allowed, must be documented in your method description (if disallowed, do not use).
+
+- **Teams & Conduct**
+  - Teaming is allowed (default max 5 members unless otherwise stated).
+  - Do not share labels or predictions across different teams.  
+  - Follow the CodeBench **code of conduct** and site terms.
+
+- **Privacy**
+  - Team name, institution, and scores may appear on the **public leaderboard**.
+
+- **Disqualification**
+  - Violations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.
+
+> Questions about policy? Email 
+
+## 📂 Useful External Resources
+
+- **CodeBench Platform:** <https://codebench.com>  
+- **Leaderboard:** <https://codebench.com/geoai-rts/leaderboard>  
+- **Forum:** <https://codebench.com/geoai-rts/forum>  
+- **Dataset Paper (Yang et al., 2023):** <https://doi.org/10.1016/j.rse.2023.113495>  
+- **Baseline Model (Li et al., 2025):** <https://doi.org/10.1109/JSTARS.2025.3564310>
+
+## 🧾 Citation Guidelines
+
+Please cite the dataset and baseline model:
+
+**Yang et al., 2023 — Dataset**
+
+```bibtex
+@article{yang2023mapping,
+  title={Mapping retrogressive thaw slumps using deep neural networks},
+  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},
+  journal={Remote Sensing of Environment},
+  volume={288},
+  pages={113495},
+  year={2023},
+  publisher={Elsevier},
+  doi={10.1016/j.rse.2023.113495}
+}
+```
+
+**Li et al., 2025 — Baseline Model**
+
+```bibtex
+@article{li2025multi,
+  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},
+  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/JSTARS.2025.3564310}
+}
+```
+
+## ❓ Frequently Asked Questions 
+
+**Q1. Where do I download the data?**
+
+A: Register on CodeBench → challenge page → **Download** tab. Or see the [Dataset Page](./dataset.qmd).
+
+**Q2. What’s the submission format?**
+
+A: COCO-style JSON (see **Participate → Results Format**). A helper is included in the baseline notebook.
+
+**Q4. Can I keep evaluating after prizes are awarded?**
+
+A: Yes — use the **Benchmark Phase** for continuous, no-award evaluation.
+
+**Q5. Can I use external data?**
+
+A: Follow the rules on the **Participate** page. If allowed, disclose clearly in your method.
+
+## 🧭 Site Map 
+
+* 🏠 [Overview](./index.qmd)
+* 🌍 [Dataset](./dataset.qmd)
+* 🧭 [Participate](./participate.qmd)
+* 🔗 Resources (this page)
