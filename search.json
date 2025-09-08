@@ -377,81 +377,164 @@
     "text": "# NEWS\n\n\n\n\n\n\nDate\n\n\n\nCategory\n\n\n\nNews\n\n\n\n\n\n\n\n\n8/18/25\n\n\nWebinar\n\n\nSemantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal\n\n\n\n\n\n\n6/2/25\n\n\nNews\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n4/7/25\n\n\nWebinar\n\n\nInfrastructure Mapping with AI\n\n\n\n\n\n\n10/30/24\n\n\nNews\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n10/29/24\n\n\nNews\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n9/12/24\n\n\nWebinar\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n6/24/24\n\n\nWebinar\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "challenge.html",
-    "href": "challenge.html",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html",
+    "href": "challenge/resources.html",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "Welcome to the GeoAI Challenge, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps, a critical indicator of climate change in the Arctic.\n\n\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have a significant impact on the environment, including the release of greenhouse gases.\nMapping RTS is a challenging task due to their dynamic nature, small scale, and often subtle appearance in satellite imagery. This competition challenges you to leverage deep learning and AI to automatically identify and map these important features. By participating, you will contribute to a better understanding of permafrost thaw and its consequences.\n\n\n\nThe dataset consists of high-resolution satellite imagery paired with corresponding segmentation masks that outline the retrogressive thaw slumps. Your goal is to train a model that can accurately generate these masks from the satellite images.\n\n\n\n\n\n\n\nSatelite Image (Input)\nGround Truth Mask (Target)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompetition Launch: [Start Date]\nRegistration Deadline: [Date]\nFinal Submission Deadline: [Date]\nWinner Announcement: [Date]\n\n\n\n\n\n\nThe competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.\n\n\n\n\nEach team can consist of 1 to [Number] members.\nEach team is limited to [Number] submissions per day.\nThe use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.\nCode for the top-performing models must be submitted for verification to be eligible for awards.\nFor a complete list of rules, please visit the competition page on Codabench.\n\n\n\n\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: [Prize]\n2nd Place: [Prize]\n3rd Place: [Prize]\n\n\n\n\n\nTo participate in the challenge, please register on our Codabench competition page: [Link to Codabench Page]\nDetailed technical information, the dataset, and the starter kit are also available on the Codabench page.\n\n\n\n\nCompetition Kick-off! We are excited to announce the official launch of the GeoAI Challenge. The dataset and starter notebooks are now available on our Codabench page.\n\n\n\n\nThe dataset for this challenge is provided by the authors of the following paper. We request that participants cite this work in any publications that use the dataset.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495.\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\n\nASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA\n\n\n\nNational Science Foundation under awards 2230034 and 2230035.\n\n\n\nFor any questions or inquiries, please contact [Name] at [Email]."
+    "text": "A central hub for help, learning materials, and policies for the GeoAI RTS Mapping Challenge.\n\n💡 Tip: If you’re new here, start with the Quick Links below.\n\n\n\n\n\n\n\n\nStarter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\ngeoai-rts@asu.edu\n\n\n\n\n\n\n\n\nCompetition support:\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum\n\n\n\n\n\n\n\nBaseline notebook: ../assets/baseline_notebook.ipynb\nIncludes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals)\n\nDetectron2 / MaskRCNN quickstarts (for instance masks)\n\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray)\n\nGeospatial features (GDAL, PROJ, coordinate systems refresher)\n\n\n\n\n\n\nData Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if allowed, must be documented in your method description (if disallowed, do not use).\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email\n\n\n\n\n\nCodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310\n\n\n\n\nPlease cite the dataset and baseline model:\nYang et al., 2023 — Dataset\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier},\n  doi={10.1016/j.rse.2023.113495}\n}\nLi et al., 2025 — Baseline Model\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE},\n  doi={10.1109/JSTARS.2025.3564310}\n}\n\n\n\nQ1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Follow the rules on the Participate page. If allowed, disclose clearly in your method.\n\n\n\n\n🏠 Overview\n🌍 Dataset\n🧭 Participate\n🔗 Resources (this page)",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#about-the-challenge",
-    "href": "challenge.html#about-the-challenge",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#quick-links",
+    "href": "challenge/resources.html#quick-links",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have a significant impact on the environment, including the release of greenhouse gases.\nMapping RTS is a challenging task due to their dynamic nature, small scale, and often subtle appearance in satellite imagery. This competition challenges you to leverage deep learning and AI to automatically identify and map these important features. By participating, you will contribute to a better understanding of permafrost thaw and its consequences."
+    "text": "Starter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\ngeoai-rts@asu.edu",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#dataset-samples",
-    "href": "challenge.html#dataset-samples",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#contact-us",
+    "href": "challenge/resources.html#contact-us",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "The dataset consists of high-resolution satellite imagery paired with corresponding segmentation masks that outline the retrogressive thaw slumps. Your goal is to train a model that can accurately generate these masks from the satellite images.\n\n\n\n\n\n\n\nSatelite Image (Input)\nGround Truth Mask (Target)"
+    "text": "Competition support:\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#timeline",
-    "href": "challenge.html#timeline",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#tutorials-learning-materials",
+    "href": "challenge/resources.html#tutorials-learning-materials",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "Competition Launch: [Start Date]\nRegistration Deadline: [Date]\nFinal Submission Deadline: [Date]\nWinner Announcement: [Date]"
+    "text": "Baseline notebook: ../assets/baseline_notebook.ipynb\nIncludes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals)\n\nDetectron2 / MaskRCNN quickstarts (for instance masks)\n\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray)\n\nGeospatial features (GDAL, PROJ, coordinate systems refresher)",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#qualification-rules-and-awards",
-    "href": "challenge.html#qualification-rules-and-awards",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#terms-conditions",
+    "href": "challenge/resources.html#terms-conditions",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.\n\n\n\n\nEach team can consist of 1 to [Number] members.\nEach team is limited to [Number] submissions per day.\nThe use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.\nCode for the top-performing models must be submitted for verification to be eligible for awards.\nFor a complete list of rules, please visit the competition page on Codabench.\n\n\n\n\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: [Prize]\n2nd Place: [Prize]\n3rd Place: [Prize]"
+    "text": "Data Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if allowed, must be documented in your method description (if disallowed, do not use).\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#registration",
-    "href": "challenge.html#registration",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#useful-external-resources",
+    "href": "challenge/resources.html#useful-external-resources",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "To participate in the challenge, please register on our Codabench competition page: [Link to Codabench Page]\nDetailed technical information, the dataset, and the starter kit are also available on the Codabench page."
+    "text": "CodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#news",
-    "href": "challenge.html#news",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#citation-guidelines",
+    "href": "challenge/resources.html#citation-guidelines",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "Competition Kick-off! We are excited to announce the official launch of the GeoAI Challenge. The dataset and starter notebooks are now available on our Codabench page."
+    "text": "Please cite the dataset and baseline model:\nYang et al., 2023 — Dataset\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier},\n  doi={10.1016/j.rse.2023.113495}\n}\nLi et al., 2025 — Baseline Model\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE},\n  doi={10.1109/JSTARS.2025.3564310}\n}",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#citation",
-    "href": "challenge.html#citation",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#frequently-asked-questions",
+    "href": "challenge/resources.html#frequently-asked-questions",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "The dataset for this challenge is provided by the authors of the following paper. We request that participants cite this work in any publications that use the dataset.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495.\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}"
+    "text": "Q1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Follow the rules on the Participate page. If allowed, disclose clearly in your method.",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#organizers",
-    "href": "challenge.html#organizers",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/resources.html#site-map",
+    "href": "challenge/resources.html#site-map",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA"
+    "text": "🏠 Overview\n🌍 Dataset\n🧭 Participate\n🔗 Resources (this page)",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
-    "objectID": "challenge.html#sponsors",
-    "href": "challenge.html#sponsors",
-    "title": "GeoAI Challenge",
+    "objectID": "challenge/index.html",
+    "href": "challenge/index.html",
+    "title": "GeoAI RTS Mapping Challenge",
     "section": "",
-    "text": "National Science Foundation under awards 2230034 and 2230035."
+    "text": "Welcome to the GeoAI RTS Mapping Challenge, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps (RTS), a critical indicator of climate change in the Arctic.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
-    "objectID": "challenge.html#contact",
-    "href": "challenge.html#contact",
-    "title": "GeoAI Challenge",
-    "section": "",
-    "text": "For any questions or inquiries, please contact [Name] at [Email]."
+    "objectID": "challenge/index.html#news",
+    "href": "challenge/index.html#news",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📰 News",
+    "text": "📰 News\n\n(09/09/25) Competition Kick-off! We are excited to announce the official launch of the GeoAI RTS Mapping Challenge.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#about-the-challenge",
+    "href": "challenge/index.html#about-the-challenge",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "❄️ About the Challenge",
+    "text": "❄️ About the Challenge\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.\nMapping RTS is challenging due to their small size, subtle appearance, and dynamic evolution over time. This competition invites you to leverage deep learning and GeoAI to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#references",
+    "href": "challenge/index.html#references",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📚 References",
+    "text": "📚 References\nThe GeoAI RTS Mapping Challenge builds upon a publicly available RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:\n\n🗄️ Dataset Source\nThe dataset was curated by Yang et al. (2023), who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\n\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\n🤖 Our Multimodal GeoAI Model\nWe provide a sample notebook using the baseline model from Li et al. (2025), a multi-scale vision transformer-based multimodal GeoAI model that integrates multi-spectral imagery and topographic features for high-accuracy RTS mapping in Arctic permafrost regions.\n\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#organizers",
+    "href": "challenge/index.html#organizers",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "👥 Organizers",
+    "text": "👥 Organizers\nASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#sponsors",
+    "href": "challenge/index.html#sponsors",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "💰 Sponsors",
+    "text": "💰 Sponsors\nNational Science Foundation under awards 2230034 and 2230035.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#dataset-samples",
+    "href": "challenge/index.html#dataset-samples",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🛰️ Dataset Samples",
+    "text": "🛰️ Dataset Samples\nThe dataset consists of high-resolution, multi-spectral satellite imagery paired with segmentation masks outlining RTS boundaries. While the dataset provides multi-band inputs (including non-visible spectral channels), the sample images below are displayed using RGB composites for visualization purposes only.\n\n\n\n\n\n\n\nSatelite Image (Input: RGB composite example)\nGround Truth Mask (Target: RTS segmentation)",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "cfp2025.html",
@@ -522,6 +605,226 @@
     "title": "2025 Call for Participation",
     "section": "",
     "text": "National Science Foundation under awards 2230034 and 2230035."
+  },
+  {
+    "objectID": "challenge/dataset.html",
+    "href": "challenge/dataset.html",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "The GeoAI RTS Mapping Challenge dataset is adapted from Yang et al. (2023) and focuses on detecting and mapping retrogressive thaw slumps (RTS) across the Arctic.\nThis dataset has been extended and reformatted to support instance segmentation for the competition.\n\n🌍 Why it matters: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.\n\n\n\nThe dataset spans 7 Arctic subregions, including:\n\nCanada\n\nHerschel Island (41 RTS samples)\nHorton Delta (43)\nTuktoyaktuk peninsulas (165)\nBanks Island (174)\n\nRussia\n\nYamal and Gydan peninsulas (399)\nLena River (7)\nKolguev Island (26)\n\n\n\nFigure 1. Spatial distribution of RTS samples across Arctic regions.\n\n\n\nThis dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nDescription\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief\n\n\n\n\n\n\nOriginally, Yang et al. (2023) provided semantic segmentation masks - binary labels indicating RTS vs. non-RTS regions.\nFor this challenge, we converted the dataset into instance segmentation format so each RTS feature is labeled individually.\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2. Comparison of semantic masks from Yang et al. (2023) and instance segmentation masks used in the competition.\n\n\n\nExplore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3. RGB imagery and RTS instance annotations.\n\n\n\n\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal RTS Instances\n965 annotated polygons\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB + Sentinel-2 bands (NDVI, NDWI, NIR) + DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\nGeoTIFF images + COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment\n\n\n\n\n\n\nThis dataset is derived from the work by Yang et al. (2023) and extended for the GeoAI RTS Mapping Challenge.\nPlease cite both the dataset and the baseline model if you use them:\n\nDataset Paper:\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\nBaseline Model Paper:\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#geographic-coverage",
+    "href": "challenge/dataset.html#geographic-coverage",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "The dataset spans 7 Arctic subregions, including:\n\nCanada\n\nHerschel Island (41 RTS samples)\nHorton Delta (43)\nTuktoyaktuk peninsulas (165)\nBanks Island (174)\n\nRussia\n\nYamal and Gydan peninsulas (399)\nLena River (7)\nKolguev Island (26)\n\n\n\nFigure 1. Spatial distribution of RTS samples across Arctic regions.",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#data-sources-modalities",
+    "href": "challenge/dataset.html#data-sources-modalities",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "This dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nDescription\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#annotation-types-task-definition",
+    "href": "challenge/dataset.html#annotation-types-task-definition",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "Originally, Yang et al. (2023) provided semantic segmentation masks - binary labels indicating RTS vs. non-RTS regions.\nFor this challenge, we converted the dataset into instance segmentation format so each RTS feature is labeled individually.\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2. Comparison of semantic masks from Yang et al. (2023) and instance segmentation masks used in the competition.",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#dataset-visualization-gallery",
+    "href": "challenge/dataset.html#dataset-visualization-gallery",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "Explore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3. RGB imagery and RTS instance annotations.",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#dataset-statistics",
+    "href": "challenge/dataset.html#dataset-statistics",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "Property\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal RTS Instances\n965 annotated polygons\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB + Sentinel-2 bands (NDVI, NDWI, NIR) + DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\nGeoTIFF images + COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#citation-acknowledgment",
+    "href": "challenge/dataset.html#citation-acknowledgment",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "This dataset is derived from the work by Yang et al. (2023) and extended for the GeoAI RTS Mapping Challenge.\nPlease cite both the dataset and the baseline model if you use them:\n\nDataset Paper:\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\nBaseline Model Paper:\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html",
+    "href": "challenge/participate.html",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "words from organizers",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#welcome-to-the-2025-geoai-rts-mapping-challenge",
+    "href": "challenge/participate.html#welcome-to-the-2025-geoai-rts-mapping-challenge",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "",
+    "text": "words from organizers",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#registration-setup",
+    "href": "challenge/participate.html#registration-setup",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📝 Registration & Setup",
+    "text": "📝 Registration & Setup\n\nGo to the CodeBench Challenge Page.\nClick “Join Challenge”.\nSign in using GitHub, Google, or your institutional email.\nAccept the data license agreement before accessing the dataset.\nYou’re ready to start! 🚀",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#download-the-dataset",
+    "href": "challenge/participate.html#download-the-dataset",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📂 Download the Dataset",
+    "text": "📂 Download the Dataset\nOnce registered, you can: - Download the dataset directly from CodeBench. - Or visit the Dataset Page for detailed information and visualizations.\nDataset Highlights:\n\nRGB + Sentinel-2 multi-spectral imagery.\nHigh-resolution ArcticDEM elevation data.\nCOCO-style instance segmentation annotations.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#data-format",
+    "href": "challenge/participate.html#data-format",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🧱 Data Format",
+    "text": "🧱 Data Format\nThe dataset is organized into train and test splits with COCO-style annotations:\ndataset/\n├── train/\n│   ├── images/              # Multi-band GeoTIFFs\n│   ├── masks/               # Per-instance RTS masks\n│   └── annotations.json     # COCO-style labels\n└── test/\n    ├── images/\n    └── sample_submission.json\n\n\n\nItem\nFormat\nDescription\n\n\n\n\nImagery\n.tif\nMulti-band satellite imagery\n\n\nAnnotations\n.json\nCOCO-style instance segmentation\n\n\nMasks\n.png\nPer-instance RTS masks",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#baseline-notebook-starter-kit",
+    "href": "challenge/participate.html#baseline-notebook-starter-kit",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "💻 Baseline Notebook & Starter Kit",
+    "text": "💻 Baseline Notebook & Starter Kit\nWe provide a baseline notebook to help you get started quickly.\nStarter Kit Includes:\n\nData loading & visualization examples.\nBaseline multimodal GeoAI model from Li et al. (2025).\nSample inference code.\nExample submission formatting.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#task-description",
+    "href": "challenge/participate.html#task-description",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🧩 Task Description",
+    "text": "🧩 Task Description\nYour task is to predict per-instance RTS masks using satellite imagery and topographic data.\n\n\n\n\n\n\n\nInput\nOutput\n\n\n\n\nMulti-band satellite imagery (.tif)\nRTS instance segmentation masks",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#evaluation-metrics",
+    "href": "challenge/participate.html#evaluation-metrics",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🧪 Evaluation Metrics",
+    "text": "🧪 Evaluation Metrics\nSubmissions are ranked on CodeBench using the following metrics:\n\n\n\n\n\n\n\n\n\nMetric\nDefinition\nRange\nHigher = Better?\n\n\n\n\nmAP\nMean Average Precision over IoU thresholds\n0–1\n✅\n\n\nmAP50\nMean Average Precision over IoU thresholds at 0.5\n0–1\n✅\n\n\nmAP75\nMean Average Precision over IoU thresholds at 0.75\n0–1\n✅\n\n\nmAP-small\nMean Average Precision over IoU thresholds at 0.5 for small objects\n0–1\n✅\n\n\nmAP-medium\nMean Average Precision over IoU thresholds at 0.5 for medium objects\n0–1\n✅\n\n\nmAP-large\nMean Average Precision over IoU thresholds at 0.5 for large objects\n0–1\n✅\n\n\n\n\nPrimary ranking is based on mAP.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#results-format-submission-format",
+    "href": "challenge/participate.html#results-format-submission-format",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📦 Results Format (Submission Format)",
+    "text": "📦 Results Format (Submission Format)\nYour submission must follow the CodeBench COCO-style JSON format.\nSubmission Folder Structure:\nsubmission/\n├── predictions/\n│   ├── image_001.json\n│   ├── image_002.json\n│   └── ...\n└── submission.json\nExample submission.json:\n[\n  {\n    \"image_id\": \"image_001\",\n    \"category_id\": 1,\n    \"segmentation\": [ ... ],\n    \"score\": 0.93\n  },\n  {\n    \"image_id\": \"image_002\",\n    \"category_id\": 1,\n    \"segmentation\": [ ... ],\n    \"score\": 0.87\n  }\n]\n\n⚠️ Important: Submissions that do not follow this format will be automatically rejected.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#submission-instructions",
+    "href": "challenge/participate.html#submission-instructions",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🚀 Submission Instructions",
+    "text": "🚀 Submission Instructions\n\nTrain your model locally.\nGenerate predictions for the test set.\nPackage predictions in the required submission format.\nCompress into a .zip file.\nUpload to CodeBench Submissions.\nCheck your score on the leaderboard.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#challenge-phases",
+    "href": "challenge/participate.html#challenge-phases",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "🏆 Challenge Phases",
+    "text": "🏆 Challenge Phases\nThe competition consists of two phases:\n\n\n\n\n\n\n\n\n\nPhase\nTimeline\nDescription\nAwards\n\n\n\n\nChallenge Phase\nSep 09 → Nov 30, 2025\nCompete with others, submit predictions, improve models\n🏅 Yes\n\n\nBenchmark Phase\nStarts Dec 01, 2025\nEvaluate models freely, test reproducibility, no awards\n❌ No\n\n\n\n\nChallenge Phase → Compete for prizes and leaderboard positions.\nBenchmark Phase → Keep testing your models after the official challenge ends.",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#important-dates",
+    "href": "challenge/participate.html#important-dates",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📅 Important Dates",
+    "text": "📅 Important Dates\n\n\n\nEvent\nDate\n\n\n\n\nCompetition Opens\nSep 09, 2025\n\n\nDataset Released\nSep 09, 2025\n\n\nFinal Submission\nNov 30, 2025\n\n\nWinners Announced\nDec 15, 2025\n\n\nBenchmark Phase Starts\nDec 01, 2025",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#qualification-rules-and-awards",
+    "href": "challenge/participate.html#qualification-rules-and-awards",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📜 Qualification, Rules, and Awards",
+    "text": "📜 Qualification, Rules, and Awards\n\n📝 Qualification\nThe competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.\n\n\n📝 Rules\n\nEach team can consist of 1 to [Number] members.\nEach team is limited to [Number] submissions per day.\nThe use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.\nCode for the top-performing models must be submitted for verification to be eligible for awards.\nFor a complete list of rules, please visit the competition page on Codabench.\n\n\n\n🏆 Awards\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: [Prize]\n2nd Place: [Prize]\n3rd Place: [Prize]",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#support-discussion",
+    "href": "challenge/participate.html#support-discussion",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "📬 Support & Discussion",
+    "text": "📬 Support & Discussion\n\nCodeBench Discussion Forum: Join Here\nContact Email: email",
+    "crumbs": [
+      "Participate"
+    ]
+  },
+  {
+    "objectID": "challenge/participate.html#leaderboard",
+    "href": "challenge/participate.html#leaderboard",
+    "title": "GeoAI RTS Mapping Challenge",
+    "section": "Leaderboard",
+    "text": "Leaderboard\nThe leaderboard will be updated regularly with the latest submissions.",
+    "crumbs": [
+      "Participate"
+    ]
   },
   {
     "objectID": "news/content/050123_geo_ai_martian_challenge.html",

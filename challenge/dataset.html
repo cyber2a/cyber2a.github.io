@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Webinars</title>
+<title>GeoAI RTS Mapping Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -69,63 +102,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past-webinars'] = new List('listing-past-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-upcoming-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-upcoming-webinars'] = new List('listing-upcoming-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -134,44 +110,23 @@ background-size: cover;
       }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Webinars">
-<meta property="og:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
-<meta name="twitter:title" content="Webinars">
-<meta name="twitter:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
+<meta property="og:title" content="GeoAI RTS Mapping Challenge">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
+<meta property="og:image:alt" content="Dataset Coverage Map">
+<meta property="og:image:height" content="1158">
+<meta property="og:image:width" content="2550">
+<meta name="twitter:title" content="GeoAI RTS Mapping Challenge">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
+<meta name="twitter:image:alt" content="Dataset Coverage Map">
+<meta name="twitter:image-height" content="1158">
+<meta name="twitter:image-width" content="2550">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -216,7 +171,7 @@ window.Quarto = {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../webinars/index.html" aria-current="page"> 
+    <a class="nav-link" href="../webinars/index.html"> 
 <span class="menu-text">Webinars</span></a>
   </li>  
   <li class="nav-item">
@@ -234,12 +189,22 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">GeoAI RTS Mapping Challenge</h1>
+        </a>     
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Webinars</h1>
+      <h1 class="title d-none d-lg-block">GeoAI RTS Mapping Challenge</h1>
                       </div>
   </div>
     
@@ -254,6 +219,37 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Dataset</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Participate</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -263,181 +259,215 @@ window.Quarto = {
 
 
 
-<section id="upcoming-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-webinars">Upcoming Webinars</h2>
-<div id="listing-upcoming-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<section id="geoai-rts-mapping-challenge-dataset" class="level1">
+<h1>🛰️ GeoAI RTS Mapping Challenge Dataset</h1>
+<p>The <strong>GeoAI RTS Mapping Challenge</strong> dataset is adapted from <strong>Yang <em>et al.</em> (2023)</strong> and focuses on detecting and mapping <strong>retrogressive thaw slumps (RTS)</strong> across the Arctic.<br>
+This dataset has been <strong>extended and reformatted</strong> to support <strong>instance segmentation</strong> for the competition.</p>
+<blockquote class="blockquote">
+<p>🌍 <strong>Why it matters</strong>: RTS are sensitive indicators of <strong>permafrost thaw</strong>, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.</p>
+</blockquote>
+<section id="geographic-coverage" class="level2">
+<h2 class="anchored" data-anchor-id="geographic-coverage">🗺️ Geographic Coverage</h2>
+<p>The dataset spans <strong>7 Arctic subregions</strong>, including:</p>
+<ul>
+<li>Canada
+<ul>
+<li>Herschel Island (41 RTS samples)</li>
+<li>Horton Delta (43)</li>
+<li>Tuktoyaktuk peninsulas (165)</li>
+<li>Banks Island (174)</li>
+</ul></li>
+<li>Russia
+<ul>
+<li>Yamal and Gydan peninsulas (399)</li>
+<li>Lena River (7)</li>
+<li>Kolguev Island (26)</li>
+</ul></li>
+</ul>
+<p><img src="assets/dataset_coverage_map.png" class="img-fluid" alt="Dataset Coverage Map"><br>
+<em>Figure 1. Spatial distribution of RTS samples across Arctic regions.</em></p>
 </section>
-<section id="past-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="past-webinars">Past Webinars</h2>
-<div id="listing-past-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-past-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1755475200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
-<div class="thumbnail"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
+<section id="data-sources-modalities" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources-modalities">🛰️ Data Sources &amp; Modalities</h2>
+<p>This dataset integrates <strong>multi-source satellite and geospatial data</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Data Type</strong></th>
+<th><strong>Source</strong></th>
+<th><strong>Resolution</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RGB Imagery</td>
+<td>Maxar</td>
+<td>4 m</td>
+<td>maxarR, maxarG, maxarB</td>
+</tr>
+<tr class="even">
+<td>Multi-spectral</td>
+<td>Sentinel-2</td>
+<td>10 m</td>
+<td>NDVI, NDWI, NIR</td>
+</tr>
+<tr class="odd">
+<td>Elevation</td>
+<td>ArcticDEM</td>
+<td>2 m</td>
+<td>relative elevation, shaded relief</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="annotation-types-task-definition" class="level2">
+<h2 class="anchored" data-anchor-id="annotation-types-task-definition">🏷️ Annotation Types &amp; Task Definition</h2>
+<p>Originally, <strong>Yang <em>et al.</em> (2023)</strong> provided <strong>semantic segmentation masks</strong> - binary labels indicating RTS vs.&nbsp;non-RTS regions.</p>
+<p>For this challenge, we <strong>converted the dataset into instance segmentation format</strong> so each RTS feature is labeled <strong>individually</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 32%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
+<th style="text-align: center;">Semantic Mask <em>(Original)</em></th>
+<th style="text-align: center;">Instance Mask <em>(This Challenge)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="assets/rts_1_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_1_sem.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_1_inst.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="assets/rts_2_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_2_sem.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_2_inst.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Figure 2. Comparison of semantic masks from Yang et al.&nbsp;(2023) and instance segmentation masks used in the competition.</em></p>
+</section>
+<section id="dataset-visualization-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-visualization-gallery">🖼️ Dataset Visualization Gallery</h2>
+<p>Explore additional examples to understand data variability across regions.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
+<th style="text-align: center;">Instance Mask <em>(RTS Features)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="../assets/dataset/rts_3_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="../assets/dataset/rts_3_inst.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="../assets/dataset/rts_4_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="../assets/dataset/rts_4_inst.png" class="img-fluid"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img src="../assets/dataset/rts_5_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="../assets/dataset/rts_5_inst.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Figure 3. RGB imagery and RTS instance annotations.</em></p>
+</section>
+<section id="dataset-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-statistics">📊 Dataset Statistics</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 67%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Total Regions</strong></td>
+<td>7 Arctic subregions</td>
+</tr>
+<tr class="even">
+<td><strong>Total RTS Instances</strong></td>
+<td>965 annotated polygons</td>
+</tr>
+<tr class="odd">
+<td><strong>Imagery Resolution</strong></td>
+<td>Maxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m</td>
+</tr>
+<tr class="even">
+<td><strong>Spectral Bands</strong></td>
+<td>RGB + Sentinel-2 bands (NDVI, NDWI, NIR) + DEM</td>
+</tr>
+<tr class="odd">
+<td><strong>Task</strong></td>
+<td>Instance segmentation</td>
+</tr>
+<tr class="even">
+<td><strong>Labels</strong></td>
+<td>Per-instance RTS masks</td>
+</tr>
+<tr class="odd">
+<td><strong>File Formats</strong></td>
+<td>GeoTIFF images + COCO-style annotations</td>
+</tr>
+<tr class="even">
+<td><strong>Original Source</strong></td>
+<td>Yang et al.&nbsp;(2023), <em>Remote Sensing of Environment</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="citation-acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="citation-acknowledgment">📚 Citation &amp; Acknowledgment</h2>
+<p>This dataset is derived from the work by <strong>Yang et al.&nbsp;(2023)</strong> and extended for the GeoAI RTS Mapping Challenge.<br>
+Please cite both the dataset and the baseline model if you use them:</p>
+<ul>
+<li><p><strong>Dataset Paper</strong>:<br>
+Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. <em>“Mapping retrogressive thaw slumps using deep neural networks.”</em> Remote Sensing of Environment 288 (2023): 113495. <a href="https://doi.org/10.1016/j.rse.2023.113495">https://doi.org/10.1016/j.rse.2023.113495</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">yang2023mapping</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Mapping retrogressive thaw slumps using deep neural networks},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Remote Sensing of Environment},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={288},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={113495},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Baseline Model Paper</strong>:<br>
+Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. <em>“A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.”</em> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). <a href="https://doi.org/10.1109/JSTARS.2025.3564310">https://doi.org/10.1109/JSTARS.2025.3564310</a></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">li2025multi</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2025},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={IEEE}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
 
-<img loading="lazy" src="../webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-Mindat is the world’s largest open mineral database, featuring over 6,600 mineral species and 430,000 localities. Recently, through NSF and NAIRR support, we have made…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-<div class="listing-date">
-Aug 18, 2025
-</div>
-<div class="listing-author">
-Dr.&nbsp;Xiaogang Ma, Associate Professor of Computer Science, University of Idaho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1743984000000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
-<div class="thumbnail"><a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/040725-infrastructure-mapping-with-AI.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">Infrastructure Mapping with AI</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-Artificial Intelligence for mapping Arctic infrastructures on April 7, 9 am AKT/ 1 pm ET was co-hosted by NSF Cyber2A project, the CRAFT Research Coordination Network…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-<div class="listing-date">
-Apr 7, 2025
-</div>
-<div class="listing-author">
-Bessie Lea Weston, NSF NNA Project, Meq Unguvatarkarput <br> Dr.&nbsp;Chandi Witharana, University of Connecticut <br> Elias Manos, University of Connecticut <br> Dr.&nbsp;Wenwen Li, Arizona State University
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1726099200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/091224-hyper-spatial-remote-sensing.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Hyper-Spatial Remote Sensing</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-Large volumes of sub-meter commercial satellite data coupled with high performance computing &amp; machine learning provide new insights for Earth Science. This includes digital…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-<div class="listing-date">
-Sep 12, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Compton Tucker, National Aeronautics and Space Administration (NASA)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/062424-neural-representations-webinar.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">Learning Neural Representations of our Planet from Earth Observation Data</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-Earth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Konstantin Klemmer, Microsoft Research
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
-<div class="thumbnail"><a href="../webinars/content/111323_geofm.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/gfm-webinar.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/111323_geofm.html" class="no-external">A Framework for Building and Finetuning Geospatial Foundation Models</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/111323_geofm.html" class="no-external">
-Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/111323_geofm.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-<div class="listing-author">
-Dr.&nbsp;Daniela Szwarcman, IBM Research<br>Dr.&nbsp;Paolo Fraccaro, IBM Research
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
+</section>
 </section>
 
 </main> <!-- /main -->

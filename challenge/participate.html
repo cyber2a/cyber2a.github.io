@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Webinars</title>
+<title>GeoAI RTS Mapping Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -69,63 +102,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past-webinars'] = new List('listing-past-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-upcoming-webinars .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-upcoming-webinars'] = new List('listing-upcoming-webinars', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -134,44 +110,15 @@ background-size: cover;
       }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Webinars">
-<meta property="og:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
-<meta name="twitter:title" content="Webinars">
-<meta name="twitter:image" content="https://cyber2a.github.io/webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="GeoAI RTS Mapping Challenge">
+<meta property="og:description" content="">
+<meta name="twitter:title" content="GeoAI RTS Mapping Challenge">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -216,7 +163,7 @@ window.Quarto = {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../webinars/index.html" aria-current="page"> 
+    <a class="nav-link" href="../webinars/index.html"> 
 <span class="menu-text">Webinars</span></a>
   </li>  
   <li class="nav-item">
@@ -234,12 +181,22 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">GeoAI RTS Mapping Challenge</h1>
+        </a>     
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Webinars</h1>
+      <h1 class="title d-none d-lg-block">GeoAI RTS Mapping Challenge</h1>
                       </div>
   </div>
     
@@ -254,6 +211,37 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Participate</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -263,179 +251,309 @@ window.Quarto = {
 
 
 
-<section id="upcoming-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-webinars">Upcoming Webinars</h2>
-<div id="listing-upcoming-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<section id="welcome-to-the-2025-geoai-rts-mapping-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-to-the-2025-geoai-rts-mapping-challenge">Welcome to the 2025 GeoAI RTS Mapping Challenge</h2>
+<p>words from organizers</p>
 </section>
-<section id="past-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="past-webinars">Past Webinars</h2>
-<div id="listing-past-webinars" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-past-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1755475200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
-<div class="thumbnail"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/081825-semantic-enrichment-LLM-analytics-mindat-portal.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">Semantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-Mindat is the world’s largest open mineral database, featuring over 6,600 mineral species and 430,000 localities. Recently, through NSF and NAIRR support, we have made…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html" class="no-external">
-<div class="listing-date">
-Aug 18, 2025
-</div>
-<div class="listing-author">
-Dr.&nbsp;Xiaogang Ma, Associate Professor of Computer Science, University of Idaho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1743984000000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
-<div class="thumbnail"><a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/040725-infrastructure-mapping-with-AI.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">Infrastructure Mapping with AI</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-Artificial Intelligence for mapping Arctic infrastructures on April 7, 9 am AKT/ 1 pm ET was co-hosted by NSF Cyber2A project, the CRAFT Research Coordination Network…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/040725-infrastructure-mapping-with-AI.html" class="no-external">
-<div class="listing-date">
-Apr 7, 2025
-</div>
-<div class="listing-author">
-Bessie Lea Weston, NSF NNA Project, Meq Unguvatarkarput <br> Dr.&nbsp;Chandi Witharana, University of Connecticut <br> Elias Manos, University of Connecticut <br> Dr.&nbsp;Wenwen Li, Arizona State University
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1726099200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/091224-hyper-spatial-remote-sensing.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">Hyper-Spatial Remote Sensing</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-Large volumes of sub-meter commercial satellite data coupled with high performance computing &amp; machine learning provide new insights for Earth Science. This includes digital…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/091224-hyper-spatial-remote-sensing.html" class="no-external">
-<div class="listing-date">
-Sep 12, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Compton Tucker, National Aeronautics and Space Administration (NASA)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1719187200000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/062424-neural-representations-webinar.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">Learning Neural Representations of our Planet from Earth Observation Data</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-Earth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/062424-neural-representations-earth-observation.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Konstantin Klemmer, Microsoft Research
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1757347580759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
-<div class="thumbnail"><a href="../webinars/content/111323_geofm.html" class="no-external">
-
-<img loading="lazy" src="../webinars/content/images/gfm-webinar.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../webinars/content/111323_geofm.html" class="no-external">A Framework for Building and Finetuning Geospatial Foundation Models</a>
-</h3>
-<div class="delink listing-description"><a href="../webinars/content/111323_geofm.html" class="no-external">
-Foundation models are artificial intelligence (AI) models that are pre-trained on large unlabeled datasets through self-supervision and then fine-tuned for different…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../webinars/content/111323_geofm.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-<div class="listing-author">
-Dr.&nbsp;Daniela Szwarcman, IBM Research<br>Dr.&nbsp;Paolo Fraccaro, IBM Research
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<section id="registration-setup" class="level2">
+<h2 class="anchored" data-anchor-id="registration-setup">📝 Registration &amp; Setup</h2>
+<ol type="1">
+<li>Go to the <a href="https://codebench.com/geoai-rts">CodeBench Challenge Page</a>.</li>
+<li>Click <strong>“Join Challenge”</strong>.</li>
+<li>Sign in using GitHub, Google, or your institutional email.</li>
+<li>Accept the <strong>data license agreement</strong> before accessing the dataset.</li>
+<li>You’re ready to start! 🚀</li>
+</ol>
+</section>
+<section id="download-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="download-the-dataset">📂 Download the Dataset</h2>
+<p>Once registered, you can: - Download the dataset directly from <strong>CodeBench</strong>. - Or visit the <a href="../challenge/dataset.html">Dataset Page</a> for detailed information and visualizations.</p>
+<p><strong>Dataset Highlights:</strong></p>
+<ul>
+<li>RGB + Sentinel-2 multi-spectral imagery.</li>
+<li>High-resolution ArcticDEM elevation data.</li>
+<li>COCO-style instance segmentation annotations.</li>
+</ul>
+</section>
+<section id="data-format" class="level2">
+<h2 class="anchored" data-anchor-id="data-format">🧱 Data Format</h2>
+<p>The dataset is organized into <strong>train</strong> and <strong>test</strong> splits with COCO-style annotations:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">dataset/</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> train/</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── images/              <span class="co"># Multi-band GeoTIFFs</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── masks/               <span class="co"># Per-instance RTS masks</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── annotations.json     <span class="co"># COCO-style labels</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> test/</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">├──</span> images/</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">└──</span> sample_submission.json</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Item</strong></th>
+<th><strong>Format</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Imagery</td>
+<td><code>.tif</code></td>
+<td>Multi-band satellite imagery</td>
+</tr>
+<tr class="even">
+<td>Annotations</td>
+<td><code>.json</code></td>
+<td>COCO-style instance segmentation</td>
+</tr>
+<tr class="odd">
+<td>Masks</td>
+<td><code>.png</code></td>
+<td>Per-instance RTS masks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="baseline-notebook-starter-kit" class="level2">
+<h2 class="anchored" data-anchor-id="baseline-notebook-starter-kit">💻 Baseline Notebook &amp; Starter Kit</h2>
+<p>We provide a <a href="https://codebench.com/geoai-rts/starter-kit">baseline notebook</a> to help you get started quickly.</p>
+<p><strong>Starter Kit Includes:</strong></p>
+<ul>
+<li>Data loading &amp; visualization examples.</li>
+<li>Baseline multimodal GeoAI model from <strong>Li <em>et al.</em> (2025)</strong>.</li>
+<li>Sample inference code.</li>
+<li>Example submission formatting.</li>
+</ul>
+</section>
+<section id="task-description" class="level2">
+<h2 class="anchored" data-anchor-id="task-description">🧩 Task Description</h2>
+<p>Your task is to <strong>predict per-instance RTS masks</strong> using satellite imagery and topographic data.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Multi-band satellite imagery (.tif)</td>
+<td>RTS instance segmentation masks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evaluation-metrics" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-metrics">🧪 Evaluation Metrics</h2>
+<p>Submissions are ranked on <strong>CodeBench</strong> using the following metrics:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Definition</th>
+<th>Range</th>
+<th>Higher = Better?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mAP</td>
+<td>Mean Average Precision over IoU thresholds</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+<tr class="even">
+<td>mAP50</td>
+<td>Mean Average Precision over IoU thresholds at 0.5</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+<tr class="odd">
+<td>mAP75</td>
+<td>Mean Average Precision over IoU thresholds at 0.75</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+<tr class="even">
+<td>mAP-small</td>
+<td>Mean Average Precision over IoU thresholds at 0.5 for small objects</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+<tr class="odd">
+<td>mAP-medium</td>
+<td>Mean Average Precision over IoU thresholds at 0.5 for medium objects</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+<tr class="even">
+<td>mAP-large</td>
+<td>Mean Average Precision over IoU thresholds at 0.5 for large objects</td>
+<td>0–1</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Primary ranking is based on <strong>mAP</strong>.</p>
+</blockquote>
+</section>
+<section id="results-format-submission-format" class="level2">
+<h2 class="anchored" data-anchor-id="results-format-submission-format">📦 Results Format (Submission Format)</h2>
+<p>Your submission must follow the <strong>CodeBench COCO-style JSON format</strong>.</p>
+<p><strong>Submission Folder Structure:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">submission/</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> predictions/</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── image_001.json</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── image_002.json</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── ...</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> submission.json</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Example submission.json:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"image_id"</span><span class="fu">:</span> <span class="st">"image_001"</span><span class="fu">,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"category_id"</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"segmentation"</span><span class="fu">:</span> <span class="ot">[</span> <span class="er">...</span> <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"score"</span><span class="fu">:</span> <span class="fl">0.93</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"image_id"</span><span class="fu">:</span> <span class="st">"image_002"</span><span class="fu">,</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"category_id"</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"segmentation"</span><span class="fu">:</span> <span class="ot">[</span> <span class="er">...</span> <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"score"</span><span class="fu">:</span> <span class="fl">0.87</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>⚠️ <strong>Important</strong>: Submissions that do not follow this format will be <strong>automatically rejected</strong>.</p>
+</blockquote>
+</section>
+<section id="submission-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="submission-instructions">🚀 Submission Instructions</h2>
+<ol type="1">
+<li>Train your model locally.</li>
+<li>Generate predictions for the <strong>test set</strong>.</li>
+<li>Package predictions in the required <strong>submission format</strong>.</li>
+<li>Compress into a <code>.zip</code> file.</li>
+<li>Upload to <a href="https://codebench.com/geoai-rts/submissions">CodeBench Submissions</a>.</li>
+<li>Check your score on the leaderboard.</li>
+</ol>
+</section>
+<section id="challenge-phases" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-phases">🏆 Challenge Phases</h2>
+<p>The competition consists of <strong>two phases</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Timeline</th>
+<th>Description</th>
+<th>Awards</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Challenge Phase</strong></td>
+<td>Sep 09 → Nov 30, 2025</td>
+<td>Compete with others, submit predictions, improve models</td>
+<td>🏅 Yes</td>
+</tr>
+<tr class="even">
+<td><strong>Benchmark Phase</strong></td>
+<td>Starts Dec 01, 2025</td>
+<td>Evaluate models freely, test reproducibility, no awards</td>
+<td>❌ No</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Challenge Phase</strong> → Compete for prizes and leaderboard positions.</li>
+<li><strong>Benchmark Phase</strong> → Keep testing your models after the official challenge ends.</li>
+</ul>
+</section>
+<section id="important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="important-dates">📅 Important Dates</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competition Opens</td>
+<td>Sep 09, 2025</td>
+</tr>
+<tr class="even">
+<td>Dataset Released</td>
+<td>Sep 09, 2025</td>
+</tr>
+<tr class="odd">
+<td>Final Submission</td>
+<td>Nov 30, 2025</td>
+</tr>
+<tr class="even">
+<td>Winners Announced</td>
+<td>Dec 15, 2025</td>
+</tr>
+<tr class="odd">
+<td>Benchmark Phase Starts</td>
+<td>Dec 01, 2025</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="qualification-rules-and-awards" class="level2">
+<h2 class="anchored" data-anchor-id="qualification-rules-and-awards">📜 Qualification, Rules, and Awards</h2>
+<section id="qualification" class="level3">
+<h3 class="anchored" data-anchor-id="qualification">📝 Qualification</h3>
+<p>The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.</p>
+</section>
+<section id="rules" class="level3">
+<h3 class="anchored" data-anchor-id="rules">📝 Rules</h3>
+<ul>
+<li>Each team can consist of 1 to [Number] members.</li>
+<li>Each team is limited to [Number] submissions per day.</li>
+<li>The use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.</li>
+<li>Code for the top-performing models must be submitted for verification to be eligible for awards.</li>
+<li>For a complete list of rules, please visit the competition page on Codabench.</li>
+</ul>
+</section>
+<section id="awards" class="level3">
+<h3 class="anchored" data-anchor-id="awards">🏆 Awards</h3>
+<p>Prizes will be awarded to the top-performing teams based on the final leaderboard standings.</p>
+<ul>
+<li><strong>1st Place:</strong> [Prize]</li>
+<li><strong>2nd Place:</strong> [Prize]</li>
+<li><strong>3rd Place:</strong> [Prize]</li>
+</ul>
+</section>
+</section>
+<section id="support-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="support-discussion">📬 Support &amp; Discussion</h2>
+<ul>
+<li><strong>CodeBench Discussion Forum</strong>: <a href="https://codebench.com/geoai-rts/discussions">Join Here</a></li>
+<li><strong>Contact Email</strong>: email</li>
+</ul>
+</section>
+<section id="leaderboard" class="level2">
+<h2 class="anchored" data-anchor-id="leaderboard">Leaderboard</h2>
+<p>The leaderboard will be updated regularly with the latest submissions.</p>
 
 
 </section>
