@@ -1,26 +1,48 @@
 ---
-title: "GeoAI RTS Mapping Challenge"
+title: "GeoAI Arctic Mapping Challenge"
 
 ---
 
-Welcome to the **GeoAI RTS Mapping Challenge**, a competition at the intersection of **Geoscience** and **Artificial Intelligence**. We invite you to develop innovative AI models to map **retrogressive thaw slumps (RTS)**, a critical indicator of climate change in the Arctic.
+Welcome to the **GeoAI Arctic Mapping Challenge**, a competition at the intersection of **Geoscience** and **Artificial Intelligence**. We invite you to develop innovative AI models to map **retrogressive thaw slumps (RTS)**, a critical indicator of climate change in the Arctic.
 
+## <span class="material-symbols-outlined">newspaper</span> News
 
-## 📰 News
+- (09/09/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
 
-- (09/09/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI RTS Mapping Challenge. 
-
-## ❄️ About the Challenge
+## <span class="material-symbols-outlined">info</span> About the Challenge
 
 Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.
 
 Mapping RTS is challenging due to their **small size**, **subtle appearance**, and **dynamic evolution** over time. This competition invites you to leverage **deep learning** and **GeoAI** to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.
 
-## 📚 References
+## <span class="material-symbols-outlined">handshake</span> Collaborators
 
-The GeoAI RTS Mapping Challenge builds upon a publicly available RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:
+* [Wenwen Li](https://geoai4earth.github.io/), Arizona State University
+* [Yili Yang](https://www.woodwellclimate.org/staff/yili-yang/), Woodwell Climate Research Center
 
-### 🗄️ Dataset Source
+## <span class="material-symbols-outlined">groups</span> Partners
+
+::: {layout="[[30, 30, 25, 20]]"}
+
+![](../assets/clients/ASU.png)
+
+![](../assets/clients/Woodwell.png)
+
+![](../assets/clients/ArcticDataCenter.png)
+
+![](../assets/clients/Ncsa_logo.gif)
+
+:::
+
+## <span class="material-symbols-outlined">paid</span> Sponsors
+
+![](../assets/clients/NSF.png){width=20%}
+
+## <span class="material-symbols-outlined">library_books</span> References
+
+The GeoAI Arctic Mapping Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:
+
+### Dataset Source
 
 The dataset was curated by **Yang *et al.* (2023)**, who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.
 
@@ -38,7 +60,7 @@ The dataset was curated by **Yang *et al.* (2023)**, who developed a deep learni
 }
 ```
 
-### 🤖 Our Multimodal GeoAI Model
+### Our Multimodal GeoAI Model
 
 We provide a sample notebook using the baseline model from **Li *et al.* (2025)**, a multi-scale vision transformer-based multimodal GeoAI model that integrates **multi-spectral imagery** and **topographic features** for high-accuracy RTS mapping in Arctic permafrost regions.
 
@@ -53,20 +75,13 @@ We provide a sample notebook using the baseline model from **Li *et al.* (2025)*
   publisher={IEEE}
 }
 ```
-## 👥 Organizers
 
-ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA
-
-## 💰 Sponsors
-
-National Science Foundation under awards 2230034 and 2230035.
-
-## 🛰️ Dataset Samples
+## <span class="material-symbols-outlined">image</span> Dataset Samples
 
 The dataset consists of **high-resolution, multi-spectral satellite imagery** paired with segmentation masks outlining RTS boundaries. While the dataset provides **multi-band inputs** (including non-visible spectral channels), the sample images below are displayed using **RGB composites** for visualization purposes only.
 
-| Satelite Image (Input: RGB composite example) | Ground Truth Mask (Target: RTS segmentation) |
+| Input: RGB composite example | Target: RTS segmentation |
 | :---: | :---: |
-| ![Satelite Image](../assets/challenge/rts_1_rgb.png) | ![Ground Truth Mask](../assets/challenge/rts_1_mask.png) |
-| ![Satelite Image](../assets/challenge/rts_2_rgb.png) | ![Ground Truth Mask](../assets/challenge/rts_2_mask.png) |
+| ![](assets/rts_1_rgb.png) | ![](assets/rts_1_polygons.png) |
+| ![](assets/rts_2_rgb.png) | ![](assets/rts_2_polygons.png) |
 

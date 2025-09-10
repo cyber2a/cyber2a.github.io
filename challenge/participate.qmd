@@ -1,20 +1,20 @@
 ---
-title: "GeoAI RTS Mapping Challenge"
+title: "GeoAI Arctic Mapping Challenge"
 ---
 
-## Welcome to the 2025 GeoAI RTS Mapping Challenge
+# Welcome to the 2025 GeoAI Arctic Mapping Challenge
 
 words from organizers
 
-## 📝 Registration & Setup
+## Registration & Setup
 
-1. Go to the [CodeBench Challenge Page](https://codebench.com/geoai-rts).
+1. Go to the [CodeBench Challenge Page]().
 2. Click **“Join Challenge”**.
 3. Sign in using GitHub, Google, or your institutional email.
 4. Accept the **data license agreement** before accessing the dataset.
 5. You’re ready to start! 🚀
 
-## 📂 Download the Dataset
+## Download the Dataset
 
 Once registered, you can:
 - Download the dataset directly from **CodeBench**.
@@ -26,7 +26,7 @@ Once registered, you can:
 - High-resolution ArcticDEM elevation data.
 - COCO-style instance segmentation annotations.
 
-## 🧱 Data Format
+## Data Format
 
 The dataset is organized into **train** and **test** splits with COCO-style annotations:
 
@@ -47,9 +47,9 @@ dataset/
 | Annotations | `.json`    | COCO-style instance segmentation |
 | Masks       | `.png`     | Per-instance RTS masks           |
 
-## 💻 Baseline Notebook & Starter Kit
+## Baseline Notebook & Starter Kit
 
-We provide a [baseline notebook](https://codebench.com/geoai-rts/starter-kit) to help you get started quickly.
+We provide a [baseline notebook]() to help you get started quickly.
 
 **Starter Kit Includes:**
 
@@ -58,7 +58,7 @@ We provide a [baseline notebook](https://codebench.com/geoai-rts/starter-kit) to
 - Sample inference code.
 - Example submission formatting.
 
-## 🧩 Task Description
+## Task Description
 
 Your task is to **predict per-instance RTS masks** using satellite imagery and topographic data.
 
@@ -66,7 +66,7 @@ Your task is to **predict per-instance RTS masks** using satellite imagery and t
 | ----------- | ----------- |
 | Multi-band satellite imagery (.tif)	| RTS instance segmentation masks |
 
-## 🧪 Evaluation Metrics
+## Evaluation Metrics
 
 Submissions are ranked on **CodeBench** using the following metrics:
 
@@ -81,7 +81,7 @@ Submissions are ranked on **CodeBench** using the following metrics:
 
 > Primary ranking is based on **mAP**.
 
-## 📦 Results Format (Submission Format)
+## Results Format (Submission Format)
 
 Your submission must follow the **CodeBench COCO-style JSON format**.
 
@@ -117,16 +117,16 @@ submission/
 
 > ⚠️ **Important**: Submissions that do not follow this format will be **automatically rejected**.
 
-## 🚀 Submission Instructions
+## Submission Instructions
 
 1. Train your model locally.
 2. Generate predictions for the **test set**.
 3. Package predictions in the required **submission format**.
 4. Compress into a `.zip` file.
-5. Upload to [CodeBench Submissions](https://codebench.com/geoai-rts/submissions).
+5. Upload to [CodeBench Submissions]().
 6. Check your score on the leaderboard.
 
-## 🏆 Challenge Phases
+## Challenge Phases
 
 The competition consists of **two phases**:
 
@@ -139,7 +139,7 @@ The competition consists of **two phases**:
 * **Benchmark Phase** → Keep testing your models after the official challenge ends.
 
 
-## 📅 Important Dates
+## Important Dates
 
 | Event	| Date |
 | ----------- | ----------- |
@@ -149,13 +149,13 @@ The competition consists of **two phases**:
 | Winners Announced	| Dec 15, 2025 |
 | Benchmark Phase Starts	| Dec 01, 2025 |
 
-## 📜 Qualification, Rules, and Awards
+## Qualification, Rules, and Awards
 
-### 📝 Qualification
+### Qualification
 
 The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.
 
-### 📝 Rules
+### Rules
 
 - Each team can consist of 1 to [Number] members.
 - Each team is limited to [Number] submissions per day.
@@ -163,7 +163,7 @@ The competition is open to everyone, including students, academics, and industry
 - Code for the top-performing models must be submitted for verification to be eligible for awards.
 - For a complete list of rules, please visit the competition page on Codabench.
 
-### 🏆 Awards
+### Awards
 
 Prizes will be awarded to the top-performing teams based on the final leaderboard standings.
 
@@ -171,7 +171,7 @@ Prizes will be awarded to the top-performing teams based on the final leaderboar
 - **2nd Place:** [Prize]
 - **3rd Place:** [Prize]
 
-## 📬 Support & Discussion
+## Support & Discussion
 
 * **CodeBench Discussion Forum**: [Join Here](https://codebench.com/geoai-rts/discussions)
 * **Contact Email**: email

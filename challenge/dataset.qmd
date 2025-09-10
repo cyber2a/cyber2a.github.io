@@ -1,110 +1,92 @@
 ---
-title: "GeoAI RTS Mapping Challenge"
+title: "GeoAI Arctic Mapping Challenge"
 ---
 
-# 🛰️ GeoAI RTS Mapping Challenge Dataset
+# GeoAI Arctic Mapping Challenge Dataset
 
-The **GeoAI RTS Mapping Challenge** dataset is adapted from **Yang *et al.* (2023)** and focuses on detecting and mapping **retrogressive thaw slumps (RTS)** across the Arctic.  
-This dataset has been **extended and reformatted** to support **instance segmentation** for the competition.
+The GeoAI Arctic Mapping Challenge dataset builds upon [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495) and focuses on detecting and mapping **retrogressive thaw slumps (RTS)**—landscape disturbances caused by permafrost thaw. For this competition, we extend and reformat the dataset into an **instance segmentation** benchmark, enabling participants to train models that can better delineate individual RTS features across diverse Arctic regions.
 
-> 🌍 **Why it matters**: RTS are sensitive indicators of **permafrost thaw**, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.
+> **Why it matters**: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.
 
-## 🗺️ Geographic Coverage
+## Geographic Coverage & Study Sites
 
 The dataset spans **7 Arctic subregions**, including:
 
-- Canada
-    - Herschel Island (41 RTS samples)
-    - Horton Delta (43)
-    - Tuktoyaktuk peninsulas (165)
-    - Banks Island (174)
-- Russia
-    - Yamal and Gydan peninsulas (399)
-    - Lena River (7)
-    - Kolguev Island (26)
-
+- Canada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island
+- Russia: Yamal and Gydan peninsulas, Lena River, Kolguev Island
 
 ![Dataset Coverage Map](assets/dataset_coverage_map.png)  
-*Figure 1. Spatial distribution of RTS samples across Arctic regions.*
+*Figure 1. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions ([**Li et al., 2025**](https://doi.org/10.1109/JSTARS.2025.3564310)).*
 
-## 🛰️ Data Sources & Modalities
+## Data Sources & Multimodal Inputs
 
 This dataset integrates **multi-source satellite and geospatial data**:
 
-| **Data Type**       | **Source**         | **Resolution** | **Description** |
-|--------------------|-------------------|---------------|-----------------|
-| RGB Imagery        | Maxar             | 4 m           | maxarR, maxarG, maxarB |
-| Multi-spectral     | Sentinel-2        | 10 m          | NDVI, NDWI, NIR |
-| Elevation          | ArcticDEM         | 2 m           | relative elevation, shaded relief |
+| **Data Type** | **Source** | **Resolution** | **Band Names** | Purpose in Task |
+|-------|------|------|--------------|--------------|
+| RGB Imagery | Maxar | 4 m | maxarR, maxarG, maxarB | High-resolution base imagery for visual recognition |
+| Multi-spectral | Sentinel-2 | 10 m | NDVI, NDWI, NIR | Vegetation & water indices for spectral feature learning |
+| Elevation | ArcticDEM | 2 m | relative elevation, shaded relief | Topographic context to improve RTS boundary detection |
 
-## 🏷️ Annotation Types & Task Definition
+## Annotation Strategy & Task Setup
 
-Originally, **Yang *et al.* (2023)** provided **semantic segmentation masks** - binary labels indicating RTS vs. non-RTS regions.  
+Originally, [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495) provided **semantic segmentation masks** - binary labels indicating RTS vs. non-RTS regions.  
 
 For this challenge, we **converted the dataset into instance segmentation format** so each RTS feature is labeled **individually**.
 
 | Satellite Image *(RGB)* | Semantic Mask *(Original)* | Instance Mask *(This Challenge)* |
-| :--------------------: | :------------------------: | :------------------------------: |
-| ![](assets/rts_1_rgb.png) | ![](assets/rts_1_sem.png) | ![](assets/rts_1_inst.png) |
-| ![](assets/rts_2_rgb.png) | ![](assets/rts_2_sem.png) | ![](assets/rts_2_inst.png) |
+| :--------------------: | :--------------------: | :--------------------: |
+| ![](assets/rts_1_rgb.png) | ![](assets/rts_1_mask.png) | ![](assets/rts_1_polygons.png) |
+| ![](assets/rts_2_rgb.png) | ![](assets/rts_2_mask.png) | ![](assets/rts_2_polygons.png) |
 
-*Figure 2. Comparison of semantic masks from Yang et al. (2023) and instance segmentation masks used in the competition.*
+*Figure 2. Conversion from semantic to instance segmentation masks. Original semantic masks from Yang et al. (2023) labeled RTS vs. non-RTS, while the challenge dataset uses instance-level masks, enabling finer-grained evaluation and model learning.*
 
-## 🖼️ Dataset Visualization Gallery
-
-Explore additional examples to understand data variability across regions.
-
-| Satellite Image *(RGB)* | Instance Mask *(RTS Features)* |
-| :--------------------: | :----------------------------: |
-| ![](../assets/dataset/rts_3_rgb.png) | ![](../assets/dataset/rts_3_inst.png) |
-| ![](../assets/dataset/rts_4_rgb.png) | ![](../assets/dataset/rts_4_inst.png) |
-| ![](../assets/dataset/rts_5_rgb.png) | ![](../assets/dataset/rts_5_inst.png) |
-
-*Figure 3. RGB imagery and RTS instance annotations.*
-
-## 📊 Dataset Statistics
+## Key Dataset Statistics
 
 | **Property**          | **Description**                                |
 |----------------------|----------------------------------------------|
 | **Total Regions**    | 7 Arctic subregions |
-| **Total RTS Instances** | 965 annotated polygons |
+| **Total Images**     | 756 train + 138 test |
+| **Total RTS Instances** | 2,110 |
 | **Imagery Resolution** | Maxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m |
-| **Spectral Bands**   | RGB + Sentinel-2 bands (NDVI, NDWI, NIR) + DEM |
+| **Spectral Bands**   | RGB + NDVI, NDWI, NIR + DEM |
 | **Task**             | Instance segmentation |
 | **Labels**           | Per-instance RTS masks |
-| **File Formats**     | GeoTIFF images + COCO-style annotations |
-| **Original Source**  | Yang et al. (2023), *Remote Sensing of Environment* |
+| **File Formats**     | `.npz` images + `.json` COCO-style annotations |
+| **Original Source**  | [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495), *Remote Sensing of Environment* |
 
-## 📚 Citation & Acknowledgment
+### RTS Size Distribution
 
-This dataset is derived from the work by **Yang et al. (2023)** and extended for the GeoAI RTS Mapping Challenge.  
-Please cite both the dataset and the baseline model if you use them:
+![](assets/rts_size_distribution.png)
 
-- **Dataset Paper**:  
-  Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. *"Mapping retrogressive thaw slumps using deep neural networks."* Remote Sensing of Environment 288 (2023): 113495. [https://doi.org/10.1016/j.rse.2023.113495](https://doi.org/10.1016/j.rse.2023.113495)
+### RTS Coverage Distribution
 
-  ```bibtex
-  @article{yang2023mapping,
-    title={Mapping retrogressive thaw slumps using deep neural networks},
-    author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},
-    journal={Remote Sensing of Environment},
-    volume={288},
-    pages={113495},
-    year={2023},
-    publisher={Elsevier}
-  }
-```
+![](assets/rts_coverage_distribution.png)
 
-- **Baseline Model Paper**:  
-  Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. *"A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw."* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). [https://doi.org/10.1109/JSTARS.2025.3564310](https://doi.org/10.1109/JSTARS.2025.3564310)
+### RTS Count Distribution
 
-  ```bibtex
-  @article{li2025multi,
-    title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},
-    author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},
-    journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-    year={2025},
-    publisher={IEEE}
-  }
-```
+![](assets/rts_count_distribution.png){width=60% fig-align="center"}
+
+### RTS Shape Analysis
+
+![](assets/rts_shape_analysis.png)
+
+### Band Statistics
+
+![](assets/band_statistics.png)
+
+## Sample Visualizations
+
+Explore additional examples to understand data variability across regions.
+
+| Description | Satellite Image *(RGB)* | Instance Mask *(RTS Features)* | 
+| :-------------------- | :--------------------: | :--------------------: |
+| Single large RTS | ![](assets/rts_3_rgb.png) | ![](assets/rts_3_polygons.png) |
+| Single small RTS | ![](assets/rts_5_rgb.png) | ![](assets/rts_5_polygons.png) |
+| Multiple RTS | ![](assets/rts_4_rgb.png) | ![](assets/rts_4_polygons.png) |
+| RTS near snow | ![](assets/rts_6_rgb.png) | ![](assets/rts_6_polygons.png) |
+
+*Figure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset's variability across scales and landscapes.*
+
+
 

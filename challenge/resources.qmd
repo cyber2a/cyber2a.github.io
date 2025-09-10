@@ -1,14 +1,14 @@
 ---
-title: "GeoAI RTS Mapping Challenge"
+title: "GeoAI Arctic Mapping Challenge"
 ---
 
-# 🔗 Resources
+# Resources
 
-A central hub for help, learning materials, and policies for the **GeoAI RTS Mapping Challenge**.
+A central hub for help, learning materials, and policies for the **GeoAI Arctic Mapping Challenge**.
 
 > 💡 Tip: If you’re new here, start with the **Quick Links** below.
 
-## ⚡ Quick Links
+## Quick Links
 
 <style>
   .card-grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
@@ -59,25 +59,25 @@ A central hub for help, learning materials, and policies for the **GeoAI RTS Map
 
 ---
 
-## 📬 Contact Us
+## Contact Us
 
 - **Competition support:** 
 - **Technical Q&A:** Use the **CodeBench forum** for public questions: <https://codebench.com/geoai-rts/forum>  
 
-## 📘 Tutorials & Learning Materials
+## Tutorials & Learning Materials
 
-### 🧰 Official
+### Official
 - **Baseline notebook:** `../assets/baseline_notebook.ipynb`  
   Includes data loading, visualization, baseline model, and submission formatter.
 - **Submission format mini-guide:** See **Participate → Results Format** for JSON schema.
 
-### 🎓 External
+### External
 - **PyTorch segmentation recipes** (Instance/semantic fundamentals)  
 - **Detectron2 / MaskRCNN** quickstarts (for instance masks)  
 - **GeoTIFF & raster I/O** (rasterio, xarray, rioxarray)  
 - **Geospatial features** (GDAL, PROJ, coordinate systems refresher)
 
-## 📜 Terms & Conditions 
+## Terms & Conditions 
 
 - **Data Usage**
   - The dataset is provided for **research and competition** purposes within this challenge.
@@ -104,7 +104,7 @@ A central hub for help, learning materials, and policies for the **GeoAI RTS Map
 
 > Questions about policy? Email 
 
-## 📂 Useful External Resources
+## Useful External Resources
 
 - **CodeBench Platform:** <https://codebench.com>  
 - **Leaderboard:** <https://codebench.com/geoai-rts/leaderboard>  
@@ -112,39 +112,7 @@ A central hub for help, learning materials, and policies for the **GeoAI RTS Map
 - **Dataset Paper (Yang et al., 2023):** <https://doi.org/10.1016/j.rse.2023.113495>  
 - **Baseline Model (Li et al., 2025):** <https://doi.org/10.1109/JSTARS.2025.3564310>
 
-## 🧾 Citation Guidelines
-
-Please cite the dataset and baseline model:
-
-**Yang et al., 2023 — Dataset**
-
-```bibtex
-@article{yang2023mapping,
-  title={Mapping retrogressive thaw slumps using deep neural networks},
-  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},
-  journal={Remote Sensing of Environment},
-  volume={288},
-  pages={113495},
-  year={2023},
-  publisher={Elsevier},
-  doi={10.1016/j.rse.2023.113495}
-}
-```
-
-**Li et al., 2025 — Baseline Model**
-
-```bibtex
-@article{li2025multi,
-  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},
-  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year={2025},
-  publisher={IEEE},
-  doi={10.1109/JSTARS.2025.3564310}
-}
-```
-
-## ❓ Frequently Asked Questions 
+## Frequently Asked Questions 
 
 **Q1. Where do I download the data?**
 
@@ -162,9 +130,3 @@ A: Yes — use the **Benchmark Phase** for continuous, no-award evaluation.
 
 A: Follow the rules on the **Participate** page. If allowed, disclose clearly in your method.
 
-## 🧭 Site Map 
-
-* 🏠 [Overview](./index.qmd)
-* 🌍 [Dataset](./dataset.qmd)
-* 🧭 [Participate](./participate.qmd)
-* 🔗 Resources (this page)
