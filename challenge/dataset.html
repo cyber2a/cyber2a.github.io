@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GeoAI RTS Mapping Challenge</title>
+<title>GeoAI Arctic Mapping Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -109,15 +74,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 background-size: cover;
       }
 </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
 
-<meta property="og:title" content="GeoAI RTS Mapping Challenge">
+<meta property="og:title" content="GeoAI Arctic Mapping Challenge">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
 <meta property="og:image:alt" content="Dataset Coverage Map">
 <meta property="og:image:height" content="1158">
 <meta property="og:image:width" content="2550">
-<meta name="twitter:title" content="GeoAI RTS Mapping Challenge">
+<meta name="twitter:title" content="GeoAI Arctic Mapping Challenge">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
 <meta name="twitter:image:alt" content="Dataset Coverage Map">
@@ -195,7 +161,7 @@ background-size: cover;
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">GeoAI RTS Mapping Challenge</h1>
+          <h1 class="quarto-secondary-nav-title">GeoAI Arctic Mapping Challenge</h1>
         </a>     
     </div>
   </nav>
@@ -204,7 +170,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">GeoAI RTS Mapping Challenge</h1>
+      <h1 class="title d-none d-lg-block">GeoAI Arctic Mapping Challenge</h1>
                       </div>
   </div>
     
@@ -259,50 +225,40 @@ background-size: cover;
 
 
 
-<section id="geoai-rts-mapping-challenge-dataset" class="level1">
-<h1>🛰️ GeoAI RTS Mapping Challenge Dataset</h1>
-<p>The <strong>GeoAI RTS Mapping Challenge</strong> dataset is adapted from <strong>Yang <em>et al.</em> (2023)</strong> and focuses on detecting and mapping <strong>retrogressive thaw slumps (RTS)</strong> across the Arctic.<br>
-This dataset has been <strong>extended and reformatted</strong> to support <strong>instance segmentation</strong> for the competition.</p>
+<section id="geoai-arctic-mapping-challenge-dataset" class="level1">
+<h1>GeoAI Arctic Mapping Challenge Dataset</h1>
+<p>The GeoAI Arctic Mapping Challenge dataset builds upon <a href="https://doi.org/10.1016/j.rse.2023.113495"><strong>Yang <em>et al.</em> (2023)</strong></a> and focuses on detecting and mapping <strong>retrogressive thaw slumps (RTS)</strong>—landscape disturbances caused by permafrost thaw. For this competition, we extend and reformat the dataset into an <strong>instance segmentation</strong> benchmark, enabling participants to train models that can better delineate individual RTS features across diverse Arctic regions.</p>
 <blockquote class="blockquote">
-<p>🌍 <strong>Why it matters</strong>: RTS are sensitive indicators of <strong>permafrost thaw</strong>, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.</p>
+<p><strong>Why it matters</strong>: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.</p>
 </blockquote>
-<section id="geographic-coverage" class="level2">
-<h2 class="anchored" data-anchor-id="geographic-coverage">🗺️ Geographic Coverage</h2>
+<section id="geographic-coverage-study-sites" class="level2">
+<h2 class="anchored" data-anchor-id="geographic-coverage-study-sites">Geographic Coverage &amp; Study Sites</h2>
 <p>The dataset spans <strong>7 Arctic subregions</strong>, including:</p>
 <ul>
-<li>Canada
-<ul>
-<li>Herschel Island (41 RTS samples)</li>
-<li>Horton Delta (43)</li>
-<li>Tuktoyaktuk peninsulas (165)</li>
-<li>Banks Island (174)</li>
-</ul></li>
-<li>Russia
-<ul>
-<li>Yamal and Gydan peninsulas (399)</li>
-<li>Lena River (7)</li>
-<li>Kolguev Island (26)</li>
-</ul></li>
+<li>Canada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island</li>
+<li>Russia: Yamal and Gydan peninsulas, Lena River, Kolguev Island</li>
 </ul>
 <p><img src="assets/dataset_coverage_map.png" class="img-fluid" alt="Dataset Coverage Map"><br>
-<em>Figure 1. Spatial distribution of RTS samples across Arctic regions.</em></p>
+<em>Figure 1. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (<a href="https://doi.org/10.1109/JSTARS.2025.3564310"><strong>Li et al., 2025</strong></a>).</em></p>
 </section>
-<section id="data-sources-modalities" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources-modalities">🛰️ Data Sources &amp; Modalities</h2>
+<section id="data-sources-multimodal-inputs" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources-multimodal-inputs">Data Sources &amp; Multimodal Inputs</h2>
 <p>This dataset integrates <strong>multi-source satellite and geospatial data</strong>:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 28%">
-<col style="width: 26%">
-<col style="width: 21%">
-<col style="width: 23%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 29%">
+<col style="width: 29%">
 </colgroup>
 <thead>
 <tr class="header">
 <th><strong>Data Type</strong></th>
 <th><strong>Source</strong></th>
 <th><strong>Resolution</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Band Names</strong></th>
+<th>Purpose in Task</th>
 </tr>
 </thead>
 <tbody>
@@ -311,31 +267,34 @@ This dataset has been <strong>extended and reformatted</strong> to support <stro
 <td>Maxar</td>
 <td>4 m</td>
 <td>maxarR, maxarG, maxarB</td>
+<td>High-resolution base imagery for visual recognition</td>
 </tr>
 <tr class="even">
 <td>Multi-spectral</td>
 <td>Sentinel-2</td>
 <td>10 m</td>
 <td>NDVI, NDWI, NIR</td>
+<td>Vegetation &amp; water indices for spectral feature learning</td>
 </tr>
 <tr class="odd">
 <td>Elevation</td>
 <td>ArcticDEM</td>
 <td>2 m</td>
 <td>relative elevation, shaded relief</td>
+<td>Topographic context to improve RTS boundary detection</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="annotation-types-task-definition" class="level2">
-<h2 class="anchored" data-anchor-id="annotation-types-task-definition">🏷️ Annotation Types &amp; Task Definition</h2>
-<p>Originally, <strong>Yang <em>et al.</em> (2023)</strong> provided <strong>semantic segmentation masks</strong> - binary labels indicating RTS vs.&nbsp;non-RTS regions.</p>
+<section id="annotation-strategy-task-setup" class="level2">
+<h2 class="anchored" data-anchor-id="annotation-strategy-task-setup">Annotation Strategy &amp; Task Setup</h2>
+<p>Originally, <a href="https://doi.org/10.1016/j.rse.2023.113495"><strong>Yang <em>et al.</em> (2023)</strong></a> provided <strong>semantic segmentation masks</strong> - binary labels indicating RTS vs.&nbsp;non-RTS regions.</p>
 <p>For this challenge, we <strong>converted the dataset into instance segmentation format</strong> so each RTS feature is labeled <strong>individually</strong>.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 27%">
-<col style="width: 32%">
-<col style="width: 40%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -347,56 +306,21 @@ This dataset has been <strong>extended and reformatted</strong> to support <stro
 <tbody>
 <tr class="odd">
 <td style="text-align: center;"><img src="assets/rts_1_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_1_sem.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_1_inst.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_1_mask.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_1_polygons.png" class="img-fluid"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><img src="assets/rts_2_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_2_sem.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_2_inst.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_2_mask.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_2_polygons.png" class="img-fluid"></td>
 </tr>
 </tbody>
 </table>
-<p><em>Figure 2. Comparison of semantic masks from Yang et al.&nbsp;(2023) and instance segmentation masks used in the competition.</em></p>
+<p><em>Figure 2. Conversion from semantic to instance segmentation masks. Original semantic masks from Yang et al.&nbsp;(2023) labeled RTS vs.&nbsp;non-RTS, while the challenge dataset uses instance-level masks, enabling finer-grained evaluation and model learning.</em></p>
 </section>
-<section id="dataset-visualization-gallery" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-visualization-gallery">🖼️ Dataset Visualization Gallery</h2>
-<p>Explore additional examples to understand data variability across regions.</p>
+<section id="key-dataset-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="key-dataset-statistics">Key Dataset Statistics</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
-<th style="text-align: center;">Instance Mask <em>(RTS Features)</em></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><img src="../assets/dataset/rts_3_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="../assets/dataset/rts_3_inst.png" class="img-fluid"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><img src="../assets/dataset/rts_4_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="../assets/dataset/rts_4_inst.png" class="img-fluid"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><img src="../assets/dataset/rts_5_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="../assets/dataset/rts_5_inst.png" class="img-fluid"></td>
-</tr>
-</tbody>
-</table>
-<p><em>Figure 3. RGB imagery and RTS instance annotations.</em></p>
-</section>
-<section id="dataset-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-statistics">📊 Dataset Statistics</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 67%">
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Property</strong></th>
@@ -409,62 +333,104 @@ This dataset has been <strong>extended and reformatted</strong> to support <stro
 <td>7 Arctic subregions</td>
 </tr>
 <tr class="even">
-<td><strong>Total RTS Instances</strong></td>
-<td>965 annotated polygons</td>
+<td><strong>Total Images</strong></td>
+<td>756 train + 138 test</td>
 </tr>
 <tr class="odd">
+<td><strong>Total RTS Instances</strong></td>
+<td>2,110</td>
+</tr>
+<tr class="even">
 <td><strong>Imagery Resolution</strong></td>
 <td>Maxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m</td>
 </tr>
-<tr class="even">
-<td><strong>Spectral Bands</strong></td>
-<td>RGB + Sentinel-2 bands (NDVI, NDWI, NIR) + DEM</td>
-</tr>
 <tr class="odd">
+<td><strong>Spectral Bands</strong></td>
+<td>RGB + NDVI, NDWI, NIR + DEM</td>
+</tr>
+<tr class="even">
 <td><strong>Task</strong></td>
 <td>Instance segmentation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Labels</strong></td>
 <td>Per-instance RTS masks</td>
 </tr>
-<tr class="odd">
-<td><strong>File Formats</strong></td>
-<td>GeoTIFF images + COCO-style annotations</td>
-</tr>
 <tr class="even">
+<td><strong>File Formats</strong></td>
+<td><code>.npz</code> images + <code>.json</code> COCO-style annotations</td>
+</tr>
+<tr class="odd">
 <td><strong>Original Source</strong></td>
-<td>Yang et al.&nbsp;(2023), <em>Remote Sensing of Environment</em></td>
+<td><a href="https://doi.org/10.1016/j.rse.2023.113495"><strong>Yang <em>et al.</em> (2023)</strong></a>, <em>Remote Sensing of Environment</em></td>
 </tr>
 </tbody>
 </table>
+<section id="rts-size-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="rts-size-distribution">RTS Size Distribution</h3>
+<p><img src="assets/rts_size_distribution.png" class="img-fluid"></p>
 </section>
-<section id="citation-acknowledgment" class="level2">
-<h2 class="anchored" data-anchor-id="citation-acknowledgment">📚 Citation &amp; Acknowledgment</h2>
-<p>This dataset is derived from the work by <strong>Yang et al.&nbsp;(2023)</strong> and extended for the GeoAI RTS Mapping Challenge.<br>
-Please cite both the dataset and the baseline model if you use them:</p>
-<ul>
-<li><p><strong>Dataset Paper</strong>:<br>
-Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. <em>“Mapping retrogressive thaw slumps using deep neural networks.”</em> Remote Sensing of Environment 288 (2023): 113495. <a href="https://doi.org/10.1016/j.rse.2023.113495">https://doi.org/10.1016/j.rse.2023.113495</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">yang2023mapping</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Mapping retrogressive thaw slumps using deep neural networks},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Remote Sensing of Environment},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={288},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={113495},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p><strong>Baseline Model Paper</strong>:<br>
-Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. <em>“A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.”</em> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). <a href="https://doi.org/10.1109/JSTARS.2025.3564310">https://doi.org/10.1109/JSTARS.2025.3564310</a></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">li2025multi</span>,</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2025},</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={IEEE}</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ul>
+<section id="rts-coverage-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="rts-coverage-distribution">RTS Coverage Distribution</h3>
+<p><img src="assets/rts_coverage_distribution.png" class="img-fluid"></p>
+</section>
+<section id="rts-count-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="rts-count-distribution">RTS Count Distribution</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/rts_count_distribution.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</section>
+<section id="rts-shape-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="rts-shape-analysis">RTS Shape Analysis</h3>
+<p><img src="assets/rts_shape_analysis.png" class="img-fluid"></p>
+</section>
+<section id="band-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="band-statistics">Band Statistics</h3>
+<p><img src="assets/band_statistics.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="sample-visualizations" class="level2">
+<h2 class="anchored" data-anchor-id="sample-visualizations">Sample Visualizations</h2>
+<p>Explore additional examples to understand data variability across regions.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Description</th>
+<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
+<th style="text-align: center;">Instance Mask <em>(RTS Features)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Single large RTS</td>
+<td style="text-align: center;"><img src="assets/rts_3_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_3_polygons.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Single small RTS</td>
+<td style="text-align: center;"><img src="assets/rts_5_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_5_polygons.png" class="img-fluid"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Multiple RTS</td>
+<td style="text-align: center;"><img src="assets/rts_4_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_4_polygons.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RTS near snow</td>
+<td style="text-align: center;"><img src="assets/rts_6_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_6_polygons.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Figure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.</em></p>
 
 
 </section>
