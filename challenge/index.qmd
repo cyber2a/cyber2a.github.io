@@ -9,6 +9,14 @@ Welcome to the **GeoAI Arctic Mapping Challenge**, a competition at the intersec
 
 - (09/09/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
 
+## <span class="material-symbols-outlined">landscape_2</span> What is Retrogressive Thaw Slumps (RTS)?
+
+![*Credit: [Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/)*](./assets/rts.png){width=60% fig-align="center"}
+
+Retrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see [this article from Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/).
+
+
+
 ## <span class="material-symbols-outlined">info</span> About the Challenge
 
 Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.

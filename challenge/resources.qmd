@@ -52,7 +52,7 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 <div class="card">
   <h3>📧 Contact</h3>
   <p class="muted">Email the organizing team for help.</p>
-  <p><a href="mailto:geoai-rts@asu.edu">geoai-rts@asu.edu</a></p>
+  <p><a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a></p>
 </div>
 
 </div>
@@ -61,13 +61,13 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 
 ## Contact Us
 
-- **Competition support:** 
+- **Competition support:** [wenwen@asu.edu](mailto:wenwen@asu.edu)
 - **Technical Q&A:** Use the **CodeBench forum** for public questions: <https://codebench.com/geoai-rts/forum>  
 
 ## Tutorials & Learning Materials
 
 ### Official
-- **Baseline notebook:** `../assets/baseline_notebook.ipynb`  
+- **Baseline notebook:** 
   Includes data loading, visualization, baseline model, and submission formatter.
 - **Submission format mini-guide:** See **Participate → Results Format** for JSON schema.
 
@@ -84,12 +84,12 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
   - Redistribution of the dataset or derivatives **outside** the challenge requires permission from the original data owners and curators.
 
 - **Attribution**
-  - Works or publications using this dataset should **cite**:  
+  - Works or publications using this dataset should cite:  
     **Yang et al., 2023 (dataset)** and **Li et al., 2025 (baseline model)** (see citations below).
 
 - **Submissions**
   - Predictions must follow the **required submission format** and reflect **automated model outputs** (no manual labeling of test sets).
-  - External data usage, if allowed, must be documented in your method description (if disallowed, do not use).
+  - External data usage, if used, must be documented in your method description.
 
 - **Teams & Conduct**
   - Teaming is allowed (default max 5 members unless otherwise stated).
@@ -102,7 +102,7 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 - **Disqualification**
   - Violations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.
 
-> Questions about policy? Email 
+> Questions about policy? Email [wenwen@asu.edu](mailto:wenwen@asu.edu)
 
 ## Useful External Resources
 
@@ -128,5 +128,5 @@ A: Yes — use the **Benchmark Phase** for continuous, no-award evaluation.
 
 **Q5. Can I use external data?**
 
-A: Follow the rules on the **Participate** page. If allowed, disclose clearly in your method.
+A: Yes, but you must document it in your method description.
 

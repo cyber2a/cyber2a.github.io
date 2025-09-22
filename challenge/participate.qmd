@@ -157,9 +157,9 @@ The competition is open to everyone, including students, academics, and industry
 
 ### Rules
 
-- Each team can consist of 1 to [Number] members.
-- Each team is limited to [Number] submissions per day.
-- The use of external data is [permitted/not permitted]. Please see the Codabench page for specifics.
+- Each team can consist of 1 to 5 members.
+- Each team is limited to 2 submissions per day and 100 submissions in .
+- The use of external data is permitted. Please see the Codabench page for specifics.
 - Code for the top-performing models must be submitted for verification to be eligible for awards.
 - For a complete list of rules, please visit the competition page on Codabench.
 
@@ -167,14 +167,13 @@ The competition is open to everyone, including students, academics, and industry
 
 Prizes will be awarded to the top-performing teams based on the final leaderboard standings.
 
-- **1st Place:** [Prize]
-- **2nd Place:** [Prize]
-- **3rd Place:** [Prize]
+- **1st Place:** 1,000 USD
+- **2nd Place:** 500 USD
+- **3rd Place:** 200 USD
 
 ## Support & Discussion
 
 * **CodeBench Discussion Forum**: [Join Here](https://codebench.com/geoai-rts/discussions)
-* **Contact Email**: email
 
 ## Leaderboard
 
