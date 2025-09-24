@@ -168,9 +168,9 @@ The competition is open to everyone, including students, academics, and industry
 
 Prizes will be awarded to the top-performing teams based on the final leaderboard standings.
 
-- **1st Place:** 1,000 USD
-- **2nd Place:** 500 USD
-- **3rd Place:** 200 USD
+- **1st Place:** $1,000 USD
+- **2nd Place:** $500 USD
+- **3rd Place:** $200 USD
 
 ## Support & Discussion
 

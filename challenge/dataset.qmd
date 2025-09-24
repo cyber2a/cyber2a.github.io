@@ -4,7 +4,7 @@ title: "GeoAI Arctic Mapping Challenge"
 
 # GeoAI Arctic Mapping Challenge Dataset
 
-The GeoAI Arctic Mapping Challenge dataset builds upon [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495) and focuses on detecting and mapping **retrogressive thaw slumps (RTS)**—landscape disturbances caused by permafrost thaw. Originally, Yang et al. provided semantic segmentation masks (binary labels of RTS vs. non-RTS). For this competition, we extend and reformat the dataset into an **instance segmentation** benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.
+The GeoAI Arctic Mapping Challenge dataset builds upon Yang *et al.* (2023)  and focuses on detecting and mapping **retrogressive thaw slumps (RTS)**—landscape disturbances caused by permafrost thaw. Originally, Yang et al. provided semantic segmentation masks (binary labels of RTS vs. non-RTS). For this competition, we extend and reformat the dataset into an **instance segmentation** benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.
 
 > **Why it matters**: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.
 
