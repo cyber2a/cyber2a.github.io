@@ -25,13 +25,13 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 
 ## <span class="material-symbols-outlined">handshake</span> Collaborators
 
-* [Wenwen Li](https://geoai4earth.github.io/), Arizona State University
+* [Wenwen Li](https://search.asu.edu/profile/1978357), Arizona State University
+* [Chia-Yu Hsu](https://scholar.google.com/citations?user=AMLwVyMAAAAJ&hl=en&oi=ao), Arizona State University
 * [Anna Liljedahl](https://www.woodwellclimate.org/staff/anna-liljedahl/), Woodwell Climate Research Center
 * [Matthew Jones](https://www.nceas.ucsb.edu/about-us/our-people#:~:text=Matt%20Jones), National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara
 * [Kenton McHenry](https://moleculemaker.org/directory/kenton-mchenry/), National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign
 * [Yili Yang](https://www.woodwellclimate.org/staff/yili-yang/), Woodwell Climate Research Center
 * [Brendan Rogers](https://www.woodwellclimate.org/staff/brendan-rogers/), Woodwell Climate Research Center
-* [Chia-Yu Hsu](https://scholar.google.com/citations?user=AMLwVyMAAAAJ&hl=en&oi=ao), Arizona State University
 
 
 ## <span class="material-symbols-outlined">groups</span> Partners
