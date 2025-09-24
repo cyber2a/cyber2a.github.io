@@ -72,10 +72,10 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 - **Submission format mini-guide:** See **Participate → Results Format** for JSON schema.
 
 ### External
-- **PyTorch segmentation recipes** (Instance/semantic fundamentals)  
-- **Detectron2 / MaskRCNN** quickstarts (for instance masks)  
-- **GeoTIFF & raster I/O** (rasterio, xarray, rioxarray)  
-- **Geospatial features** (GDAL, PROJ, coordinate systems refresher)
+- **PyTorch segmentation recipes** (Instance/semantic fundamentals) [link](https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
+- **Detectron2 / MaskRCNN** quickstarts (for instance masks) [link](https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html)
+- **GeoTIFF & raster I/O** (rasterio, xarray, rioxarray) [link](https://rasterio.readthedocs.io/en/stable/quickstart.html)
+- **Geospatial features** (GDAL, PROJ, coordinate systems refresher) [link](https://gdal.org/programs/gdalinfo.html)
 
 ## Terms & Conditions 
 
