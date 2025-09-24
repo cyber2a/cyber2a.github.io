@@ -55,7 +55,7 @@ We provide a [baseline notebook]() to help you get started quickly.
 **Starter Kit Includes:**
 
 - Data loading & visualization examples.
-- Baseline multimodal GeoAI model from **Li *et al.* (2025)**.
+- Baseline multimodal GeoAI model from [**Li *et al.* (2025)**](https://doi.org/10.1109/JSTARS.2025.3564310).
 - Sample inference code.
 - Example submission formatting.
 
@@ -144,11 +144,11 @@ The competition consists of **two phases**:
 
 | Event	| Date |
 | ----------- | ----------- |
-| Competition Opens	| Sep 09, 2025 |
-| Dataset Released	| Sep 09, 2025 |
-| Final Submission	| Nov 30, 2025 |
-| Winners Announced	| Dec 15, 2025 |
-| Benchmark Phase Starts	| Dec 01, 2025 |
+| Competition Opens	| October 1, 2025 |
+| Dataset Released	| October 1, 2025 |
+| Final Submission	| May 1, 2026 |
+| Winners Announced	| June 1, 2026 |
+| Benchmark Phase Starts	| December 1, 2026 |
 
 ## Qualification, Rules, and Awards
 
