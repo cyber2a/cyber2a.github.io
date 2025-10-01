@@ -7,7 +7,7 @@ Welcome to the **GeoAI Arctic Mapping Challenge**, a competition at the intersec
 
 ## <span class="material-symbols-outlined">newspaper</span> News
 
-- (09/09/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
+- (10/01/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
 
 ## <span class="material-symbols-outlined">landscape_2</span> What is Retrogressive Thaw Slumps (RTS)?
 

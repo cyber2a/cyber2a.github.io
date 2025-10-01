@@ -61,7 +61,7 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 
 ## Contact Us
 
-- **Competition support:** [wenwen@asu.edu](mailto:wenwen@asu.edu)
+- **Competition support:** [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
 - **Technical Q&A:** Use the **CodeBench forum** for public questions: <https://codebench.com/geoai-rts/forum>  
 
 ## Tutorials & Learning Materials
@@ -102,7 +102,7 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 - **Disqualification**
   - Violations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.
 
-> Questions about policy? Email [wenwen@asu.edu](mailto:wenwen@asu.edu)
+> Questions about policy? Email [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
 
 ## Useful External Resources
 

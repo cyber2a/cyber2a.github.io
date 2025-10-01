@@ -127,14 +127,43 @@ submission/
 5. Upload to [CodeBench Submissions]().
 6. Check your score on the leaderboard.
 
+## What Participants Should Submit
+
+In addition to leaderboard submissions, top-performing teams will be invited to contribute to an outcome publication. To be eligible, please prepare the following:
+
+### 1. Predictions (Required for All Teams)
+
+* COCO-style submission.json file (see [Results Format](./participate.qmd#results-format-submission-format)).
+* Uploaded via CodeBench Submissions.
+
+### 2. Technical Report (Required for Top Teams)
+
+Teams aiming for awards and paper inclusion must submit a short technical report (2–4 pages) covering:
+
+* Team & Affiliations (members, institution, country).
+* Model Architecture (diagrams encouraged: CNN, Transformer, hybrid, etc.).
+* Training Strategy (losses, augmentations, optimizers, batch size, hardware).
+* Special Techniques (domain adaptation, self-training, ensembling, band selection, etc.).
+* Results & Ablations (validation metrics, ablation tables, sample outputs).
+* Insights (challenges faced, lessons learned, potential future improvements).
+* References to related works.
+
+> A report template (LaTeX/Word) will be provided to keep submissions consistent.
+
+### 3. Code & Reproducibility Package (Required for Award Eligibility)
+
+* Final inference code or container (to verify results).
+* Training scripts are encouraged but optional.
+* Instructions for reproducing predictions on the test set.
+
 ## Challenge Phases
 
 The competition consists of **two phases**:
 
 | Phase	| Timeline	| Description	| Awards	| Leaderboard |
 | ----------- | ----------- | ----------- | ----------- |
-| **Challenge Phase**	| Sep 09 → Nov 30, 2025	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
-| **Benchmark Phase**	| Starts Dec 01, 2025	| Evaluate models freely, test reproducibility, no awards	| ❌ No	| Public & Continuous |
+| **Challenge Phase**	| Oct 01, 2025 → May 01, 2026	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
+| **Benchmark Phase**	| Starts Dec 01, 2026	| Evaluate models freely, test reproducibility, no awards	| ❌ No	| Public & Continuous |
 
 * **Challenge Phase** → Compete for prizes and leaderboard positions.
 * **Benchmark Phase** → Keep testing your models after the official challenge ends.
