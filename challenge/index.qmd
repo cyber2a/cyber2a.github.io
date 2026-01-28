@@ -7,7 +7,7 @@ Welcome to the **GeoAI Arctic Mapping Challenge**, a competition at the intersec
 
 ## <span class="material-symbols-outlined">newspaper</span> News
 
-- (10/01/25) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
+- (02/15/26) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge. 
 
 ## <span class="material-symbols-outlined">landscape_2</span> What is Retrogressive Thaw Slumps (RTS)?
 
@@ -25,14 +25,16 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 
 ## <span class="material-symbols-outlined">handshake</span> Collaborators
 
-* [Wenwen Li](https://search.asu.edu/profile/1978357), Arizona State University
-* [Chia-Yu Hsu](https://scholar.google.com/citations?user=AMLwVyMAAAAJ&hl=en&oi=ao), Arizona State University
-* [Anna Liljedahl](https://www.woodwellclimate.org/staff/anna-liljedahl/), Woodwell Climate Research Center
-* [Matthew Jones](https://www.nceas.ucsb.edu/about-us/our-people#:~:text=Matt%20Jones), National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara
-* [Kenton McHenry](https://moleculemaker.org/directory/kenton-mchenry/), National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign
-* [Yili Yang](https://www.woodwellclimate.org/staff/yili-yang/), Woodwell Climate Research Center
-* [Brendan Rogers](https://www.woodwellclimate.org/staff/brendan-rogers/), Woodwell Climate Research Center
-
+* Wenwen Li, Arizona State University, USA
+* Chia-Yu Hsu, Arizona State University, USA
+* Anna Liljedahl, Woodwell Climate Research Center, USA
+* Brendan Rogers, Woodwell Climate Research Center, USA
+* Yili Yang, Woodwell Climate Research Center, USA
+* Matthew Jones, University of California, Santa Barbara, USA
+* Kenton McHenry, University of Illinois at Urbana-Champaign, USA
+* Patricia Solis, Arizona State University, USA
+* Chandi Witharana, University of Connecticut, USA
+* Ingmar Nitze, Alfred Wegener Institute, Germany
 
 ## <span class="material-symbols-outlined">groups</span> Partners
 

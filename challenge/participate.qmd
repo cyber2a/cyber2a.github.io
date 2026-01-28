@@ -162,7 +162,7 @@ The competition consists of **two phases**:
 
 | Phase	| Timeline	| Description	| Awards	| Leaderboard |
 | ----------- | ----------- | ----------- | ----------- |
-| **Challenge Phase**	| Oct 01, 2025 → May 01, 2026	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
+| **Challenge Phase**	| Feb 15, 2026 → Aug 30, 2026	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
 | **Benchmark Phase**	| Starts Dec 01, 2026	| Evaluate models freely, test reproducibility, no awards	| ❌ No	| Public & Continuous |
 
 * **Challenge Phase** → Compete for prizes and leaderboard positions.
@@ -173,10 +173,10 @@ The competition consists of **two phases**:
 
 | Event	| Date |
 | ----------- | ----------- |
-| Competition Opens	| October 1, 2025 |
-| Dataset Released	| October 1, 2025 |
-| Final Submission	| May 1, 2026 |
-| Winners Announced	| June 1, 2026 |
+| Competition Opens	| February 15, 2026 |
+| Dataset Released	| February 15, 2026 |
+| Final Submission	| August 30, 2026 |
+| Winners Announced	| October 1, 2026 |
 | Benchmark Phase Starts	| December 1, 2026 |
 
 ## Qualification, Rules, and Awards
