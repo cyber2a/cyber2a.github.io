@@ -28,8 +28,8 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 * Wenwen Li, Arizona State University, USA
 * Chia-Yu Hsu, Arizona State University, USA
 * Anna Liljedahl, Woodwell Climate Research Center, USA
-* Brendan Rogers, Woodwell Climate Research Center, USA
 * Yili Yang, Woodwell Climate Research Center, USA
+* Brendan Rogers, Woodwell Climate Research Center, USA
 * Matthew Jones, University of California, Santa Barbara, USA
 * Kenton McHenry, University of Illinois at Urbana-Champaign, USA
 * Patricia Solis, Arizona State University, USA
