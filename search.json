@@ -220,21 +220,21 @@
     "href": "webinars/upcoming-webinars.html",
     "title": "Upcoming Webinars",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nDavid Jose Fernandez, Google  Dr. Amal Perera, University of Connecticut\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "webinars/index.html",
     "href": "webinars/index.html",
     "title": "Webinars",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nDavid Jose Fernandez, Google  Dr. Amal Perera, University of Connecticut\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "webinars/index.html#upcoming-webinars",
     "href": "webinars/index.html#upcoming-webinars",
     "title": "Webinars",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nDavid Jose Fernandez, Google  Dr. Amal Perera, University of Connecticut\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "webinars/index.html#past-webinars",
@@ -258,192 +258,332 @@
     "text": "Abstract\nEarth observation data captures the natural and built environment of our planet. It comes in different forms, from satellite images to in-situ measurements, but can be mapped into the same geometric space: the sphere of planet Earth. It can be crucial in supporting decision making in the private and public sector alike, from improving flood resilience to forecasting crop yields. But making sense of the vast amounts of Earth observation data is difficult as it is often unstructured, unlabeled and multi-modal. Neural networks have emerged as a powerful tool for processing such large quantities of unstructured data but are not equipped to handle the spatial and temporal dependencies and spherical geometry of Earth observation data. In this talk, I will present a new class of neural network models purpose-built for Earth observation data: geographic location encoders. These models combine the scalability of neural networks with geospatial domain knowledge and traditional intuitions from geodesy and spatial statistics. I will highlight how location encoders can be used for fast and accurate predictive modeling on the sphere, with applications in climate modeling and species distribution modeling. I will then present means of training location encoders in the absence of labels—using globally distributed satellite imagery and contrastive self-supervised learning. The resulting pretrained location encoders produce general-purpose location embeddings that learn the natural and physical characteristics of locations around the world. These embeddings are powerful features in downstream modeling and can help tackle long-standing challenges in geospatial machine learning such as geographic distribution shift. Finally, I will outline future challenges in AI for Earth and present an ambitious goal: “digitally twinning” our planet with the support of large-scale, self-supervised learning and Earth observation data.\n\n\nDate and Time\nJune 24, 2024, 1:00 - 2:00 PM EST\n\n\nSpeaker Biography\nKonstantin Klemmer is a postdoctoral researcher at Microsoft Research New England and part of the Machine Learning and Statistics group. His research focuses on the representation of geographic phenomena in machine learning methods, particularly in neural networks. Konstantin’s recent work includes the integration of notions of spatial dependency into neural networks and the unsupervised training of location encoders that learn characteristics of a given location and can be deployed in various downstream tasks. His work is motivated by real-world challenges such as climate change and increasing urbanization, combining technical and methodological research with application and deployment studies. Konstantin has a PhD in Computer Science and Urban Science from the University of Warwick and spent time as a visiting student at NYU, as an Enrichment student at the Alan Turing Institute and as a Beyond Fellow at TUM and DLR. He also holds a Master’s in Transportation from Imperial College London and University College London. Website: https://konstantinklemmer.github.io\n\n\nRecording"
   },
   {
-    "objectID": "people/core-project-team.html",
-    "href": "people/core-project-team.html",
-    "title": "Core Project Team",
+    "objectID": "webinars/content/040725-infrastructure-mapping-with-AI.html",
+    "href": "webinars/content/040725-infrastructure-mapping-with-AI.html",
+    "title": "Infrastructure Mapping with AI",
     "section": "",
-    "text": "Wenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor  Arizona State University  wenwen@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist  Woodwell Climate Research Center aliljedahl@woodwellclimate.org \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenton McHenry\n\n\nCo-Principal Investigator, NSF Award 2230035 Associate Director of Software  National Center for Supercomputing Applications mchenry@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional  Arizona State University chsu53@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatricia Solis\n\n\nSenior Personnel Executive Director, Knowledge Exchange for Resilience  Arizona State University patricia.solis@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuigi Marini\n\n\nSenior Personnel Lead Research Software Engineer  National Center for Supercomputing Applications lmarini@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarmen Galaz García\n\n\nData Scientist National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXiao Chen\n\n\nPhD student Arizona State University xchen414@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSizhe Wang\n\n\nPhD student Arizona State University wsizhe@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Hohman Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC kate@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaleb Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC caleb@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer  National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer  National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBen Galewsky\n\n\nSr. Research Software Engineer  National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  bengal1@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNicole Greco\n\n\nCommunity Engagement & Outreach Coordinator  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  greco@nceas.ucsb.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlyona Kosobokova\n\n\nSenior Research Software Engineer  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJim Regetz\n\n\nDirector of Research Software Engineering  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  regetz@nceas.ucsb.edu  \n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Abstract\nArtificial Intelligence for mapping Arctic infrastructures on April 7, 9 am AKT/ 1 pm ET was co-hosted by NSF Cyber2A project, the CRAFT Research Coordination Network (Co-creating Research for Just Arctic Future Infrastructure Transformations, Resilience, and Adaptation), and the Permafrost Discovery Gateway project. The Webinar’s host: Wenwen Li (School of Geographical Sciences and Urban Planning, Arizona State University). Panelists: Chandi Witharana (Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut), Elias Manos (PhD student at the University of Connecticut Department of Natural Resources & the Environment), and Bessie Weston (Indigenous Alaska Native of Cup’ig decent, Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput).\n\n\nDate and Time\nApril 7, 2025, 9:00 - 10:00 AM AKT/ 1:00 - 2:00 PM ET\n\n\nSpeaker Biography\n\n\n\n\n\n\nBessie Lea Weston is an Indigenous Alaska Native of Cup’ig decent and was raised in the Bering Sea on Nunivak Island. Bessie currently serves as a Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput. Her background includes visioning, planning, and implementing rural environmental and small scale infrastructural improvements.\n\n\n\n\n\n\n\n\n\nChandi Witharana is an Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut. His research focuses on AI-driven methodological advancements and adaptations to enhance the efficiency and accuracy of large-scale analyses of high-resolution remote sensing data across multiple application domains.\n\n\n\n\n\n\n\n\n\nElias Manos is a geographer and PhD student at the University of Connecticut Department of Natural Resources & the Environment. He is also a team member on the Permafrost Discovery Gateway project. He is broadly interested in using earth observation for disaster risk management and monitoring human exposure to hazards. His research focuses on developing a comprehensive, publicly available, pan-Arctic geospatial data inventory of community infrastructure to further knowledge of the socioeconomic risks of permafrost thaw at multiple scales. This work leverages artificial intelligence techniques to automatically map buildings and roads from high-resolution satellite imagery of Arctic communities. Recent findings of this research indicate that estimated infrastructure damages caused by projected permafrost thaw in Alaska may cost double the amount found in previous studies\n\n\n\n\n\n\n\n\n\nWenwen Li is a professor in the School of Geographical Sciences and Urban Planning at Arizona State University. My research focuses on cyberinfrastructure, big data, and geospatial artificial intelligence and their applications in data- and computation-intensive challenges, particularly in the Arctic. My interest in Arctic research began during my PhD, when I helped build a virtual spatial data infrastructure to make Arctic data more easily shareable, accessible, and reusable across national boundaries. Since then, I have been developing cyberinfrastructure solutions, such as PolarHub and PolarGlobe, to advance our understanding of Arctic changes and their impact on ecosystems and communities.\n\n\n\n\n\nRecording"
   },
   {
-    "objectID": "people/content/xiao_chen.html",
-    "href": "people/content/xiao_chen.html",
-    "title": "Xiao Chen",
+    "objectID": "people/project-collaborators.html",
+    "href": "people/project-collaborators.html",
+    "title": "Project Collaborators",
     "section": "",
-    "text": "I am a PhD student in GIScience interested in GeoAI and web-based visualization."
+    "text": "Roman Dial\nProfessor, Alaska Pacific University\n\n\nAaron Dotson\nVice Chancellor for Research, University of Alaska Anchorage\n\n\nHoward Epstein\nProfessor, University of Virginia\n\n\nTrudi Hoogenboom\nAstra Nova School\n\n\nShishay T. Kidanu\nAssistant Professor, University of Alaska Fairbanks\n\n\nDmitry (Dima) Streletskiy\nAssociate Professor, The George Washington University\n\n\nCriag E. Tweedie\nProfessor, University of Texas at El Paso"
   },
   {
-    "objectID": "people/content/sizhe_wang.html",
-    "href": "people/content/sizhe_wang.html",
-    "title": "Sizhe Wang",
+    "objectID": "people/content/yili_yang.html",
+    "href": "people/content/yili_yang.html",
+    "title": "Yili Yang",
     "section": "",
-    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis."
+    "text": "Dr. Yili Yang’s passion for earth sciences and data science stems from a deep motivation to address the pressing challenges our planet faces today. With a background in geology and petrophysics, Dr. Yang possesses a strong foundation in understanding the intricacies of the Earth’s systems. However, recognizing the transformative potential of data science, he has shifted his focus towards utilizing state-of-the-art technologies such as deep learning and computer vision (image processing) to tackle earth science challenges.\nDr. Yang’s expertise lies in satellite image processing, object detection, and semantic segmentation, which he believes can empower traditional earth sciences with the power of AI. By leveraging advanced data science techniques, he aims to unlock new insights and enhance our understanding of complex environmental processes.\nCurrently, Dr. Yang is engaged in a critical project that involves using deep neural networks to map retrogressive thaw slumps in northern Siberia. This research is vital in modeling carbon emissions resulting from permafrost thaw, contributing to a comprehensive understanding of the impact of climate change. Additionally, he actively participates in other projects that harness the potential of machine learning, such as mapping small water bodies, mapping wildfires, and modeling carbon fluxes in the Arctic.\nDr. Yang’s interdisciplinary approach, combining his background in earth sciences with the power of data science, allows him to bridge the gap between traditional methodologies and cutting-edge technologies. By embracing this convergence, he aims to address the complex environmental challenges we face today more effectively."
   },
   {
-    "objectID": "people/content/patricia_solis.html",
-    "href": "people/content/patricia_solis.html",
-    "title": "Patricia Solis",
+    "objectID": "people/content/wenwen_li.html",
+    "href": "people/content/wenwen_li.html",
+    "title": "Wenwen Li",
     "section": "",
-    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience."
+    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science."
   },
   {
-    "objectID": "people/content/minu_mathew.html",
-    "href": "people/content/minu_mathew.html",
-    "title": "Minu Mathew",
+    "objectID": "people/content/sandeep_puthanveetil_satheesan.html",
+    "href": "people/content/sandeep_puthanveetil_satheesan.html",
+    "title": "Sandeep Puthanveetil Satheesan",
     "section": "",
-    "text": "I’m a Research Software Engineer at the National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign. My primary interests are in the field of ML/AI with a focus in NLP. Having a background in Computer Science and Wireless communication, I try to utilize the knowledge gained across multiple verticals to deliver better solutions and software. At NCSA, I work on multiple projects ranging from implementing LLM agents for RNA Sequencing tasks to development of a cloud native data management framework. Outside of work, I like badminton, swimming, traveling, painting and attending concerts."
+    "text": "I am a Senior Research Software Engineer at NCSA. My educational background and experience are in Computer Science and Applied Computer Vision. I collaborate with faculty, researchers, students, industry partners, and other fellow research software engineers to design and develop software to support research. I have previously worked on research projects spanning the areas of biometrics, face recognition, image and video analytics, unstructured data curation, digital humanities, research data management, agriculture, policy design, and palynology. My research interests are in computer vision, artificial intelligence, research data analysis and management, and research software engineering."
   },
   {
-    "objectID": "people/content/luigi_marini.html",
-    "href": "people/content/luigi_marini.html",
-    "title": "Luigi Marini",
+    "objectID": "people/content/matthew_jones.html",
+    "href": "people/content/matthew_jones.html",
+    "title": "Matthew Jones",
     "section": "",
-    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA)."
+    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems"
   },
   {
-    "objectID": "people/content/kate_hohman_billmeier.html",
-    "href": "people/content/kate_hohman_billmeier.html",
-    "title": "Kate Hohman Billmeier",
+    "objectID": "people/content/kenton_mchenry.html",
+    "href": "people/content/kenton_mchenry.html",
+    "title": "Kenton McHenry",
     "section": "",
-    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family."
+    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections)."
   },
   {
-    "objectID": "people/content/chiayu_hsu.html",
-    "href": "people/content/chiayu_hsu.html",
-    "title": "Chia-Yu Hsu",
+    "objectID": "people/content/jim_regetz.html",
+    "href": "people/content/jim_regetz.html",
+    "title": "Jim Regetz",
     "section": "",
-    "text": "I am a research professional specializing in deep learning and computer vision for remote sensing image analysis."
+    "text": "At NCEAS, I lead an environmental data science program focused on enabling individual researchers and teams to achieve more impactful outcomes through better analysis, modeling, visualization, and data management. With a career arc traversing both academia and the commercial software industry, I’ve delivered data-driven insights and helped build new data/analytics infrastructure across diverse application domains, and am especially passionate about expanding data science literacy and expertise in the practitioner community."
   },
   {
-    "objectID": "people/content/ben_galewsky.html",
-    "href": "people/content/ben_galewsky.html",
-    "title": "Ben Galewsky",
+    "objectID": "people/content/chandi_witharana.html",
+    "href": "people/content/chandi_witharana.html",
+    "title": "Chandi Witharana",
     "section": "",
-    "text": "After working for several years as an IT Consultant in industry I’ve happily switched to a career in research software engineering, which I think of as IT Consulting for Science! I’m currently a Senior Research Software Engineer at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana Champaign. I work with researchers to understand their needs and design software solutions to help advance their research goals. I’m particularly intersted in data management and machine learning operations."
+    "text": "My research efforts broadly capture the methodological developments and adaptations to unseal faster, deeper, and more accurate analysis of large volumes of high-resolution remote sensing data. Object-based image analysis, point cloud analytics, machine learning, unmanned aerial systems (UAS) stand out as some of the key pitches in my agenda. I conduct interdisciplinary remote sensing research with high international visibility, speaking equally to the transformational uses of remote sensing in environmental, industrial, agricultural, and humanitarian applications. My scope is global. Diversity is an integral part of myself, as well as my research. Some of my work includes mapping ice-wedge polygonal Arctic tundra from sub-meter satellite imagery, on-demand censusing of Antarctic wildlife from space, 3D infrastructure analytics for electric utility industry, unmanned aerial spectroscopy for integrated pest management applications, and on-demand censusing of refugees in armed-conflicted areas in South Asia. Thinking beyond its research and industrial merits, I always value the strengths of remote sensing to address the requirements of the Next Generation Science Standards via the key elements from physics and engineering. I am actively seeking creative ways, such as imagery-enabled lesson plans to harness remote sensing in K-12 STEM education."
   },
   {
-    "objectID": "people/content/alyona_kosobokova.html",
-    "href": "people/content/alyona_kosobokova.html",
-    "title": "Alyona Kosobokova",
+    "objectID": "people/content/caleb_billmeier.html",
+    "href": "people/content/caleb_billmeier.html",
+    "title": "Caleb Billmeier",
     "section": "",
-    "text": "Alyona is a Senior Research Software Engineer with extensive experience building and architecting infrastructure for leading companies such as Disney, Airtable and Hulu. She has also provided strategic guidance for two successful AI startups. Alyona holds a Bachelor’s degree in Computational Astrophysics and is currently pursuing a Master’s in Applied Artificial Intelligence. Throughout her career, she has collaborated with various research groups, including UCSB, UCSC, Harvard, and SFSU astrophysics teams. Beyond engineering and science, check out her silly sciencepop Youtube Channel: Dork Matter Girl."
+    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska."
   },
   {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
+    "objectID": "people/content/anna_liljedahl.html",
+    "href": "people/content/anna_liljedahl.html",
+    "title": "Anna Liljedahl",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n\n\nJun 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nWenwen Li\n\n\n\n\n\n\n\n\n\n\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nNicole Greco\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\nNo matching items"
+    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle."
   },
   {
-    "objectID": "news/content/102924_cyber2a_workshop.html",
-    "href": "news/content/102924_cyber2a_workshop.html",
-    "title": "Arctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop",
+    "objectID": "people/advisory-board.html",
+    "href": "people/advisory-board.html",
+    "title": "Advisory Board",
     "section": "",
-    "text": "Arctic researchers gather in Santa Barbara, CA for the first NSF Cyber2A workshop, exploring AI and ML applications in polar science.\n\n\nLast week, 20 Arctic researchers gathered in Santa Barbara, CA for the first NSF Cyber2A workshop to learn more about incorporating artificial intelligence (AI) and machine learning (ML) techniques into their research. Topics covered in this workshop included AI fundamentals and tools, AI-ready data, data annotation, neural networks and deep learning, AI ethics, reproducibility, and more. Participant’s research and experiences varied widely. While some researchers are focusing on sea ice and ice-sheet dynamics, others are studying similarities between the Arctic and otherworldly bodies such as Europa. All participants had one thing in common- their interest in using machine learning and artificial intelligence to further their research. Interested in learning more about using ML and AI in your research? Visit the Cyber2A course book to access all open-source materials from the workshop. We are enhancing our step-by-step AI training materials with lectures and code to support self-paced learning and lifelong learners, wherever you are in the world. Check out our website for updates and stay tuned for our 2025 training!\n\n\n\n\n\n\n\n\n\n\n\nCyber2A workshop participants and instructors celebrate a successful week of hands-on learning in AI and ML for Arctic research."
+    "text": "Samantha T. Arundel\nUnited States Geological Survey, Rolla, MO, USA\n\n\nLingcao Huang\nPostdoctoral scholar, University of Victoria, Canada\n\n\nVera Kuklina\nResearch Professor, The George Washington University\n\n\nJianwu Wang\nAssociate Professor, University of Maryland, Baltimore County\n\n\nElizabeth A. Wentz\nVice Provost and Dean, Arizona State University\n\n\nLawrence M. Vulis\nPostdocral Scientist, Los Alamos National Laboratory"
   },
   {
-    "objectID": "news/content/081023_google_org_grant.html",
-    "href": "news/content/081023_google_org_grant.html",
-    "title": "Google.org’s new grant to help track permafrost thaw",
+    "objectID": "news/content/103024_review_on_ai_in_arctic_sea_ice.html",
+    "href": "news/content/103024_review_on_ai_in_arctic_sea_ice.html",
+    "title": "New review paper on AI in Arctic Sea Ice Remote Sensing!",
     "section": "",
-    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org"
+    "text": "As AI continues to advance climate science, a recent paper from the Cyber2A team explores its unique contributions to Arctic sea ice remote sensing. The study reviewed over 160 papers, summarizing AI applications addressing key challenges such as sea ice lead detection, thickness estimation, concentration and extent forecasting, motion detection, and type classification. The paper also discusses future research directions, highlighting how the sea ice community can further benefit from cutting-edge AI technology. Read it here: https://www.mdpi.com/2072-4292/16/20/3764\n\n\n\nAdvancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges.\n\n\n\n\n\nAn overview of AI applications in Arctic sea ice research.\n\n\n\n\n\n\n\n\nTipReference\n\n\n\nLi, W., Hsu, C. Y., & Tedesco, M. (2024). Advancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges. Remote Sensing, 16(20), 3764."
   },
   {
-    "objectID": "news/content/050723_asu_ai_project.html",
-    "href": "news/content/050723_asu_ai_project.html",
-    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
+    "objectID": "news/content/081023_multi_institution_project.html",
+    "href": "news/content/081023_multi_institution_project.html",
+    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
     "section": "",
-    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet."
+    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cyber2A",
+    "objectID": "news/content/060225_2025_workshop.html",
+    "href": "news/content/060225_2025_workshop.html",
+    "title": "Announcing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research",
     "section": "",
-    "text": "Cyber2A\n            Arctic-AI Research • Science Enabling CI •  CI Training Activities\n        \n    \n\nImage credit: Shutterstock"
+    "text": "We are excited to announce the upcoming second “Scaling Impact: Co-Creating a Shared Framework for Teaching AI and Machine Learning with Applications in Arctic Research” workshop, to be held from October 20-24, 2025, in beautiful Santa Barbara, CA!\nBuilding on the success of our 2024 workshop, this highly collaborative event will bring together AI/ML practitioners, dedicated instructors, and subject matter experts. Our collective goal is to enhance and expand the existing curriculum for teaching AI/ML in Earth sciences, with a special focus on Arctic research applications. Participants will play a key role in designing an extensible framework to support AI/ML training across various course formats and learning environments.\nThis workshop is a unique opportunity for faculty, trainers, and researchers with an interest in AI/ML teaching in geosciences to:\n\nCollaboratively review, design, and create reusable AI/ML training content.\nDevelop new pedagogical strategies for interdisciplinary teams.\nFoster a network of educators to build AI/ML capacity in geosciences.\n\nKey Details:\n\nWorkshop Dates: October 20-24, 2025\nLocation: The National Center for Ecological Analysis and Synthesis (NCEAS), Santa Barbara, CA\nApplication Deadline: July 14, 2025\n\nTravel and accommodation support is available for a limited number of participants, thanks to funding from the National Science Foundation.\nInterested in shaping the future of AI/ML education in Earth sciences?\nWe invite you to learn more about the workshop objectives, who should attend, and how to apply by visiting our full Call for Participation.\nWe look forward to your applications and another impactful workshop!"
   },
   {
-    "objectID": "index.html#objectives",
-    "href": "index.html#objectives",
-    "title": "Cyber2A",
-    "section": "# OBJECTIVES",
-    "text": "# OBJECTIVES\n\n\n\n    \n        🌐\n        Expand the Arctic-AI research network\n        This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.\n    \n    \n        🎓\n        Develop customized training materials, webinars, in-person workshops\n        This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.\n    \n    \n        👥\n        Create a sustainable and scalable learning community\n        All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.\n    \n\n\n\n\n\n    \n        COLLABORATORS\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n    \n        SPONSOR"
+    "objectID": "news/content/050123_geo_ai_martian_challenge.html",
+    "href": "news/content/050123_geo_ai_martian_challenge.html",
+    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
+    "section": "",
+    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Cyber2A",
-    "section": "# NEWS",
-    "text": "# NEWS\n\n\n\n\n\n\nDate\n\n\n\nCategory\n\n\n\nNews\n\n\n\n\n\n\n\n\n8/18/25\n\n\nWebinar\n\n\nSemantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal\n\n\n\n\n\n\n6/2/25\n\n\nNews\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n4/7/25\n\n\nWebinar\n\n\nInfrastructure Mapping with AI\n\n\n\n\n\n\n10/30/24\n\n\nNews\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n10/29/24\n\n\nNews\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n9/12/24\n\n\nWebinar\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n6/24/24\n\n\nWebinar\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "challenge/resources.html",
-    "href": "challenge/resources.html",
+    "objectID": "challenge/people.html",
+    "href": "challenge/people.html",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "A central hub for help, learning materials, and policies for the GeoAI Arctic Mapping Challenge.\n\n💡 Tip: If you’re new here, start with the Quick Links below.\n\n\n\n\n\n\n\n\nStarter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu\n\n\n\n\n\n\n\n\nCompetition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum\n\n\n\n\n\n\n\nBaseline notebook: Includes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray) link\nGeospatial features (GDAL, PROJ, coordinate systems refresher) link\n\n\n\n\n\n\nData Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu\n\n\n\n\n\nCodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310\n\n\n\n\nQ1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Yes, but you must document it in your method description.",
+    "text": "Collaborators"
+  },
+  {
+    "objectID": "challenge/index.html",
+    "href": "challenge/index.html",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "Welcome to the GeoAI Arctic Mapping Challenge, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps (RTS), a critical indicator of climate change in the Arctic.",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#quick-links",
-    "href": "challenge/resources.html#quick-links",
+    "objectID": "challenge/index.html#newspaper-news",
+    "href": "challenge/index.html#newspaper-news",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "",
-    "text": "Starter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu",
+    "section": "newspaper News",
+    "text": "newspaper News\n\n(02/15/26) Competition Kick-off! We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge.",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#contact-us",
-    "href": "challenge/resources.html#contact-us",
+    "objectID": "challenge/index.html#landscape_2-what-is-retrogressive-thaw-slumps-rts",
+    "href": "challenge/index.html#landscape_2-what-is-retrogressive-thaw-slumps-rts",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "",
-    "text": "Competition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum",
+    "section": "landscape_2 What is Retrogressive Thaw Slumps (RTS)?",
+    "text": "landscape_2 What is Retrogressive Thaw Slumps (RTS)?\n\n\n\nCredit: Woodwell Climate Research Center\n\n\nRetrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see this article from Woodwell Climate Research Center.",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#tutorials-learning-materials",
-    "href": "challenge/resources.html#tutorials-learning-materials",
+    "objectID": "challenge/index.html#info-about-the-challenge",
+    "href": "challenge/index.html#info-about-the-challenge",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "",
-    "text": "Baseline notebook: Includes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray) link\nGeospatial features (GDAL, PROJ, coordinate systems refresher) link",
+    "section": "info About the Challenge",
+    "text": "info About the Challenge\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.\nMapping RTS is challenging due to their small size, subtle appearance, and dynamic evolution over time. This competition invites you to leverage deep learning and GeoAI to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#terms-conditions",
-    "href": "challenge/resources.html#terms-conditions",
+    "objectID": "challenge/index.html#handshake-collaborators",
+    "href": "challenge/index.html#handshake-collaborators",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "",
-    "text": "Data Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu",
+    "section": "handshake Collaborators",
+    "text": "handshake Collaborators\n\nWenwen Li, Arizona State University, USA\nChia-Yu Hsu, Arizona State University, USA\nAnna Liljedahl, Woodwell Climate Research Center, USA\nYili Yang, Woodwell Climate Research Center, USA\nMatthew Jones, University of California, Santa Barbara, USA\nKenton McHenry, University of Illinois at Urbana-Champaign, USA\nPatricia Solis, Arizona State University, USA\nIngmar Nitze, Alfred Wegener Institute, Germany",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#useful-external-resources",
-    "href": "challenge/resources.html#useful-external-resources",
+    "objectID": "challenge/index.html#groups-partners",
+    "href": "challenge/index.html#groups-partners",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "",
-    "text": "CodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310",
+    "section": "groups Partners",
+    "text": "groups Partners",
     "crumbs": [
-      "Resources"
+      "Overview"
     ]
   },
   {
-    "objectID": "challenge/resources.html#frequently-asked-questions",
-    "href": "challenge/resources.html#frequently-asked-questions",
+    "objectID": "challenge/index.html#paid-sponsors",
+    "href": "challenge/index.html#paid-sponsors",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "paid Sponsors",
+    "text": "paid Sponsors",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#library_books-references",
+    "href": "challenge/index.html#library_books-references",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "library_books References",
+    "text": "library_books References\nThe GeoAI Arctic Mapping Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:\n\nDataset Source\nThe dataset was curated by Yang et al. (2023), who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\n\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\nOur Multimodal GeoAI Model\nWe provide a sample notebook using the baseline model from Li et al. (2025), a multi-scale vision transformer-based multimodal GeoAI model that integrates multi-spectral imagery and topographic features for high-accuracy RTS mapping in Arctic permafrost regions.\n\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#image-dataset-samples",
+    "href": "challenge/index.html#image-dataset-samples",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "image Dataset Samples",
+    "text": "image Dataset Samples\nThe dataset consists of high-resolution, multi-spectral satellite imagery paired with segmentation masks outlining RTS boundaries. While the dataset provides multi-band inputs (including non-visible spectral channels), the sample images below are displayed using RGB composites for visualization purposes only.\n\n\n\nInput: RGB composite example\nTarget: RTS segmentation",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "cfp2025.html",
+    "href": "cfp2025.html",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "Artificial intelligence (AI) and machine learning (ML) play an increasingly crucial role in Earth science teaching and research by accelerating large data analyses, data interpretation, enhancing predictive models, and making complex environmental processes more accessible to students and researchers alike. The first NSF Cyber2A workshop, held in October 2024, was designed to provide Arctic researchers who have a limited background in computer science and computing with the tools and knowledge of AI and ML.\nThe 2025 workshop will bring together AI and ML practitioners, instructors, and other experts to collaboratively improve and expand upon this curriculum while designing an extensible framework for delivering training in different course formats. The expected outcome of the workshop is a modular set of instructional materials and supporting guidance that educators can use to teach useful AI/ML techniques to environmental and geosciences researchers, and that self-motivated learners can use themselves to develop useful skills directly. While the instructional examples will focus on Arctic research contexts, we invite applications from individuals across a range of disciplines, professional backgrounds, and career stages who are actively engaged in the application of AI and ML in their teaching.\n\n\nThis workshop is ideal for:\n\nFaculty who are interested in offering AI-related courses centered on geoscience at their own institutions\nTrainers who are interested in adopting and enhancing our course materials to provide AI training in their training programs\nApplicants who have a solid foundation in Programming (Python, R, or similar) and AI & ML techniques\n\n\n\n\nParticipants will:\n\nReview foundational and advanced AI/ML applications relevant to geoscience research (e.g., feature detection using computer vision models, text analysis using large language models)\nDevelop pedagogical strategies for teaching AI/ML techniques to interdisciplinary research teams and students\nPromote open science practices and ethical AI use\nFoster a network of trained educators who can continue to build capacity within their institutions and regions\nCollaborate on reviewing, designing, and creating reusable AI/ML training content\n\n\n\n\nWe will delve into:\n\nPrinciples and practices for preparing AI-ready training data\nAI model building fundamentals\nAI workflow validation, verification, and troubleshooting\nAI model deployment for on-demand or batch prediction\nBest practices in using tools and platforms such as Pytorch, MLOps, Tensorboard, and Tensorflow\n\nCheck out the curriculum from our 2024 workshop at https://cyber2a.github.io/cyber2a-course/.\n\n\n\nThis is a highly collaborative and discussion-driven workshop. Expect a mix of presentations, small group activities, hands-on coding, and full room discussions.\n\n\n\n\nDates: October 20-24, 2025\nLocation: In-person at The National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, CA\nCost: Support is provided by the Cyber2A award from NSF and we have limited funds to support travel and accommodations for onsite courses.\n\n\n\n\n\nI found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.\n- Mikhail Schee, Postdoctoral Fellow at the University of Toronto\n\n\n\nSince attending, I’ve been developing a KMeans-based method to classify glacier surface conditions using Sentinel-2 imagery. This unsupervised approach has helped me label snow, ice, and land areas, which I then use to train supervised machine learning classifiers to estimate snow cover ratios and snowline altitudes across the Canadian Arctic.\n- Wai-Yin Cheung\nProject Showcase: Click an image to enlarge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReady to apply? Submit your application here.\nApplication Deadline: July 14, 2025\nPlease contact greco@nceas.ucsb.edu with any questions.\n\n\n\nASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA\n\n\n\nNational Science Foundation under awards 2230034 and 2230035."
+  },
+  {
+    "objectID": "cfp2025.html#who-should-attend",
+    "href": "cfp2025.html#who-should-attend",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "This workshop is ideal for:\n\nFaculty who are interested in offering AI-related courses centered on geoscience at their own institutions\nTrainers who are interested in adopting and enhancing our course materials to provide AI training in their training programs\nApplicants who have a solid foundation in Programming (Python, R, or similar) and AI & ML techniques"
+  },
+  {
+    "objectID": "cfp2025.html#workshop-objectives",
+    "href": "cfp2025.html#workshop-objectives",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "Participants will:\n\nReview foundational and advanced AI/ML applications relevant to geoscience research (e.g., feature detection using computer vision models, text analysis using large language models)\nDevelop pedagogical strategies for teaching AI/ML techniques to interdisciplinary research teams and students\nPromote open science practices and ethical AI use\nFoster a network of trained educators who can continue to build capacity within their institutions and regions\nCollaborate on reviewing, designing, and creating reusable AI/ML training content"
+  },
+  {
+    "objectID": "cfp2025.html#ai-ml-tools-techniques-covered",
+    "href": "cfp2025.html#ai-ml-tools-techniques-covered",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "We will delve into:\n\nPrinciples and practices for preparing AI-ready training data\nAI model building fundamentals\nAI workflow validation, verification, and troubleshooting\nAI model deployment for on-demand or batch prediction\nBest practices in using tools and platforms such as Pytorch, MLOps, Tensorboard, and Tensorflow\n\nCheck out the curriculum from our 2024 workshop at https://cyber2a.github.io/cyber2a-course/."
+  },
+  {
+    "objectID": "cfp2025.html#format",
+    "href": "cfp2025.html#format",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "This is a highly collaborative and discussion-driven workshop. Expect a mix of presentations, small group activities, hands-on coding, and full room discussions."
+  },
+  {
+    "objectID": "cfp2025.html#key-information",
+    "href": "cfp2025.html#key-information",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "Dates: October 20-24, 2025\nLocation: In-person at The National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, CA\nCost: Support is provided by the Cyber2A award from NSF and we have limited funds to support travel and accommodations for onsite courses."
+  },
+  {
+    "objectID": "cfp2025.html#hear-from-our-alumni",
+    "href": "cfp2025.html#hear-from-our-alumni",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "I found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.\n- Mikhail Schee, Postdoctoral Fellow at the University of Toronto\n\n\n\nSince attending, I’ve been developing a KMeans-based method to classify glacier surface conditions using Sentinel-2 imagery. This unsupervised approach has helped me label snow, ice, and land areas, which I then use to train supervised machine learning classifiers to estimate snow cover ratios and snowline altitudes across the Canadian Arctic.\n- Wai-Yin Cheung\nProject Showcase: Click an image to enlarge"
+  },
+  {
+    "objectID": "cfp2025.html#application",
+    "href": "cfp2025.html#application",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "Ready to apply? Submit your application here.\nApplication Deadline: July 14, 2025\nPlease contact greco@nceas.ucsb.edu with any questions."
+  },
+  {
+    "objectID": "cfp2025.html#organizers",
+    "href": "cfp2025.html#organizers",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA"
+  },
+  {
+    "objectID": "cfp2025.html#sponsor",
+    "href": "cfp2025.html#sponsor",
+    "title": "2025 Call for Participation",
+    "section": "",
+    "text": "National Science Foundation under awards 2230034 and 2230035."
+  },
+  {
+    "objectID": "challenge/dataset.html",
+    "href": "challenge/dataset.html",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "Q1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Yes, but you must document it in your method description.",
+    "text": "The GeoAI Arctic Mapping Challenge dataset builds upon Yang et al. (2023) and focuses on detecting and mapping retrogressive thaw slumps (RTS)—landscape disturbances caused by permafrost thaw. Originally, Yang et al. provided semantic segmentation masks (binary labels of RTS vs. non-RTS). For this competition, we extend and reformat the dataset into an instance segmentation benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.\n\nWhy it matters: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.\n\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1. Conversion from semantic to instance segmentation masks. The challenge dataset refines the original semantic masks from Yang et al. (2023) into instance-level polygons, enabling finer-grained evaluation and model learning.\n\n\nThe dataset spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (Li et al., 2025).\n\n\n\nThis dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nBand Names\nPurpose in Task\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\nHigh-resolution base imagery for visual recognition\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\nVegetation & water indices for spectral feature learning\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief\nTopographic context to improve RTS boundary detection\n\n\n\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal Images\n756 train + 138 test\n\n\nTotal RTS Instances\n2,110\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB, NDVI, NDWI, NIR, DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\n.npz images + .json COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
     "crumbs": [
-      "Resources"
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#geographic-coverage-study-sites",
+    "href": "challenge/dataset.html#geographic-coverage-study-sites",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "The dataset spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (Li et al., 2025).",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#data-sources-multimodal-inputs",
+    "href": "challenge/dataset.html#data-sources-multimodal-inputs",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "This dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nBand Names\nPurpose in Task\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\nHigh-resolution base imagery for visual recognition\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\nVegetation & water indices for spectral feature learning\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief\nTopographic context to improve RTS boundary detection",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#key-dataset-statistics",
+    "href": "challenge/dataset.html#key-dataset-statistics",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "Property\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal Images\n756 train + 138 test\n\n\nTotal RTS Instances\n2,110\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB, NDVI, NDWI, NIR, DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\n.npz images + .json COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment",
+    "crumbs": [
+      "Dataset"
+    ]
+  },
+  {
+    "objectID": "challenge/dataset.html#sample-visualizations",
+    "href": "challenge/dataset.html#sample-visualizations",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "Explore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
+    "crumbs": [
+      "Dataset"
     ]
   },
   {
@@ -597,333 +737,200 @@
     ]
   },
   {
-    "objectID": "challenge/dataset.html",
-    "href": "challenge/dataset.html",
+    "objectID": "challenge/resources.html",
+    "href": "challenge/resources.html",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "The GeoAI Arctic Mapping Challenge dataset builds upon Yang et al. (2023) and focuses on detecting and mapping retrogressive thaw slumps (RTS)—landscape disturbances caused by permafrost thaw. Originally, Yang et al. provided semantic segmentation masks (binary labels of RTS vs. non-RTS). For this competition, we extend and reformat the dataset into an instance segmentation benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.\n\nWhy it matters: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.\n\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1. Conversion from semantic to instance segmentation masks. The challenge dataset refines the original semantic masks from Yang et al. (2023) into instance-level polygons, enabling finer-grained evaluation and model learning.\n\n\nThe dataset spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (Li et al., 2025).\n\n\n\nThis dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nBand Names\nPurpose in Task\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\nHigh-resolution base imagery for visual recognition\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\nVegetation & water indices for spectral feature learning\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief\nTopographic context to improve RTS boundary detection\n\n\n\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal Images\n756 train + 138 test\n\n\nTotal RTS Instances\n2,110\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB, NDVI, NDWI, NIR, DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\n.npz images + .json COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
+    "text": "A central hub for help, learning materials, and policies for the GeoAI Arctic Mapping Challenge.\n\n💡 Tip: If you’re new here, start with the Quick Links below.\n\n\n\n\n\n\n\n\nStarter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu\n\n\n\n\n\n\n\n\nCompetition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum\n\n\n\n\n\n\n\nBaseline notebook: Includes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray) link\nGeospatial features (GDAL, PROJ, coordinate systems refresher) link\n\n\n\n\n\n\nData Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu\n\n\n\n\n\nCodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310\n\n\n\n\nQ1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Yes, but you must document it in your method description.",
     "crumbs": [
-      "Dataset"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/dataset.html#geographic-coverage-study-sites",
-    "href": "challenge/dataset.html#geographic-coverage-study-sites",
+    "objectID": "challenge/resources.html#quick-links",
+    "href": "challenge/resources.html#quick-links",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "The dataset spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (Li et al., 2025).",
+    "text": "Starter code to load data, train, and format submissions.\n\n\nOpen notebook\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen leaderboard\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu",
     "crumbs": [
-      "Dataset"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/dataset.html#data-sources-multimodal-inputs",
-    "href": "challenge/dataset.html#data-sources-multimodal-inputs",
+    "objectID": "challenge/resources.html#contact-us",
+    "href": "challenge/resources.html#contact-us",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "This dataset integrates multi-source satellite and geospatial data:\n\n\n\n\n\n\n\n\n\n\nData Type\nSource\nResolution\nBand Names\nPurpose in Task\n\n\n\n\nRGB Imagery\nMaxar\n4 m\nmaxarR, maxarG, maxarB\nHigh-resolution base imagery for visual recognition\n\n\nMulti-spectral\nSentinel-2\n10 m\nNDVI, NDWI, NIR\nVegetation & water indices for spectral feature learning\n\n\nElevation\nArcticDEM\n2 m\nrelative elevation, shaded relief\nTopographic context to improve RTS boundary detection",
+    "text": "Competition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the CodeBench forum for public questions: https://codebench.com/geoai-rts/forum",
     "crumbs": [
-      "Dataset"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/dataset.html#key-dataset-statistics",
-    "href": "challenge/dataset.html#key-dataset-statistics",
+    "objectID": "challenge/resources.html#tutorials-learning-materials",
+    "href": "challenge/resources.html#tutorials-learning-materials",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "Property\nDescription\n\n\n\n\nTotal Regions\n7 Arctic subregions\n\n\nTotal Images\n756 train + 138 test\n\n\nTotal RTS Instances\n2,110\n\n\nImagery Resolution\nMaxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m\n\n\nSpectral Bands\nRGB, NDVI, NDWI, NIR, DEM\n\n\nTask\nInstance segmentation\n\n\nLabels\nPer-instance RTS masks\n\n\nFile Formats\n.npz images + .json COCO-style annotations\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment",
+    "text": "Baseline notebook: Includes data loading, visualization, baseline model, and submission formatter.\nSubmission format mini-guide: See Participate → Results Format for JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nGeoTIFF & raster I/O (rasterio, xarray, rioxarray) link\nGeospatial features (GDAL, PROJ, coordinate systems refresher) link",
     "crumbs": [
-      "Dataset"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/dataset.html#sample-visualizations",
-    "href": "challenge/dataset.html#sample-visualizations",
+    "objectID": "challenge/resources.html#terms-conditions",
+    "href": "challenge/resources.html#terms-conditions",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "Explore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
+    "text": "Data Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (dataset) and Li et al., 2025 (baseline model) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nTeaming is allowed (default max 5 members unless otherwise stated).\nDo not share labels or predictions across different teams.\n\nFollow the CodeBench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu",
     "crumbs": [
-      "Dataset"
+      "Resources"
     ]
   },
   {
-    "objectID": "cfp2025.html",
-    "href": "cfp2025.html",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "Artificial intelligence (AI) and machine learning (ML) play an increasingly crucial role in Earth science teaching and research by accelerating large data analyses, data interpretation, enhancing predictive models, and making complex environmental processes more accessible to students and researchers alike. The first NSF Cyber2A workshop, held in October 2024, was designed to provide Arctic researchers who have a limited background in computer science and computing with the tools and knowledge of AI and ML.\nThe 2025 workshop will bring together AI and ML practitioners, instructors, and other experts to collaboratively improve and expand upon this curriculum while designing an extensible framework for delivering training in different course formats. The expected outcome of the workshop is a modular set of instructional materials and supporting guidance that educators can use to teach useful AI/ML techniques to environmental and geosciences researchers, and that self-motivated learners can use themselves to develop useful skills directly. While the instructional examples will focus on Arctic research contexts, we invite applications from individuals across a range of disciplines, professional backgrounds, and career stages who are actively engaged in the application of AI and ML in their teaching.\n\n\nThis workshop is ideal for:\n\nFaculty who are interested in offering AI-related courses centered on geoscience at their own institutions\nTrainers who are interested in adopting and enhancing our course materials to provide AI training in their training programs\nApplicants who have a solid foundation in Programming (Python, R, or similar) and AI & ML techniques\n\n\n\n\nParticipants will:\n\nReview foundational and advanced AI/ML applications relevant to geoscience research (e.g., feature detection using computer vision models, text analysis using large language models)\nDevelop pedagogical strategies for teaching AI/ML techniques to interdisciplinary research teams and students\nPromote open science practices and ethical AI use\nFoster a network of trained educators who can continue to build capacity within their institutions and regions\nCollaborate on reviewing, designing, and creating reusable AI/ML training content\n\n\n\n\nWe will delve into:\n\nPrinciples and practices for preparing AI-ready training data\nAI model building fundamentals\nAI workflow validation, verification, and troubleshooting\nAI model deployment for on-demand or batch prediction\nBest practices in using tools and platforms such as Pytorch, MLOps, Tensorboard, and Tensorflow\n\nCheck out the curriculum from our 2024 workshop at https://cyber2a.github.io/cyber2a-course/.\n\n\n\nThis is a highly collaborative and discussion-driven workshop. Expect a mix of presentations, small group activities, hands-on coding, and full room discussions.\n\n\n\n\nDates: October 20-24, 2025\nLocation: In-person at The National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, CA\nCost: Support is provided by the Cyber2A award from NSF and we have limited funds to support travel and accommodations for onsite courses.\n\n\n\n\n\nI found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.\n- Mikhail Schee, Postdoctoral Fellow at the University of Toronto\n\n\n\nSince attending, I’ve been developing a KMeans-based method to classify glacier surface conditions using Sentinel-2 imagery. This unsupervised approach has helped me label snow, ice, and land areas, which I then use to train supervised machine learning classifiers to estimate snow cover ratios and snowline altitudes across the Canadian Arctic.\n- Wai-Yin Cheung\nProject Showcase: Click an image to enlarge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReady to apply? Submit your application here.\nApplication Deadline: July 14, 2025\nPlease contact greco@nceas.ucsb.edu with any questions.\n\n\n\nASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA\n\n\n\nNational Science Foundation under awards 2230034 and 2230035."
-  },
-  {
-    "objectID": "cfp2025.html#who-should-attend",
-    "href": "cfp2025.html#who-should-attend",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "This workshop is ideal for:\n\nFaculty who are interested in offering AI-related courses centered on geoscience at their own institutions\nTrainers who are interested in adopting and enhancing our course materials to provide AI training in their training programs\nApplicants who have a solid foundation in Programming (Python, R, or similar) and AI & ML techniques"
-  },
-  {
-    "objectID": "cfp2025.html#workshop-objectives",
-    "href": "cfp2025.html#workshop-objectives",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "Participants will:\n\nReview foundational and advanced AI/ML applications relevant to geoscience research (e.g., feature detection using computer vision models, text analysis using large language models)\nDevelop pedagogical strategies for teaching AI/ML techniques to interdisciplinary research teams and students\nPromote open science practices and ethical AI use\nFoster a network of trained educators who can continue to build capacity within their institutions and regions\nCollaborate on reviewing, designing, and creating reusable AI/ML training content"
-  },
-  {
-    "objectID": "cfp2025.html#ai-ml-tools-techniques-covered",
-    "href": "cfp2025.html#ai-ml-tools-techniques-covered",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "We will delve into:\n\nPrinciples and practices for preparing AI-ready training data\nAI model building fundamentals\nAI workflow validation, verification, and troubleshooting\nAI model deployment for on-demand or batch prediction\nBest practices in using tools and platforms such as Pytorch, MLOps, Tensorboard, and Tensorflow\n\nCheck out the curriculum from our 2024 workshop at https://cyber2a.github.io/cyber2a-course/."
-  },
-  {
-    "objectID": "cfp2025.html#format",
-    "href": "cfp2025.html#format",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "This is a highly collaborative and discussion-driven workshop. Expect a mix of presentations, small group activities, hands-on coding, and full room discussions."
-  },
-  {
-    "objectID": "cfp2025.html#key-information",
-    "href": "cfp2025.html#key-information",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "Dates: October 20-24, 2025\nLocation: In-person at The National Center for Ecological Analysis and Synthesis (NCEAS) in Santa Barbara, CA\nCost: Support is provided by the Cyber2A award from NSF and we have limited funds to support travel and accommodations for onsite courses."
-  },
-  {
-    "objectID": "cfp2025.html#hear-from-our-alumni",
-    "href": "cfp2025.html#hear-from-our-alumni",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "I found the Cyber2A workshop to be very helpful and particularly relevant to my research. Currently, I am exploring the capability of using Deep Learning U-net models to incorporate information about atmospheric NOx from satellites, reanalysis, and surface measurements to make predictions that could inform air quality forecasts. Our hope is to investigate whether machine learning could offer a less computationally expensive option for such forecasts at high resolutions.\n- Mikhail Schee, Postdoctoral Fellow at the University of Toronto\n\n\n\nSince attending, I’ve been developing a KMeans-based method to classify glacier surface conditions using Sentinel-2 imagery. This unsupervised approach has helped me label snow, ice, and land areas, which I then use to train supervised machine learning classifiers to estimate snow cover ratios and snowline altitudes across the Canadian Arctic.\n- Wai-Yin Cheung\nProject Showcase: Click an image to enlarge"
-  },
-  {
-    "objectID": "cfp2025.html#application",
-    "href": "cfp2025.html#application",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "Ready to apply? Submit your application here.\nApplication Deadline: July 14, 2025\nPlease contact greco@nceas.ucsb.edu with any questions."
-  },
-  {
-    "objectID": "cfp2025.html#organizers",
-    "href": "cfp2025.html#organizers",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "ASU, NCEAS at UCSB, Woodwell Climate Center, UIUC, and NCSA"
-  },
-  {
-    "objectID": "cfp2025.html#sponsor",
-    "href": "cfp2025.html#sponsor",
-    "title": "2025 Call for Participation",
-    "section": "",
-    "text": "National Science Foundation under awards 2230034 and 2230035."
-  },
-  {
-    "objectID": "challenge/index.html",
-    "href": "challenge/index.html",
+    "objectID": "challenge/resources.html#useful-external-resources",
+    "href": "challenge/resources.html#useful-external-resources",
     "title": "GeoAI Arctic Mapping Challenge",
     "section": "",
-    "text": "Welcome to the GeoAI Arctic Mapping Challenge, a competition at the intersection of Geoscience and Artificial Intelligence. We invite you to develop innovative AI models to map retrogressive thaw slumps (RTS), a critical indicator of climate change in the Arctic.",
+    "text": "CodeBench Platform: https://codebench.com\n\nLeaderboard: https://codebench.com/geoai-rts/leaderboard\n\nForum: https://codebench.com/geoai-rts/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nBaseline Model (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310",
     "crumbs": [
-      "Overview"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/index.html#newspaper-news",
-    "href": "challenge/index.html#newspaper-news",
+    "objectID": "challenge/resources.html#frequently-asked-questions",
+    "href": "challenge/resources.html#frequently-asked-questions",
     "title": "GeoAI Arctic Mapping Challenge",
-    "section": "newspaper News",
-    "text": "newspaper News\n\n(02/15/26) Competition Kick-off! We are excited to announce the official launch of the GeoAI Arctic Mapping Challenge.",
+    "section": "",
+    "text": "Q1. Where do I download the data?\nA: Register on CodeBench → challenge page → Download tab. Or see the Dataset Page.\nQ2. What’s the submission format?\nA: COCO-style JSON (see Participate → Results Format). A helper is included in the baseline notebook.\nQ4. Can I keep evaluating after prizes are awarded?\nA: Yes — use the Benchmark Phase for continuous, no-award evaluation.\nQ5. Can I use external data?\nA: Yes, but you must document it in your method description.",
     "crumbs": [
-      "Overview"
+      "Resources"
     ]
   },
   {
-    "objectID": "challenge/index.html#landscape_2-what-is-retrogressive-thaw-slumps-rts",
-    "href": "challenge/index.html#landscape_2-what-is-retrogressive-thaw-slumps-rts",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "landscape_2 What is Retrogressive Thaw Slumps (RTS)?",
-    "text": "landscape_2 What is Retrogressive Thaw Slumps (RTS)?\n\n\n\nCredit: Woodwell Climate Research Center\n\n\nRetrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see this article from Woodwell Climate Research Center.",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#info-about-the-challenge",
-    "href": "challenge/index.html#info-about-the-challenge",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "info About the Challenge",
-    "text": "info About the Challenge\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.\nMapping RTS is challenging due to their small size, subtle appearance, and dynamic evolution over time. This competition invites you to leverage deep learning and GeoAI to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#handshake-collaborators",
-    "href": "challenge/index.html#handshake-collaborators",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "handshake Collaborators",
-    "text": "handshake Collaborators\n\nWenwen Li, Arizona State University, USA\nChia-Yu Hsu, Arizona State University, USA\nAnna Liljedahl, Woodwell Climate Research Center, USA\nYili Yang, Woodwell Climate Research Center, USA\nBrendan Rogers, Woodwell Climate Research Center, USA\nMatthew Jones, University of California, Santa Barbara, USA\nKenton McHenry, University of Illinois at Urbana-Champaign, USA\nPatricia Solis, Arizona State University, USA\nChandi Witharana, University of Connecticut, USA\nIngmar Nitze, Alfred Wegener Institute, Germany",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#groups-partners",
-    "href": "challenge/index.html#groups-partners",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "groups Partners",
-    "text": "groups Partners",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#paid-sponsors",
-    "href": "challenge/index.html#paid-sponsors",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "paid Sponsors",
-    "text": "paid Sponsors",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#library_books-references",
-    "href": "challenge/index.html#library_books-references",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "library_books References",
-    "text": "library_books References\nThe GeoAI Arctic Mapping Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:\n\nDataset Source\nThe dataset was curated by Yang et al. (2023), who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\n\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\nOur Multimodal GeoAI Model\nWe provide a sample notebook using the baseline model from Li et al. (2025), a multi-scale vision transformer-based multimodal GeoAI model that integrates multi-spectral imagery and topographic features for high-accuracy RTS mapping in Arctic permafrost regions.\n\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/index.html#image-dataset-samples",
-    "href": "challenge/index.html#image-dataset-samples",
-    "title": "GeoAI Arctic Mapping Challenge",
-    "section": "image Dataset Samples",
-    "text": "image Dataset Samples\nThe dataset consists of high-resolution, multi-spectral satellite imagery paired with segmentation masks outlining RTS boundaries. While the dataset provides multi-band inputs (including non-visible spectral channels), the sample images below are displayed using RGB composites for visualization purposes only.\n\n\n\nInput: RGB composite example\nTarget: RTS segmentation",
-    "crumbs": [
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "challenge/people.html",
-    "href": "challenge/people.html",
-    "title": "GeoAI Arctic Mapping Challenge",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cyber2A",
     "section": "",
-    "text": "Collaborators"
+    "text": "Cyber2A\n            Arctic-AI Research • Science Enabling CI •  CI Training Activities\n        \n    \n\nImage credit: Shutterstock"
   },
   {
-    "objectID": "news/content/050123_geo_ai_martian_challenge.html",
-    "href": "news/content/050123_geo_ai_martian_challenge.html",
-    "title": "Winners announced for the 1st GeoAI Martian Challenge!",
-    "section": "",
-    "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains."
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "Cyber2A",
+    "section": "# OBJECTIVES",
+    "text": "# OBJECTIVES\n\n\n\n    \n        🌐\n        Expand the Arctic-AI research network\n        This network will serve as an important venue for collecting community input on training needs, to engage and recruit potential trainees, and to cultivate new connections with existing Arctic research communities to achieve collective and broader impacts of the Cyber2A training and education.\n    \n    \n        🎓\n        Develop customized training materials, webinars, in-person workshops\n        This objective aims to help Arctic researchers apply the computational and technical skills necessary to select, use, and create the most suitable AI model for their work.\n    \n    \n        👥\n        Create a sustainable and scalable learning community\n        All training materials will be refined and developed as self-contained learning modules that can be easily plugged into existing education curricula and be used to support online, self-paced learning.\n    \n\n\n\n\n\n    \n        COLLABORATORS\n        \n        \n            \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n                \n                    \n                        \n                        \n                        \n                    \n                \n            \n        \n    \n    \n        SPONSOR"
   },
   {
-    "objectID": "news/content/060225_2025_workshop.html",
-    "href": "news/content/060225_2025_workshop.html",
-    "title": "Announcing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research",
-    "section": "",
-    "text": "We are excited to announce the upcoming second “Scaling Impact: Co-Creating a Shared Framework for Teaching AI and Machine Learning with Applications in Arctic Research” workshop, to be held from October 20-24, 2025, in beautiful Santa Barbara, CA!\nBuilding on the success of our 2024 workshop, this highly collaborative event will bring together AI/ML practitioners, dedicated instructors, and subject matter experts. Our collective goal is to enhance and expand the existing curriculum for teaching AI/ML in Earth sciences, with a special focus on Arctic research applications. Participants will play a key role in designing an extensible framework to support AI/ML training across various course formats and learning environments.\nThis workshop is a unique opportunity for faculty, trainers, and researchers with an interest in AI/ML teaching in geosciences to:\n\nCollaboratively review, design, and create reusable AI/ML training content.\nDevelop new pedagogical strategies for interdisciplinary teams.\nFoster a network of educators to build AI/ML capacity in geosciences.\n\nKey Details:\n\nWorkshop Dates: October 20-24, 2025\nLocation: The National Center for Ecological Analysis and Synthesis (NCEAS), Santa Barbara, CA\nApplication Deadline: July 14, 2025\n\nTravel and accommodation support is available for a limited number of participants, thanks to funding from the National Science Foundation.\nInterested in shaping the future of AI/ML education in Earth sciences?\nWe invite you to learn more about the workshop objectives, who should attend, and how to apply by visiting our full Call for Participation.\nWe look forward to your applications and another impactful workshop!"
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Cyber2A",
+    "section": "# NEWS",
+    "text": "# NEWS\n\n\n\n\n\n\nDate\n\n\n\nCategory\n\n\n\nNews\n\n\n\n\n\n\n\n\n4/27/26\n\n\nWebinar\n\n\nPan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings\n\n\n\n\n\n\n8/18/25\n\n\nWebinar\n\n\nSemantic Enrichment and LLM-Driven Analytics to the Mindat Open Data Portal\n\n\n\n\n\n\n6/2/25\n\n\nNews\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n4/7/25\n\n\nWebinar\n\n\nInfrastructure Mapping with AI\n\n\n\n\n\n\n10/30/24\n\n\nNews\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n10/29/24\n\n\nNews\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n9/12/24\n\n\nWebinar\n\n\nHyper-Spatial Remote Sensing\n\n\n\n\n\n\n6/24/24\n\n\nWebinar\n\n\nLearning Neural Representations of our Planet from Earth Observation Data\n\n\n\n\n\n\n11/13/23\n\n\nWebinar\n\n\nA Framework for Building and Finetuning Geospatial Foundation Models\n\n\n\n\n\n\n8/10/23\n\n\nNews\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "news/content/081023_multi_institution_project.html",
-    "href": "news/content/081023_multi_institution_project.html",
-    "title": "The multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw",
+    "objectID": "news/content/050723_asu_ai_project.html",
+    "href": "news/content/050723_asu_ai_project.html",
+    "title": "ASU AI project analyzes big data to help analysts find solutions to Arctic warming",
     "section": "",
-    "text": "Photo courtesy Unsplash\n\n\nAs the Arctic warms at nearly four times the global rate, permafrost – frozen ground that has remained below 0 degrees Celsius for at least two consecutive years – is thawing rapidly, causing widespread ground collapse and infrastructure damage, threatening Arctic communities and releasing carbon into the atmosphere.\nTo date, while vast amounts of high spatial and temporal resolution data has been collected, real-time analysis of permafrost thaw has been limited, far behind the speed in which data is produced.\nNew research by Wenwen Li, professor in the School of Geographical Sciences and Urban Planning at Arizona State University, aims to support the development of a new, open-access resource that will use satellite data and artificial intelligence technology to make it possible to track Arctic permafrost thaw in near real time.\nThe project, led by the Woodwell Climate Research Center and funded by a $5 million grant from Google.org, will use AI technology to streamline the data analysis process and make it easier to rapidly identify patterns and trends in permafrost thaw datasets that will be essential to informing climate mitigation and adaptation strategies.\n“This is an exciting era of AI and geospatial sciences,” said Li, whose research uses AI to explore new questions about the geographic world. “Leveraging them to understand the ever-changing Earth’s environment and its climate — such as Arctic warming, excessive heatwaves and increasingly occurring disasters — offers a real chance for us as a society to better combat climate change, mitigate its impacts and plan for a more sustainable and resilient future.”\nThe three-year effort — an expansion of the Permafrost Discovery Gateway — will focus on building automated workflows for geospatial product creation, AI models capable of identifying changes, patterns and trends, and environmental and climatic drivers. It will also focus on building tera to petabyte scale permafrost thaw datasets.\n“Timely tracking of permafrost thaw is critical to assessing impacts and informing action, but current limitations in technology, combined with the rapid pace of change in Arctic landscapes, have held us all back,” said Anna Liljedahl, Woodwell Climate associate scientist and project lead. “This project will be groundbreaking in speeding up data analysis and unlocking completely new technological capabilities in how we do science in swiftly evolving landscapes, and, ultimately, what science itself can do.”\nIn particular, the technology will enable scientists, decision-makers, community members, and other interested groups and individuals to:\n• Explore permafrost thaw features that formed during the previous month.\n• Check out seasonal forecasts of permafrost thaw.\n• Predict disturbance events based on weather forecasts.\n• Estimate carbon and infrastructure loss from abrupt permafrost thaw.\n• Analyze the shape and size of permafrost thaw features and their patterns across the landscape over time.\nThis resource will also be applicable beyond the scope of permafrost thaw, enabling experts to adapt this technology for other research areas and expand access to key climate data and actionable insights across a range of issues and regions of the world.\n“It is truly wonderful to have the opportunity to work with a multi-institutional team of experts in Arctic science, cyberinfrastructure, big data, high-performance computing, remote sensing and AI,” said Li, who also is the research director of ASU’s Spatial Analysis Research Center.\n“Understanding change in the Arctic is a complex scientific problem, and we need team science to tackle this challenge,” Li said. “Our ASU team has collaborated with many of these partners in the past, and I look forward to working together to create exciting new science through this Google.org project.”\nThe research is being conducted in partnership with Woodwell Climate Research Center; University of Connecticut; University of California Santa Barbara; National Center for Supercomputing Applications; Arizona State University; Alfred Wegener Institute; University of Alaska, Fairbanks; and Alaska Native Tribal Health Consortium.\nMaddie Rocklin with the Woodwell Climate Research Center contributed to this article.\nTop photo courtesy Unsplash"
+    "text": "photo by Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons\n\n\nThe Arctic is facing a climate crisis that’s threatening the region, its people and the rest of the world. And while solutions to this crisis are available, like many parts of the polar region, they are just out of reach.\nFor years, satellites and drones have collected an avalanche of scientific data from even the most remote and unexplored areas of the Arctic. But the problem is that there is too much information, and it’s almost impossible to interpret.\nOne Arizona State University professor hopes to change that.\nIn August, Wenwen Li and her partners were awarded a $1 million research grant to help scientists learn to use artificial intelligence to address the pending disaster in the Arctic. Li is the principal investigator on the project.\n“The problem in the Arctic is so urgent,” said Li, a data scientist trained in computer science and earth system science at ASU. “We need to resolve it as soon as we possibly can.”\n\nBig data\nLi, a professor in ASU’s School of Geographical Sciences and Urban Planning, describes the daunting scale of relevant scientific information as “the big data” challenge.”\nThat may be an understatement.\nNASA’s climate change data repository is expected to have 350 petabytes of data by 2030 — the equivalent of about 10 billion single-spaced typewritten pages per day. And the satellite company MaxarTechnologies has more than 125 petabytes of global imagery. (That’s comparable to the total number of letters delivered by the U.S. Postal Service in 25 years.)\nAnd that’s just part of the problem.\nAnother element is that the data gathered is often incomprehensible to the scientists that need it most.\nThe computers currently in use by the Arctic science community don’t have the capacity to secure and interpret data on that scale, and doing so is essential for them to solve the serious problems the Arctic is facing.\n“Data alone will not help,” said Li, who directs the Cyberinfrastructure and Computational Intelligence Lab on ASU’s Tempe campus. “We need the ability to analyze huge amounts of data and receive useful scientific information from it. This process needs the support of artificial intelligence. But many Arctic scientists do not have the skills needed to work with artificial intelligence.”\nLi and her partners will use the research grant to develop a cyber training program for Arctic scientists, and those from other disciplines, to access, study and ultimately interpret these complex volumes of data with the use of artificial intelligence.\nThe project, titled “Cyber 2A: CyberTraining on AI-driven Analytics for Next Generation Arctic Scientists,” runs from March 2023 through February 2026.\n“The cutting-edge methods of using artificial-intelligence-driven analytics will give Arctic scientists the opportunity to make exciting new discoveries about what is really happening in the Arctic,” Li said.\nThe undertaking is a collaboration between Arizona State University; the University of California, Santa Barbara; University of Illinois, Urbana-Champaign; and the Woodwell Climate Research Center. The team is made up of experts in cyberinfrastructure, high-performance computing, artificial intelligence and Arctic science.\n\n\nThe polar problem\nSince 1979, climate change and warming throughout the Arctic are taking place at a rapid rate: four times that of other parts of the world, according to a report from the Finnish Meteorological Institute.\nAnd there is no part of the planet untouched by this warming.\nAs the ice melts throughout the 177.6 trillion square-feet of the region, there is a trickle down effect. Infrastructures once securely built on permafrost, a frozen layer of stable soil, are now sinking.\nThe unstable infrastructure impacts everything from the economy to the ability of animals — polar bears, walruses, Arctic foxes, caribou — to hunt and retain their habitat.\nAs the ice disappears, so does its reflective powers, allowing the sun’s energy to enter and be retained by the planet. The melting ice also releases methane, a greenhouse gas, that leads to more global warming. And on and on it goes until it seems that the frozen frontier may soon be facing its final years.\nPredictions in the journal Nature Climate Change say that by 2040, there will be no more ice in the Arctic. And because the Arctic plays an important role in moderating the global climate, it will have dire consequences for the rest of the planet.\nScientists, geologists and others studying these problems cannot keep up with the thaw across the global Arctic and the vast amount of unanalyzed research data associated with it. The result is that informed decisions for policymakers and quick actions are impossible to make.\n\n\nTeam takes on the challenge\nThat’s where Li and her team come in.\nThe grant will help scientists trained in AI-related analytics to accurately predict real time changes and ultimately find solutions to global warming and climate change in the Arctic.\nThe free training will be in-person, online and through a monthly webinar series and is open to both scientists and educators.\nAn Arctic-AI research network will be established for sharing ideas and resources. And all training materials will be deposited in the Arctic Data Center’s Learning Hub to ensure access to scientists, professionals and developers in the Arctic science and geoscience domains and beyond.\nInclusivity is a major part of the effort. A recruitment plan is underway to create a strong and diverse STEM research workforce providing opportunities for minorities, economically disadvantaged groups, women, members of the Arctic Indiginous community and more.\n“The cybertaining training grant will empower a new generation of Arctic researchers and leaders in utilizing all the data that is being collected across the Arctic,” said Anna Liljedahl, co-principal investigator for the project from the Woodwell Climate Research Center. “Not just a handful of data processed close to a decade after it was collected, which is how much of the science is currently operating.”\nAnd ultimately, Li and her peers hope to do their part in restoring the environmental health of a piece of the planet."
   },
   {
-    "objectID": "news/content/103024_review_on_ai_in_arctic_sea_ice.html",
-    "href": "news/content/103024_review_on_ai_in_arctic_sea_ice.html",
-    "title": "New review paper on AI in Arctic Sea Ice Remote Sensing!",
+    "objectID": "news/content/081023_google_org_grant.html",
+    "href": "news/content/081023_google_org_grant.html",
+    "title": "Google.org’s new grant to help track permafrost thaw",
     "section": "",
-    "text": "As AI continues to advance climate science, a recent paper from the Cyber2A team explores its unique contributions to Arctic sea ice remote sensing. The study reviewed over 160 papers, summarizing AI applications addressing key challenges such as sea ice lead detection, thickness estimation, concentration and extent forecasting, motion detection, and type classification. The paper also discusses future research directions, highlighting how the sea ice community can further benefit from cutting-edge AI technology. Read it here: https://www.mdpi.com/2072-4292/16/20/3764\n\n\n\nAdvancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges.\n\n\n\n\n\nAn overview of AI applications in Arctic sea ice research.\n\n\n\n\n\n\n\n\nTipReference\n\n\n\nLi, W., Hsu, C. Y., & Tedesco, M. (2024). Advancing Arctic Sea Ice Remote Sensing with AI and Deep Learning: Opportunities and Challenges. Remote Sensing, 16(20), 3764."
+    "text": "Permafrost thaw\n\n\nToday we’re announcing a $5 million grant and Google.org Fellowship to Woodwell Climate Research Center to help them deploy satellite imagery and AI technology to track permafrost thaw in near real-time. Faster insights about permafrost’s contribution to global warming will not only help inform international climate policy, it will help the 5 million people currently living in the Arctic adapt to their quickly changing landscape and reduce costs associated with infrastructure damage (estimated to be in the billions).\nPreviously, permafrost analysis could take years — even decades — and currently, we only have one-time snapshots of past permafrost thaw. But new AI models can help scientists monitor permafrost thaw monthly by analyzing massive amounts of satellite imagery data to produce seasonal forecasts.\n“Speeding up data analysis in a rapidly shifting global climate is a game changer,” says Dr. Anna Liljedahl, one of the lead scientists working on the project at Woodwell. “New geospatial projects like the one we’ll build together can help us better understand permafrost landscapes and the real-time impact of weather changes and extreme weather events.”\nLearn more about Anna’s research and other women climate scientists receiving support from Google.org"
   },
   {
-    "objectID": "people/advisory-board.html",
-    "href": "people/advisory-board.html",
-    "title": "Advisory Board",
+    "objectID": "news/content/102924_cyber2a_workshop.html",
+    "href": "news/content/102924_cyber2a_workshop.html",
+    "title": "Arctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop",
     "section": "",
-    "text": "Samantha T. Arundel\nUnited States Geological Survey, Rolla, MO, USA\n\n\nLingcao Huang\nPostdoctoral scholar, University of Victoria, Canada\n\n\nVera Kuklina\nResearch Professor, The George Washington University\n\n\nJianwu Wang\nAssociate Professor, University of Maryland, Baltimore County\n\n\nElizabeth A. Wentz\nVice Provost and Dean, Arizona State University\n\n\nLawrence M. Vulis\nPostdocral Scientist, Los Alamos National Laboratory"
+    "text": "Arctic researchers gather in Santa Barbara, CA for the first NSF Cyber2A workshop, exploring AI and ML applications in polar science.\n\n\nLast week, 20 Arctic researchers gathered in Santa Barbara, CA for the first NSF Cyber2A workshop to learn more about incorporating artificial intelligence (AI) and machine learning (ML) techniques into their research. Topics covered in this workshop included AI fundamentals and tools, AI-ready data, data annotation, neural networks and deep learning, AI ethics, reproducibility, and more. Participant’s research and experiences varied widely. While some researchers are focusing on sea ice and ice-sheet dynamics, others are studying similarities between the Arctic and otherworldly bodies such as Europa. All participants had one thing in common- their interest in using machine learning and artificial intelligence to further their research. Interested in learning more about using ML and AI in your research? Visit the Cyber2A course book to access all open-source materials from the workshop. We are enhancing our step-by-step AI training materials with lectures and code to support self-paced learning and lifelong learners, wherever you are in the world. Check out our website for updates and stay tuned for our 2025 training!\n\n\n\n\n\n\n\n\n\n\n\nCyber2A workshop participants and instructors celebrate a successful week of hands-on learning in AI and ML for Arctic research."
   },
   {
-    "objectID": "people/content/anna_liljedahl.html",
-    "href": "people/content/anna_liljedahl.html",
-    "title": "Anna Liljedahl",
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
     "section": "",
-    "text": "I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAnnouncing the 2025 Workshop: Scaling Impact in AI/ML Education for Arctic Research\n\n\n\n\n\n\n\n\nJun 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNew review paper on AI in Arctic Sea Ice Remote Sensing!\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\nWenwen Li\n\n\n\n\n\n\n\n\n\n\n\n\nArctic researchers dive into AI and ML for transformative science in the first Cyber2A workshop\n\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nNicole Greco\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle.org’s new grant to help track permafrost thaw\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nBrigitte Hoyer Gosselink\n\n\n\n\n\n\n\n\n\n\n\n\nThe multi-institution project received $5M in funding from Google.org to better understand Arctic permafrost thaw\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nDavid Rozul\n\n\n\n\n\n\n\n\n\n\n\n\nASU AI project analyzes big data to help analysts find solutions to Arctic warming\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nDolores Tropiano\n\n\n\n\n\n\n\n\n\n\n\n\nWinners announced for the 1st GeoAI Martian Challenge!\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nWenwen Li\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/content/caleb_billmeier.html",
-    "href": "people/content/caleb_billmeier.html",
-    "title": "Caleb Billmeier",
+    "objectID": "people/content/alyona_kosobokova.html",
+    "href": "people/content/alyona_kosobokova.html",
+    "title": "Alyona Kosobokova",
     "section": "",
-    "text": "Co-founder of Wellspring Group Consulting, he and Kate are the driving force behind the vision, goals, and operations of the business. Caleb worked as a consultant in rural Alaska for eight years, researching the impacts of state and federally-funded development projects on local subsistence practices and cultural resources. He has also worked as a tribal Grants Manager in his hometown of Seldovia, Alaska and as a contributor to a non-profit that seeks to educate and engage the public on Alaska’s natural resource issues.\nPrior to his work in Alaska, Caleb participated in collaborative research programs at the Kathmandu Valley Preservation Trust (KVPT) in Patan, Nepal. He also helped develop a community-based model for heritage tourism in the Indian state of Uttarakhand while working at the Indian National Trust for Art and Cultural Heritage (INTACH) in Delhi, India. He received his M.A. in Cross-Cultural Studies from the University of Alaska Fairbanks in 2009, following a B.A. in Historic Preservation from the University of Mary Washington in 2004.\nCaleb and Kate spent nearly a decade as a commercial fishing family in Bristol Bay, and continue to live and work in rural Alaska. He lives with his wife and two kids in Seldovia, Alaska."
+    "text": "Alyona is a Senior Research Software Engineer with extensive experience building and architecting infrastructure for leading companies such as Disney, Airtable and Hulu. She has also provided strategic guidance for two successful AI startups. Alyona holds a Bachelor’s degree in Computational Astrophysics and is currently pursuing a Master’s in Applied Artificial Intelligence. Throughout her career, she has collaborated with various research groups, including UCSB, UCSC, Harvard, and SFSU astrophysics teams. Beyond engineering and science, check out her silly sciencepop Youtube Channel: Dork Matter Girl."
   },
   {
-    "objectID": "people/content/chandi_witharana.html",
-    "href": "people/content/chandi_witharana.html",
-    "title": "Chandi Witharana",
+    "objectID": "people/content/ben_galewsky.html",
+    "href": "people/content/ben_galewsky.html",
+    "title": "Ben Galewsky",
     "section": "",
-    "text": "My research efforts broadly capture the methodological developments and adaptations to unseal faster, deeper, and more accurate analysis of large volumes of high-resolution remote sensing data. Object-based image analysis, point cloud analytics, machine learning, unmanned aerial systems (UAS) stand out as some of the key pitches in my agenda. I conduct interdisciplinary remote sensing research with high international visibility, speaking equally to the transformational uses of remote sensing in environmental, industrial, agricultural, and humanitarian applications. My scope is global. Diversity is an integral part of myself, as well as my research. Some of my work includes mapping ice-wedge polygonal Arctic tundra from sub-meter satellite imagery, on-demand censusing of Antarctic wildlife from space, 3D infrastructure analytics for electric utility industry, unmanned aerial spectroscopy for integrated pest management applications, and on-demand censusing of refugees in armed-conflicted areas in South Asia. Thinking beyond its research and industrial merits, I always value the strengths of remote sensing to address the requirements of the Next Generation Science Standards via the key elements from physics and engineering. I am actively seeking creative ways, such as imagery-enabled lesson plans to harness remote sensing in K-12 STEM education."
+    "text": "After working for several years as an IT Consultant in industry I’ve happily switched to a career in research software engineering, which I think of as IT Consulting for Science! I’m currently a Senior Research Software Engineer at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana Champaign. I work with researchers to understand their needs and design software solutions to help advance their research goals. I’m particularly intersted in data management and machine learning operations."
   },
   {
-    "objectID": "people/content/jim_regetz.html",
-    "href": "people/content/jim_regetz.html",
-    "title": "Jim Regetz",
+    "objectID": "people/content/chiayu_hsu.html",
+    "href": "people/content/chiayu_hsu.html",
+    "title": "Chia-Yu Hsu",
     "section": "",
-    "text": "At NCEAS, I lead an environmental data science program focused on enabling individual researchers and teams to achieve more impactful outcomes through better analysis, modeling, visualization, and data management. With a career arc traversing both academia and the commercial software industry, I’ve delivered data-driven insights and helped build new data/analytics infrastructure across diverse application domains, and am especially passionate about expanding data science literacy and expertise in the practitioner community."
+    "text": "I am a research professional specializing in deep learning and computer vision for remote sensing image analysis."
   },
   {
-    "objectID": "people/content/kenton_mchenry.html",
-    "href": "people/content/kenton_mchenry.html",
-    "title": "Kenton McHenry",
+    "objectID": "people/content/kate_hohman_billmeier.html",
+    "href": "people/content/kate_hohman_billmeier.html",
+    "title": "Kate Hohman Billmeier",
     "section": "",
-    "text": "I apply my experience in Computer Vision and Artificial Intelligence towards research and development in cyberinfrastructure for digital preservation, auto-curation, and providing access to contents in large unstructured digital collections (e.g. image collections)."
+    "text": "Together with Caleb, Kate helped found Wellspring Group Consulting. Kate believes that local voices should help determine, design, and control projects that enhance the well-being of their communities. In co-founding Wellspring Group Consulting, Kate envisions working with communities to build on their existing assets to connect, strengthen, and grow their capacity to do good work.\nSince 2010, Kate has taught Political Science and Women’s Studies in the University of Alaska system. Kate also worked at the Institute of Social and Economic Research as part of a monitoring and evaluation team for a multi-year federally-funded health project in Alaska. She has worked as a consultant in rural Alaska conducting studies on the impact of development projects on subsistence practices. Prior to her work in Alaska, Kate worked at an international INGO focused on helping women living in conflict-affected countries recover from war.\nKate received her BA in Political Science and International Affairs from the University of Mary Washington and her MA in Women’s Studies from The George Washington University. She received her PhD in Development Studies from the School of Oriental and African Studies, University of London in 2014.\nKate lives in Seldovia, Alaska with her family."
   },
   {
-    "objectID": "people/content/matthew_jones.html",
-    "href": "people/content/matthew_jones.html",
-    "title": "Matthew Jones",
+    "objectID": "people/content/luigi_marini.html",
+    "href": "people/content/luigi_marini.html",
+    "title": "Luigi Marini",
     "section": "",
-    "text": "My research focuses on environmental informatics, and particularly software for management, integration, analysis, and modeling of heterogeneous environmental data. Recent projects have produced effective new techniques for information management and analysis, including metadata standards, data management software, and data analysis software such as scientific workflow systems"
+    "text": "I am a lead research software engineer at the National Center for Supercomputing Applications (NCSA)."
   },
   {
-    "objectID": "people/content/sandeep_puthanveetil_satheesan.html",
-    "href": "people/content/sandeep_puthanveetil_satheesan.html",
-    "title": "Sandeep Puthanveetil Satheesan",
+    "objectID": "people/content/minu_mathew.html",
+    "href": "people/content/minu_mathew.html",
+    "title": "Minu Mathew",
     "section": "",
-    "text": "I am a Senior Research Software Engineer at NCSA. My educational background and experience are in Computer Science and Applied Computer Vision. I collaborate with faculty, researchers, students, industry partners, and other fellow research software engineers to design and develop software to support research. I have previously worked on research projects spanning the areas of biometrics, face recognition, image and video analytics, unstructured data curation, digital humanities, research data management, agriculture, policy design, and palynology. My research interests are in computer vision, artificial intelligence, research data analysis and management, and research software engineering."
+    "text": "I’m a Research Software Engineer at the National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign. My primary interests are in the field of ML/AI with a focus in NLP. Having a background in Computer Science and Wireless communication, I try to utilize the knowledge gained across multiple verticals to deliver better solutions and software. At NCSA, I work on multiple projects ranging from implementing LLM agents for RNA Sequencing tasks to development of a cloud native data management framework. Outside of work, I like badminton, swimming, traveling, painting and attending concerts."
   },
   {
-    "objectID": "people/content/wenwen_li.html",
-    "href": "people/content/wenwen_li.html",
-    "title": "Wenwen Li",
+    "objectID": "people/content/patricia_solis.html",
+    "href": "people/content/patricia_solis.html",
+    "title": "Patricia Solis",
     "section": "",
-    "text": "I am a geospatial information scientist specializing in cyberinfrastructure, AI, and big data analytics and their applications in environmental studies, especially Arctic science."
+    "text": "I am Executive Director of the Knowledge Exchange for Resilience at Arizona State University, a campus-wide effort to link multi-sector community needs with research innovations in building community resilience."
   },
   {
-    "objectID": "people/content/yili_yang.html",
-    "href": "people/content/yili_yang.html",
-    "title": "Yili Yang",
+    "objectID": "people/content/sizhe_wang.html",
+    "href": "people/content/sizhe_wang.html",
+    "title": "Sizhe Wang",
     "section": "",
-    "text": "Dr. Yili Yang’s passion for earth sciences and data science stems from a deep motivation to address the pressing challenges our planet faces today. With a background in geology and petrophysics, Dr. Yang possesses a strong foundation in understanding the intricacies of the Earth’s systems. However, recognizing the transformative potential of data science, he has shifted his focus towards utilizing state-of-the-art technologies such as deep learning and computer vision (image processing) to tackle earth science challenges.\nDr. Yang’s expertise lies in satellite image processing, object detection, and semantic segmentation, which he believes can empower traditional earth sciences with the power of AI. By leveraging advanced data science techniques, he aims to unlock new insights and enhance our understanding of complex environmental processes.\nCurrently, Dr. Yang is engaged in a critical project that involves using deep neural networks to map retrogressive thaw slumps in northern Siberia. This research is vital in modeling carbon emissions resulting from permafrost thaw, contributing to a comprehensive understanding of the impact of climate change. Additionally, he actively participates in other projects that harness the potential of machine learning, such as mapping small water bodies, mapping wildfires, and modeling carbon fluxes in the Arctic.\nDr. Yang’s interdisciplinary approach, combining his background in earth sciences with the power of data science, allows him to bridge the gap between traditional methodologies and cutting-edge technologies. By embracing this convergence, he aims to address the complex environmental challenges we face today more effectively."
+    "text": "I am a PhD student in computer science specializing in cyberinfrastructure, 4D data visualization, information retrieval, parallel computing, and spatial data analysis."
   },
   {
-    "objectID": "people/project-collaborators.html",
-    "href": "people/project-collaborators.html",
-    "title": "Project Collaborators",
+    "objectID": "people/content/xiao_chen.html",
+    "href": "people/content/xiao_chen.html",
+    "title": "Xiao Chen",
     "section": "",
-    "text": "Roman Dial\nProfessor, Alaska Pacific University\n\n\nAaron Dotson\nVice Chancellor for Research, University of Alaska Anchorage\n\n\nHoward Epstein\nProfessor, University of Virginia\n\n\nTrudi Hoogenboom\nAstra Nova School\n\n\nShishay T. Kidanu\nAssistant Professor, University of Alaska Fairbanks\n\n\nDmitry (Dima) Streletskiy\nAssociate Professor, The George Washington University\n\n\nCriag E. Tweedie\nProfessor, University of Texas at El Paso"
+    "text": "I am a PhD student in GIScience interested in GeoAI and web-based visualization."
   },
   {
-    "objectID": "webinars/content/040725-infrastructure-mapping-with-AI.html",
-    "href": "webinars/content/040725-infrastructure-mapping-with-AI.html",
-    "title": "Infrastructure Mapping with AI",
+    "objectID": "people/core-project-team.html",
+    "href": "people/core-project-team.html",
+    "title": "Core Project Team",
     "section": "",
-    "text": "Abstract\nArtificial Intelligence for mapping Arctic infrastructures on April 7, 9 am AKT/ 1 pm ET was co-hosted by NSF Cyber2A project, the CRAFT Research Coordination Network (Co-creating Research for Just Arctic Future Infrastructure Transformations, Resilience, and Adaptation), and the Permafrost Discovery Gateway project. The Webinar’s host: Wenwen Li (School of Geographical Sciences and Urban Planning, Arizona State University). Panelists: Chandi Witharana (Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut), Elias Manos (PhD student at the University of Connecticut Department of Natural Resources & the Environment), and Bessie Weston (Indigenous Alaska Native of Cup’ig decent, Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput).\n\n\nDate and Time\nApril 7, 2025, 9:00 - 10:00 AM AKT/ 1:00 - 2:00 PM ET\n\n\nSpeaker Biography\n\n\n\n\n\n\nBessie Lea Weston is an Indigenous Alaska Native of Cup’ig decent and was raised in the Bering Sea on Nunivak Island. Bessie currently serves as a Co-PI and Mekoryuk Advisory Board Member for the NSF NNA Project, Meq Unguvatarkarput. Her background includes visioning, planning, and implementing rural environmental and small scale infrastructural improvements.\n\n\n\n\n\n\n\n\n\nChandi Witharana is an Assistant Professor of Remote Sensing in the Department of Natural Resources and the Environment at the University of Connecticut. His research focuses on AI-driven methodological advancements and adaptations to enhance the efficiency and accuracy of large-scale analyses of high-resolution remote sensing data across multiple application domains.\n\n\n\n\n\n\n\n\n\nElias Manos is a geographer and PhD student at the University of Connecticut Department of Natural Resources & the Environment. He is also a team member on the Permafrost Discovery Gateway project. He is broadly interested in using earth observation for disaster risk management and monitoring human exposure to hazards. His research focuses on developing a comprehensive, publicly available, pan-Arctic geospatial data inventory of community infrastructure to further knowledge of the socioeconomic risks of permafrost thaw at multiple scales. This work leverages artificial intelligence techniques to automatically map buildings and roads from high-resolution satellite imagery of Arctic communities. Recent findings of this research indicate that estimated infrastructure damages caused by projected permafrost thaw in Alaska may cost double the amount found in previous studies\n\n\n\n\n\n\n\n\n\nWenwen Li is a professor in the School of Geographical Sciences and Urban Planning at Arizona State University. My research focuses on cyberinfrastructure, big data, and geospatial artificial intelligence and their applications in data- and computation-intensive challenges, particularly in the Arctic. My interest in Arctic research began during my PhD, when I helped build a virtual spatial data infrastructure to make Arctic data more easily shareable, accessible, and reusable across national boundaries. Since then, I have been developing cyberinfrastructure solutions, such as PolarHub and PolarGlobe, to advance our understanding of Arctic changes and their impact on ecosystems and communities.\n\n\n\n\n\nRecording"
+    "text": "Wenwen Li\n\n\nProject Lead  Principal Investigator, NSF Award 2230034  Professor  Arizona State University  wenwen@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnna Liljedahl\n\n\nPrincipal Investigator, NSF Award 2230035 Associate Scientist  Woodwell Climate Research Center aliljedahl@woodwellclimate.org \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthew Jones\n\n\nCo-Principal Investigator, NSF Award 2230034 Director of Research and Development, Informatics  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara jones@nceas.ucsb.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenton McHenry\n\n\nCo-Principal Investigator, NSF Award 2230035 Associate Director of Software  National Center for Supercomputing Applications mchenry@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChia-Yu Hsu\n\n\nSenior Personnel Research Professional  Arizona State University chsu53@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatricia Solis\n\n\nSenior Personnel Executive Director, Knowledge Exchange for Resilience  Arizona State University patricia.solis@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuigi Marini\n\n\nSenior Personnel Lead Research Software Engineer  National Center for Supercomputing Applications lmarini@illinois.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarmen Galaz García\n\n\nData Scientist National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXiao Chen\n\n\nPhD student Arizona State University xchen414@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSizhe Wang\n\n\nPhD student Arizona State University wsizhe@asu.edu \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKate Hohman Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC kate@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaleb Billmeier\n\n\nExternal Evaluator Wellspring Group Consulting, LLC caleb@wellspringalaska.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinu Mathew\n\n\nResearch Software Engineer  National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  minum@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSandeep Puthanveetil Satheesan\n\n\nSenior Research Software Engineer  National Center for Supercomputing Applications, University of Illinois Urbana-Champaign  sandeeps@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBen Galewsky\n\n\nSr. Research Software Engineer  National Center for Supercomputing Applications(NCSA) at University of Illinois Urbana Champaign  bengal1@illinois.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNicole Greco\n\n\nCommunity Engagement & Outreach Coordinator  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  greco@nceas.ucsb.edu  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlyona Kosobokova\n\n\nSenior Research Software Engineer  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJim Regetz\n\n\nDirector of Research Software Engineering  National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara  regetz@nceas.ucsb.edu  \n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "webinars/content/042726-arctic-permafrost-detection-vit-location-embeddings.html",
+    "href": "webinars/content/042726-arctic-permafrost-detection-vit-location-embeddings.html",
+    "title": "Pan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings",
+    "section": "",
+    "text": "Abstract\nAccurate mapping of permafrost landforms, thaw disturbances, and human-built infrastructure at pan-Arctic scale using submeter resolution satellite imagery is increasingly critical. Handling petabyte-scale image data requires high-performance computing and robust feature detection models. While convolutional neural network (CNN) based deep learning approaches are widely used for remote sensing (RS), vision transformers (ViTs) offer advantages in capturing long-range dependencies and global context via attention mechanisms, similar to the success in transformer-based large language models. ViTs support pretraining via self-supervised learning, addressing the common limitation of labeled data in Arctic feature detection, and outperform CNNs on benchmark datasets. The Arctic domain also poses challenges for model generalization, especially when features with the same semantic class exhibit diverse spectral characteristics. To address these issues for Arctic feature detection, we integrate geospatial location embeddings into ViTs to improve adaptation across regions. This work investigates the suitability of pretrained ViTs as feature extractors for high-resolution Arctic RS tasks and the benefit of combining image and location embeddings. Using previously published datasets for Arctic feature detection, we evaluate our models on three tasks—detecting ice-wedge polygons (IWPs), retrogressive thaw slumps (RTS), and human-built infrastructure. We empirically explore multiple configurations to fuse image embeddings and location embeddings. Results show that ViTs with location embeddings significantly improve RTS (F1 from 0.84 to 0.92) and IWP (mAP50 from 0.49 to 0.57), while the CNN baseline remains moderately stronger on infrastructure (F1 0.88 versus 0.86); all per-task differences are significant at the 95% confidence level. This demonstrates the potential of transformer-based models with spatial awareness for Arctic RS applications.\n\n\nDate and Time\nApril 27, 2026, 10:00 - 11:00 AM PDT\n\n\nWebinar Link\nhttps://asu.zoom.us/j/89368664223\n\n\nManuscript\nhttps://doi.org/10.1109/JSTARS.2025.3648673\n\n\nRecording\nTo be updated."
   },
   {
     "objectID": "webinars/content/081825-semantic-enrichment-LLM-analytics-mindat-portal.html",

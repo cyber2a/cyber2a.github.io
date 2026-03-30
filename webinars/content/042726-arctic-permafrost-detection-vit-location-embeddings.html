@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="David Jose Fernandez, Google   Dr.&nbsp;Amal Perera, University of Connecticut">
+<meta name="dcterms.date" content="2026-04-27">
 
-<title>Anna Liljedahl</title>
+<title>Pan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -72,12 +75,12 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
 
-<meta property="og:title" content="Anna Liljedahl">
-<meta property="og:description" content="Principal Investigator, NSF Award 2230035 Associate Scientist  Woodwell Climate Research Center aliljedahl@woodwellclimate.org">
-<meta property="og:image" content="https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A8a9b7d67-a23c-4295-888a-6f3365d87b41">
-<meta name="twitter:title" content="Anna Liljedahl">
-<meta name="twitter:description" content="Principal Investigator, NSF Award 2230035 Associate Scientist  Woodwell Climate Research Center aliljedahl@woodwellclimate.org">
-<meta name="twitter:image" content="https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A8a9b7d67-a23c-4295-888a-6f3365d87b41">
+<meta property="og:title" content="Pan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://cyber2a.github.io/webinars/content/images/042726-arctic-permafrost-detection-vit-location-embeddings.jpg">
+<meta name="twitter:title" content="Pan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://cyber2a.github.io/webinars/content/images/042726-arctic-permafrost-detection-vit-location-embeddings.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -152,25 +155,73 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A8a9b7d67-a23c-4295-888a-6f3365d87b41" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Anna Liljedahl</h1>
-<p class="subtitle lead">Principal Investigator, NSF Award 2230035<br> Associate Scientist <br> Woodwell Climate Research Center<br> aliljedahl@woodwellclimate.org</p>
+<h1 class="title">Pan-Arctic Permafrost Landform and Human-Built Infrastructure Feature Detection With Vision Transformers and Location Embeddings</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">SPEAKERS</div>
+    <div class="quarto-title-meta-contents">
+             <p>David Jose Fernandez, Google <br> Dr.&nbsp;Amal Perera, University of Connecticut </p>
+          </div>
   </div>
-</header><main class="content" id="quarto-document-content">
-<p>I integrate field measurements, remote sensing, and computational modeling to better understand hydrology, permafrost and/or glacier interactions and the controls on the Arctic and sub-arctic hydrologic cycle.</p>
+    
+    <div>
+    <div class="quarto-title-meta-heading">DATE</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 27, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-</main>  
-</div>
- <!-- /main -->
+</header>
+
+
+<p><img src="images/042726-arctic-permafrost-detection-vit-location-embeddings.jpg" class="img-fluid"></p>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Accurate mapping of permafrost landforms, thaw disturbances, and human-built infrastructure at pan-Arctic scale using submeter resolution satellite imagery is increasingly critical. Handling petabyte-scale image data requires high-performance computing and robust feature detection models. While convolutional neural network (CNN) based deep learning approaches are widely used for remote sensing (RS), vision transformers (ViTs) offer advantages in capturing long-range dependencies and global context via attention mechanisms, similar to the success in transformer-based large language models. ViTs support pretraining via self-supervised learning, addressing the common limitation of labeled data in Arctic feature detection, and outperform CNNs on benchmark datasets. The Arctic domain also poses challenges for model generalization, especially when features with the same semantic class exhibit diverse spectral characteristics. To address these issues for Arctic feature detection, we integrate geospatial location embeddings into ViTs to improve adaptation across regions. This work investigates the suitability of pretrained ViTs as feature extractors for high-resolution Arctic RS tasks and the benefit of combining image and location embeddings. Using previously published datasets for Arctic feature detection, we evaluate our models on three tasks—detecting ice-wedge polygons (IWPs), retrogressive thaw slumps (RTS), and human-built infrastructure. We empirically explore multiple configurations to fuse image embeddings and location embeddings. Results show that ViTs with location embeddings significantly improve RTS (F1 from 0.84 to 0.92) and IWP (mAP50 from 0.49 to 0.57), while the CNN baseline remains moderately stronger on infrastructure (F1 0.88 versus 0.86); all per-task differences are significant at the 95% confidence level. This demonstrates the potential of transformer-based models with spatial awareness for Arctic RS applications.</p>
+</section>
+<section id="date-and-time" class="level3">
+<h3 class="anchored" data-anchor-id="date-and-time">Date and Time</h3>
+<p>April 27, 2026, 10:00 - 11:00 AM PDT</p>
+</section>
+<section id="webinar-link" class="level3">
+<h3 class="anchored" data-anchor-id="webinar-link">Webinar Link</h3>
+<p><a href="https://asu.zoom.us/j/89368664223">https://asu.zoom.us/j/89368664223</a></p>
+</section>
+<section id="manuscript" class="level3">
+<h3 class="anchored" data-anchor-id="manuscript">Manuscript</h3>
+<p><a href="https://doi.org/10.1109/JSTARS.2025.3648673">https://doi.org/10.1109/JSTARS.2025.3648673</a></p>
+</section>
+<section id="recording" class="level3">
+<h3 class="anchored" data-anchor-id="recording">Recording</h3>
+<p>To be updated.</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
