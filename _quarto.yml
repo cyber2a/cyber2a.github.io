@@ -43,18 +43,13 @@ website:
         href: workshop/index.qmd
 #      - text: "Discussions"
 #        href: discussions/index.qmd
-      - text: "CFP2025"
-        href: cfp2025.qmd
-#      - text: "GeoAI Challenge"
-#        menu:
-#          - text: "Overview"
-#            href: challenge/index.qmd
-#          - text: "Dataset"
-#            href: challenge/dataset.qmd
-#          - text: "Participate"
-#            href: challenge/participate.qmd
-#          - text: "Resources"
-#            href: challenge/resources.qmd
+#      - text: "CFP2025"
+#        href: cfp2025.qmd
+      - text: "GeoAI Book"
+        href: course/index.qmd
+#      - text: "GeoAI Arctic Challenge"
+#        href: challenge/index.qmd
+
     
   sidebar:
 
@@ -63,8 +58,10 @@ website:
       style: "floating"
       background: light
       contents:
-        - text: "Workshop Information"
+        - text: "2024 Workshop"
           href: workshop/index.qmd
+        - text: "2025 Workshop"
+          href: cfp2025.qmd
         - section: "Workshop Curriculum Preview"
           contents:
           - text: "<b>1. Introduction to AI and Arctic science</b>"
@@ -130,15 +127,76 @@ website:
       style: "floating"
       background: light
       contents:
-        - text: "Overview"
+        - text: "Welcoming Words from Organizers"
+          href: challenge/words-from-organizers.qmd
+        - section: "Overview"
           href: challenge/index.qmd
-        - text: "Dataset"
+          contents:
+          - text: "News"
+            href: challenge/index.qmd#news
+          - text: "What is Retrogressive Thaw Slumps (RTS)?"
+            href: challenge/index.qmd#what-is-retrogressive-thaw-slumps-rts
+          - text: "About the Challenge"
+            href: challenge/index.qmd#about-the-challenge
+          - text: "Collaborators"
+            href: challenge/index.qmd#collaborators
+          - text: "Partners"
+            href: challenge/index.qmd#partners
+          - text: "Sponsors"
+            href: challenge/index.qmd#sponsors
+          - text: "References"
+            href: challenge/index.qmd#references
+          - text: "Dataset Samples"
+            href: challenge/index.qmd#dataset-samples
+        - section: "Dataset"
           href: challenge/dataset.qmd
-        - text: "Participate"
+          contents:
+          - text: "GeoAI Arctic Challenge Dataset"
+            href: challenge/dataset.qmd#dataset
+          - text: "Geographic Coverage & Study Sites"
+            href: challenge/dataset.qmd#geographic-coverage-and-study-sites
+          - text: "Public Release Contents"
+            href: challenge/dataset.qmd#public-release-contents
+          - text: "Bands"
+            href: challenge/dataset.qmd#bands
+          - text: "Key Dataset Statistics"
+            href: challenge/dataset.qmd#key-dataset-statistics
+          - text: "Label Conversion"
+            href: challenge/dataset.qmd#label-conversion
+          - text: "Dataset Distributions"
+            href: challenge/dataset.qmd#dataset-distributions
+          - text: "Sample Visualizations"
+            href: challenge/dataset.qmd#sample-visualizations
+        - section: "Participate"
           href: challenge/participate.qmd
+          contents:
+          - text: "Registration and Setup"
+            href: challenge/participate.qmd#registration-and-setup
+          - text: "Download Competition Files"
+            href: challenge/participate.qmd#download-competition-files
+          - text: "Local Setup"
+            href: challenge/participate.qmd#local-setup
+          - text: "Data Format"
+            href: challenge/participate.qmd#data-format
+          - text: "Task Description"
+            href: challenge/participate.qmd#task-description
+          - text: "Submission Format"
+            href: challenge/participate.qmd#submission-format
+          - text: "Evaluation Metrics"
+            href: challenge/participate.qmd#evaluation-metrics
+          - text: "Submission Instructions"
+            href: challenge/participate.qmd#submission-instructions
+          - text: "Required Materials"
+            href: challenge/participate.qmd#required-materials
+          - text: "Important Dates"
+            href: challenge/participate.qmd#important-dates
+          - text: "Awards"
+            href: challenge/participate.qmd#awards
+          - text: "Support and Leaderboard"
+            href: challenge/participate.qmd#support-and-leaderboard
         - text: "Resources"
           href: challenge/resources.qmd
-     
+
 
   page-footer:
     background: dark
@@ -175,6 +233,5 @@ format:
 
 execute: 
   freeze: auto
-
 
 

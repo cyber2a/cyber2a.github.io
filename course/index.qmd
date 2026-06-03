@@ -1,0 +1,26 @@
+---
+title: "AI for Arctic Research Course"
+---
+
+# Cyber2A: AI for Arctic Research
+
+The Cyber2A course is a free, modular set of training materials for Arctic researchers who want to learn and apply artificial intelligence methods. The course is published as a Quarto book and can be used for self-paced study, workshops, or teaching.
+
+[Open the course materials](https://cyber2a.github.io/cyber2a-course/){.btn .btn-primary}
+
+## Course Topics
+
+- Introduction to AI and Arctic science
+- AI-ready data, data annotation, and open data practices
+- Neural networks, deep learning, and PyTorch
+- Permafrost and Arctic data applications
+- Instance segmentation and deep learning libraries for image analysis
+- AI workflows, MLOps, foundation models, ethics, and reproducibility
+
+## Use the Materials
+
+The course materials are designed as reusable modules. You can work through the full course in sequence or use individual lessons as references for specific topics.
+
+- **Course website:** <https://cyber2a.github.io/cyber2a-course/>
+- **Course DOI:** <https://doi.org/10.18739/A2222R77V>
+- **Course repository:** <https://github.com/cyber2a/cyber2a-course>

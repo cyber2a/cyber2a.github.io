@@ -1,199 +1,263 @@
 ---
-title: "GeoAI Arctic Mapping Challenge"
+title: "GeoAI Arctic Challenge"
 ---
 
-# Welcome to the 2025 GeoAI Arctic Mapping Challenge
+## Registration and Setup {id="registration-and-setup"}
 
-words from organizers
+### Who Can Participate
 
-## Registration & Setup
+The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions.
 
-1. Go to the [CodeBench Challenge Page]().
-2. Click **“Join Challenge”**.
-3. Sign in using GitHub, Google, or your institutional email.
-4. Accept the **data license agreement** before accessing the dataset.
-5. You’re ready to start! 🚀
+We strongly encourage interdisciplinary teams that bring together diverse backgrounds, such as Earth science, geoscience, remote sensing, computer science, and AI. Teams with this kind of cross-domain composition will receive additional credit.
 
-## Download the Dataset
+### How to Register
 
-Once registered, you can:
+1. Form your team and select a Team Leader.
+2. Complete the team registration form: **[Google Form Link]**.
+3. Provide the following information:
+    - Team name
+    - Team Leader's name and email
+    - Names and affiliations of all team members
+    - Team Leader's Codabench username (if already available)
 
-- Download the dataset directly from **CodeBench**.
-- Or visit the [Dataset Page](./dataset.qmd) for detailed information and visualizations.
+The organizers will review all registrations and verify team eligibility.
 
-**Dataset Highlights:**
+### Codabench Access and Resources
 
-- RGB + Sentinel-2 multi-spectral imagery.
-- High-resolution ArcticDEM elevation data.
-- COCO-style instance segmentation annotations.
+After submitting the registration form:
 
-## Data Format
+1. The Team Leader should create a Codabench account at [https://www.codabench.org](https://www.codabench.org).
+2. Visit the competition page: [GeoAI Arctic Challenge](https://www.codabench.org/competitions/10283/).
+3. Click Join Competition.
+4. Wait for organizer approval.
 
-The dataset is organized into **train** and **test** splits with COCO-style annotations:
+Access requests are reviewed manually. Approved teams will receive access to the competition resources and leaderboard.
 
-```bash
-dataset/
-├── train/
-│   ├── images/              # Multi-band GeoTIFFs
-│   ├── masks/               # Per-instance RTS masks
-│   └── annotations.json     # COCO-style labels
-└── test/
-    ├── images/
-    └── sample_submission.json
-```
+Once approved, the Team Leader can:
 
-| **Item**    | **Format** | **Description**                  |
-| ----------- | ---------- | -------------------------------- |
-| Imagery     | `.tif`     | Multi-band satellite imagery     |
-| Annotations | `.json`    | COCO-style instance segmentation |
-| Masks       | `.png`     | Per-instance RTS masks           |
+1. Access the competition files and documentation.
+2. Download the public dataset and starter materials.
+3. Follow the setup instructions provided in the repository or competition page.
+4. Submit predictions through Codabench.
 
-## Baseline Notebook & Starter Kit
+### Participation Rules
 
-We provide a [baseline notebook]() to help you get started quickly.
+- Each team may register only once.
+- Each team must use a single Codabench account managed by the Team Leader.
+- Multiple Codabench accounts representing the same team are not permitted.
+- Teams found circumventing participation limits through multiple accounts may be disqualified at the organizers' discretion.
+- Team membership should remain unchanged after registration unless explicitly approved by the organizers.
+- Codabench will enforce platform-level competition settings, including maximum submissions per day, maximum upload size, public/private leaderboard behavior, final ranking metric, and displayed leaderboard columns.
+- Code for the top-performing models must be submitted for verification to be eligible for awards.
 
-**Starter Kit Includes:**
+## Download Competition Files {id="download-competition-files"}
 
-- Data loading & visualization examples.
-- Baseline multimodal GeoAI model from [**Li *et al.* (2025)**](https://doi.org/10.1109/JSTARS.2025.3564310).
-- Sample inference code.
-- Example submission formatting.
+Once registered and approved, download the public release package from the **Files** section on Codabench. You can also visit the [Dataset Page](./dataset.qmd) for detailed information about the data, annotations, and visualizations.
 
-## Task Description
+**Release package contents:**
 
-Your task is to **predict per-instance RTS masks** using satellite imagery and topographic data.
+- 756 training image chips and 138 test image chips.
+- Eight-band `.npz` image arrays with RGB, spectral indices, elevation, shaded relief, and NIR bands.
+- COCO-style instance segmentation annotations for the training split.
+- Hidden test labels used by the official scorer.
+- Helper scripts for loading images, validating submissions, encoding masks, and local evaluation.
 
-| Input	| Output |
-| ----------- | ----------- |
-| Multi-band satellite imagery (.tif)	| RTS instance segmentation masks |
+## Local Setup {id="local-setup"}
 
-## Evaluation Metrics
-
-Submissions are ranked on **CodeBench** using the following metrics:
-
-| Metric	| Definition	| Range	| Higher = Better? |
-| ----------- | ----------- | ----------- | ----------- |
-| mAP	| Mean Average Precision over IoU thresholds	| 0–1	| ✅ |
-| mAP50	| Mean Average Precision over IoU thresholds at 0.5	| 0–1	| ✅ |
-| mAP75	| Mean Average Precision over IoU thresholds at 0.75	| 0–1	| ✅ |
-| mAP-small	| Mean Average Precision over IoU thresholds at 0.5 for small objects	| 0–1	| ✅ |
-| mAP-medium	| Mean Average Precision over IoU thresholds at 0.5 for medium objects	| 0–1	| ✅ |
-| mAP-large	| Mean Average Precision over IoU thresholds at 0.5 for large objects	| 0–1	| ✅ |
-
-> Primary ranking is based on **mAP**.
-
-## Results Format (Submission Format)
-
-Your submission must follow the **CodeBench COCO-style JSON format**.
-
-**Submission Folder Structure:**
+Install the helper dependencies in your Python environment:
 
 ```bash
-submission/
-├── predictions/
-│   ├── image_001.json
-│   ├── image_002.json
-│   └── ...
-└── submission.json
+pip install -r requirements.txt
 ```
 
-**Example submission.json:**
+Inspect the release package:
+
+```bash
+python tools/inspect_dataset.py
+```
+
+Load one training image and decode one training instance mask:
+
+```bash
+python examples/load_image_and_label.py
+```
+
+## Data Format {id="data-format"}
+
+The release is organized into training data, test data, metadata, tools, and examples:
+
+```bash
+competition_release/
+  metadata/
+    band_names.json
+    sample_submission.json
+    train_manifest.csv
+    test_manifest.csv
+  tools/
+    coco_utils.py
+    validate_submission.py
+    evaluate_coco.py
+    inspect_dataset.py
+  examples/
+    load_image_and_label.py
+    make_sample_submission.py
+    encode_predictions.py
+  train/
+    images/*.npz
+    annotations/instances_train.json
+  test/
+    images/*.npz
+```
+
+| Item | Format | Description |
+| --- | --- | --- |
+| Imagery | `.npz` | One array named `image` with shape `H x W x 8` |
+| Training labels | `.json` | COCO instance segmentation labels with compressed RLE masks |
+| Manifests | `.csv` | Public IDs, integer image IDs, filenames, widths, and heights |
+| Sample submission | `.json` | Example COCO results-format submission |
+
+The image bands are stored in HWC order: `red`, `green`, `blue`, `ndvi`, `relative_elevation`, `shaded_relief`, `nir`, and `ndwi`.
+
+## Task Description {id="task-description"}
+
+Your task is to **predict per-instance RTS masks** for each test image chip.
+
+| Input | Output |
+| --- | --- |
+| Eight-band `.npz` image chip | One compressed COCO RLE mask per predicted RTS instance |
+
+There is one prediction category:
 
 ```json
-[
-  {
-    "image_id": "image_001",
-    "category_id": 1,
-    "segmentation": [ ... ],
-    "score": 0.93
-  },
-  {
-    "image_id": "image_002",
-    "category_id": 1,
-    "segmentation": [ ... ],
-    "score": 0.87
-  }
-]
+{"id": 1, "name": "rts", "supercategory": "landform"}
 ```
 
-> ⚠️ **Important**: Submissions that do not follow this format will be **automatically rejected**.
+## Submission Format {id="submission-format"}
 
-## Submission Instructions
+Submit a COCO results JSON list. Each prediction should include:
+
+```json
+{
+  "image_id": 1,
+  "category_id": 1,
+  "segmentation": {"size": [159, 289], "counts": "01nk\\1"},
+  "score": 0.95
+}
+```
+
+Submission rules:
+
+- `image_id` must be an integer from `metadata/test_manifest.csv`.
+- `category_id` must be `1`.
+- `segmentation` must be a compressed COCO RLE mask matching the image height and width.
+- `score` must be numeric and in `[0, 1]`.
+- Empty submissions (`[]`) are valid and mean no predicted RTS instances.
+- Images with no predictions are valid.
+- Multiple predictions per image are valid.
+
+If your model outputs binary masks, encode each mask as compressed RLE. If your model outputs polygons as `x1, y1, x2, y2, ...`, convert each polygon to compressed RLE before submission. Helper functions are provided in `tools/coco_utils.py`.
+
+Create a valid sample submission:
+
+```bash
+python examples/make_sample_submission.py
+```
+
+Encode binary masks or polygon coordinates as compressed COCO RLE:
+
+```bash
+python examples/encode_predictions.py
+```
+
+Validate a submission before upload:
+
+```bash
+python tools/validate_submission.py --submission path/to/submission.json
+```
+
+Malformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.
+
+## Evaluation Metrics {id="evaluation-metrics"}
+
+Submissions are ranked on Codabench using COCO mask AP/AR (`segm`) with RTS-specific settings. The primary ranking metric is:
+
+- `AP @[IoU=0.50:0.95, area=all, maxDets=10]`
+
+Additional displayed metrics may include:
+
+| Metric | Definition |
+| --- | --- |
+| `AP50` | Average Precision at IoU 0.50 |
+| `AP75` | Average Precision at IoU 0.75 |
+| `AP_small` | Average Precision for objects with area `[0, 300]` pixels |
+| `AP_medium` | Average Precision for objects with area `[300, 2000]` pixels |
+| `AP_large` | Average Precision for objects with area `[2000, 1e10]` pixels |
+| `AR_all` | Average Recall across all object sizes |
+
+Official settings:
+
+- `maxDets`: `[1, 5, 10]`
+- `areaRngLbl`: `["all", "small", "medium", "large"]`
+- `all`: `[0, 1e10]` pixels
+- `small`: `[0, 300]` pixels
+- `medium`: `[300, 2000]` pixels
+- `large`: `[2000, 1e10]` pixels
+
+The official metric uses the top-scoring detections per image according to `maxDets=10`. You may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.
+
+Evaluate predictions against the public training labels or your own COCO-format validation split:
+
+```bash
+python tools/evaluate_coco.py \
+  --ground-truth train/annotations/instances_train.json \
+  --submission path/to/train_predictions.json
+```
+
+## Submission Instructions {id="submission-instructions"}
 
 1. Train your model locally.
-2. Generate predictions for the **test set**.
-3. Package predictions in the required **submission format**.
-4. Compress into a `.zip` file.
-5. Upload to [CodeBench Submissions]().
-6. Check your score on the leaderboard.
+2. Generate predictions for the test set.
+3. Encode each predicted RTS instance as compressed COCO RLE.
+4. Build one `submission.json` COCO results list.
+5. Validate the JSON with `tools/validate_submission.py`.
+6. Upload the validated submission through Codabench.
+7. Check your score on the leaderboard.
 
-## What Participants Should Submit
+## Required Materials {id="required-materials"}
 
-In addition to leaderboard submissions, top-performing teams will be invited to contribute to an outcome publication. To be eligible, please prepare the following:
+All teams must submit a valid COCO results-format `submission.json` through Codabench. In addition to leaderboard submissions, top-performing teams will be invited to contribute to an outcome publication and may be asked to provide the following materials.
 
-### 1. Predictions (Required for All Teams)
+### Technical Report 
 
-* COCO-style submission.json file (see [Results Format](./participate.qmd#results-format-submission-format)).
-* Uploaded via CodeBench Submissions.
+Teams aiming for awards and paper inclusion must submit a short technical report (2-4 pages) covering:
 
-### 2. Technical Report (Required for Top Teams)
+- Team and affiliations: members, institution, country.
+- Model architecture: CNN, Transformer, hybrid, or other approach.
+- Training strategy: losses, augmentations, optimizers, batch size, and hardware.
+- Special techniques: domain adaptation, self-training, ensembling, band selection, or other methods.
+- Results and ablations: validation metrics, ablation tables, and sample outputs.
+- Insights: challenges faced, lessons learned, and potential future improvements.
+- References to related works.
 
-Teams aiming for awards and paper inclusion must submit a short technical report (2–4 pages) covering:
+> A report template will be provided to keep submissions consistent.
 
-* Team & Affiliations (members, institution, country).
-* Model Architecture (diagrams encouraged: CNN, Transformer, hybrid, etc.).
-* Training Strategy (losses, augmentations, optimizers, batch size, hardware).
-* Special Techniques (domain adaptation, self-training, ensembling, band selection, etc.).
-* Results & Ablations (validation metrics, ablation tables, sample outputs).
-* Insights (challenges faced, lessons learned, potential future improvements).
-* References to related works.
+### Code and Reproducibility Package
 
-> A report template (LaTeX/Word) will be provided to keep submissions consistent.
+- Final inference code or container to verify results.
+- Instructions for reproducing predictions on the test set.
+- Training scripts are encouraged but optional.
 
-### 3. Code & Reproducibility Package (Required for Award Eligibility)
+## Important Dates {id="important-dates"}
 
-* Final inference code or container (to verify results).
-* Training scripts are encouraged but optional.
-* Instructions for reproducing predictions on the test set.
+| Event | Date |
+| --- | --- |
+| Competition Opens | June 1, 2026 |
+| Dataset Released | June 1, 2026 |
+| Benchmark Phase Starts | July 15, 2026 |
+| Final Submission | December 31, 2026 |
+| Winners Announced | February 1, 2027 |
 
-## Challenge Phases
-
-The competition consists of **two phases**:
-
-| Phase	| Timeline	| Description	| Awards	| Leaderboard |
-| ----------- | ----------- | ----------- | ----------- |
-| **Challenge Phase**	| Feb 15, 2026 → Aug 30, 2026	| Compete with others, submit predictions, improve models	| 🏅 Yes	| Public |
-| **Benchmark Phase**	| Starts Dec 01, 2026	| Evaluate models freely, test reproducibility, no awards	| ❌ No	| Public & Continuous |
-
-* **Challenge Phase** → Compete for prizes and leaderboard positions.
-* **Benchmark Phase** → Keep testing your models after the official challenge ends.
-
-
-## Important Dates
-
-| Event	| Date |
-| ----------- | ----------- |
-| Competition Opens	| February 15, 2026 |
-| Dataset Released	| February 15, 2026 |
-| Final Submission	| August 30, 2026 |
-| Winners Announced	| October 1, 2026 |
-| Benchmark Phase Starts	| December 1, 2026 |
-
-## Qualification, Rules, and Awards
-
-### Qualification
-
-The competition is open to everyone, including students, academics, and industry professionals. We encourage participants from diverse backgrounds in computer science, remote sensing, geoscience, and related fields to form teams and compete.
-
-### Rules
-
-- Each team can consist of 1 to 5 members.
-- Each team is limited to 2 submissions per day and 100 submissions in .
-- The use of external data is permitted. Please see the Codabench page for specifics.
-- Code for the top-performing models must be submitted for verification to be eligible for awards.
-- For a complete list of rules, please visit the competition page on Codabench.
-
-### Awards
+## Awards {id="awards"}
 
 Prizes will be awarded to the top-performing teams based on the final leaderboard standings.
 
@@ -201,12 +265,8 @@ Prizes will be awarded to the top-performing teams based on the final leaderboar
 - **2nd Place:** $500 USD
 - **3rd Place:** $200 USD
 
-## Support & Discussion
+## Support and Leaderboard {id="support-and-leaderboard"}
 
-* **CodeBench Discussion Forum**: [Join Here](https://codebench.com/geoai-rts/discussions)
-
-## Leaderboard
+Use the Codabench discussion forum for public challenge questions.
 
 The leaderboard will be updated regularly with the latest submissions.
-
-

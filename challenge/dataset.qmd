@@ -1,53 +1,118 @@
 ---
-title: "GeoAI Arctic Mapping Challenge"
+title: "GeoAI Arctic Challenge"
 ---
 
-# GeoAI Arctic Mapping Challenge Dataset
+# GeoAI Arctic Challenge Dataset {id="dataset"}
 
-The GeoAI Arctic Mapping Challenge dataset builds upon Yang *et al.* (2023)  and focuses on detecting and mapping **retrogressive thaw slumps (RTS)**—landscape disturbances caused by permafrost thaw. Originally, Yang et al. provided semantic segmentation masks (binary labels of RTS vs. non-RTS). For this competition, we extend and reformat the dataset into an **instance segmentation** benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.
+The GeoAI Arctic Challenge dataset is an **instance segmentation** benchmark for detecting and delineating **retrogressive thaw slumps (RTS)**, landscape disturbances caused by permafrost thaw, in Arctic image chips. The dataset builds on *Yang et al.* (2023), which provided semantic segmentation masks that label each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.
+
+Participants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports evaluation at the feature level, including how well models separate and delineate individual RTS boundaries, rather than only measuring pixel-wise foreground and background accuracy.
+
+Training labels are provided in COCO instance segmentation format. Test labels remain hidden and are used by the official scorer.
 
 > **Why it matters**: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.
 
-| Satellite Image *(RGB)* | Semantic Mask *(Original)* | Instance Mask *(This Challenge)* |
+| Satellite Image (RGB) | Semantic Mask (Original) | Instance Mask (This Challenge) |
 | :--------------------: | :--------------------: | :--------------------: |
 | ![](assets/rts_1_rgb.png) | ![](assets/rts_1_mask.png) | ![](assets/rts_1_polygons.png) |
 | ![](assets/rts_2_rgb.png) | ![](assets/rts_2_mask.png) | ![](assets/rts_2_polygons.png) |
 
-*Figure 1. Conversion from semantic to instance segmentation masks. The challenge dataset refines the original semantic masks from Yang et al. (2023) into instance-level polygons, enabling finer-grained evaluation and model learning.*
+*Figure 1. Conversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.*
 
-## Geographic Coverage & Study Sites
+## Geographic Coverage & Study Sites {id="geographic-coverage-and-study-sites"}
 
-The dataset spans **7 Arctic subregions**, including:
+The source data spans **7 Arctic subregions**, including:
 
 - Canada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island
 - Russia: Yamal and Gydan peninsulas, Lena River, Kolguev Island
 
 ![Dataset Coverage Map](assets/dataset_coverage_map.png)  
-*Figure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions ([**Li et al., 2025**](https://doi.org/10.1109/JSTARS.2025.3564310)).*
+*Figure 2. Spatial coverage of the source Arctic RTS dataset. The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling ([**Li et al., 2025**](https://doi.org/10.1109/JSTARS.2025.3564310)).*
 
-## Data Sources & Multimodal Inputs
+## Public Release Contents {id="public-release-contents"}
 
-This dataset integrates **multi-source satellite and geospatial data**:
+The public package contains training images and labels, hidden-label test images, metadata, and starter tools:
 
-| **Data Type** | **Source** | **Resolution** | **Band Names** | Purpose in Task |
-|-------|------|------|--------------|--------------|
-| RGB Imagery | Maxar | 4 m | maxarR, maxarG, maxarB | High-resolution base imagery for visual recognition |
-| Multi-spectral | Sentinel-2 | 10 m | NDVI, NDWI, NIR | Vegetation & water indices for spectral feature learning |
-| Elevation | ArcticDEM | 2 m | relative elevation, shaded relief | Topographic context to improve RTS boundary detection |
+```bash
+competition_release/
+  README.md
+  metadata/
+    band_names.json
+    sample_submission.json
+    train_manifest.csv
+    test_manifest.csv
+  tools/
+    coco_utils.py
+    validate_submission.py
+    evaluate_coco.py
+    inspect_dataset.py
+  examples/
+    load_image_and_label.py
+    make_sample_submission.py
+    encode_predictions.py
+  train/
+    images/*.npz
+    annotations/instances_train.json
+  test/
+    images/*.npz
+```
 
-## Key Dataset Statistics
+Each `.npz` file contains one array named `image` with shape `H x W x 8` in HWC order.
 
-| **Property**          | **Description**                                |
-|----------------------|----------------------------------------------|
-| **Total Regions**    | 7 Arctic subregions |
-| **Total Images**     | 756 train + 138 test |
-| **Total RTS Instances** | 2,110 |
-| **Imagery Resolution** | Maxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m |
-| **Spectral Bands**   | RGB, NDVI, NDWI, NIR, DEM |
-| **Task**             | Instance segmentation |
-| **Labels**           | Per-instance RTS masks |
-| **File Formats**     | `.npz` images + `.json` COCO-style annotations |
-| **Original Source**  | [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495), *Remote Sensing of Environment* |
+## Bands {id="bands"}
+
+Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context so models can learn both visual RTS appearance and environmental cues that affect slump boundaries.
+
+| Data Layer | Source / Feature Type | Bands | Role in RTS Mapping |
+| --- | --- | --- | --- |
+| RGB imagery | Maxar optical imagery | `red`, `green`, `blue` | Provides high-resolution visual context for identifying exposed soil, vegetation disturbance, and visible RTS morphology. |
+| Spectral features | Vegetation, water, and near-infrared features | `ndvi`, `ndwi`, `nir` | Helps models distinguish thaw-related disturbance from vegetation, water, snow, and other spectrally distinct surface conditions. |
+| Terrain features | ArcticDEM-derived topographic features | `relative_elevation`, `shaded_relief` | Adds terrain structure that can improve boundary delineation and help separate RTS features from surrounding slopes. |
+
+The array band order is:
+
+| Index | Band Name | Description |
+| ---: | --- | --- |
+| 0 | `red` | Maxar red |
+| 1 | `green` | Maxar green |
+| 2 | `blue` | Maxar blue |
+| 3 | `ndvi` | Normalized Difference Vegetation Index |
+| 4 | `relative_elevation` | Relative elevation |
+| 5 | `shaded_relief` | Shaded relief |
+| 6 | `nir` | Planet near-infrared |
+| 7 | `ndwi` | Normalized Difference Water Index |
+
+The same band list is available in machine-readable form in `metadata/band_names.json`.
+
+## Key Dataset Statistics {id="key-dataset-statistics"}
+
+| **Property** | **Description** |
+| --- | --- |
+| **Training Images** | 756 image chips with public labels |
+| **Test Images** | 138 image chips without public labels |
+| **Training RTS Instances** | 1,783 |
+| **Hidden Test RTS Instances** | 299 |
+| **Total RTS Instances** | 2,082 train + hidden-test labels |
+| **Image Array Format** | `.npz` files containing `image` arrays with shape `H x W x 8` |
+| **Annotation Format** | COCO instance segmentation JSON with compressed RLE masks |
+| **Task** | RTS instance segmentation |
+| **Category** | `{"id": 1, "name": "rts", "supercategory": "landform"}` |
+| **Original Source** | [**Yang *et al.* (2023)**](https://doi.org/10.1016/j.rse.2023.113495), *Remote Sensing of Environment* |
+
+## Label Conversion {id="label-conversion"}
+
+Training annotations are stored in `train/annotations/instances_train.json` using COCO instance segmentation format. Instance masks are encoded as compressed COCO run-length encoding (RLE).
+
+The label conversion rule is:
+
+- RTS foreground: finite source `rts_label` values greater than `0`
+- Background: source `rts_label == 0` or missing/no-label values
+- Instances: 8-connected components over the binary RTS foreground
+- Filtering: connected components smaller than 10 pixels are removed
+
+This conversion is deterministic. If two RTS features touch in the source mask, connected-component labeling treats them as one instance.
+
+## Dataset Distributions {id="dataset-distributions"}
 
 ### RTS Size Distribution
 
@@ -69,11 +134,11 @@ This dataset integrates **multi-source satellite and geospatial data**:
 
 ![](assets/band_statistics.png)
 
-## Sample Visualizations
+## Sample Visualizations {id="sample-visualizations"}
 
 Explore additional examples to understand data variability across regions.
 
-| Description | Satellite Image *(RGB)* | Instance Mask *(RTS Features)* | 
+| Description | Satellite Image (RGB) | Instance Mask (RTS Features) | 
 | :-------------------- | :--------------------: | :--------------------: |
 | Single large RTS | ![](assets/rts_3_rgb.png) | ![](assets/rts_3_polygons.png) |
 | Single small RTS | ![](assets/rts_5_rgb.png) | ![](assets/rts_5_polygons.png) |
@@ -81,6 +146,3 @@ Explore additional examples to understand data variability across regions.
 | RTS near snow | ![](assets/rts_6_rgb.png) | ![](assets/rts_6_polygons.png) |
 
 *Figure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset's variability across scales and landscapes.*
-
-
-

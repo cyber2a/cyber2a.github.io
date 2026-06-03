@@ -1,10 +1,10 @@
 ---
-title: "GeoAI Arctic Mapping Challenge"
+title: "GeoAI Arctic Challenge"
 ---
 
 # Resources
 
-A central hub for help, learning materials, and policies for the **GeoAI Arctic Mapping Challenge**.
+A central hub for help, learning materials, and policies for the **GeoAI Arctic Challenge**.
 
 > 💡 Tip: If you’re new here, start with the **Quick Links** below.
 
@@ -20,9 +20,9 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 <div class="card-grid">
 
 <div class="card">
-  <h3>📘 Baseline Notebook</h3>
-  <p class="muted">Starter code to load data, train, and format submissions.</p>
-  <p><a href="../assets/baseline_notebook.ipynb">Open notebook</a></p>
+  <h3>📘 Starter Materials</h3>
+  <p class="muted">Helper scripts to load data, inspect labels, validate submissions, and encode masks.</p>
+  <p><a href="https://www.codabench.org/competitions/10283/">Open Codabench files</a></p>
 </div>
 
 <div class="card">
@@ -40,13 +40,13 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 <div class="card">
   <h3>🏆 Leaderboard</h3>
   <p class="muted">Track your standing and compare approaches.</p>
-  <p><a href="https://codebench.com/geoai-rts/leaderboard">Open leaderboard</a></p>
+  <p><a href="https://www.codabench.org/competitions/10283/">Open competition page</a></p>
 </div>
 
 <div class="card">
   <h3>💬 Discussion Forum</h3>
   <p class="muted">Ask questions and share insights with peers.</p>
-  <p><a href="https://codebench.com/geoai-rts/forum">Go to forum</a></p>
+  <p><a href="https://www.codabench.org/competitions/10283/forum">Go to forum</a></p>
 </div>
 
 <div class="card">
@@ -62,20 +62,19 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 ## Contact Us
 
 - **Competition support:** [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
-- **Technical Q&A:** Use the **CodeBench forum** for public questions: <https://codebench.com/geoai-rts/forum>  
+- **Technical Q&A:** Use the [Codabench forum](https://www.codabench.org/competitions/10283/forum) for public questions  
 
 ## Tutorials & Learning Materials
 
 ### Official
-- **Baseline notebook:** 
-  Includes data loading, visualization, baseline model, and submission formatter.
-- **Submission format mini-guide:** See **Participate → Results Format** for JSON schema.
+- **Starter materials:** The Codabench files include helper scripts for loading images, inspecting labels, validating submissions, and encoding masks.
+- **Submission format mini-guide:** See **Participate -> Submission Format** for the COCO results JSON schema.
 
 ### External
 - **PyTorch segmentation recipes** (Instance/semantic fundamentals) [link](https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
 - **Detectron2 / MaskRCNN** quickstarts (for instance masks) [link](https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html)
-- **GeoTIFF & raster I/O** (rasterio, xarray, rioxarray) [link](https://rasterio.readthedocs.io/en/stable/quickstart.html)
-- **Geospatial features** (GDAL, PROJ, coordinate systems refresher) [link](https://gdal.org/programs/gdalinfo.html)
+- **COCO mask utilities** (pycocotools API reference) [link](https://github.com/cocodataset/cocoapi)
+- **NumPy array loading** (`.npz` files) [link](https://numpy.org/doc/stable/reference/generated/numpy.load.html)
 
 ## Terms & Conditions 
 
@@ -85,16 +84,16 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 
 - **Attribution**
   - Works or publications using this dataset should cite:  
-    **Yang et al., 2023 (dataset)** and **Li et al., 2025 (baseline model)** (see citations below).
+    **Yang et al., 2023 (source dataset)** and **Li et al., 2025 (related RTS modeling work)** (see citations below).
 
 - **Submissions**
   - Predictions must follow the **required submission format** and reflect **automated model outputs** (no manual labeling of test sets).
   - External data usage, if used, must be documented in your method description.
 
 - **Teams & Conduct**
-  - Teaming is allowed (default max 5 members unless otherwise stated).
+  - Each team may include 1 to 5 members.
   - Do not share labels or predictions across different teams.  
-  - Follow the CodeBench **code of conduct** and site terms.
+  - Follow the Codabench code of conduct and site terms.
 
 - **Privacy**
   - Team name, institution, and scores may appear on the **public leaderboard**.
@@ -106,27 +105,22 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 
 ## Useful External Resources
 
-- **CodeBench Platform:** <https://codebench.com>  
-- **Leaderboard:** <https://codebench.com/geoai-rts/leaderboard>  
-- **Forum:** <https://codebench.com/geoai-rts/forum>  
+- **Codabench Platform:** <https://www.codabench.org>  
+- **Competition Page:** <https://www.codabench.org/competitions/10283/>  
+- **Forum:** <https://www.codabench.org/competitions/10283/forum>  
 - **Dataset Paper (Yang et al., 2023):** <https://doi.org/10.1016/j.rse.2023.113495>  
-- **Baseline Model (Li et al., 2025):** <https://doi.org/10.1109/JSTARS.2025.3564310>
+- **Related RTS Modeling Work (Li et al., 2025):** <https://doi.org/10.1109/JSTARS.2025.3564310>
 
 ## Frequently Asked Questions 
 
 **Q1. Where do I download the data?**
 
-A: Register on CodeBench → challenge page → **Download** tab. Or see the [Dataset Page](./dataset.qmd).
+A: Register and receive approval on Codabench, then download the public release package from the **Files** section. You can also see the [Dataset Page](./dataset.qmd) for data details.
 
 **Q2. What’s the submission format?**
 
-A: COCO-style JSON (see **Participate → Results Format**). A helper is included in the baseline notebook.
+A: COCO results-format JSON with compressed RLE masks. See **Participate -> Submission Format**.
 
-**Q4. Can I keep evaluating after prizes are awarded?**
-
-A: Yes — use the **Benchmark Phase** for continuous, no-award evaluation.
-
-**Q5. Can I use external data?**
+**Q3. Can I use external data?**
 
 A: Yes, but you must document it in your method description.
-
