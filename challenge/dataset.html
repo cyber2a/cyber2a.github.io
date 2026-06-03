@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GeoAI Arctic Mapping Challenge</title>
+<title>GeoAI Arctic Challenge</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -39,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6b653e55f12044d6d83547f65f573041.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e52afb4b5002bd4d1e837ba20683245a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,13 +115,13 @@ background-size: cover;
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
 
-<meta property="og:title" content="GeoAI Arctic Mapping Challenge">
+<meta property="og:title" content="GeoAI Arctic Challenge">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
 <meta property="og:image:alt" content="Dataset Coverage Map">
 <meta property="og:image:height" content="1158">
 <meta property="og:image:width" content="2550">
-<meta name="twitter:title" content="GeoAI Arctic Mapping Challenge">
+<meta name="twitter:title" content="GeoAI Arctic Challenge">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://cyber2a.github.io/challenge/assets/dataset_coverage_map.png">
 <meta name="twitter:image:alt" content="Dataset Coverage Map">
@@ -149,8 +184,8 @@ background-size: cover;
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cfp2025.html"> 
-<span class="menu-text">CFP2025</span></a>
+    <a class="nav-link" href="../course/index.html"> 
+<span class="menu-text">GeoAI Book</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -165,7 +200,7 @@ background-size: cover;
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">GeoAI Arctic Mapping Challenge</h1>
+          <h1 class="quarto-secondary-nav-title">GeoAI Arctic Challenge</h1>
         </a>     
     </div>
   </nav>
@@ -174,7 +209,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">GeoAI Arctic Mapping Challenge</h1>
+      <h1 class="title d-none d-lg-block">GeoAI Arctic Challenge</h1>
                       </div>
   </div>
     
@@ -194,22 +229,211 @@ background-size: cover;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../challenge/words-from-organizers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcoming Words from Organizers</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#news" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">News</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/dataset.html" class="sidebar-item-text sidebar-link active">
+  <a href="../challenge/index.html#what-is-retrogressive-thaw-slumps-rts" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What is Retrogressive Thaw Slumps (RTS)?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#about-the-challenge" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Challenge</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#collaborators" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collaborators</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#partners" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Partners</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#sponsors" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#references" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/index.html#dataset-samples" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Samples</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../challenge/dataset.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Dataset</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Participate</span></a>
+  <a href="../challenge/dataset.html#dataset" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GeoAI Arctic Challenge Dataset</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#geographic-coverage-and-study-sites" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geographic Coverage &amp; Study Sites</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#public-release-contents" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Public Release Contents</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#bands" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bands</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#key-dataset-statistics" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Key Dataset Statistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#label-conversion" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Label Conversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#dataset-distributions" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Distributions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/dataset.html#sample-visualizations" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sample Visualizations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Participate</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#registration-and-setup" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Registration and Setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#download-competition-files" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download Competition Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#local-setup" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Local Setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#data-format" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Format</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#task-description" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Task Description</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#submission-format" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission Format</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#evaluation-metrics" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Evaluation Metrics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#submission-instructions" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission Instructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#required-materials" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Required Materials</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#important-dates" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Important Dates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#awards" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Awards</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/participate.html#support-and-leaderboard" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Support and Leaderboard</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
@@ -229,9 +453,11 @@ background-size: cover;
 
 
 
-<section id="geoai-arctic-mapping-challenge-dataset" class="level1">
-<h1>GeoAI Arctic Mapping Challenge Dataset</h1>
-<p>The GeoAI Arctic Mapping Challenge dataset builds upon Yang <em>et al.</em> (2023) and focuses on detecting and mapping <strong>retrogressive thaw slumps (RTS)</strong>—landscape disturbances caused by permafrost thaw. Originally, Yang et al.&nbsp;provided semantic segmentation masks (binary labels of RTS vs.&nbsp;non-RTS). For this competition, we extend and reformat the dataset into an <strong>instance segmentation</strong> benchmark, where each RTS feature is labeled individually. This conversion allows participants to train models that can delineate RTS boundaries more precisely and evaluate performance at the feature level rather than only pixel-wise.</p>
+<section id="dataset" class="level1">
+<h1>GeoAI Arctic Challenge Dataset</h1>
+<p>The GeoAI Arctic Challenge dataset is an <strong>instance segmentation</strong> benchmark for detecting and delineating <strong>retrogressive thaw slumps (RTS)</strong>, landscape disturbances caused by permafrost thaw, in Arctic image chips. The dataset builds on <em>Yang et al.</em> (2023), which provided semantic segmentation masks that label each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.</p>
+<p>Participants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports evaluation at the feature level, including how well models separate and delineate individual RTS boundaries, rather than only measuring pixel-wise foreground and background accuracy.</p>
+<p>Training labels are provided in COCO instance segmentation format. Test labels remain hidden and are used by the official scorer.</p>
 <blockquote class="blockquote">
 <p><strong>Why it matters</strong>: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.</p>
 </blockquote>
@@ -243,9 +469,9 @@ background-size: cover;
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
-<th style="text-align: center;">Semantic Mask <em>(Original)</em></th>
-<th style="text-align: center;">Instance Mask <em>(This Challenge)</em></th>
+<th style="text-align: center;">Satellite Image (RGB)</th>
+<th style="text-align: center;">Semantic Mask (Original)</th>
+<th style="text-align: center;">Instance Mask (This Challenge)</th>
 </tr>
 </thead>
 <tbody>
@@ -261,61 +487,135 @@ background-size: cover;
 </tr>
 </tbody>
 </table>
-<p><em>Figure 1. Conversion from semantic to instance segmentation masks. The challenge dataset refines the original semantic masks from Yang et al.&nbsp;(2023) into instance-level polygons, enabling finer-grained evaluation and model learning.</em></p>
-<section id="geographic-coverage-study-sites" class="level2">
-<h2 class="anchored" data-anchor-id="geographic-coverage-study-sites">Geographic Coverage &amp; Study Sites</h2>
-<p>The dataset spans <strong>7 Arctic subregions</strong>, including:</p>
+<p><em>Figure 1. Conversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.</em></p>
+<section id="geographic-coverage-and-study-sites" class="level2">
+<h2 class="anchored" data-anchor-id="geographic-coverage-and-study-sites">Geographic Coverage &amp; Study Sites</h2>
+<p>The source data spans <strong>7 Arctic subregions</strong>, including:</p>
 <ul>
 <li>Canada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island</li>
 <li>Russia: Yamal and Gydan peninsulas, Lena River, Kolguev Island</li>
 </ul>
 <p><img src="assets/dataset_coverage_map.png" class="img-fluid" alt="Dataset Coverage Map"><br>
-<em>Figure 2. Spatial coverage of the GeoAI Arctic RTS dataset. The dataset includes 7 Arctic subregions across Canada and Russia, representing diverse geomorphic and climatic conditions (<a href="https://doi.org/10.1109/JSTARS.2025.3564310"><strong>Li et al., 2025</strong></a>).</em></p>
+<em>Figure 2. Spatial coverage of the source Arctic RTS dataset. The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling (<a href="https://doi.org/10.1109/JSTARS.2025.3564310"><strong>Li et al., 2025</strong></a>).</em></p>
 </section>
-<section id="data-sources-multimodal-inputs" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources-multimodal-inputs">Data Sources &amp; Multimodal Inputs</h2>
-<p>This dataset integrates <strong>multi-source satellite and geospatial data</strong>:</p>
+<section id="public-release-contents" class="level2">
+<h2 class="anchored" data-anchor-id="public-release-contents">Public Release Contents</h2>
+<p>The public package contains training images and labels, hidden-label test images, metadata, and starter tools:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">competition_release/</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">README.md</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">metadata/</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">band_names.json</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">sample_submission.json</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">train_manifest.csv</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">test_manifest.csv</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="ex">tools/</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="ex">coco_utils.py</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="ex">validate_submission.py</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">evaluate_coco.py</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="ex">inspect_dataset.py</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="ex">examples/</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="ex">load_image_and_label.py</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="ex">make_sample_submission.py</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="ex">encode_predictions.py</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="ex">train/</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images/*.npz</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="ex">annotations/instances_train.json</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="ex">test/</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images/*.npz</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Each <code>.npz</code> file contains one array named <code>image</code> with shape <code>H x W x 8</code> in HWC order.</p>
+</section>
+<section id="bands" class="level2">
+<h2 class="anchored" data-anchor-id="bands">Bands</h2>
+<p>Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context so models can learn both visual RTS appearance and environmental cues that affect slump boundaries.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 29%">
-<col style="width: 29%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Data Type</strong></th>
-<th><strong>Source</strong></th>
-<th><strong>Resolution</strong></th>
-<th><strong>Band Names</strong></th>
-<th>Purpose in Task</th>
+<th>Data Layer</th>
+<th>Source / Feature Type</th>
+<th>Bands</th>
+<th>Role in RTS Mapping</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>RGB Imagery</td>
-<td>Maxar</td>
-<td>4 m</td>
-<td>maxarR, maxarG, maxarB</td>
-<td>High-resolution base imagery for visual recognition</td>
+<td>RGB imagery</td>
+<td>Maxar optical imagery</td>
+<td><code>red</code>, <code>green</code>, <code>blue</code></td>
+<td>Provides high-resolution visual context for identifying exposed soil, vegetation disturbance, and visible RTS morphology.</td>
 </tr>
 <tr class="even">
-<td>Multi-spectral</td>
-<td>Sentinel-2</td>
-<td>10 m</td>
-<td>NDVI, NDWI, NIR</td>
-<td>Vegetation &amp; water indices for spectral feature learning</td>
+<td>Spectral features</td>
+<td>Vegetation, water, and near-infrared features</td>
+<td><code>ndvi</code>, <code>ndwi</code>, <code>nir</code></td>
+<td>Helps models distinguish thaw-related disturbance from vegetation, water, snow, and other spectrally distinct surface conditions.</td>
 </tr>
 <tr class="odd">
-<td>Elevation</td>
-<td>ArcticDEM</td>
-<td>2 m</td>
-<td>relative elevation, shaded relief</td>
-<td>Topographic context to improve RTS boundary detection</td>
+<td>Terrain features</td>
+<td>ArcticDEM-derived topographic features</td>
+<td><code>relative_elevation</code>, <code>shaded_relief</code></td>
+<td>Adds terrain structure that can improve boundary delineation and help separate RTS features from surrounding slopes.</td>
 </tr>
 </tbody>
 </table>
+<p>The array band order is:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Index</th>
+<th>Band Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td><code>red</code></td>
+<td>Maxar red</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td><code>green</code></td>
+<td>Maxar green</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2</td>
+<td><code>blue</code></td>
+<td>Maxar blue</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td><code>ndvi</code></td>
+<td>Normalized Difference Vegetation Index</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td><code>relative_elevation</code></td>
+<td>Relative elevation</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td><code>shaded_relief</code></td>
+<td>Shaded relief</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6</td>
+<td><code>nir</code></td>
+<td>Planet near-infrared</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">7</td>
+<td><code>ndwi</code></td>
+<td>Normalized Difference Water Index</td>
+</tr>
+</tbody>
+</table>
+<p>The same band list is available in machine-readable form in <code>metadata/band_names.json</code>.</p>
 </section>
 <section id="key-dataset-statistics" class="level2">
 <h2 class="anchored" data-anchor-id="key-dataset-statistics">Key Dataset Statistics</h2>
@@ -328,43 +628,62 @@ background-size: cover;
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Total Regions</strong></td>
-<td>7 Arctic subregions</td>
+<td><strong>Training Images</strong></td>
+<td>756 image chips with public labels</td>
 </tr>
 <tr class="even">
-<td><strong>Total Images</strong></td>
-<td>756 train + 138 test</td>
+<td><strong>Test Images</strong></td>
+<td>138 image chips without public labels</td>
+</tr>
+<tr class="odd">
+<td><strong>Training RTS Instances</strong></td>
+<td>1,783</td>
+</tr>
+<tr class="even">
+<td><strong>Hidden Test RTS Instances</strong></td>
+<td>299</td>
 </tr>
 <tr class="odd">
 <td><strong>Total RTS Instances</strong></td>
-<td>2,110</td>
+<td>2,082 train + hidden-test labels</td>
 </tr>
 <tr class="even">
-<td><strong>Imagery Resolution</strong></td>
-<td>Maxar 4 m, Sentinel-2 10 m, ArcticDEM 2 m</td>
+<td><strong>Image Array Format</strong></td>
+<td><code>.npz</code> files containing <code>image</code> arrays with shape <code>H x W x 8</code></td>
 </tr>
 <tr class="odd">
-<td><strong>Spectral Bands</strong></td>
-<td>RGB, NDVI, NDWI, NIR, DEM</td>
+<td><strong>Annotation Format</strong></td>
+<td>COCO instance segmentation JSON with compressed RLE masks</td>
 </tr>
 <tr class="even">
 <td><strong>Task</strong></td>
-<td>Instance segmentation</td>
+<td>RTS instance segmentation</td>
 </tr>
 <tr class="odd">
-<td><strong>Labels</strong></td>
-<td>Per-instance RTS masks</td>
+<td><strong>Category</strong></td>
+<td><code>{"id": 1, "name": "rts", "supercategory": "landform"}</code></td>
 </tr>
 <tr class="even">
-<td><strong>File Formats</strong></td>
-<td><code>.npz</code> images + <code>.json</code> COCO-style annotations</td>
-</tr>
-<tr class="odd">
 <td><strong>Original Source</strong></td>
 <td><a href="https://doi.org/10.1016/j.rse.2023.113495"><strong>Yang <em>et al.</em> (2023)</strong></a>, <em>Remote Sensing of Environment</em></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="label-conversion" class="level2">
+<h2 class="anchored" data-anchor-id="label-conversion">Label Conversion</h2>
+<p>Training annotations are stored in <code>train/annotations/instances_train.json</code> using COCO instance segmentation format. Instance masks are encoded as compressed COCO run-length encoding (RLE).</p>
+<p>The label conversion rule is:</p>
+<ul>
+<li>RTS foreground: finite source <code>rts_label</code> values greater than <code>0</code></li>
+<li>Background: source <code>rts_label == 0</code> or missing/no-label values</li>
+<li>Instances: 8-connected components over the binary RTS foreground</li>
+<li>Filtering: connected components smaller than 10 pixels are removed</li>
+</ul>
+<p>This conversion is deterministic. If two RTS features touch in the source mask, connected-component labeling treats them as one instance.</p>
+</section>
+<section id="dataset-distributions" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-distributions">Dataset Distributions</h2>
 <section id="rts-size-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="rts-size-distribution">RTS Size Distribution</h3>
 <p><img src="assets/rts_size_distribution.png" class="img-fluid"></p>
@@ -402,8 +721,8 @@ background-size: cover;
 <thead>
 <tr class="header">
 <th style="text-align: left;">Description</th>
-<th style="text-align: center;">Satellite Image <em>(RGB)</em></th>
-<th style="text-align: center;">Instance Mask <em>(RTS Features)</em></th>
+<th style="text-align: center;">Satellite Image (RGB)</th>
+<th style="text-align: center;">Instance Mask (RTS Features)</th>
 </tr>
 </thead>
 <tbody>
