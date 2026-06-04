@@ -13,6 +13,7 @@ website:
   # back-to-top-navigation: true
 
   navbar:
+    pinned: true
     logo: assets/images/logo.png
     logo-alt: "Cyber2A"
     logo-href: https://cyber2a.github.io
@@ -47,12 +48,11 @@ website:
 #        href: cfp2025.qmd
       - text: "GeoAI Book"
         href: course/index.qmd
-#      - text: "GeoAI Arctic Challenge"
-#        href: challenge/index.qmd
+      - text: "GeoAI Arctic Challenge"
+        href: challenge/index.qmd
 
     
   sidebar:
-
     - title: "Workshop"
       collapse-level: 1
       style: "floating"
