@@ -48,8 +48,8 @@ website:
 #        href: cfp2025.qmd
       - text: "GeoAI Book"
         href: course/index.qmd
-      - text: "GeoAI Arctic Challenge"
-        href: challenge/index.qmd
+#      - text: "GeoAI Arctic Challenge"
+#        href: challenge/index.qmd
 
     
   sidebar:
