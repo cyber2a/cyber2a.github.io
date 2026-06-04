@@ -1,5 +1,8 @@
 ---
 title: "GeoAI Arctic Challenge"
+toc: true
+toc-location: left
+toc-title: "Resources"
 ---
 
 # Resources

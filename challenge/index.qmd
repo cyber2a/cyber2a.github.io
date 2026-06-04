@@ -1,13 +1,16 @@
 ---
 title: "GeoAI Arctic Challenge"
+toc: true
+toc-location: left
+toc-title: "Overview"
 
 ---
 
-## <span class="material-symbols-outlined">newspaper</span> News {id="news"}
+## News
 
 - (06/01/26) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Challenge. 
 
-## <span class="material-symbols-outlined">landscape_2</span> What is Retrogressive Thaw Slumps (RTS)? {id="what-is-retrogressive-thaw-slumps-rts"}
+## What is Retrogressive Thaw Slumps (RTS)?
 
 ![*Credit: [Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/)*](./assets/rts.png){width=60% fig-align="center"}
 
@@ -15,13 +18,13 @@ Retrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation tha
 
 
 
-## <span class="material-symbols-outlined">info</span> About the Challenge {id="about-the-challenge"}
+## About the Challenge
 
 Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.
 
 Mapping RTS is challenging due to their **small size**, **subtle appearance**, and **dynamic evolution** over time. This competition invites you to leverage **deep learning** and **GeoAI** to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.
 
-## <span class="material-symbols-outlined">handshake</span> Collaborators {id="collaborators"}
+## Collaborators
 
 * Wenwen Li, Arizona State University, USA
 * Chia-Yu Hsu, Arizona State University, USA
@@ -32,7 +35,7 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 * Patricia Solis, Arizona State University, USA
 * Ingmar Nitze, Alfred Wegener Institute, Germany
 
-## <span class="material-symbols-outlined">groups</span> Partners {id="partners"}
+## Partners
 
 ::: {layout="[[30, 30, 25, 20]]"}
 
@@ -46,11 +49,11 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 
 :::
 
-## <span class="material-symbols-outlined">paid</span> Sponsors {id="sponsors"}
+## Sponsors
 
 ![](../assets/clients/NSF.png){width=20%}
 
-## <span class="material-symbols-outlined">library_books</span> References {id="references"}
+## References
 
 The GeoAI Arctic Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:
 
@@ -88,7 +91,7 @@ We provide a sample notebook using the baseline model from **Li *et al.* (2025)*
 }
 ```
 
-## <span class="material-symbols-outlined">image</span> Dataset Samples {id="dataset-samples"}
+## Dataset Samples
 
 The dataset consists of **high-resolution, multi-spectral satellite imagery** paired with segmentation masks outlining RTS boundaries. While the dataset provides **multi-band inputs** (including non-visible spectral channels), the sample images below are displayed using **RGB composites** for visualization purposes only.
 

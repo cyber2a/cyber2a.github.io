@@ -1,5 +1,9 @@
 ---
 title: "GeoAI Arctic Challenge"
+toc: true
+toc-location: left
+toc-title: "Dataset"
+
 ---
 
 # GeoAI Arctic Challenge Dataset {id="dataset"}
