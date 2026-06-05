@@ -1,14 +1,13 @@
 ---
-title: "GeoAI Arctic Challenge"
+title: "2026 GeoAI Arctic Challenge"
 toc: true
-toc-location: left
 toc-title: "Overview"
 
 ---
 
 ## News
 
-- (06/01/26) **Competition Kick-off!** We are excited to announce the official launch of the GeoAI Arctic Challenge. 
+- (06/01/26) **Competition Kick-off!** We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words [here](./words-from-organizers.qmd). 
 
 ## What is Retrogressive Thaw Slumps (RTS)?
 

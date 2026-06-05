@@ -1,7 +1,6 @@
 ---
-title: "GeoAI Arctic Challenge"
+title: "2026 GeoAI Arctic Challenge"
 toc: true
-toc-location: left
 toc-title: "Participate"
 
 ---
@@ -10,14 +9,12 @@ toc-title: "Participate"
 
 ### Who Can Participate
 
-The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions.
-
-We strongly encourage interdisciplinary teams that bring together diverse backgrounds, such as Earth science, geoscience, remote sensing, computer science, and AI. Teams with this kind of cross-domain composition will receive additional credit.
+The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).
 
 ### How to Register
 
 1. Form your team and select a Team Leader.
-2. Complete the team registration form: **[Google Form Link]**.
+2. Complete the [team registration form](https://docs.google.com/forms/d/1KUGGduTATQK3wUoRRzlClt3PU11XaHCNnyTB1SyBVfM/).
 3. Provide the following information:
     - Team name
     - Team Leader's name and email

@@ -1,7 +1,6 @@
 ---
-title: "GeoAI Arctic Challenge"
+title: "2026 GeoAI Arctic Challenge"
 toc: true
-toc-location: left
 toc-title: "Resources"
 ---
 

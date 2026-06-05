@@ -48,7 +48,7 @@ website:
 #        href: cfp2025.qmd
       - text: "GeoAI Book"
         href: course/index.qmd
-#      - text: "GeoAI Arctic Challenge"
+#      - text: "2026 GeoAI Arctic Challenge"
 #        href: challenge/index.qmd
 
     
@@ -122,12 +122,12 @@ website:
           - text: "\u2022 Reproducibility"
             href: workshop/preview/reproducibility.qmd   
 
-    - title: "GeoAI Challenge"
+    - title: "2026 GeoAI Arctic Challenge"
       collapse-level: 1
       style: "floating"
       background: light
       contents:
-        - text: "Welcoming Words from Organizers"
+        - text: "Welcoming Words"
           href: challenge/words-from-organizers.qmd
         - text: "Overview"
           href: challenge/index.qmd
