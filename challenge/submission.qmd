@@ -1,0 +1,159 @@
+---
+title: "2026 GeoAI Arctic Challenge"
+toc: true
+toc-title: "Submission"
+
+---
+
+# Submission Information
+
+## Task
+
+Your task is to predict per-instance RTS masks for each hidden test image chip.
+
+| Input | Output |
+| --- | --- |
+| Eight-band `.npz` image chip | One compressed COCO RLE mask per predicted RTS instance |
+
+There is one prediction category:
+
+```json
+{"id": 1, "name": "rts", "supercategory": "landform"}
+```
+
+## Submission Format
+
+Submit a COCO results JSON list. Each prediction should include:
+
+```json
+{
+  "image_id": 1,
+  "category_id": 1,
+  "segmentation": {"size": [159, 289], "counts": "01nk\\1"},
+  "score": 0.95
+}
+```
+
+Submission requirements:
+
+- `image_id` must be an integer from `metadata/test_manifest.csv`.
+- `category_id` must be `1`.
+- `segmentation` must be a compressed COCO RLE mask matching the image height and width.
+- `score` must be numeric and in `[0, 1]`.
+- Empty submissions (`[]`) are valid and mean no predicted RTS instances.
+- Images with no predictions are valid.
+- Multiple predictions per image are valid.
+
+If your model outputs binary masks, encode each mask as compressed RLE.
+
+If your model outputs polygons as `x1, y1, x2, y2, ...`, convert each polygon to compressed RLE before submission.
+
+Helper functions are provided in `tools/coco_utils.py`.
+
+## Create and Validate a Submission
+
+Create a valid sample submission:
+
+```bash
+python examples/make_sample_submission.py
+```
+
+Encode binary masks or polygon coordinates as compressed COCO RLE:
+
+```bash
+python examples/encode_predictions.py
+```
+
+Validate a submission before upload:
+
+```bash
+python tools/validate_submission.py --submission path/to/submission.json
+```
+
+Malformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.
+
+Passing the validator confirms that the submission is correctly formatted. It does not guarantee a successful upload or a high evaluation score.
+
+## Evaluation Metrics
+
+Submissions are ranked using COCO mask AP/AR (`segm`) with RTS-specific settings.
+
+The primary ranking metric is:
+
+```bash
+AP @[IoU=0.50:0.95, area=all, maxDets=10]
+```
+
+Additional displayed metrics may include:
+
+| Metric | Definition |
+| --- | --- |
+| `AP50` | Average Precision at IoU 0.50 |
+| `AP75` | Average Precision at IoU 0.75 |
+| `AP_small` | Average Precision for objects with area `[0, 300]` pixels |
+| `AP_medium` | Average Precision for objects with area `[300, 2000]` pixels |
+| `AP_large` | Average Precision for objects with area `[2000, 1e10]` pixels |
+| `AR_all` | Average Recall across all object sizes |
+
+Official settings:
+
+| Setting | Value |
+| --- | --- |
+| `maxDets` | `[1, 5, 10]` |
+| `areaRngLbl` | `["all", "small", "medium", "large"]` |
+| `all` | `[0, 1e10]` pixels |
+| `small` | `[0, 300]` pixels |
+| `medium` | `[300, 2000]` pixels |
+| `large` | `[2000, 1e10]` pixels |
+
+The official metric uses the top-scoring detections per image according to `maxDets=10`.
+
+> **Note:** The public leaderboard reflects the official evaluation metric for submitted predictions. Final competition winners will be determined according to the **Winner Selection Criteria** described in the **Competition Rules**, which combine leaderboard performance with qualitative evaluation.
+
+## Local Evaluation
+
+Evaluate predictions against the public training labels or your own COCO-format validation split:
+
+```bash
+python tools/evaluate_coco.py \
+  --ground-truth train/annotations/instances_train.json \
+  --submission path/to/train_predictions.json
+```
+
+## Submission Workflow
+
+1. Train your model locally.
+2. Generate predictions for the test set.
+3. Encode each predicted RTS instance as compressed COCO RLE.
+4. Build one `submission.json` COCO results list.
+5. Validate the JSON with `tools/validate_submission.py`.
+6. Visit the [official competition page](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge) and log in with your Hugging Face account.
+7. If your Hugging Face username has been approved by the organizers, open **New submission** and upload the validated file.
+8. Review your submission status in **My submissions** and monitor your team's public score on the leaderboard.
+
+**Note:**
+
+- All approved members of the same team share submission history, the daily submission limit, and a single leaderboard entry.
+- Submitting from different team members does **not** increase the number of submissions available per day.
+- The competition platform enforces the configured maximum upload size and daily submission limit.
+
+## Before You Upload
+
+Before uploading your submission, verify that:
+
+- ✓ `submission.json` passes the validation tool.
+- ✓ All masks are encoded as compressed COCO RLE.
+- ✓ Every prediction uses `category_id = 1`.
+- ✓ Every score is between 0 and 1.
+- ✓ You are logged in with an approved Hugging Face username.
+
+## Common Submission Issues
+
+- The JSON root is not a list.
+- `image_id` values do not match `metadata/test_manifest.csv`.
+- `category_id` is not `1`.
+- RLE masks are not compressed COCO RLE.
+- RLE mask sizes do not match the corresponding test image height and width.
+- Scores are missing or outside `[0, 1]`.
+- Too many low-confidence masks are submitted without score filtering.
+- The uploader is logged in with a Hugging Face username that was not included in the approved registration list.

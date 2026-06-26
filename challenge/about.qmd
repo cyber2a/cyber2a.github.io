@@ -11,7 +11,7 @@ This year’s challenge focuses on the Arctic, one of the most rapidly changing 
 
 The goal of the 2026 GeoAI Arctic Challenge is to advance the use of artificial intelligence and GeoAI methods for detecting and mapping Arctic permafrost features (i.e., the retrogressive thaw slumps) from multimodal remote sensing imagery and geospatial data. Through this challenge, we hope to encourage participants to develop innovative AI and deep learning models that can improve environmental monitoring and enhance our understanding of how climate change is reshaping Arctic landscapes and affecting the people who depend on them. More information about the competition can be found here: [https://cyber2a.github.io/challenge/](https://cyber2a.github.io/challenge/).
 
-This challenge is more than a competition. It is also a platform for training, collaboration, and community building. During the challenge open period (June 1, 2026 to December 31, 2026), we will organize webinars and virtual hands-on sessions on AI, remote sensing, and deep learning methods for environmental applications. We hope these activities will help develop and diversify the next generation AI and GeoAI workforce while building a strong research network across disciplines and sectors.
+This challenge is more than a competition. It is also a platform for training, collaboration, and community building. During the challenge open period (July 1, 2026 to January 31, 2027), we will organize webinars and virtual hands-on sessions on AI, remote sensing, and deep learning methods for environmental applications. We hope these activities will help develop and diversify the next generation AI and GeoAI workforce while building a strong research network across disciplines and sectors.
 
 The challenge is open to everyone interested in AI, geospatial sciences, environmental change, and Arctic research. Participants may join as individuals or teams. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI). Top-performing teams will receive cash awards ($1,000 for 1st place, $500 for 2nd place, and $200 for 3rd place) and recognition, and selected participants may have opportunities for future research collaborations and internships with our research program.
 
@@ -21,3 +21,38 @@ Professor Wenwen Li <br>
 Director, Spatial Analysis Research Center (SPARC) <br>
 School of Geographical Sciences and Urban Planning <br>
 Arizona State University <br>
+
+## Collaborators
+
+- Wenwen Li, Arizona State University, USA
+- Chia-Yu Hsu, Arizona State University, USA
+- Anna Liljedahl, Woodwell Climate Research Center, USA
+- Yili Yang, Woodwell Climate Research Center, USA
+- Matthew Jones, University of California, Santa Barbara, USA
+- Kenton McHenry, University of Illinois at Urbana-Champaign, USA
+- Patricia Solis, Arizona State University, USA
+- Ingmar Nitze, Alfred Wegener Institute, Germany
+
+## Partners
+
+::: {layout="[[30, 30, 25, 20]]"}
+
+![](../assets/clients/ASU.png)
+
+![](../assets/clients/Woodwell.png)
+
+![](../assets/clients/ArcticDataCenter.png)
+
+![](../assets/clients/Ncsa_logo.gif)
+
+:::
+
+## Sponsors
+
+![](../assets/clients/NSF.png){width=20%}
+
+## Contact
+
+For competition support, contact [wenwen@asu.edu](mailto:wenwen@asu.edu) or [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu).
+
+For technical questions that may help other teams, use the [discussion](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions) area on the competition page. You may also contact the organizing team by email.

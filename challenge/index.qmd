@@ -5,34 +5,78 @@ toc-title: "Overview"
 
 ---
 
+The 2026 GeoAI Arctic Challenge invites participants to develop GeoAI and deep learning models for mapping retrogressive thaw slumps (RTS) from multimodal Arctic remote sensing data.
+
+**Official Competition:** [2026 GeoAI Arctic Challenge on Hugging Face](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge)
+
+RTS are landslide-like landforms that occur when ice-rich permafrost thaws and collapses. As Arctic warming accelerates, these features are becoming more frequent and can reshape landscapes, alter hydrology, affect ecosystems, and mobilize long-frozen carbon.
+
+![Retrogressive thaw slump example. *Credit: [Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/)*](./assets/rts.png){width=70% fig-align="center"}
+
+
 ## News
 
-- (06/01/26) **Competition Kick-off!** We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words [here](./words-from-organizers.qmd). 
+- **July 1, 2026**: Competition kickoff. We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words [here](./about.qmd).
+- **July 1, 2026**: Public training data, hidden-label test images, starter scripts, and validation tools are released [here](https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset).
+- **August 15, 2026**: Benchmark phase starts.
 
-## What is Retrogressive Thaw Slumps (RTS)?
+## Challenge Task
 
-![*Credit: [Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/)*](./assets/rts.png){width=60% fig-align="center"}
+Participants will train models to detect and delineate individual RTS features in Arctic image chips.
 
-Retrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see [this article from Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/).
+| Input | Output |
+| --- | --- |
+| Eight-band `.npz` image chip | One mask for each predicted RTS instance |
 
+The challenge is an **instance segmentation** task. Training labels are provided in [COCO instance segmentation format](https://cocodataset.org/#format-data). Test labels are hidden and used by the official scorer.
 
+## Why This Matters
 
-## About the Challenge
+Mapping RTS manually across Arctic regions is difficult because these landforms can be small, visually subtle, and dynamically changing. Automated mapping can help scientists monitor permafrost degradation, improve environmental change detection, and better understand climate-driven Arctic landscape transformation.
 
-Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.
+## How To Start
 
-Mapping RTS is challenging due to their **small size**, **subtle appearance**, and **dynamic evolution** over time. This competition invites you to leverage **deep learning** and **GeoAI** to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.
+1. Form a team of 1 to 5 members.
+2. Create a Hugging Face account for each team member.
+3. Complete the team registration form [here](https://docs.google.com/forms/d/1KUGGduTATQK3wUoRRzlClt3PU11XaHCNnyTB1SyBVfM/).
+4. Include the exact Hugging Face username for the Team Leader and each team member in the registration form.
+5. Visit the [official competition page](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge).
+6. Click **Login with Hugging Face** in the left sidebar to sign in and link your competition account.
+7. Wait for organizer approval. Approved usernames will be added to the competition.
+8. After approval, use **New submission** to upload predictions and **My submissions** to review team submission history.
 
-## Collaborators
+**Note:** Unregistered users can browse the competition pages and leaderboard, but only approved Hugging Face usernames can submit.
 
-* Wenwen Li, Arizona State University, USA
-* Chia-Yu Hsu, Arizona State University, USA
-* Anna Liljedahl, Woodwell Climate Research Center, USA
-* Yili Yang, Woodwell Climate Research Center, USA
-* Matthew Jones, University of California, Santa Barbara, USA
-* Kenton McHenry, University of Illinois at Urbana-Champaign, USA
-* Patricia Solis, Arizona State University, USA
-* Ingmar Nitze, Alfred Wegener Institute, Germany
+## Important Dates
+
+| Event | Date |
+| --- | --- |
+| Competition opens | July 1, 2026 |
+| Dataset released | July 1, 2026 |
+| Benchmark phase starts | August 15, 2026 |
+| Final submission deadline | January 31, 2027 |
+| Winners announced | March 1, 2027 |
+
+## Awards
+
+Top-performing teams will receive cash awards and recognition:
+
+| Place | Award |
+| --- | --- |
+| 1st place | $1,000 |
+| 2nd place | $500 |
+| 3rd place | $200 |
+
+Selected participants may also be invited to contribute to an outcome publication and future research collaborations.
+
+## Dataset Preview
+
+The dataset contains high-resolution, multimodal satellite image chips paired with RTS instance segmentation labels. RGB composites are shown below for visualization only; the modeling input contains eight channels.
+
+| Input: RGB composite | Target: RTS instances |
+| :---: | :---: |
+| ![](assets/rts_1_rgb.png) | ![](assets/rts_1_polygons.png) |
+| ![](assets/rts_2_rgb.png) | ![](assets/rts_2_polygons.png) |
 
 ## Partners
 
@@ -52,50 +96,21 @@ Mapping RTS is challenging due to their **small size**, **subtle appearance**, a
 
 ![](../assets/clients/NSF.png){width=20%}
 
-## References
+## Contact
 
-The GeoAI Arctic Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:
+For competition support, contact [wenwen@asu.edu](mailto:wenwen@asu.edu) or [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu).
 
-### Dataset Source 
+For technical questions that may help other teams, use the [discussion](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions) area on the competition page. You may also contact the organizing team by email.
 
-The dataset was curated by **Yang *et al.* (2023)**, who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.
 
-* Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. *"Mapping retrogressive thaw slumps using deep neural networks."* Remote Sensing of Environment 288 (2023): 113495. [https://doi.org/10.1016/j.rse.2023.113495](https://doi.org/10.1016/j.rse.2023.113495)
 
-```bibtex
-@article{yang2023mapping,
-  title={Mapping retrogressive thaw slumps using deep neural networks},
-  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},
-  journal={Remote Sensing of Environment},
-  volume={288},
-  pages={113495},
-  year={2023},
-  publisher={Elsevier}
-}
-```
 
-### Our Multimodal GeoAI Model
 
-We provide a sample notebook using the baseline model from **Li *et al.* (2025)**, a multi-scale vision transformer-based multimodal GeoAI model that integrates **multi-spectral imagery** and **topographic features** for high-accuracy RTS mapping in Arctic permafrost regions.
 
-* Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. *"A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw."* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). [https://doi.org/10.1109/JSTARS.2025.3564310](https://doi.org/10.1109/JSTARS.2025.3564310)
 
-```bibtex
-@article{li2025multi,
-  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},
-  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year={2025},
-  publisher={IEEE}
-}
-```
 
-## Dataset Samples
 
-The dataset consists of **high-resolution, multi-spectral satellite imagery** paired with segmentation masks outlining RTS boundaries. While the dataset provides **multi-band inputs** (including non-visible spectral channels), the sample images below are displayed using **RGB composites** for visualization purposes only.
 
-| Input: RGB composite example | Target: RTS segmentation |
-| :---: | :---: |
-| ![](assets/rts_1_rgb.png) | ![](assets/rts_1_polygons.png) |
-| ![](assets/rts_2_rgb.png) | ![](assets/rts_2_polygons.png) |
+
+
 

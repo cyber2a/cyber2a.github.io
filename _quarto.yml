@@ -48,8 +48,8 @@ website:
 #        href: cfp2025.qmd
       - text: "GeoAI Book"
         href: course/index.qmd
-#      - text: "2026 GeoAI Arctic Challenge"
-#        href: challenge/index.qmd
+      - text: "2026 GeoAI Arctic Challenge"
+        href: challenge/index.qmd
 
     
   sidebar:
@@ -127,16 +127,18 @@ website:
       style: "floating"
       background: light
       contents:
-        - text: "Welcoming Words"
-          href: challenge/words-from-organizers.qmd
         - text: "Overview"
           href: challenge/index.qmd
         - text: "Dataset"
           href: challenge/dataset.qmd
-        - text: "Participate"
-          href: challenge/participate.qmd
+        - text: "Rules"
+          href: challenge/rules.qmd
+        - text: "Submission"
+          href: challenge/submission.qmd
         - text: "Resources"
           href: challenge/resources.qmd
+        - text: "About/Organizers"
+          href: challenge/about.qmd
 
 
   page-footer:

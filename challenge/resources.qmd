@@ -1,14 +1,12 @@
 ---
 title: "2026 GeoAI Arctic Challenge"
 toc: true
-toc-title: "Resources"
+toc-title: "Resources and FAQ"
 ---
 
-# Resources
+# Resources and FAQ
 
-A central hub for help, learning materials, and policies for the **GeoAI Arctic Challenge**.
-
-> 💡 Tip: If you’re new here, start with the **Quick Links** below.
+This page collects starter materials, learning resources, contacts, citations, and frequently asked questions.
 
 ## Quick Links
 
@@ -24,105 +22,113 @@ A central hub for help, learning materials, and policies for the **GeoAI Arctic 
 <div class="card">
   <h3>📘 Starter Materials</h3>
   <p class="muted">Helper scripts to load data, inspect labels, validate submissions, and encode masks.</p>
-  <p><a href="https://www.codabench.org/competitions/10283/">Open Codabench files</a></p>
+  <p>Check the <a href="./submission.qmd">submission</a> page or download the <a href="https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset">released files</a></p>
 </div>
 
 <div class="card">
-  <h3>🌍 Dataset Page</h3>
-  <p class="muted">Data description, formats, and visualization gallery.</p>
+  <h3>🌍 Dataset</h3>
+  <p class="muted">Data description, formats, bands, statistics, and visualization gallery.</p>
   <p><a href="./dataset.qmd">View dataset</a></p>
 </div>
 
 <div class="card">
-  <h3>🧭 Participate</h3>
+  <h3>🧭 Rules</h3>
   <p class="muted">Step-by-step guide to register, submit, and score.</p>
-  <p><a href="./participate.qmd">How to participate</a></p>
+  <p>How to <a href="./rules.qmd">participate</a> and <a href="./submission.qmd">submit</a></p>
 </div>
 
 <div class="card">
-  <h3>🏆 Leaderboard</h3>
-  <p class="muted">Track your standing and compare approaches.</p>
-  <p><a href="https://www.codabench.org/competitions/10283/">Open competition page</a></p>
-</div>
-
-<div class="card">
-  <h3>💬 Discussion Forum</h3>
-  <p class="muted">Ask questions and share insights with peers.</p>
-  <p><a href="https://www.codabench.org/competitions/10283/forum">Go to forum</a></p>
-</div>
-
-<div class="card">
-  <h3>📧 Contact</h3>
-  <p class="muted">Email the organizing team for help.</p>
-  <p><a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a></p>
+  <h3>🏆 Help</h3>
+  <p>Use the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions">Open competition discussion</a> area, or contact the organizers by email.</p>
 </div>
 
 </div>
 
----
 
-## Contact Us
+## Contact
 
-- **Competition support:** [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
-- **Technical Q&A:** Use the [Codabench forum](https://www.codabench.org/competitions/10283/forum) for public questions  
+- Competition support: [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
+- Technical Q&A: use the [competition discussion](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions) area if available for public questions that may help other teams.
 
-## Tutorials & Learning Materials
+## Starter Materials
 
-### Official
-- **Starter materials:** The Codabench files include helper scripts for loading images, inspecting labels, validating submissions, and encoding masks.
-- **Submission format mini-guide:** See **Participate -> Submission Format** for the COCO results JSON schema.
+The competition files include helper scripts for:
 
-### External
-- **PyTorch segmentation recipes** (Instance/semantic fundamentals) [link](https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
-- **Detectron2 / MaskRCNN** quickstarts (for instance masks) [link](https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html)
-- **COCO mask utilities** (pycocotools API reference) [link](https://github.com/cocodataset/cocoapi)
-- **NumPy array loading** (`.npz` files) [link](https://numpy.org/doc/stable/reference/generated/numpy.load.html)
+- Loading image chips and labels.
+- Inspecting dataset metadata.
+- Creating a sample submission.
+- Encoding binary masks or polygons as compressed COCO RLE.
+- Validating submission JSON files.
+- Running local evaluation against public labels or a validation split.
 
-## Terms & Conditions 
+## Tutorials and Learning Materials
 
-- **Data Usage**
-  - The dataset is provided for **research and competition** purposes within this challenge.
-  - Redistribution of the dataset or derivatives **outside** the challenge requires permission from the original data owners and curators.
+- PyTorch instance segmentation tutorial: <https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html>
+- Detectron2 getting started guide: <https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html>
+- COCO mask utilities: <https://github.com/cocodataset/cocoapi>
+- NumPy `.npz` loading: <https://numpy.org/doc/stable/reference/generated/numpy.load.html>
+- Hugging Face: <https://huggingface.co>
 
-- **Attribution**
-  - Works or publications using this dataset should cite:  
-    **Yang et al., 2023 (source dataset)** and **Li et al., 2025 (related RTS modeling work)** (see citations below).
+## References
 
-- **Submissions**
-  - Predictions must follow the **required submission format** and reflect **automated model outputs** (no manual labeling of test sets).
-  - External data usage, if used, must be documented in your method description.
+The GeoAI Arctic Challenge builds upon an RTS dataset and related multimodal GeoAI research. Participants should cite the following works when using the dataset or baseline model.
 
-- **Teams & Conduct**
-  - Each team may include 1 to 5 members.
-  - Do not share labels or predictions across different teams.  
-  - Follow the Codabench code of conduct and site terms.
+### Dataset Source
 
-- **Privacy**
-  - Team name, institution, and scores may appear on the **public leaderboard**.
+*Yang et al.* (2023) developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.
 
-- **Disqualification**
-  - Violations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.
+Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. "Mapping retrogressive thaw slumps using deep neural networks." *Remote Sensing of Environment* 288 (2023): 113495. <https://doi.org/10.1016/j.rse.2023.113495>
 
-> Questions about policy? Email [wenwen@asu.edu](mailto:wenwen@asu.edu), [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu)
+```bibtex
+@article{yang2023mapping,
+  title={Mapping retrogressive thaw slumps using deep neural networks},
+  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},
+  journal={Remote Sensing of Environment},
+  volume={288},
+  pages={113495},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
-## Useful External Resources
+### Related Multimodal GeoAI Model
 
-- **Codabench Platform:** <https://www.codabench.org>  
-- **Competition Page:** <https://www.codabench.org/competitions/10283/>  
-- **Forum:** <https://www.codabench.org/competitions/10283/forum>  
-- **Dataset Paper (Yang et al., 2023):** <https://doi.org/10.1016/j.rse.2023.113495>  
-- **Related RTS Modeling Work (Li et al., 2025):** <https://doi.org/10.1109/JSTARS.2025.3564310>
+*Li et al.* (2025) present a multi-scale vision transformer-based multimodal GeoAI model that integrates multispectral imagery and topographic features for RTS mapping in Arctic permafrost regions.
 
-## Frequently Asked Questions 
+Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. "A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw." *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing* (2025). <https://doi.org/10.1109/JSTARS.2025.3564310>
 
-**Q1. Where do I download the data?**
+```bibtex
+@article{li2025multi,
+  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},
+  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2025},
+  publisher={IEEE}
+}
+```
 
-A: Register and receive approval on Codabench, then download the public release package from the **Files** section. You can also see the [Dataset Page](./dataset.qmd) for data details.
+## FAQ
 
-**Q2. What’s the submission format?**
+### Where do I download the data?
 
-A: COCO results-format JSON with compressed RLE masks. See **Participate -> Submission Format**.
+Create a Hugging Face account, complete the registration form with each team member's exact Hugging Face username, and wait for organizer approval. After approval, log in with Hugging Face from the competition page and download the public release package from the competition files. See the Dataset page for data details.
 
-**Q3. Can I use external data?**
+### What is the submission format?
 
-A: Yes, but you must document it in your method description.
+Submissions use COCO results-format JSON with compressed RLE masks. See the Submission information page for the full schema.
+
+### Can I use external data?
+
+Yes, but you must document all external data usage in your method description or technical report.
+
+### Can a team submit from multiple accounts?
+
+No. Each team should register once. All approved Hugging Face usernames for that team share the same team submission history, daily submission limit, and leaderboard entry.
+
+### Are empty submissions allowed?
+
+Yes. An empty JSON list (`[]`) is valid and means no RTS instances were predicted.
+
+### Do I need to submit code?
+
+All teams must submit valid predictions. Top-performing teams must submit code or a reproducibility package for verification to be eligible for awards.
