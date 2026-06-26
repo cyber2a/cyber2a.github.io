@@ -370,29 +370,189 @@
     "text": "The 2022 GeoAI Martian Challenge is the very first in the series of GeoAI challenges hosted by the Cyberinfrastructure and Computational Intelligence Lab (CICI) and the Spatial Analysis Research Center (SPARC) of Arizona State University (ASU). This is a collaboration among researchers from multiple disciplines, organizations and sectors, including ASU, U.S. Geological Survey (USGS), Jet Propulsion Laboratory (JPL), Oak Ridge National Lab, Esri, Google and American Geographical Society. The goal of this object detection challenge is to broaden the participation of, but not limited to, students and early career scholars in geospatial sciences, computer science, Earth and space sciences, data science, and fields relevant to this exciting research community. Through this challenge, we also hope to form a strong research network to facilitate collaboration among researchers and practitioners from different disciplines to jointly promote cutting-edge GeoAI research and education, as well as their translational solutions to problems in a wide range of environmental and social science domains."
   },
   {
-    "objectID": "challenge/words-from-organizers.html",
-    "href": "challenge/words-from-organizers.html",
+    "objectID": "challenge/submission.html",
+    "href": "challenge/submission.html",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "Welcome to the 2026 GeoAI Arctic Challenge!\nThe 2026 GeoAI Arctic Challenge is part of the continuing series of GeoAI challenges sponsored by the National Science Foundation (NSF) and hosted by the NSF Cyber2A project team. This challenge aims to bring together researchers, practitioners, and students from multiple disciplines and sectors, including geospatial sciences, computer science, Earth and environmental sciences, data science, and Arctic research communities. Our goal is to broaden participation in GeoAI research and education while fostering interdisciplinary collaboration to address pressing environmental challenges facing our planet.\nThis year’s challenge focuses on the Arctic, one of the most rapidly changing regions on Earth. Arctic warming is transforming landscapes, ecosystems, infrastructure, and communities at an unprecedented pace. Permafrost degradation has led to the emergence and expansion of diverse surface features such as thermokarst lakes, retrogressive thaw slumps, ice-wedge degradation, and ground subsidence. These changes have significant impacts on ecosystems, hydrology, carbon cycling, infrastructure stability, and the livelihoods of Arctic communities.\nThe goal of the 2026 GeoAI Arctic Challenge is to advance the use of artificial intelligence and GeoAI methods for detecting and mapping Arctic permafrost features (i.e., the retrogressive thaw slumps) from multimodal remote sensing imagery and geospatial data. Through this challenge, we hope to encourage participants to develop innovative AI and deep learning models that can improve environmental monitoring and enhance our understanding of how climate change is reshaping Arctic landscapes and affecting the people who depend on them. More information about the competition can be found here: https://cyber2a.github.io/challenge/.\nThis challenge is more than a competition. It is also a platform for training, collaboration, and community building. During the challenge open period (June 1, 2026 to December 31, 2026), we will organize webinars and virtual hands-on sessions on AI, remote sensing, and deep learning methods for environmental applications. We hope these activities will help develop and diversify the next generation AI and GeoAI workforce while building a strong research network across disciplines and sectors.\nThe challenge is open to everyone interested in AI, geospatial sciences, environmental change, and Arctic research. Participants may join as individuals or teams. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI). Top-performing teams will receive cash awards ($1,000 for 1st place, $500 for 2nd place, and $200 for 3rd place) and recognition, and selected participants may have opportunities for future research collaborations and internships with our research program.\nWe look forward to your participation and to seeing the innovative AI solutions you will develop to help better understand and address environmental change in the Arctic.\nProfessor Wenwen Li  Director, Spatial Analysis Research Center (SPARC)  School of Geographical Sciences and Urban Planning  Arizona State University",
+    "text": "Your task is to predict per-instance RTS masks for each hidden test image chip.\n\n\n\n\n\n\n\nInput\nOutput\n\n\n\n\nEight-band .npz image chip\nOne compressed COCO RLE mask per predicted RTS instance\n\n\n\nThere is one prediction category:\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}\n\n\n\nSubmit a COCO results JSON list. Each prediction should include:\n{\n  \"image_id\": 1,\n  \"category_id\": 1,\n  \"segmentation\": {\"size\": [159, 289], \"counts\": \"01nk\\\\1\"},\n  \"score\": 0.95\n}\nSubmission requirements:\n\nimage_id must be an integer from metadata/test_manifest.csv.\ncategory_id must be 1.\nsegmentation must be a compressed COCO RLE mask matching the image height and width.\nscore must be numeric and in [0, 1].\nEmpty submissions ([]) are valid and mean no predicted RTS instances.\nImages with no predictions are valid.\nMultiple predictions per image are valid.\n\nIf your model outputs binary masks, encode each mask as compressed RLE.\nIf your model outputs polygons as x1, y1, x2, y2, ..., convert each polygon to compressed RLE before submission.\nHelper functions are provided in tools/coco_utils.py.\n\n\n\nCreate a valid sample submission:\npython examples/make_sample_submission.py\nEncode binary masks or polygon coordinates as compressed COCO RLE:\npython examples/encode_predictions.py\nValidate a submission before upload:\npython tools/validate_submission.py --submission path/to/submission.json\nMalformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.\nPassing the validator confirms that the submission is correctly formatted. It does not guarantee a successful upload or a high evaluation score.\n\n\n\nSubmissions are ranked using COCO mask AP/AR (segm) with RTS-specific settings.\nThe primary ranking metric is:\nAP @[IoU=0.50:0.95, area=all, maxDets=10]\nAdditional displayed metrics may include:\n\n\n\n\n\n\n\nMetric\nDefinition\n\n\n\n\nAP50\nAverage Precision at IoU 0.50\n\n\nAP75\nAverage Precision at IoU 0.75\n\n\nAP_small\nAverage Precision for objects with area [0, 300] pixels\n\n\nAP_medium\nAverage Precision for objects with area [300, 2000] pixels\n\n\nAP_large\nAverage Precision for objects with area [2000, 1e10] pixels\n\n\nAR_all\nAverage Recall across all object sizes\n\n\n\nOfficial settings:\n\n\n\nSetting\nValue\n\n\n\n\nmaxDets\n[1, 5, 10]\n\n\nareaRngLbl\n[\"all\", \"small\", \"medium\", \"large\"]\n\n\nall\n[0, 1e10] pixels\n\n\nsmall\n[0, 300] pixels\n\n\nmedium\n[300, 2000] pixels\n\n\nlarge\n[2000, 1e10] pixels\n\n\n\nThe official metric uses the top-scoring detections per image according to maxDets=10.\n\nNote: The public leaderboard reflects the official evaluation metric for submitted predictions. Final competition winners will be determined according to the Winner Selection Criteria described in the Competition Rules, which combine leaderboard performance with qualitative evaluation.\n\n\n\n\nEvaluate predictions against the public training labels or your own COCO-format validation split:\npython tools/evaluate_coco.py \\\n  --ground-truth train/annotations/instances_train.json \\\n  --submission path/to/train_predictions.json\n\n\n\n\nTrain your model locally.\nGenerate predictions for the test set.\nEncode each predicted RTS instance as compressed COCO RLE.\nBuild one submission.json COCO results list.\nValidate the JSON with tools/validate_submission.py.\nVisit the official competition page and log in with your Hugging Face account.\nIf your Hugging Face username has been approved by the organizers, open New submission and upload the validated file.\nReview your submission status in My submissions and monitor your team’s public score on the leaderboard.\n\nNote:\n\nAll approved members of the same team share submission history, the daily submission limit, and a single leaderboard entry.\nSubmitting from different team members does not increase the number of submissions available per day.\nThe competition platform enforces the configured maximum upload size and daily submission limit.\n\n\n\n\nBefore uploading your submission, verify that:\n\n✓ submission.json passes the validation tool.\n✓ All masks are encoded as compressed COCO RLE.\n✓ Every prediction uses category_id = 1.\n✓ Every score is between 0 and 1.\n✓ You are logged in with an approved Hugging Face username.\n\n\n\n\n\nThe JSON root is not a list.\nimage_id values do not match metadata/test_manifest.csv.\ncategory_id is not 1.\nRLE masks are not compressed COCO RLE.\nRLE mask sizes do not match the corresponding test image height and width.\nScores are missing or outside [0, 1].\nToo many low-confidence masks are submitted without score filtering.\nThe uploader is logged in with a Hugging Face username that was not included in the approved registration list.",
     "crumbs": [
-      "Welcoming Words"
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
     ]
   },
   {
-    "objectID": "challenge/people.html",
-    "href": "challenge/people.html",
-    "title": "GeoAI Arctic Mapping Challenge",
+    "objectID": "challenge/submission.html#task",
+    "href": "challenge/submission.html#task",
+    "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "Collaborators"
+    "text": "Your task is to predict per-instance RTS masks for each hidden test image chip.\n\n\n\n\n\n\n\nInput\nOutput\n\n\n\n\nEight-band .npz image chip\nOne compressed COCO RLE mask per predicted RTS instance\n\n\n\nThere is one prediction category:\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#submission-format",
+    "href": "challenge/submission.html#submission-format",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Submit a COCO results JSON list. Each prediction should include:\n{\n  \"image_id\": 1,\n  \"category_id\": 1,\n  \"segmentation\": {\"size\": [159, 289], \"counts\": \"01nk\\\\1\"},\n  \"score\": 0.95\n}\nSubmission requirements:\n\nimage_id must be an integer from metadata/test_manifest.csv.\ncategory_id must be 1.\nsegmentation must be a compressed COCO RLE mask matching the image height and width.\nscore must be numeric and in [0, 1].\nEmpty submissions ([]) are valid and mean no predicted RTS instances.\nImages with no predictions are valid.\nMultiple predictions per image are valid.\n\nIf your model outputs binary masks, encode each mask as compressed RLE.\nIf your model outputs polygons as x1, y1, x2, y2, ..., convert each polygon to compressed RLE before submission.\nHelper functions are provided in tools/coco_utils.py.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#create-and-validate-a-submission",
+    "href": "challenge/submission.html#create-and-validate-a-submission",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Create a valid sample submission:\npython examples/make_sample_submission.py\nEncode binary masks or polygon coordinates as compressed COCO RLE:\npython examples/encode_predictions.py\nValidate a submission before upload:\npython tools/validate_submission.py --submission path/to/submission.json\nMalformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.\nPassing the validator confirms that the submission is correctly formatted. It does not guarantee a successful upload or a high evaluation score.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#evaluation-metrics",
+    "href": "challenge/submission.html#evaluation-metrics",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Submissions are ranked using COCO mask AP/AR (segm) with RTS-specific settings.\nThe primary ranking metric is:\nAP @[IoU=0.50:0.95, area=all, maxDets=10]\nAdditional displayed metrics may include:\n\n\n\n\n\n\n\nMetric\nDefinition\n\n\n\n\nAP50\nAverage Precision at IoU 0.50\n\n\nAP75\nAverage Precision at IoU 0.75\n\n\nAP_small\nAverage Precision for objects with area [0, 300] pixels\n\n\nAP_medium\nAverage Precision for objects with area [300, 2000] pixels\n\n\nAP_large\nAverage Precision for objects with area [2000, 1e10] pixels\n\n\nAR_all\nAverage Recall across all object sizes\n\n\n\nOfficial settings:\n\n\n\nSetting\nValue\n\n\n\n\nmaxDets\n[1, 5, 10]\n\n\nareaRngLbl\n[\"all\", \"small\", \"medium\", \"large\"]\n\n\nall\n[0, 1e10] pixels\n\n\nsmall\n[0, 300] pixels\n\n\nmedium\n[300, 2000] pixels\n\n\nlarge\n[2000, 1e10] pixels\n\n\n\nThe official metric uses the top-scoring detections per image according to maxDets=10.\n\nNote: The public leaderboard reflects the official evaluation metric for submitted predictions. Final competition winners will be determined according to the Winner Selection Criteria described in the Competition Rules, which combine leaderboard performance with qualitative evaluation.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#local-evaluation",
+    "href": "challenge/submission.html#local-evaluation",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Evaluate predictions against the public training labels or your own COCO-format validation split:\npython tools/evaluate_coco.py \\\n  --ground-truth train/annotations/instances_train.json \\\n  --submission path/to/train_predictions.json",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#submission-workflow",
+    "href": "challenge/submission.html#submission-workflow",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Train your model locally.\nGenerate predictions for the test set.\nEncode each predicted RTS instance as compressed COCO RLE.\nBuild one submission.json COCO results list.\nValidate the JSON with tools/validate_submission.py.\nVisit the official competition page and log in with your Hugging Face account.\nIf your Hugging Face username has been approved by the organizers, open New submission and upload the validated file.\nReview your submission status in My submissions and monitor your team’s public score on the leaderboard.\n\nNote:\n\nAll approved members of the same team share submission history, the daily submission limit, and a single leaderboard entry.\nSubmitting from different team members does not increase the number of submissions available per day.\nThe competition platform enforces the configured maximum upload size and daily submission limit.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#before-you-upload",
+    "href": "challenge/submission.html#before-you-upload",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Before uploading your submission, verify that:\n\n✓ submission.json passes the validation tool.\n✓ All masks are encoded as compressed COCO RLE.\n✓ Every prediction uses category_id = 1.\n✓ Every score is between 0 and 1.\n✓ You are logged in with an approved Hugging Face username.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/submission.html#common-submission-issues",
+    "href": "challenge/submission.html#common-submission-issues",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "The JSON root is not a list.\nimage_id values do not match metadata/test_manifest.csv.\ncategory_id is not 1.\nRLE masks are not compressed COCO RLE.\nRLE mask sizes do not match the corresponding test image height and width.\nScores are missing or outside [0, 1].\nToo many low-confidence masks are submitted without score filtering.\nThe uploader is logged in with a Hugging Face username that was not included in the approved registration list.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html",
+    "href": "challenge/resources.html",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "This page collects starter materials, learning resources, contacts, citations, and frequently asked questions.\n\n\n\n\n\n\n\nHelper scripts to load data, inspect labels, validate submissions, and encode masks.\n\n\nCheck the submission page or download the released files\n\n\n\n\n\nData description, formats, bands, statistics, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate and submit\n\n\n\n\n\nUse the Open competition discussion area, or contact the organizers by email.\n\n\n\n\n\n\n\nCompetition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: use the competition discussion area if available for public questions that may help other teams.\n\n\n\n\nThe competition files include helper scripts for:\n\nLoading image chips and labels.\nInspecting dataset metadata.\nCreating a sample submission.\nEncoding binary masks or polygons as compressed COCO RLE.\nValidating submission JSON files.\nRunning local evaluation against public labels or a validation split.\n\n\n\n\n\nPyTorch instance segmentation tutorial: https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nDetectron2 getting started guide: https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html\nCOCO mask utilities: https://github.com/cocodataset/cocoapi\nNumPy .npz loading: https://numpy.org/doc/stable/reference/generated/numpy.load.html\nHugging Face: https://huggingface.co\n\n\n\n\nThe GeoAI Arctic Challenge builds upon an RTS dataset and related multimodal GeoAI research. Participants should cite the following works when using the dataset or baseline model.\n\n\nYang et al. (2023) developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\n\nLi et al. (2025) present a multi-scale vision transformer-based multimodal GeoAI model that integrates multispectral imagery and topographic features for RTS mapping in Arctic permafrost regions.\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}\n\n\n\n\n\n\nCreate a Hugging Face account, complete the registration form with each team member’s exact Hugging Face username, and wait for organizer approval. After approval, log in with Hugging Face from the competition page and download the public release package from the competition files. See the Dataset page for data details.\n\n\n\nSubmissions use COCO results-format JSON with compressed RLE masks. See the Submission information page for the full schema.\n\n\n\nYes, but you must document all external data usage in your method description or technical report.\n\n\n\nNo. Each team should register once. All approved Hugging Face usernames for that team share the same team submission history, daily submission limit, and leaderboard entry.\n\n\n\nYes. An empty JSON list ([]) is valid and means no RTS instances were predicted.\n\n\n\nAll teams must submit valid predictions. Top-performing teams must submit code or a reproducibility package for verification to be eligible for awards.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#quick-links",
+    "href": "challenge/resources.html#quick-links",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Helper scripts to load data, inspect labels, validate submissions, and encode masks.\n\n\nCheck the submission page or download the released files\n\n\n\n\n\nData description, formats, bands, statistics, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate and submit\n\n\n\n\n\nUse the Open competition discussion area, or contact the organizers by email.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#contact",
+    "href": "challenge/resources.html#contact",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Competition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: use the competition discussion area if available for public questions that may help other teams.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#starter-materials",
+    "href": "challenge/resources.html#starter-materials",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "The competition files include helper scripts for:\n\nLoading image chips and labels.\nInspecting dataset metadata.\nCreating a sample submission.\nEncoding binary masks or polygons as compressed COCO RLE.\nValidating submission JSON files.\nRunning local evaluation against public labels or a validation split.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#tutorials-and-learning-materials",
+    "href": "challenge/resources.html#tutorials-and-learning-materials",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "PyTorch instance segmentation tutorial: https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html\nDetectron2 getting started guide: https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html\nCOCO mask utilities: https://github.com/cocodataset/cocoapi\nNumPy .npz loading: https://numpy.org/doc/stable/reference/generated/numpy.load.html\nHugging Face: https://huggingface.co",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#references",
+    "href": "challenge/resources.html#references",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "The GeoAI Arctic Challenge builds upon an RTS dataset and related multimodal GeoAI research. Participants should cite the following works when using the dataset or baseline model.\n\n\nYang et al. (2023) developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\n\nLi et al. (2025) present a multi-scale vision transformer-based multimodal GeoAI model that integrates multispectral imagery and topographic features for RTS mapping in Arctic permafrost regions.\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "challenge/resources.html#faq",
+    "href": "challenge/resources.html#faq",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Create a Hugging Face account, complete the registration form with each team member’s exact Hugging Face username, and wait for organizer approval. After approval, log in with Hugging Face from the competition page and download the public release package from the competition files. See the Dataset page for data details.\n\n\n\nSubmissions use COCO results-format JSON with compressed RLE masks. See the Submission information page for the full schema.\n\n\n\nYes, but you must document all external data usage in your method description or technical report.\n\n\n\nNo. Each team should register once. All approved Hugging Face usernames for that team share the same team submission history, daily submission limit, and leaderboard entry.\n\n\n\nYes. An empty JSON list ([]) is valid and means no RTS instances were predicted.\n\n\n\nAll teams must submit valid predictions. Top-performing teams must submit code or a reproducibility package for verification to be eligible for awards.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Resources"
+    ]
   },
   {
     "objectID": "challenge/index.html",
     "href": "challenge/index.html",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "(06/01/26) Competition Kick-off! We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words here.",
+    "text": "The 2026 GeoAI Arctic Challenge invites participants to develop GeoAI and deep learning models for mapping retrogressive thaw slumps (RTS) from multimodal Arctic remote sensing data.\nOfficial Competition: 2026 GeoAI Arctic Challenge on Hugging Face\nRTS are landslide-like landforms that occur when ice-rich permafrost thaws and collapses. As Arctic warming accelerates, these features are becoming more frequent and can reshape landscapes, alter hydrology, affect ecosystems, and mobilize long-frozen carbon.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
@@ -400,39 +560,76 @@
     "objectID": "challenge/index.html#news",
     "href": "challenge/index.html#news",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "(06/01/26) Competition Kick-off! We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words here.",
+    "section": "News",
+    "text": "News\n\nJuly 1, 2026: Competition kickoff. We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words here.\nJuly 1, 2026: Public training data, hidden-label test images, starter scripts, and validation tools are released here.\nAugust 15, 2026: Benchmark phase starts.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
   {
-    "objectID": "challenge/index.html#what-is-retrogressive-thaw-slumps-rts",
-    "href": "challenge/index.html#what-is-retrogressive-thaw-slumps-rts",
+    "objectID": "challenge/index.html#challenge-task",
+    "href": "challenge/index.html#challenge-task",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "What is Retrogressive Thaw Slumps (RTS)?",
-    "text": "What is Retrogressive Thaw Slumps (RTS)?\n\n\n\nCredit: Woodwell Climate Research Center\n\n\nRetrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see this article from Woodwell Climate Research Center.",
+    "section": "Challenge Task",
+    "text": "Challenge Task\nParticipants will train models to detect and delineate individual RTS features in Arctic image chips.\n\n\n\n\n\n\n\nInput\nOutput\n\n\n\n\nEight-band .npz image chip\nOne mask for each predicted RTS instance\n\n\n\nThe challenge is an instance segmentation task. Training labels are provided in COCO instance segmentation format. Test labels are hidden and used by the official scorer.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
   {
-    "objectID": "challenge/index.html#about-the-challenge",
-    "href": "challenge/index.html#about-the-challenge",
+    "objectID": "challenge/index.html#why-this-matters",
+    "href": "challenge/index.html#why-this-matters",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "About the Challenge",
-    "text": "About the Challenge\nRetrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.\nMapping RTS is challenging due to their small size, subtle appearance, and dynamic evolution over time. This competition invites you to leverage deep learning and GeoAI to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nMapping RTS manually across Arctic regions is difficult because these landforms can be small, visually subtle, and dynamically changing. Automated mapping can help scientists monitor permafrost degradation, improve environmental change detection, and better understand climate-driven Arctic landscape transformation.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
   {
-    "objectID": "challenge/index.html#collaborators",
-    "href": "challenge/index.html#collaborators",
+    "objectID": "challenge/index.html#how-to-start",
+    "href": "challenge/index.html#how-to-start",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Collaborators",
-    "text": "Collaborators\n\nWenwen Li, Arizona State University, USA\nChia-Yu Hsu, Arizona State University, USA\nAnna Liljedahl, Woodwell Climate Research Center, USA\nYili Yang, Woodwell Climate Research Center, USA\nMatthew Jones, University of California, Santa Barbara, USA\nKenton McHenry, University of Illinois at Urbana-Champaign, USA\nPatricia Solis, Arizona State University, USA\nIngmar Nitze, Alfred Wegener Institute, Germany",
+    "section": "How To Start",
+    "text": "How To Start\n\nForm a team of 1 to 5 members.\nCreate a Hugging Face account for each team member.\nComplete the team registration form here.\nInclude the exact Hugging Face username for the Team Leader and each team member in the registration form.\nVisit the official competition page.\nClick Login with Hugging Face in the left sidebar to sign in and link your competition account.\nWait for organizer approval. Approved usernames will be added to the competition.\nAfter approval, use New submission to upload predictions and My submissions to review team submission history.\n\nNote: Unregistered users can browse the competition pages and leaderboard, but only approved Hugging Face usernames can submit.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#important-dates",
+    "href": "challenge/index.html#important-dates",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "Important Dates",
+    "text": "Important Dates\n\n\n\nEvent\nDate\n\n\n\n\nCompetition opens\nJuly 1, 2026\n\n\nDataset released\nJuly 1, 2026\n\n\nBenchmark phase starts\nAugust 15, 2026\n\n\nFinal submission deadline\nJanuary 31, 2027\n\n\nWinners announced\nMarch 1, 2027",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#awards",
+    "href": "challenge/index.html#awards",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "Awards",
+    "text": "Awards\nTop-performing teams will receive cash awards and recognition:\n\n\n\nPlace\nAward\n\n\n\n\n1st place\n$1,000\n\n\n2nd place\n$500\n\n\n3rd place\n$200\n\n\n\nSelected participants may also be invited to contribute to an outcome publication and future research collaborations.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "challenge/index.html#dataset-preview",
+    "href": "challenge/index.html#dataset-preview",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "Dataset Preview",
+    "text": "Dataset Preview\nThe dataset contains high-resolution, multimodal satellite image chips paired with RTS instance segmentation labels. RGB composites are shown below for visualization only; the modeling input contains eight channels.\n\n\n\nInput: RGB composite\nTarget: RTS instances",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
@@ -443,6 +640,7 @@
     "section": "Partners",
     "text": "Partners",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
@@ -453,27 +651,52 @@
     "section": "Sponsors",
     "text": "Sponsors",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
   {
-    "objectID": "challenge/index.html#references",
-    "href": "challenge/index.html#references",
+    "objectID": "challenge/index.html#contact",
+    "href": "challenge/index.html#contact",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "References",
-    "text": "References\nThe GeoAI Arctic Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:\n\nDataset Source\nThe dataset was curated by Yang et al. (2023), who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.\n\nYang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” Remote Sensing of Environment 288 (2023): 113495. https://doi.org/10.1016/j.rse.2023.113495\n\n@article{yang2023mapping,\n  title={Mapping retrogressive thaw slumps using deep neural networks},\n  author={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},\n  journal={Remote Sensing of Environment},\n  volume={288},\n  pages={113495},\n  year={2023},\n  publisher={Elsevier}\n}\n\n\nOur Multimodal GeoAI Model\nWe provide a sample notebook using the baseline model from Li et al. (2025), a multi-scale vision transformer-based multimodal GeoAI model that integrates multi-spectral imagery and topographic features for high-accuracy RTS mapping in Arctic permafrost regions.\n\nLi, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). https://doi.org/10.1109/JSTARS.2025.3564310\n\n@article{li2025multi,\n  title={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},\n  author={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2025},\n  publisher={IEEE}\n}",
+    "section": "Contact",
+    "text": "Contact\nFor competition support, contact wenwen@asu.edu or chiayuhsu@asu.edu.\nFor technical questions that may help other teams, use the discussion area on the competition page. You may also contact the organizing team by email.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Overview"
     ]
   },
   {
-    "objectID": "challenge/index.html#dataset-samples",
-    "href": "challenge/index.html#dataset-samples",
+    "objectID": "challenge/about.html",
+    "href": "challenge/about.html",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Dataset Samples",
-    "text": "Dataset Samples\nThe dataset consists of high-resolution, multi-spectral satellite imagery paired with segmentation masks outlining RTS boundaries. While the dataset provides multi-band inputs (including non-visible spectral channels), the sample images below are displayed using RGB composites for visualization purposes only.\n\n\n\nInput: RGB composite example\nTarget: RTS segmentation",
+    "section": "",
+    "text": "The 2026 GeoAI Arctic Challenge is part of the continuing series of GeoAI challenges sponsored by the National Science Foundation (NSF) and hosted by the NSF Cyber2A project team. This challenge aims to bring together researchers, practitioners, and students from multiple disciplines and sectors, including geospatial sciences, computer science, Earth and environmental sciences, data science, and Arctic research communities. Our goal is to broaden participation in GeoAI research and education while fostering interdisciplinary collaboration to address pressing environmental challenges facing our planet.\nThis year’s challenge focuses on the Arctic, one of the most rapidly changing regions on Earth. Arctic warming is transforming landscapes, ecosystems, infrastructure, and communities at an unprecedented pace. Permafrost degradation has led to the emergence and expansion of diverse surface features such as thermokarst lakes, retrogressive thaw slumps, ice-wedge degradation, and ground subsidence. These changes have significant impacts on ecosystems, hydrology, carbon cycling, infrastructure stability, and the livelihoods of Arctic communities.\nThe goal of the 2026 GeoAI Arctic Challenge is to advance the use of artificial intelligence and GeoAI methods for detecting and mapping Arctic permafrost features (i.e., the retrogressive thaw slumps) from multimodal remote sensing imagery and geospatial data. Through this challenge, we hope to encourage participants to develop innovative AI and deep learning models that can improve environmental monitoring and enhance our understanding of how climate change is reshaping Arctic landscapes and affecting the people who depend on them. More information about the competition can be found here: https://cyber2a.github.io/challenge/.\nThis challenge is more than a competition. It is also a platform for training, collaboration, and community building. During the challenge open period (July 1, 2026 to January 31, 2027), we will organize webinars and virtual hands-on sessions on AI, remote sensing, and deep learning methods for environmental applications. We hope these activities will help develop and diversify the next generation AI and GeoAI workforce while building a strong research network across disciplines and sectors.\nThe challenge is open to everyone interested in AI, geospatial sciences, environmental change, and Arctic research. Participants may join as individuals or teams. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI). Top-performing teams will receive cash awards ($1,000 for 1st place, $500 for 2nd place, and $200 for 3rd place) and recognition, and selected participants may have opportunities for future research collaborations and internships with our research program.\nWe look forward to your participation and to seeing the innovative AI solutions you will develop to help better understand and address environmental change in the Arctic.\nProfessor Wenwen Li  Director, Spatial Analysis Research Center (SPARC)  School of Geographical Sciences and Urban Planning  Arizona State University \n\n\n\nWenwen Li, Arizona State University, USA\nChia-Yu Hsu, Arizona State University, USA\nAnna Liljedahl, Woodwell Climate Research Center, USA\nYili Yang, Woodwell Climate Research Center, USA\nMatthew Jones, University of California, Santa Barbara, USA\nKenton McHenry, University of Illinois at Urbana-Champaign, USA\nPatricia Solis, Arizona State University, USA\nIngmar Nitze, Alfred Wegener Institute, Germany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor competition support, contact wenwen@asu.edu or chiayuhsu@asu.edu.\nFor technical questions that may help other teams, use the discussion area on the competition page. You may also contact the organizing team by email.",
     "crumbs": [
-      "Overview"
+      "2026 GeoAI Arctic Challenge",
+      "About/Organizers"
+    ]
+  },
+  {
+    "objectID": "challenge/about.html#collaborators",
+    "href": "challenge/about.html#collaborators",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "Wenwen Li, Arizona State University, USA\nChia-Yu Hsu, Arizona State University, USA\nAnna Liljedahl, Woodwell Climate Research Center, USA\nYili Yang, Woodwell Climate Research Center, USA\nMatthew Jones, University of California, Santa Barbara, USA\nKenton McHenry, University of Illinois at Urbana-Champaign, USA\nPatricia Solis, Arizona State University, USA\nIngmar Nitze, Alfred Wegener Institute, Germany",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "About/Organizers"
+    ]
+  },
+  {
+    "objectID": "challenge/about.html#contact",
+    "href": "challenge/about.html#contact",
+    "title": "2026 GeoAI Arctic Challenge",
+    "section": "",
+    "text": "For competition support, contact wenwen@asu.edu or chiayuhsu@asu.edu.\nFor technical questions that may help other teams, use the discussion area on the competition page. You may also contact the organizing team by email.",
+    "crumbs": [
+      "2026 GeoAI Arctic Challenge",
+      "About/Organizers"
     ]
   },
   {
@@ -591,8 +814,9 @@
     "href": "challenge/dataset.html",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "The GeoAI Arctic Challenge dataset is an instance segmentation benchmark for detecting and delineating retrogressive thaw slumps (RTS), landscape disturbances caused by permafrost thaw, in Arctic image chips. The dataset builds on Yang et al. (2023), which provided semantic segmentation masks that label each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.\nParticipants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports evaluation at the feature level, including how well models separate and delineate individual RTS boundaries, rather than only measuring pixel-wise foreground and background accuracy.\nTraining labels are provided in COCO instance segmentation format. Test labels remain hidden and are used by the official scorer.\n\nWhy it matters: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.\n\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1. Conversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.\n\n\nThe source data spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the source Arctic RTS dataset. The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling (Li et al., 2025).\n\n\n\nThe public package contains training images and labels, hidden-label test images, metadata, and starter tools:\ncompetition_release/\n  README.md\n  metadata/\n    band_names.json\n    sample_submission.json\n    train_manifest.csv\n    test_manifest.csv\n  tools/\n    coco_utils.py\n    validate_submission.py\n    evaluate_coco.py\n    inspect_dataset.py\n  examples/\n    load_image_and_label.py\n    make_sample_submission.py\n    encode_predictions.py\n  train/\n    images/*.npz\n    annotations/instances_train.json\n  test/\n    images/*.npz\nEach .npz file contains one array named image with shape H x W x 8 in HWC order.\n\n\n\nEach image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context so models can learn both visual RTS appearance and environmental cues that affect slump boundaries.\n\n\n\n\n\n\n\n\n\nData Layer\nSource / Feature Type\nBands\nRole in RTS Mapping\n\n\n\n\nRGB imagery\nMaxar optical imagery\nred, green, blue\nProvides high-resolution visual context for identifying exposed soil, vegetation disturbance, and visible RTS morphology.\n\n\nSpectral features\nVegetation, water, and near-infrared features\nndvi, ndwi, nir\nHelps models distinguish thaw-related disturbance from vegetation, water, snow, and other spectrally distinct surface conditions.\n\n\nTerrain features\nArcticDEM-derived topographic features\nrelative_elevation, shaded_relief\nAdds terrain structure that can improve boundary delineation and help separate RTS features from surrounding slopes.\n\n\n\nThe array band order is:\n\n\n\nIndex\nBand Name\nDescription\n\n\n\n\n0\nred\nMaxar red\n\n\n1\ngreen\nMaxar green\n\n\n2\nblue\nMaxar blue\n\n\n3\nndvi\nNormalized Difference Vegetation Index\n\n\n4\nrelative_elevation\nRelative elevation\n\n\n5\nshaded_relief\nShaded relief\n\n\n6\nnir\nPlanet near-infrared\n\n\n7\nndwi\nNormalized Difference Water Index\n\n\n\nThe same band list is available in machine-readable form in metadata/band_names.json.\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTraining Images\n756 image chips with public labels\n\n\nTest Images\n138 image chips without public labels\n\n\nTraining RTS Instances\n1,783\n\n\nHidden Test RTS Instances\n299\n\n\nTotal RTS Instances\n2,082 train + hidden-test labels\n\n\nImage Array Format\n.npz files containing image arrays with shape H x W x 8\n\n\nAnnotation Format\nCOCO instance segmentation JSON with compressed RLE masks\n\n\nTask\nRTS instance segmentation\n\n\nCategory\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment\n\n\n\n\n\n\nTraining annotations are stored in train/annotations/instances_train.json using COCO instance segmentation format. Instance masks are encoded as compressed COCO run-length encoding (RLE).\nThe label conversion rule is:\n\nRTS foreground: finite source rts_label values greater than 0\nBackground: source rts_label == 0 or missing/no-label values\nInstances: 8-connected components over the binary RTS foreground\nFiltering: connected components smaller than 10 pixels are removed\n\nThis conversion is deterministic. If two RTS features touch in the source mask, connected-component labeling treats them as one instance.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
+    "text": "The GeoAI Arctic Challenge dataset is an instance segmentation benchmark for detecting and delineating retrogressive thaw slumps (RTS) in Arctic image chips. The dataset builds on Yang et al. (2023), which provided semantic segmentation masks labeling each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.\nParticipants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports feature-level evaluation, including how well models separate and delineate individual RTS boundaries.\nTraining labels are provided in COCO instance segmentation format. Test labels remain hidden and are used by the official scorer.\n\n\n\n\n\n\n\n\nSatellite Image (RGB)\nSemantic Mask (Original)\nInstance Mask (This Challenge)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.\n\n\nThe source data spans seven Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nSpatial coverage of the source Arctic RTS dataset. Credit: Li et al., 2025.\nNote: The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling.\n\n\n\nThe public package contains training images and labels, hidden-label test images, metadata, and starter tools:\ncompetition_release/\n  README.md\n  metadata/\n    band_names.json\n    sample_submission.json\n    train_manifest.csv\n    test_manifest.csv\n  tools/\n    coco_utils.py\n    validate_submission.py\n    evaluate_coco.py\n    inspect_dataset.py\n  examples/\n    load_image_and_label.py\n    make_sample_submission.py\n    encode_predictions.py\n  train/\n    images/*.npz\n    annotations/instances_train.json\n  test/\n    images/*.npz\nEach .npz file contains one array named image with shape H x W x 8 in HWC order.\n\n\n\nEach image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context.\n\n\n\n\n\n\n\n\n\nData layer\nSource / feature type\nBands\nRole in RTS mapping\n\n\n\n\nRGB imagery\nMaxar optical imagery\nred, green, blue\nProvides high-resolution visual context for exposed soil, vegetation disturbance, and RTS morphology.\n\n\nSpectral features\nVegetation, water, and near-infrared features\nndvi, ndwi, nir\nHelps distinguish thaw-related disturbance from vegetation, water, snow, and other surface conditions.\n\n\nTerrain features\nArcticDEM-derived topographic features\nrelative_elevation, shaded_relief\nAdds terrain structure that can improve boundary delineation.\n\n\n\nThe array band order is:\n\n\n\nIndex\nBand name\nDescription\n\n\n\n\n0\nred\nMaxar red\n\n\n1\ngreen\nMaxar green\n\n\n2\nblue\nMaxar blue\n\n\n3\nndvi\nNormalized Difference Vegetation Index\n\n\n4\nrelative_elevation\nRelative elevation\n\n\n5\nshaded_relief\nShaded relief\n\n\n6\nnir\nPlanet near-infrared\n\n\n7\nndwi\nNormalized Difference Water Index\n\n\n\nThe same band list is available in machine-readable form in metadata/band_names.json.\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTraining Images\n756 image chips with public labels\n\n\nTest Images\n138 image chips without public labels\n\n\nTraining RTS Instances\n1,783\n\n\nHidden Test RTS Instances\n299\n\n\nTotal RTS Instances\n2,082 train + hidden-test labels\n\n\nImage Array Format\n.npz files containing image arrays with shape H x W x 8\n\n\nAnnotation Format\nCOCO instance segmentation JSON with compressed RLE masks\n\n\nTask\nRTS instance segmentation\n\n\nCategory\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment\n\n\n\n\n\n\nTraining annotations are stored in train/annotations/instances_train.json using COCO instance segmentation format. Instance masks are encoded as compressed COCO run-length encoding (RLE).\nThe label conversion rule is:\n\nRTS foreground: finite source rts_label values greater than 0\nBackground: source rts_label == 0 or missing/no-label values\nInstances: 8-connected components over the binary RTS foreground\nFiltering: connected components smaller than 10 pixels are removed\n\nThis conversion is deterministic. If two RTS features touch in the source mask, connected-component labeling treats them as one instance.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -601,8 +825,9 @@
     "href": "challenge/dataset.html#geographic-coverage-and-study-sites",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "The source data spans 7 Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nFigure 2. Spatial coverage of the source Arctic RTS dataset. The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling (Li et al., 2025).",
+    "text": "The source data spans seven Arctic subregions, including:\n\nCanada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island\nRussia: Yamal and Gydan peninsulas, Lena River, Kolguev Island\n\n\nSpatial coverage of the source Arctic RTS dataset. Credit: Li et al., 2025.\nNote: The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -613,6 +838,7 @@
     "section": "",
     "text": "The public package contains training images and labels, hidden-label test images, metadata, and starter tools:\ncompetition_release/\n  README.md\n  metadata/\n    band_names.json\n    sample_submission.json\n    train_manifest.csv\n    test_manifest.csv\n  tools/\n    coco_utils.py\n    validate_submission.py\n    evaluate_coco.py\n    inspect_dataset.py\n  examples/\n    load_image_and_label.py\n    make_sample_submission.py\n    encode_predictions.py\n  train/\n    images/*.npz\n    annotations/instances_train.json\n  test/\n    images/*.npz\nEach .npz file contains one array named image with shape H x W x 8 in HWC order.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -621,8 +847,9 @@
     "href": "challenge/dataset.html#bands",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context so models can learn both visual RTS appearance and environmental cues that affect slump boundaries.\n\n\n\n\n\n\n\n\n\nData Layer\nSource / Feature Type\nBands\nRole in RTS Mapping\n\n\n\n\nRGB imagery\nMaxar optical imagery\nred, green, blue\nProvides high-resolution visual context for identifying exposed soil, vegetation disturbance, and visible RTS morphology.\n\n\nSpectral features\nVegetation, water, and near-infrared features\nndvi, ndwi, nir\nHelps models distinguish thaw-related disturbance from vegetation, water, snow, and other spectrally distinct surface conditions.\n\n\nTerrain features\nArcticDEM-derived topographic features\nrelative_elevation, shaded_relief\nAdds terrain structure that can improve boundary delineation and help separate RTS features from surrounding slopes.\n\n\n\nThe array band order is:\n\n\n\nIndex\nBand Name\nDescription\n\n\n\n\n0\nred\nMaxar red\n\n\n1\ngreen\nMaxar green\n\n\n2\nblue\nMaxar blue\n\n\n3\nndvi\nNormalized Difference Vegetation Index\n\n\n4\nrelative_elevation\nRelative elevation\n\n\n5\nshaded_relief\nShaded relief\n\n\n6\nnir\nPlanet near-infrared\n\n\n7\nndwi\nNormalized Difference Water Index\n\n\n\nThe same band list is available in machine-readable form in metadata/band_names.json.",
+    "text": "Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context.\n\n\n\n\n\n\n\n\n\nData layer\nSource / feature type\nBands\nRole in RTS mapping\n\n\n\n\nRGB imagery\nMaxar optical imagery\nred, green, blue\nProvides high-resolution visual context for exposed soil, vegetation disturbance, and RTS morphology.\n\n\nSpectral features\nVegetation, water, and near-infrared features\nndvi, ndwi, nir\nHelps distinguish thaw-related disturbance from vegetation, water, snow, and other surface conditions.\n\n\nTerrain features\nArcticDEM-derived topographic features\nrelative_elevation, shaded_relief\nAdds terrain structure that can improve boundary delineation.\n\n\n\nThe array band order is:\n\n\n\nIndex\nBand name\nDescription\n\n\n\n\n0\nred\nMaxar red\n\n\n1\ngreen\nMaxar green\n\n\n2\nblue\nMaxar blue\n\n\n3\nndvi\nNormalized Difference Vegetation Index\n\n\n4\nrelative_elevation\nRelative elevation\n\n\n5\nshaded_relief\nShaded relief\n\n\n6\nnir\nPlanet near-infrared\n\n\n7\nndwi\nNormalized Difference Water Index\n\n\n\nThe same band list is available in machine-readable form in metadata/band_names.json.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -633,6 +860,7 @@
     "section": "",
     "text": "Property\nDescription\n\n\n\n\nTraining Images\n756 image chips with public labels\n\n\nTest Images\n138 image chips without public labels\n\n\nTraining RTS Instances\n1,783\n\n\nHidden Test RTS Instances\n299\n\n\nTotal RTS Instances\n2,082 train + hidden-test labels\n\n\nImage Array Format\n.npz files containing image arrays with shape H x W x 8\n\n\nAnnotation Format\nCOCO instance segmentation JSON with compressed RLE masks\n\n\nTask\nRTS instance segmentation\n\n\nCategory\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}\n\n\nOriginal Source\nYang et al. (2023), Remote Sensing of Environment",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -643,6 +871,7 @@
     "section": "",
     "text": "Training annotations are stored in train/annotations/instances_train.json using COCO instance segmentation format. Instance masks are encoded as compressed COCO run-length encoding (RLE).\nThe label conversion rule is:\n\nRTS foreground: finite source rts_label values greater than 0\nBackground: source rts_label == 0 or missing/no-label values\nInstances: 8-connected components over the binary RTS foreground\nFiltering: connected components smaller than 10 pixels are removed\n\nThis conversion is deterministic. If two RTS features touch in the source mask, connected-component labeling treats them as one instance.",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
@@ -651,209 +880,127 @@
     "href": "challenge/dataset.html#sample-visualizations",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "Explore additional examples to understand data variability across regions.\n\n\n\n\n\n\n\n\nDescription\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow\n\n\n\n\n\nFigure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.",
+    "text": "Description\nSatellite Image (RGB)\nInstance Mask (RTS Features)\n\n\n\n\nSingle large RTS\n\n\n\n\nSingle small RTS\n\n\n\n\nMultiple RTS\n\n\n\n\nRTS near snow",
     "crumbs": [
+      "2026 GeoAI Arctic Challenge",
       "Dataset"
     ]
   },
   {
-    "objectID": "challenge/participate.html",
-    "href": "challenge/participate.html",
+    "objectID": "challenge/people.html",
+    "href": "challenge/people.html",
+    "title": "GeoAI Arctic Mapping Challenge",
+    "section": "",
+    "text": "Collaborators"
+  },
+  {
+    "objectID": "challenge/rules.html",
+    "href": "challenge/rules.html",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).\n\n\n\n\nForm your team and select a Team Leader.\nComplete the team registration form.\nProvide the following information:\n\nTeam name\nTeam Leader’s name and email\nNames and affiliations of all team members\nTeam Leader’s Codabench username (if already available)\n\n\nThe organizers will review all registrations and verify team eligibility.\n\n\n\nAfter submitting the registration form:\n\nThe Team Leader should create a Codabench account at https://www.codabench.org.\nVisit the competition page: GeoAI Arctic Challenge.\nClick Join Competition.\nWait for organizer approval.\n\nAccess requests are reviewed manually. Approved teams will receive access to the competition resources and leaderboard.\nOnce approved, the Team Leader can:\n\nAccess the competition files and documentation.\nDownload the public dataset and starter materials.\nFollow the setup instructions provided in the repository or competition page.\nSubmit predictions through Codabench.\n\n\n\n\n\nEach team may register only once.\nEach team must use a single Codabench account managed by the Team Leader.\nMultiple Codabench accounts representing the same team are not permitted.\nTeams found circumventing participation limits through multiple accounts may be disqualified at the organizers’ discretion.\nTeam membership should remain unchanged after registration unless explicitly approved by the organizers.\nCodabench will enforce platform-level competition settings, including maximum submissions per day, maximum upload size, public/private leaderboard behavior, final ranking metric, and displayed leaderboard columns.\nCode for the top-performing models must be submitted for verification to be eligible for awards.",
+    "text": "The competition is open to students, academics, industry professionals, and independent participants.\nParticipation is organized at the team level:\n\nEach team may include 1 to 5 members.\nEach team must designate one Team Leader.\nThe Team Leader manages registration and is the main contact for the organizers.\nEach team may register only once.\nEach participant must have a Hugging Face account.\nEach team member must provide their exact Hugging Face username during registration.\nMultiple registrations representing the same team are not permitted.\n\nTeam membership should remain unchanged after registration unless explicitly approved by the organizers.\nWe strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).\nTo participate in the challenge, teams must first register and be approved through the official Hugging Face competition page.\n\n\n\n\nForm your team and select a Team Leader.\nCreate a Hugging Face account for each team member.\nComplete the team registration form here.\nProvide the team name, Team Leader contact information, team member names and affiliations, and the exact Hugging Face username for every team member.\nThe organizers will review registrations and verify eligibility.\n\nAfter registration:\n\nVisit the official competition page.\nLog in with your Hugging Face account.\nWait for organizer approval.\nApproved Hugging Face usernames will be added to the competition registration list.\nOnce approved, registered team members can submit through New submission and view shared team history through My submissions.\n\nAccess requests are reviewed manually. Users who are not listed as approved participants can browse the competition pages and leaderboard, but cannot upload submissions.\n\n\n\nThe competition uses Hugging Face usernames to identify registered participants.\nRegistered users mapped to the same team share:\n\nMy submissions\nNew submission access\nThe daily submission limit\nOne leaderboard entry\n\nAll approved team members can submit for the team. Team names are managed by the organizers based on the registration form.\n\n\n\n\nSubmissions must be generated by automated model outputs.\nManual labeling of the hidden test set is not permitted.\nPredictions must follow the required COCO results JSON format.\nEach prediction must use category_id: 1.\nEach mask must be encoded as compressed COCO RLE.\nEach score must be numeric and in [0, 1].\nEmpty submissions are valid and mean no predicted RTS instances.\nImages with no predictions are valid.\nMultiple predictions per image are valid.\nThe official metric uses the top-scoring detections per image according to maxDets=10.\nYou may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.\n\nThe competition platform will enforce settings such as maximum submissions per day, maximum upload size, leaderboard behavior, final ranking metric, and displayed leaderboard columns.\n\n\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\nParticipants may use external data, but external data usage must be documented in the method description or technical report.\nDo not share labels, private data, submissions, or predictions across teams.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#registration-and-setup",
-    "href": "challenge/participate.html#registration-and-setup",
+    "objectID": "challenge/rules.html#eligibility",
+    "href": "challenge/rules.html#eligibility",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "",
-    "text": "The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).\n\n\n\n\nForm your team and select a Team Leader.\nComplete the team registration form.\nProvide the following information:\n\nTeam name\nTeam Leader’s name and email\nNames and affiliations of all team members\nTeam Leader’s Codabench username (if already available)\n\n\nThe organizers will review all registrations and verify team eligibility.\n\n\n\nAfter submitting the registration form:\n\nThe Team Leader should create a Codabench account at https://www.codabench.org.\nVisit the competition page: GeoAI Arctic Challenge.\nClick Join Competition.\nWait for organizer approval.\n\nAccess requests are reviewed manually. Approved teams will receive access to the competition resources and leaderboard.\nOnce approved, the Team Leader can:\n\nAccess the competition files and documentation.\nDownload the public dataset and starter materials.\nFollow the setup instructions provided in the repository or competition page.\nSubmit predictions through Codabench.\n\n\n\n\n\nEach team may register only once.\nEach team must use a single Codabench account managed by the Team Leader.\nMultiple Codabench accounts representing the same team are not permitted.\nTeams found circumventing participation limits through multiple accounts may be disqualified at the organizers’ discretion.\nTeam membership should remain unchanged after registration unless explicitly approved by the organizers.\nCodabench will enforce platform-level competition settings, including maximum submissions per day, maximum upload size, public/private leaderboard behavior, final ranking metric, and displayed leaderboard columns.\nCode for the top-performing models must be submitted for verification to be eligible for awards.",
+    "text": "The competition is open to students, academics, industry professionals, and independent participants.\nParticipation is organized at the team level:\n\nEach team may include 1 to 5 members.\nEach team must designate one Team Leader.\nThe Team Leader manages registration and is the main contact for the organizers.\nEach team may register only once.\nEach participant must have a Hugging Face account.\nEach team member must provide their exact Hugging Face username during registration.\nMultiple registrations representing the same team are not permitted.\n\nTeam membership should remain unchanged after registration unless explicitly approved by the organizers.\nWe strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).\nTo participate in the challenge, teams must first register and be approved through the official Hugging Face competition page.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#download-competition-files",
-    "href": "challenge/participate.html#download-competition-files",
+    "objectID": "challenge/rules.html#registration",
+    "href": "challenge/rules.html#registration",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Download Competition Files",
-    "text": "Download Competition Files\nOnce registered and approved, download the public release package from the Files section on Codabench. You can also visit the Dataset Page for detailed information about the data, annotations, and visualizations.\nRelease package contents:\n\n756 training image chips and 138 test image chips.\nEight-band .npz image arrays with RGB, spectral indices, elevation, shaded relief, and NIR bands.\nCOCO-style instance segmentation annotations for the training split.\nHidden test labels used by the official scorer.\nHelper scripts for loading images, validating submissions, encoding masks, and local evaluation.",
+    "section": "",
+    "text": "Form your team and select a Team Leader.\nCreate a Hugging Face account for each team member.\nComplete the team registration form here.\nProvide the team name, Team Leader contact information, team member names and affiliations, and the exact Hugging Face username for every team member.\nThe organizers will review registrations and verify eligibility.\n\nAfter registration:\n\nVisit the official competition page.\nLog in with your Hugging Face account.\nWait for organizer approval.\nApproved Hugging Face usernames will be added to the competition registration list.\nOnce approved, registered team members can submit through New submission and view shared team history through My submissions.\n\nAccess requests are reviewed manually. Users who are not listed as approved participants can browse the competition pages and leaderboard, but cannot upload submissions.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#local-setup",
-    "href": "challenge/participate.html#local-setup",
+    "objectID": "challenge/rules.html#team-accounts-and-shared-submissions",
+    "href": "challenge/rules.html#team-accounts-and-shared-submissions",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Local Setup",
-    "text": "Local Setup\nInstall the helper dependencies in your Python environment:\npip install -r requirements.txt\nInspect the release package:\npython tools/inspect_dataset.py\nLoad one training image and decode one training instance mask:\npython examples/load_image_and_label.py",
+    "section": "",
+    "text": "The competition uses Hugging Face usernames to identify registered participants.\nRegistered users mapped to the same team share:\n\nMy submissions\nNew submission access\nThe daily submission limit\nOne leaderboard entry\n\nAll approved team members can submit for the team. Team names are managed by the organizers based on the registration form.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#data-format",
-    "href": "challenge/participate.html#data-format",
+    "objectID": "challenge/rules.html#submission-rules",
+    "href": "challenge/rules.html#submission-rules",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Data Format",
-    "text": "Data Format\nThe release is organized into training data, test data, metadata, tools, and examples:\ncompetition_release/\n  metadata/\n    band_names.json\n    sample_submission.json\n    train_manifest.csv\n    test_manifest.csv\n  tools/\n    coco_utils.py\n    validate_submission.py\n    evaluate_coco.py\n    inspect_dataset.py\n  examples/\n    load_image_and_label.py\n    make_sample_submission.py\n    encode_predictions.py\n  train/\n    images/*.npz\n    annotations/instances_train.json\n  test/\n    images/*.npz\n\n\n\n\n\n\n\n\nItem\nFormat\nDescription\n\n\n\n\nImagery\n.npz\nOne array named image with shape H x W x 8\n\n\nTraining labels\n.json\nCOCO instance segmentation labels with compressed RLE masks\n\n\nManifests\n.csv\nPublic IDs, integer image IDs, filenames, widths, and heights\n\n\nSample submission\n.json\nExample COCO results-format submission\n\n\n\nThe image bands are stored in HWC order: red, green, blue, ndvi, relative_elevation, shaded_relief, nir, and ndwi.",
+    "section": "",
+    "text": "Submissions must be generated by automated model outputs.\nManual labeling of the hidden test set is not permitted.\nPredictions must follow the required COCO results JSON format.\nEach prediction must use category_id: 1.\nEach mask must be encoded as compressed COCO RLE.\nEach score must be numeric and in [0, 1].\nEmpty submissions are valid and mean no predicted RTS instances.\nImages with no predictions are valid.\nMultiple predictions per image are valid.\nThe official metric uses the top-scoring detections per image according to maxDets=10.\nYou may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.\n\nThe competition platform will enforce settings such as maximum submissions per day, maximum upload size, leaderboard behavior, final ranking metric, and displayed leaderboard columns.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#task-description",
-    "href": "challenge/participate.html#task-description",
+    "objectID": "challenge/rules.html#data-usage",
+    "href": "challenge/rules.html#data-usage",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Task Description",
-    "text": "Task Description\nYour task is to predict per-instance RTS masks for each test image chip.\n\n\n\n\n\n\n\nInput\nOutput\n\n\n\n\nEight-band .npz image chip\nOne compressed COCO RLE mask per predicted RTS instance\n\n\n\nThere is one prediction category:\n{\"id\": 1, \"name\": \"rts\", \"supercategory\": \"landform\"}",
+    "section": "",
+    "text": "The dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\nParticipants may use external data, but external data usage must be documented in the method description or technical report.\nDo not share labels, private data, submissions, or predictions across teams.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#submission-format",
-    "href": "challenge/participate.html#submission-format",
+    "objectID": "challenge/rules.html#code-and-report-requirements",
+    "href": "challenge/rules.html#code-and-report-requirements",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Submission Format",
-    "text": "Submission Format\nSubmit a COCO results JSON list. Each prediction should include:\n{\n  \"image_id\": 1,\n  \"category_id\": 1,\n  \"segmentation\": {\"size\": [159, 289], \"counts\": \"01nk\\\\1\"},\n  \"score\": 0.95\n}\nSubmission rules:\n\nimage_id must be an integer from metadata/test_manifest.csv.\ncategory_id must be 1.\nsegmentation must be a compressed COCO RLE mask matching the image height and width.\nscore must be numeric and in [0, 1].\nEmpty submissions ([]) are valid and mean no predicted RTS instances.\nImages with no predictions are valid.\nMultiple predictions per image are valid.\n\nIf your model outputs binary masks, encode each mask as compressed RLE. If your model outputs polygons as x1, y1, x2, y2, ..., convert each polygon to compressed RLE before submission. Helper functions are provided in tools/coco_utils.py.\nCreate a valid sample submission:\npython examples/make_sample_submission.py\nEncode binary masks or polygon coordinates as compressed COCO RLE:\npython examples/encode_predictions.py\nValidate a submission before upload:\npython tools/validate_submission.py --submission path/to/submission.json\nMalformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.",
+    "section": "Code and Report Requirements",
+    "text": "Code and Report Requirements\nAll teams must submit a valid COCO results-format submission.json through the competition platform.\nTop-performing teams must submit code for verification to be eligible for awards. They may also be invited to contribute to an outcome publication and may be asked to provide:\n\nA short technical report of 2 to 4 pages.\nFinal inference code or a container to verify results.\nInstructions for reproducing predictions on the test set.\nTraining scripts, if available.\n\nThe technical report should cover:\n\nTeam members, affiliations, and country.\nModel architecture.\nTraining strategy, including losses, augmentations, optimizer, batch size, and hardware.\nSpecial techniques such as domain adaptation, self-training, ensembling, or band selection.\nResults and ablations.\nInsights, challenges, lessons learned, and possible future improvements.\nReferences to related work.\n\nA report template will be provided to keep submissions consistent.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#evaluation-metrics",
-    "href": "challenge/participate.html#evaluation-metrics",
+    "objectID": "challenge/rules.html#winner-selection-criteria",
+    "href": "challenge/rules.html#winner-selection-criteria",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Evaluation Metrics",
-    "text": "Evaluation Metrics\nSubmissions are ranked on Codabench using COCO mask AP/AR (segm) with RTS-specific settings. The primary ranking metric is:\n\nAP @[IoU=0.50:0.95, area=all, maxDets=10]\n\nAdditional displayed metrics may include:\n\n\n\n\n\n\n\nMetric\nDefinition\n\n\n\n\nAP50\nAverage Precision at IoU 0.50\n\n\nAP75\nAverage Precision at IoU 0.75\n\n\nAP_small\nAverage Precision for objects with area [0, 300] pixels\n\n\nAP_medium\nAverage Precision for objects with area [300, 2000] pixels\n\n\nAP_large\nAverage Precision for objects with area [2000, 1e10] pixels\n\n\nAR_all\nAverage Recall across all object sizes\n\n\n\nOfficial settings:\n\nmaxDets: [1, 5, 10]\nareaRngLbl: [\"all\", \"small\", \"medium\", \"large\"]\nall: [0, 1e10] pixels\nsmall: [0, 300] pixels\nmedium: [300, 2000] pixels\nlarge: [2000, 1e10] pixels\n\nThe official metric uses the top-scoring detections per image according to maxDets=10. You may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.\nEvaluate predictions against the public training labels or your own COCO-format validation split:\npython tools/evaluate_coco.py \\\n  --ground-truth train/annotations/instances_train.json \\\n  --submission path/to/train_predictions.json",
+    "section": "Winner Selection Criteria",
+    "text": "Winner Selection Criteria\nCompetition winners will be selected based on a combination of leaderboard performance and qualitative evaluation.\n\nLeaderboard Performance (80%)\nLeaderboard ranking will account for 80% of the final score. This component reflects the performance of each team’s final submission according to the official competition evaluation metric.\n\n\nQualitative Evaluation (20%)\nThe remaining 20% of the final score will be determined through a review conducted by the organizing committee. Evaluation will consider:\n\nTechnical report quality, including clarity, completeness, and reproducibility;\nNovelty and innovation of the proposed methodology;\nInterdisciplinary collaboration, including the extent to which the team combines expertise from different disciplines (e.g., Earth science, remote sensing, computer vision, machine learning, or related fields).\n\nThe organizers may request additional materials, including inference code or containers, to verify reported results before determining the final rankings.\nThe final competition winners will be determined using the combined weighted score from the leaderboard performance and the qualitative evaluation.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#submission-instructions",
-    "href": "challenge/participate.html#submission-instructions",
+    "objectID": "challenge/rules.html#conduct-and-disqualification",
+    "href": "challenge/rules.html#conduct-and-disqualification",
     "title": "2026 GeoAI Arctic Challenge",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\n\nTrain your model locally.\nGenerate predictions for the test set.\nEncode each predicted RTS instance as compressed COCO RLE.\nBuild one submission.json COCO results list.\nValidate the JSON with tools/validate_submission.py.\nUpload the validated submission through Codabench.\nCheck your score on the leaderboard.",
+    "section": "Conduct and Disqualification",
+    "text": "Conduct and Disqualification\nTeams are expected to follow the competition rules, Hugging Face platform terms, and any competition-specific conduct policies.\nTeams may be disqualified at the organizers’ discretion for:\n\nRegistering the same team multiple times.\nCircumventing participation or submission limits.\nMisusing the dataset.\nSharing private labels, predictions, or submissions across teams.\nAttempting to game the leaderboard.\nSubmitting manually labeled hidden test predictions.",
     "crumbs": [
-      "Participate"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {
-    "objectID": "challenge/participate.html#required-materials",
-    "href": "challenge/participate.html#required-materials",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "Required Materials",
-    "text": "Required Materials\nAll teams must submit a valid COCO results-format submission.json through Codabench. In addition to leaderboard submissions, top-performing teams will be invited to contribute to an outcome publication and may be asked to provide the following materials.\n\nTechnical Report\nTeams aiming for awards and paper inclusion must submit a short technical report (2-4 pages) covering:\n\nTeam and affiliations: members, institution, country.\nModel architecture: CNN, Transformer, hybrid, or other approach.\nTraining strategy: losses, augmentations, optimizers, batch size, and hardware.\nSpecial techniques: domain adaptation, self-training, ensembling, band selection, or other methods.\nResults and ablations: validation metrics, ablation tables, and sample outputs.\nInsights: challenges faced, lessons learned, and potential future improvements.\nReferences to related works.\n\n\nA report template will be provided to keep submissions consistent.\n\n\n\nCode and Reproducibility Package\n\nFinal inference code or container to verify results.\nInstructions for reproducing predictions on the test set.\nTraining scripts are encouraged but optional.",
-    "crumbs": [
-      "Participate"
-    ]
-  },
-  {
-    "objectID": "challenge/participate.html#important-dates",
-    "href": "challenge/participate.html#important-dates",
+    "objectID": "challenge/rules.html#important-dates",
+    "href": "challenge/rules.html#important-dates",
     "title": "2026 GeoAI Arctic Challenge",
     "section": "Important Dates",
-    "text": "Important Dates\n\n\n\nEvent\nDate\n\n\n\n\nCompetition Opens\nJune 1, 2026\n\n\nDataset Released\nJune 1, 2026\n\n\nBenchmark Phase Starts\nJuly 15, 2026\n\n\nFinal Submission\nDecember 31, 2026\n\n\nWinners Announced\nFebruary 1, 2027",
+    "text": "Important Dates\n\n\n\nEvent\nDate\n\n\n\n\nCompetition opens\nJuly 1, 2026\n\n\nDataset released\nJuly 1, 2026\n\n\nBenchmark phase starts\nAugust 15, 2026\n\n\nFinal submission deadline\nJanuary 31, 2027\n\n\nWinners announced\nMarch 1, 2027",
     "crumbs": [
-      "Participate"
-    ]
-  },
-  {
-    "objectID": "challenge/participate.html#awards",
-    "href": "challenge/participate.html#awards",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "Awards",
-    "text": "Awards\nPrizes will be awarded to the top-performing teams based on the final leaderboard standings.\n\n1st Place: $1,000 USD\n2nd Place: $500 USD\n3rd Place: $200 USD",
-    "crumbs": [
-      "Participate"
-    ]
-  },
-  {
-    "objectID": "challenge/participate.html#support-and-leaderboard",
-    "href": "challenge/participate.html#support-and-leaderboard",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "Support and Leaderboard",
-    "text": "Support and Leaderboard\nUse the Codabench discussion forum for public challenge questions.\nThe leaderboard will be updated regularly with the latest submissions.",
-    "crumbs": [
-      "Participate"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html",
-    "href": "challenge/resources.html",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "A central hub for help, learning materials, and policies for the GeoAI Arctic Challenge.\n\n💡 Tip: If you’re new here, start with the Quick Links below.\n\n\n\n\n\n\n\n\nHelper scripts to load data, inspect labels, validate submissions, and encode masks.\n\n\nOpen Codabench files\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen competition page\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu\n\n\n\n\n\n\n\n\nCompetition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the Codabench forum for public questions\n\n\n\n\n\n\n\nStarter materials: The Codabench files include helper scripts for loading images, inspecting labels, validating submissions, and encoding masks.\nSubmission format mini-guide: See Participate -&gt; Submission Format for the COCO results JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nCOCO mask utilities (pycocotools API reference) link\nNumPy array loading (.npz files) link\n\n\n\n\n\n\nData Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (source dataset) and Li et al., 2025 (related RTS modeling work) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nEach team may include 1 to 5 members.\nDo not share labels or predictions across different teams.\n\nFollow the Codabench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu\n\n\n\n\n\nCodabench Platform: https://www.codabench.org\n\nCompetition Page: https://www.codabench.org/competitions/10283/\n\nForum: https://www.codabench.org/competitions/10283/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nRelated RTS Modeling Work (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310\n\n\n\n\nQ1. Where do I download the data?\nA: Register and receive approval on Codabench, then download the public release package from the Files section. You can also see the Dataset Page for data details.\nQ2. What’s the submission format?\nA: COCO results-format JSON with compressed RLE masks. See Participate -&gt; Submission Format.\nQ3. Can I use external data?\nA: Yes, but you must document it in your method description.",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#quick-links",
-    "href": "challenge/resources.html#quick-links",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Helper scripts to load data, inspect labels, validate submissions, and encode masks.\n\n\nOpen Codabench files\n\n\n\n\n\nData description, formats, and visualization gallery.\n\n\nView dataset\n\n\n\n\n\nStep-by-step guide to register, submit, and score.\n\n\nHow to participate\n\n\n\n\n\nTrack your standing and compare approaches.\n\n\nOpen competition page\n\n\n\n\n\nAsk questions and share insights with peers.\n\n\nGo to forum\n\n\n\n\n\nEmail the organizing team for help.\n\n\nwenwen@asu.edu",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#contact-us",
-    "href": "challenge/resources.html#contact-us",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Competition support: wenwen@asu.edu, chiayuhsu@asu.edu\nTechnical Q&A: Use the Codabench forum for public questions",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#tutorials-learning-materials",
-    "href": "challenge/resources.html#tutorials-learning-materials",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Starter materials: The Codabench files include helper scripts for loading images, inspecting labels, validating submissions, and encoding masks.\nSubmission format mini-guide: See Participate -&gt; Submission Format for the COCO results JSON schema.\n\n\n\n\n\nPyTorch segmentation recipes (Instance/semantic fundamentals) link\nDetectron2 / MaskRCNN quickstarts (for instance masks) link\nCOCO mask utilities (pycocotools API reference) link\nNumPy array loading (.npz files) link",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#terms-conditions",
-    "href": "challenge/resources.html#terms-conditions",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Data Usage\n\nThe dataset is provided for research and competition purposes within this challenge.\nRedistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.\n\nAttribution\n\nWorks or publications using this dataset should cite:\nYang et al., 2023 (source dataset) and Li et al., 2025 (related RTS modeling work) (see citations below).\n\nSubmissions\n\nPredictions must follow the required submission format and reflect automated model outputs (no manual labeling of test sets).\nExternal data usage, if used, must be documented in your method description.\n\nTeams & Conduct\n\nEach team may include 1 to 5 members.\nDo not share labels or predictions across different teams.\n\nFollow the Codabench code of conduct and site terms.\n\nPrivacy\n\nTeam name, institution, and scores may appear on the public leaderboard.\n\nDisqualification\n\nViolations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.\n\n\n\nQuestions about policy? Email wenwen@asu.edu, chiayuhsu@asu.edu",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#useful-external-resources",
-    "href": "challenge/resources.html#useful-external-resources",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Codabench Platform: https://www.codabench.org\n\nCompetition Page: https://www.codabench.org/competitions/10283/\n\nForum: https://www.codabench.org/competitions/10283/forum\n\nDataset Paper (Yang et al., 2023): https://doi.org/10.1016/j.rse.2023.113495\n\nRelated RTS Modeling Work (Li et al., 2025): https://doi.org/10.1109/JSTARS.2025.3564310",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "challenge/resources.html#frequently-asked-questions",
-    "href": "challenge/resources.html#frequently-asked-questions",
-    "title": "2026 GeoAI Arctic Challenge",
-    "section": "",
-    "text": "Q1. Where do I download the data?\nA: Register and receive approval on Codabench, then download the public release package from the Files section. You can also see the Dataset Page for data details.\nQ2. What’s the submission format?\nA: COCO results-format JSON with compressed RLE masks. See Participate -&gt; Submission Format.\nQ3. Can I use external data?\nA: Yes, but you must document it in your method description.",
-    "crumbs": [
-      "Resources"
+      "2026 GeoAI Arctic Challenge",
+      "Rules"
     ]
   },
   {

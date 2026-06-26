@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -41,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e52afb4b5002bd4d1e837ba20683245a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-291612c5f61012d38a06b649314a2e85.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,6 +178,10 @@ background-size: cover;
     <a class="nav-link" href="../course/index.html"> 
 <span class="menu-text">GeoAI Book</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../challenge/index.html" aria-current="page"> 
+<span class="menu-text">2026 GeoAI Arctic Challenge</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -185,12 +224,6 @@ background-size: cover;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/words-from-organizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcoming Words</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
@@ -203,14 +236,26 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Participate</span></a>
+  <a href="../challenge/rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rules</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About/Organizers</span></a>
   </div>
 </li>
     </ul>
@@ -220,21 +265,29 @@ background-size: cover;
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Resources</h2>
+    <h2 id="toc-title">Resources and FAQ</h2>
    
   <ul>
-  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a>
+  <li><a href="#resources-and-faq" id="toc-resources-and-faq" class="nav-link active" data-scroll-target="#resources-and-faq">Resources and FAQ</a>
   <ul class="collapse">
   <li><a href="#quick-links" id="toc-quick-links" class="nav-link" data-scroll-target="#quick-links">Quick Links</a></li>
-  <li><a href="#contact-us" id="toc-contact-us" class="nav-link" data-scroll-target="#contact-us">Contact Us</a></li>
-  <li><a href="#tutorials-learning-materials" id="toc-tutorials-learning-materials" class="nav-link" data-scroll-target="#tutorials-learning-materials">Tutorials &amp; Learning Materials</a>
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#starter-materials" id="toc-starter-materials" class="nav-link" data-scroll-target="#starter-materials">Starter Materials</a></li>
+  <li><a href="#tutorials-and-learning-materials" id="toc-tutorials-and-learning-materials" class="nav-link" data-scroll-target="#tutorials-and-learning-materials">Tutorials and Learning Materials</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
-  <li><a href="#official" id="toc-official" class="nav-link" data-scroll-target="#official">Official</a></li>
-  <li><a href="#external" id="toc-external" class="nav-link" data-scroll-target="#external">External</a></li>
+  <li><a href="#dataset-source" id="toc-dataset-source" class="nav-link" data-scroll-target="#dataset-source">Dataset Source</a></li>
+  <li><a href="#related-multimodal-geoai-model" id="toc-related-multimodal-geoai-model" class="nav-link" data-scroll-target="#related-multimodal-geoai-model">Related Multimodal GeoAI Model</a></li>
   </ul></li>
-  <li><a href="#terms-conditions" id="toc-terms-conditions" class="nav-link" data-scroll-target="#terms-conditions">Terms &amp; Conditions</a></li>
-  <li><a href="#useful-external-resources" id="toc-useful-external-resources" class="nav-link" data-scroll-target="#useful-external-resources">Useful External Resources</a></li>
-  <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently Asked Questions</a></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a>
+  <ul class="collapse">
+  <li><a href="#where-do-i-download-the-data" id="toc-where-do-i-download-the-data" class="nav-link" data-scroll-target="#where-do-i-download-the-data">Where do I download the data?</a></li>
+  <li><a href="#what-is-the-submission-format" id="toc-what-is-the-submission-format" class="nav-link" data-scroll-target="#what-is-the-submission-format">What is the submission format?</a></li>
+  <li><a href="#can-i-use-external-data" id="toc-can-i-use-external-data" class="nav-link" data-scroll-target="#can-i-use-external-data">Can I use external data?</a></li>
+  <li><a href="#can-a-team-submit-from-multiple-accounts" id="toc-can-a-team-submit-from-multiple-accounts" class="nav-link" data-scroll-target="#can-a-team-submit-from-multiple-accounts">Can a team submit from multiple accounts?</a></li>
+  <li><a href="#are-empty-submissions-allowed" id="toc-are-empty-submissions-allowed" class="nav-link" data-scroll-target="#are-empty-submissions-allowed">Are empty submissions allowed?</a></li>
+  <li><a href="#do-i-need-to-submit-code" id="toc-do-i-need-to-submit-code" class="nav-link" data-scroll-target="#do-i-need-to-submit-code">Do I need to submit code?</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -246,12 +299,9 @@ background-size: cover;
 
 
 
-<section id="resources" class="level1">
-<h1>Resources</h1>
-<p>A central hub for help, learning materials, and policies for the <strong>GeoAI Arctic Challenge</strong>.</p>
-<blockquote class="blockquote">
-<p>💡 Tip: If you’re new here, start with the <strong>Quick Links</strong> below.</p>
-</blockquote>
+<section id="resources-and-faq" class="level1">
+<h1>Resources and FAQ</h1>
+<p>This page collects starter materials, learning resources, contacts, citations, and frequently asked questions.</p>
 <section id="quick-links" class="level2">
 <h2 class="anchored" data-anchor-id="quick-links">Quick Links</h2>
 <style>
@@ -269,15 +319,15 @@ background-size: cover;
 Helper scripts to load data, inspect labels, validate submissions, and encode masks.
 </p>
 <p>
-<a href="https://www.codabench.org/competitions/10283/">Open Codabench files</a>
+Check the <a href="../challenge/submission.html">submission</a> page or download the <a href="https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset">released files</a>
 </p>
 </div>
 <div class="card">
 <h3 class="anchored">
-🌍 Dataset Page
+🌍 Dataset
 </h3>
 <p class="muted">
-Data description, formats, and visualization gallery.
+Data description, formats, bands, statistics, and visualization gallery.
 </p>
 <p>
 <a href="../challenge/dataset.html">View dataset</a>
@@ -285,139 +335,112 @@ Data description, formats, and visualization gallery.
 </div>
 <div class="card">
 <h3 class="anchored">
-🧭 Participate
+🧭 Rules
 </h3>
 <p class="muted">
 Step-by-step guide to register, submit, and score.
 </p>
 <p>
-<a href="../challenge/participate.html">How to participate</a>
+How to <a href="../challenge/rules.html">participate</a> and <a href="../challenge/submission.html">submit</a>
 </p>
 </div>
 <div class="card">
 <h3 class="anchored">
-🏆 Leaderboard
+🏆 Help
 </h3>
-<p class="muted">
-Track your standing and compare approaches.
-</p>
 <p>
-<a href="https://www.codabench.org/competitions/10283/">Open competition page</a>
-</p>
-</div>
-<div class="card">
-<h3 class="anchored">
-💬 Discussion Forum
-</h3>
-<p class="muted">
-Ask questions and share insights with peers.
-</p>
-<p>
-<a href="https://www.codabench.org/competitions/10283/forum">Go to forum</a>
-</p>
-</div>
-<div class="card">
-<h3 class="anchored">
-📧 Contact
-</h3>
-<p class="muted">
-Email the organizing team for help.
-</p>
-<p>
-<a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a>
+Use the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions">Open competition discussion</a> area, or contact the organizers by email.
 </p>
 </div>
 </div>
-<hr>
 </section>
-<section id="contact-us" class="level2">
-<h2 class="anchored" data-anchor-id="contact-us">Contact Us</h2>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <ul>
-<li><strong>Competition support:</strong> <a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a>, <a href="mailto:chiayuhsu@asu.edu">chiayuhsu@asu.edu</a></li>
-<li><strong>Technical Q&amp;A:</strong> Use the <a href="https://www.codabench.org/competitions/10283/forum">Codabench forum</a> for public questions</li>
+<li>Competition support: <a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a>, <a href="mailto:chiayuhsu@asu.edu">chiayuhsu@asu.edu</a></li>
+<li>Technical Q&amp;A: use the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions">competition discussion</a> area if available for public questions that may help other teams.</li>
 </ul>
 </section>
-<section id="tutorials-learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="tutorials-learning-materials">Tutorials &amp; Learning Materials</h2>
-<section id="official" class="level3">
-<h3 class="anchored" data-anchor-id="official">Official</h3>
+<section id="starter-materials" class="level2">
+<h2 class="anchored" data-anchor-id="starter-materials">Starter Materials</h2>
+<p>The competition files include helper scripts for:</p>
 <ul>
-<li><strong>Starter materials:</strong> The Codabench files include helper scripts for loading images, inspecting labels, validating submissions, and encoding masks.</li>
-<li><strong>Submission format mini-guide:</strong> See <strong>Participate -&gt; Submission Format</strong> for the COCO results JSON schema.</li>
+<li>Loading image chips and labels.</li>
+<li>Inspecting dataset metadata.</li>
+<li>Creating a sample submission.</li>
+<li>Encoding binary masks or polygons as compressed COCO RLE.</li>
+<li>Validating submission JSON files.</li>
+<li>Running local evaluation against public labels or a validation split.</li>
 </ul>
 </section>
-<section id="external" class="level3">
-<h3 class="anchored" data-anchor-id="external">External</h3>
+<section id="tutorials-and-learning-materials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials-and-learning-materials">Tutorials and Learning Materials</h2>
 <ul>
-<li><strong>PyTorch segmentation recipes</strong> (Instance/semantic fundamentals) <a href="https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html">link</a></li>
-<li><strong>Detectron2 / MaskRCNN</strong> quickstarts (for instance masks) <a href="https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html">link</a></li>
-<li><strong>COCO mask utilities</strong> (pycocotools API reference) <a href="https://github.com/cocodataset/cocoapi">link</a></li>
-<li><strong>NumPy array loading</strong> (<code>.npz</code> files) <a href="https://numpy.org/doc/stable/reference/generated/numpy.load.html">link</a></li>
+<li>PyTorch instance segmentation tutorial: <a href="https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html" class="uri">https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html</a></li>
+<li>Detectron2 getting started guide: <a href="https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html" class="uri">https://detectron2.readthedocs.io/en/stable/tutorials/getting_started.html</a></li>
+<li>COCO mask utilities: <a href="https://github.com/cocodataset/cocoapi" class="uri">https://github.com/cocodataset/cocoapi</a></li>
+<li>NumPy <code>.npz</code> loading: <a href="https://numpy.org/doc/stable/reference/generated/numpy.load.html" class="uri">https://numpy.org/doc/stable/reference/generated/numpy.load.html</a></li>
+<li>Hugging Face: <a href="https://huggingface.co" class="uri">https://huggingface.co</a></li>
 </ul>
 </section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>The GeoAI Arctic Challenge builds upon an RTS dataset and related multimodal GeoAI research. Participants should cite the following works when using the dataset or baseline model.</p>
+<section id="dataset-source" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-source">Dataset Source</h3>
+<p><em>Yang et al.</em> (2023) developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.</p>
+<p>Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. “Mapping retrogressive thaw slumps using deep neural networks.” <em>Remote Sensing of Environment</em> 288 (2023): 113495. <a href="https://doi.org/10.1016/j.rse.2023.113495" class="uri">https://doi.org/10.1016/j.rse.2023.113495</a></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">yang2023mapping</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Mapping retrogressive thaw slumps using deep neural networks},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Remote Sensing of Environment},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={288},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={113495},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="terms-conditions" class="level2">
-<h2 class="anchored" data-anchor-id="terms-conditions">Terms &amp; Conditions</h2>
-<ul>
-<li><strong>Data Usage</strong>
-<ul>
-<li>The dataset is provided for <strong>research and competition</strong> purposes within this challenge.</li>
-<li>Redistribution of the dataset or derivatives <strong>outside</strong> the challenge requires permission from the original data owners and curators.</li>
-</ul></li>
-<li><strong>Attribution</strong>
-<ul>
-<li>Works or publications using this dataset should cite:<br>
-<strong>Yang et al., 2023 (source dataset)</strong> and <strong>Li et al., 2025 (related RTS modeling work)</strong> (see citations below).</li>
-</ul></li>
-<li><strong>Submissions</strong>
-<ul>
-<li>Predictions must follow the <strong>required submission format</strong> and reflect <strong>automated model outputs</strong> (no manual labeling of test sets).</li>
-<li>External data usage, if used, must be documented in your method description.</li>
-</ul></li>
-<li><strong>Teams &amp; Conduct</strong>
-<ul>
-<li>Each team may include 1 to 5 members.</li>
-<li>Do not share labels or predictions across different teams.<br>
-</li>
-<li>Follow the Codabench code of conduct and site terms.</li>
-</ul></li>
-<li><strong>Privacy</strong>
-<ul>
-<li>Team name, institution, and scores may appear on the <strong>public leaderboard</strong>.</li>
-</ul></li>
-<li><strong>Disqualification</strong>
-<ul>
-<li>Violations of the rules, data misuse, or attempts to game the leaderboard may result in removal from the competition.</li>
-</ul></li>
-</ul>
-<blockquote class="blockquote">
-<p>Questions about policy? Email <a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a>, <a href="mailto:chiayuhsu@asu.edu">chiayuhsu@asu.edu</a></p>
-</blockquote>
+<section id="related-multimodal-geoai-model" class="level3">
+<h3 class="anchored" data-anchor-id="related-multimodal-geoai-model">Related Multimodal GeoAI Model</h3>
+<p><em>Li et al.</em> (2025) present a multi-scale vision transformer-based multimodal GeoAI model that integrates multispectral imagery and topographic features for RTS mapping in Arctic permafrost regions.</p>
+<p>Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. “A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.” <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em> (2025). <a href="https://doi.org/10.1109/JSTARS.2025.3564310" class="uri">https://doi.org/10.1109/JSTARS.2025.3564310</a></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">li2025multi</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2025},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={IEEE}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="useful-external-resources" class="level2">
-<h2 class="anchored" data-anchor-id="useful-external-resources">Useful External Resources</h2>
-<ul>
-<li><strong>Codabench Platform:</strong> <a href="https://www.codabench.org" class="uri">https://www.codabench.org</a><br>
-</li>
-<li><strong>Competition Page:</strong> <a href="https://www.codabench.org/competitions/10283/" class="uri">https://www.codabench.org/competitions/10283/</a><br>
-</li>
-<li><strong>Forum:</strong> <a href="https://www.codabench.org/competitions/10283/forum" class="uri">https://www.codabench.org/competitions/10283/forum</a><br>
-</li>
-<li><strong>Dataset Paper (Yang et al., 2023):</strong> <a href="https://doi.org/10.1016/j.rse.2023.113495" class="uri">https://doi.org/10.1016/j.rse.2023.113495</a><br>
-</li>
-<li><strong>Related RTS Modeling Work (Li et al., 2025):</strong> <a href="https://doi.org/10.1109/JSTARS.2025.3564310" class="uri">https://doi.org/10.1109/JSTARS.2025.3564310</a></li>
-</ul>
 </section>
-<section id="frequently-asked-questions" class="level2">
-<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
-<p><strong>Q1. Where do I download the data?</strong></p>
-<p>A: Register and receive approval on Codabench, then download the public release package from the <strong>Files</strong> section. You can also see the <a href="../challenge/dataset.html">Dataset Page</a> for data details.</p>
-<p><strong>Q2. What’s the submission format?</strong></p>
-<p>A: COCO results-format JSON with compressed RLE masks. See <strong>Participate -&gt; Submission Format</strong>.</p>
-<p><strong>Q3. Can I use external data?</strong></p>
-<p>A: Yes, but you must document it in your method description.</p>
+<section id="faq" class="level2">
+<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
+<section id="where-do-i-download-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="where-do-i-download-the-data">Where do I download the data?</h3>
+<p>Create a Hugging Face account, complete the registration form with each team member’s exact Hugging Face username, and wait for organizer approval. After approval, log in with Hugging Face from the competition page and download the public release package from the competition files. See the Dataset page for data details.</p>
+</section>
+<section id="what-is-the-submission-format" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-the-submission-format">What is the submission format?</h3>
+<p>Submissions use COCO results-format JSON with compressed RLE masks. See the Submission information page for the full schema.</p>
+</section>
+<section id="can-i-use-external-data" class="level3">
+<h3 class="anchored" data-anchor-id="can-i-use-external-data">Can I use external data?</h3>
+<p>Yes, but you must document all external data usage in your method description or technical report.</p>
+</section>
+<section id="can-a-team-submit-from-multiple-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="can-a-team-submit-from-multiple-accounts">Can a team submit from multiple accounts?</h3>
+<p>No.&nbsp;Each team should register once. All approved Hugging Face usernames for that team share the same team submission history, daily submission limit, and leaderboard entry.</p>
+</section>
+<section id="are-empty-submissions-allowed" class="level3">
+<h3 class="anchored" data-anchor-id="are-empty-submissions-allowed">Are empty submissions allowed?</h3>
+<p>Yes. An empty JSON list (<code>[]</code>) is valid and means no RTS instances were predicted.</p>
+</section>
+<section id="do-i-need-to-submit-code" class="level3">
+<h3 class="anchored" data-anchor-id="do-i-need-to-submit-code">Do I need to submit code?</h3>
+<p>All teams must submit valid predictions. Top-performing teams must submit code or a reproducibility package for verification to be eligible for awards.</p>
 
 
+</section>
 </section>
 </section>
 

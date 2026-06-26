@@ -76,7 +76,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e52afb4b5002bd4d1e837ba20683245a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-291612c5f61012d38a06b649314a2e85.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -186,6 +186,10 @@ background-size: cover;
     <a class="nav-link" href="../course/index.html"> 
 <span class="menu-text">GeoAI Book</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../challenge/index.html" aria-current="page"> 
+<span class="menu-text">2026 GeoAI Arctic Challenge</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -228,12 +232,6 @@ background-size: cover;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/words-from-organizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcoming Words</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
@@ -246,14 +244,26 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Participate</span></a>
+  <a href="../challenge/rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rules</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About/Organizers</span></a>
   </div>
 </li>
     </ul>
@@ -270,7 +280,7 @@ background-size: cover;
   <ul class="collapse">
   <li><a href="#geographic-coverage-and-study-sites" id="toc-geographic-coverage-and-study-sites" class="nav-link" data-scroll-target="#geographic-coverage-and-study-sites">Geographic Coverage &amp; Study Sites</a></li>
   <li><a href="#public-release-contents" id="toc-public-release-contents" class="nav-link" data-scroll-target="#public-release-contents">Public Release Contents</a></li>
-  <li><a href="#bands" id="toc-bands" class="nav-link" data-scroll-target="#bands">Bands</a></li>
+  <li><a href="#bands" id="toc-bands" class="nav-link" data-scroll-target="#bands">Image Bands</a></li>
   <li><a href="#key-dataset-statistics" id="toc-key-dataset-statistics" class="nav-link" data-scroll-target="#key-dataset-statistics">Key Dataset Statistics</a></li>
   <li><a href="#label-conversion" id="toc-label-conversion" class="nav-link" data-scroll-target="#label-conversion">Label Conversion</a></li>
   <li><a href="#dataset-distributions" id="toc-dataset-distributions" class="nav-link" data-scroll-target="#dataset-distributions">Dataset Distributions</a>
@@ -295,12 +305,9 @@ background-size: cover;
 
 <section id="dataset" class="level1">
 <h1>GeoAI Arctic Challenge Dataset</h1>
-<p>The GeoAI Arctic Challenge dataset is an <strong>instance segmentation</strong> benchmark for detecting and delineating <strong>retrogressive thaw slumps (RTS)</strong>, landscape disturbances caused by permafrost thaw, in Arctic image chips. The dataset builds on <em>Yang et al.</em> (2023), which provided semantic segmentation masks that label each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.</p>
-<p>Participants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports evaluation at the feature level, including how well models separate and delineate individual RTS boundaries, rather than only measuring pixel-wise foreground and background accuracy.</p>
+<p>The GeoAI Arctic Challenge dataset is an <strong>instance segmentation</strong> benchmark for detecting and delineating <strong>retrogressive thaw slumps (RTS)</strong> in Arctic image chips. The dataset builds on <a href="https://www.sciencedirect.com/science/article/pii/S0034425723000469"><em>Yang et al.</em> (2023)</a>, which provided semantic segmentation masks labeling each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.</p>
+<p>Participants receive multimodal image data and train models to predict one mask for each RTS instance in the hidden test set. This instance-level formulation supports feature-level evaluation, including how well models separate and delineate individual RTS boundaries.</p>
 <p>Training labels are provided in COCO instance segmentation format. Test labels remain hidden and are used by the official scorer.</p>
-<blockquote class="blockquote">
-<p><strong>Why it matters</strong>: RTS are sensitive indicators of permafrost thaw, which releases greenhouse gases and alters Arctic landscapes. By leveraging AI, we aim to accelerate RTS detection and improve understanding of climate-driven change.</p>
-</blockquote>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -327,16 +334,17 @@ background-size: cover;
 </tr>
 </tbody>
 </table>
-<p><em>Figure 1. Conversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.</em></p>
+<p><em>Conversion from semantic RTS labels into instance-level masks. The challenge dataset uses connected-component instance labels so models can be evaluated at the feature level rather than only pixel-wise.</em></p>
 <section id="geographic-coverage-and-study-sites" class="level2">
 <h2 class="anchored" data-anchor-id="geographic-coverage-and-study-sites">Geographic Coverage &amp; Study Sites</h2>
-<p>The source data spans <strong>7 Arctic subregions</strong>, including:</p>
+<p>The source data spans seven Arctic subregions, including:</p>
 <ul>
 <li>Canada: Herschel Island, Horton Delta, Tuktoyaktuk peninsulas, Banks Island</li>
 <li>Russia: Yamal and Gydan peninsulas, Lena River, Kolguev Island</li>
 </ul>
 <p><img src="assets/dataset_coverage_map.png" class="img-fluid" alt="Dataset Coverage Map"><br>
-<em>Figure 2. Spatial coverage of the source Arctic RTS dataset. The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling (<a href="https://doi.org/10.1109/JSTARS.2025.3564310"><strong>Li et al., 2025</strong></a>).</em></p>
+Spatial coverage of the source Arctic RTS dataset. Credit: <a href="https://doi.org/10.1109/JSTARS.2025.3564310"><em>Li et al.,</em> 2025</a>.</p>
+<p><strong>Note:</strong> The competition release removes geospatial metadata from distributed image chips while preserving multimodal image information for modeling.</p>
 </section>
 <section id="public-release-contents" class="level2">
 <h2 class="anchored" data-anchor-id="public-release-contents">Public Release Contents</h2>
@@ -365,8 +373,8 @@ background-size: cover;
 <p>Each <code>.npz</code> file contains one array named <code>image</code> with shape <code>H x W x 8</code> in HWC order.</p>
 </section>
 <section id="bands" class="level2">
-<h2 class="anchored" data-anchor-id="bands">Bands</h2>
-<p>Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context so models can learn both visual RTS appearance and environmental cues that affect slump boundaries.</p>
+<h2 class="anchored" data-anchor-id="bands">Image Bands</h2>
+<p>Each image chip contains eight co-registered channels. The bands combine optical imagery, spectral features, and topographic context.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -376,10 +384,10 @@ background-size: cover;
 </colgroup>
 <thead>
 <tr class="header">
-<th>Data Layer</th>
-<th>Source / Feature Type</th>
+<th>Data layer</th>
+<th>Source / feature type</th>
 <th>Bands</th>
-<th>Role in RTS Mapping</th>
+<th>Role in RTS mapping</th>
 </tr>
 </thead>
 <tbody>
@@ -387,19 +395,19 @@ background-size: cover;
 <td>RGB imagery</td>
 <td>Maxar optical imagery</td>
 <td><code>red</code>, <code>green</code>, <code>blue</code></td>
-<td>Provides high-resolution visual context for identifying exposed soil, vegetation disturbance, and visible RTS morphology.</td>
+<td>Provides high-resolution visual context for exposed soil, vegetation disturbance, and RTS morphology.</td>
 </tr>
 <tr class="even">
 <td>Spectral features</td>
 <td>Vegetation, water, and near-infrared features</td>
 <td><code>ndvi</code>, <code>ndwi</code>, <code>nir</code></td>
-<td>Helps models distinguish thaw-related disturbance from vegetation, water, snow, and other spectrally distinct surface conditions.</td>
+<td>Helps distinguish thaw-related disturbance from vegetation, water, snow, and other surface conditions.</td>
 </tr>
 <tr class="odd">
 <td>Terrain features</td>
 <td>ArcticDEM-derived topographic features</td>
 <td><code>relative_elevation</code>, <code>shaded_relief</code></td>
-<td>Adds terrain structure that can improve boundary delineation and help separate RTS features from surrounding slopes.</td>
+<td>Adds terrain structure that can improve boundary delineation.</td>
 </tr>
 </tbody>
 </table>
@@ -408,7 +416,7 @@ background-size: cover;
 <thead>
 <tr class="header">
 <th style="text-align: right;">Index</th>
-<th>Band Name</th>
+<th>Band name</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -551,7 +559,6 @@ background-size: cover;
 </section>
 <section id="sample-visualizations" class="level2">
 <h2 class="anchored" data-anchor-id="sample-visualizations">Sample Visualizations</h2>
-<p>Explore additional examples to understand data variability across regions.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 32%">
@@ -588,7 +595,6 @@ background-size: cover;
 </tr>
 </tbody>
 </table>
-<p><em>Figure 3. Examples of RGB imagery with RTS instance annotations. Visualizing the dataset’s variability across scales and landscapes.</em></p>
 
 
 </section>

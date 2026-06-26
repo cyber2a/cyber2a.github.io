@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -76,7 +41,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e52afb4b5002bd4d1e837ba20683245a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-291612c5f61012d38a06b649314a2e85.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -184,6 +149,10 @@ background-size: cover;
     <a class="nav-link" href="../course/index.html"> 
 <span class="menu-text">GeoAI Book</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../challenge/index.html" aria-current="page"> 
+<span class="menu-text">2026 GeoAI Arctic Challenge</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -226,12 +195,6 @@ background-size: cover;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/words-from-organizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcoming Words</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../challenge/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Overview</span></a>
   </div>
@@ -244,14 +207,26 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Participate</span></a>
+  <a href="../challenge/rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rules</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About/Organizers</span></a>
   </div>
 </li>
     </ul>
@@ -265,17 +240,15 @@ background-size: cover;
    
   <ul>
   <li><a href="#news" id="toc-news" class="nav-link active" data-scroll-target="#news">News</a></li>
-  <li><a href="#what-is-retrogressive-thaw-slumps-rts" id="toc-what-is-retrogressive-thaw-slumps-rts" class="nav-link" data-scroll-target="#what-is-retrogressive-thaw-slumps-rts">What is Retrogressive Thaw Slumps (RTS)?</a></li>
-  <li><a href="#about-the-challenge" id="toc-about-the-challenge" class="nav-link" data-scroll-target="#about-the-challenge">About the Challenge</a></li>
-  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators</a></li>
+  <li><a href="#challenge-task" id="toc-challenge-task" class="nav-link" data-scroll-target="#challenge-task">Challenge Task</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  <li><a href="#how-to-start" id="toc-how-to-start" class="nav-link" data-scroll-target="#how-to-start">How To Start</a></li>
+  <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important Dates</a></li>
+  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
+  <li><a href="#dataset-preview" id="toc-dataset-preview" class="nav-link" data-scroll-target="#dataset-preview">Dataset Preview</a></li>
   <li><a href="#partners" id="toc-partners" class="nav-link" data-scroll-target="#partners">Partners</a></li>
   <li><a href="#sponsors" id="toc-sponsors" class="nav-link" data-scroll-target="#sponsors">Sponsors</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
-  <ul class="collapse">
-  <li><a href="#dataset-source" id="toc-dataset-source" class="nav-link" data-scroll-target="#dataset-source">Dataset Source</a></li>
-  <li><a href="#our-multimodal-geoai-model" id="toc-our-multimodal-geoai-model" class="nav-link" data-scroll-target="#our-multimodal-geoai-model">Our Multimodal GeoAI Model</a></li>
-  </ul></li>
-  <li><a href="#dataset-samples" id="toc-dataset-samples" class="nav-link" data-scroll-target="#dataset-samples">Dataset Samples</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -286,39 +259,145 @@ background-size: cover;
 
 
 
+<p>The 2026 GeoAI Arctic Challenge invites participants to develop GeoAI and deep learning models for mapping retrogressive thaw slumps (RTS) from multimodal Arctic remote sensing data.</p>
+<p><strong>Official Competition:</strong> <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge">2026 GeoAI Arctic Challenge on Hugging Face</a></p>
+<p>RTS are landslide-like landforms that occur when ice-rich permafrost thaws and collapses. As Arctic warming accelerates, these features are becoming more frequent and can reshape landscapes, alter hydrology, affect ecosystems, and mobilize long-frozen carbon.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/rts.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Retrogressive thaw slump example. <em>Credit: <a href="https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/">Woodwell Climate Research Center</a></em></figcaption>
+</figure>
+</div>
 <section id="news" class="level2">
 <h2 class="anchored" data-anchor-id="news">News</h2>
 <ul>
-<li>(06/01/26) <strong>Competition Kick-off!</strong> We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words <a href="../challenge/words-from-organizers.html">here</a>.</li>
+<li><strong>July 1, 2026</strong>: Competition kickoff. We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words <a href="../challenge/about.html">here</a>.</li>
+<li><strong>July 1, 2026</strong>: Public training data, hidden-label test images, starter scripts, and validation tools are released <a href="https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset">here</a>.</li>
+<li><strong>August 15, 2026</strong>: Benchmark phase starts.</li>
 </ul>
 </section>
-<section id="what-is-retrogressive-thaw-slumps-rts" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-retrogressive-thaw-slumps-rts">What is Retrogressive Thaw Slumps (RTS)?</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./assets/rts.png" class="img-fluid figure-img" style="width:60.0%"></p>
-<figcaption><em>Credit: <a href="https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/">Woodwell Climate Research Center</a></em></figcaption>
-</figure>
-</div>
-<p>Retrogressive thaw slumps (RTS) are dramatic forms of permafrost degradation that occur when ice-rich ground thaws and collapses, often triggered by warming temperatures or surface disturbances. The image above shows a classic example: a headwall of exposed ice retreating upslope, releasing sediment, water, and organic carbon into surrounding landscapes and rivers. These slumps can rapidly expand over time, reshaping terrain and contributing to greenhouse gas emissions as long-frozen carbon is mobilized. For more details on the processes, impacts, and recent advances in detecting RTS using machine learning and satellite imagery, see <a href="https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/">this article from Woodwell Climate Research Center</a>.</p>
+<section id="challenge-task" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-task">Challenge Task</h2>
+<p>Participants will train models to detect and delineate individual RTS features in Arctic image chips.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Eight-band <code>.npz</code> image chip</td>
+<td>One mask for each predicted RTS instance</td>
+</tr>
+</tbody>
+</table>
+<p>The challenge is an <strong>instance segmentation</strong> task. Training labels are provided in <a href="https://cocodataset.org/#format-data">COCO instance segmentation format</a>. Test labels are hidden and used by the official scorer.</p>
 </section>
-<section id="about-the-challenge" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-challenge">About the Challenge</h2>
-<p>Retrogressive thaw slumps (RTS) are landslides that occur in icy permafrost terrain. As the climate warms, these slumps are becoming more frequent and are dramatically reshaping the Arctic landscape. They have significant environmental impacts, including altering hydrology, affecting ecosystems, and accelerating the release of greenhouse gases.</p>
-<p>Mapping RTS is challenging due to their <strong>small size</strong>, <strong>subtle appearance</strong>, and <strong>dynamic evolution</strong> over time. This competition invites you to leverage <strong>deep learning</strong> and <strong>GeoAI</strong> to automatically detect and map these features. By participating, you will contribute to advancing permafrost science and improving our understanding of Arctic change.</p>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>Mapping RTS manually across Arctic regions is difficult because these landforms can be small, visually subtle, and dynamically changing. Automated mapping can help scientists monitor permafrost degradation, improve environmental change detection, and better understand climate-driven Arctic landscape transformation.</p>
 </section>
-<section id="collaborators" class="level2">
-<h2 class="anchored" data-anchor-id="collaborators">Collaborators</h2>
-<ul>
-<li>Wenwen Li, Arizona State University, USA</li>
-<li>Chia-Yu Hsu, Arizona State University, USA</li>
-<li>Anna Liljedahl, Woodwell Climate Research Center, USA</li>
-<li>Yili Yang, Woodwell Climate Research Center, USA</li>
-<li>Matthew Jones, University of California, Santa Barbara, USA</li>
-<li>Kenton McHenry, University of Illinois at Urbana-Champaign, USA</li>
-<li>Patricia Solis, Arizona State University, USA</li>
-<li>Ingmar Nitze, Alfred Wegener Institute, Germany</li>
-</ul>
+<section id="how-to-start" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-start">How To Start</h2>
+<ol type="1">
+<li>Form a team of 1 to 5 members.</li>
+<li>Create a Hugging Face account for each team member.</li>
+<li>Complete the team registration form <a href="https://docs.google.com/forms/d/1KUGGduTATQK3wUoRRzlClt3PU11XaHCNnyTB1SyBVfM/">here</a>.</li>
+<li>Include the exact Hugging Face username for the Team Leader and each team member in the registration form.</li>
+<li>Visit the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge">official competition page</a>.</li>
+<li>Click <strong>Login with Hugging Face</strong> in the left sidebar to sign in and link your competition account.</li>
+<li>Wait for organizer approval. Approved usernames will be added to the competition.</li>
+<li>After approval, use <strong>New submission</strong> to upload predictions and <strong>My submissions</strong> to review team submission history.</li>
+</ol>
+<p><strong>Note:</strong> Unregistered users can browse the competition pages and leaderboard, but only approved Hugging Face usernames can submit.</p>
+</section>
+<section id="important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="important-dates">Important Dates</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competition opens</td>
+<td>July 1, 2026</td>
+</tr>
+<tr class="even">
+<td>Dataset released</td>
+<td>July 1, 2026</td>
+</tr>
+<tr class="odd">
+<td>Benchmark phase starts</td>
+<td>August 15, 2026</td>
+</tr>
+<tr class="even">
+<td>Final submission deadline</td>
+<td>January 31, 2027</td>
+</tr>
+<tr class="odd">
+<td>Winners announced</td>
+<td>March 1, 2027</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<p>Top-performing teams will receive cash awards and recognition:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Place</th>
+<th>Award</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st place</td>
+<td>$1,000</td>
+</tr>
+<tr class="even">
+<td>2nd place</td>
+<td>$500</td>
+</tr>
+<tr class="odd">
+<td>3rd place</td>
+<td>$200</td>
+</tr>
+</tbody>
+</table>
+<p>Selected participants may also be invited to contribute to an outcome publication and future research collaborations.</p>
+</section>
+<section id="dataset-preview" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-preview">Dataset Preview</h2>
+<p>The dataset contains high-resolution, multimodal satellite image chips paired with RTS instance segmentation labels. RGB composites are shown below for visualization only; the modeling input contains eight channels.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Input: RGB composite</th>
+<th style="text-align: center;">Target: RTS instances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="assets/rts_1_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_1_polygons.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="assets/rts_2_rgb.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="assets/rts_2_polygons.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="partners" class="level2">
 <h2 class="anchored" data-anchor-id="partners">Partners</h2>
@@ -343,61 +422,10 @@ background-size: cover;
 <h2 class="anchored" data-anchor-id="sponsors">Sponsors</h2>
 <p><img src="../assets/clients/NSF.png" class="img-fluid" style="width:20.0%"></p>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>The GeoAI Arctic Challenge builds upon a RTS dataset and cutting-edge multimodal GeoAI models. We encourage participants to cite the following works when using the dataset or baseline model:</p>
-<section id="dataset-source" class="level3">
-<h3 class="anchored" data-anchor-id="dataset-source">Dataset Source</h3>
-<p>The dataset was curated by <strong>Yang <em>et al.</em> (2023)</strong>, who developed a deep learning approach for mapping RTS from satellite imagery. This dataset forms the foundation of the competition.</p>
-<ul>
-<li>Yang, Yili, Brendan M. Rogers, Greg Fiske, Jennifer Watts, Stefano Potter, Tiffany Windholz, Andrew Mullen, Ingmar Nitze, and Susan M. Natali. <em>“Mapping retrogressive thaw slumps using deep neural networks.”</em> Remote Sensing of Environment 288 (2023): 113495. <a href="https://doi.org/10.1016/j.rse.2023.113495">https://doi.org/10.1016/j.rse.2023.113495</a></li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">yang2023mapping</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Mapping retrogressive thaw slumps using deep neural networks},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Yang, Yili and Rogers, Brendan M and Fiske, Greg and Watts, Jennifer and Potter, Stefano and Windholz, Tiffany and Mullen, Andrew and Nitze, Ingmar and Natali, Susan M},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Remote Sensing of Environment},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={288},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={113495},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="our-multimodal-geoai-model" class="level3">
-<h3 class="anchored" data-anchor-id="our-multimodal-geoai-model">Our Multimodal GeoAI Model</h3>
-<p>We provide a sample notebook using the baseline model from <strong>Li <em>et al.</em> (2025)</strong>, a multi-scale vision transformer-based multimodal GeoAI model that integrates <strong>multi-spectral imagery</strong> and <strong>topographic features</strong> for high-accuracy RTS mapping in Arctic permafrost regions.</p>
-<ul>
-<li>Li, Wenwen, Chia-Yu Hsu, Sizhe Wang, Zhining Gu, Yili Yang, Brendan M. Rogers, and Anna Liljedahl. <em>“A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw.”</em> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2025). <a href="https://doi.org/10.1109/JSTARS.2025.3564310">https://doi.org/10.1109/JSTARS.2025.3564310</a></li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">li2025multi</span>,</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={A multi-scale vision transformer-based multimodal GeoAI model for mapping Arctic permafrost thaw},</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Li, Wenwen and Hsu, Chia-Yu and Wang, Sizhe and Gu, Zhining and Yang, Yili and Rogers, Brendan M and Liljedahl, Anna},</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2025},</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={IEEE}</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-</section>
-<section id="dataset-samples" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-samples">Dataset Samples</h2>
-<p>The dataset consists of <strong>high-resolution, multi-spectral satellite imagery</strong> paired with segmentation masks outlining RTS boundaries. While the dataset provides <strong>multi-band inputs</strong> (including non-visible spectral channels), the sample images below are displayed using <strong>RGB composites</strong> for visualization purposes only.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Input: RGB composite example</th>
-<th style="text-align: center;">Target: RTS segmentation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><img src="assets/rts_1_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_1_polygons.png" class="img-fluid"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><img src="assets/rts_2_rgb.png" class="img-fluid"></td>
-<td style="text-align: center;"><img src="assets/rts_2_polygons.png" class="img-fluid"></td>
-</tr>
-</tbody>
-</table>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>For competition support, contact <a href="mailto:wenwen@asu.edu">wenwen@asu.edu</a> or <a href="mailto:chiayuhsu@asu.edu">chiayuhsu@asu.edu</a>.</p>
+<p>For technical questions that may help other teams, use the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions">discussion</a> area on the competition page. You may also contact the organizing team by email.</p>
 
 
 </section>

@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -76,7 +41,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e52afb4b5002bd4d1e837ba20683245a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-291612c5f61012d38a06b649314a2e85.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -178,6 +143,10 @@ background-size: cover;
     <a class="nav-link" href="../course/index.html"> 
 <span class="menu-text">GeoAI Book</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../challenge/index.html" aria-current="page"> 
+<span class="menu-text">2026 GeoAI Arctic Challenge</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -220,12 +189,6 @@ background-size: cover;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/words-from-organizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcoming Words</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../challenge/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
@@ -238,14 +201,26 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../challenge/participate.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Participate</span></a>
+  <a href="../challenge/rules.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Rules</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submission</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../challenge/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../challenge/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About/Organizers</span></a>
   </div>
 </li>
     </ul>
@@ -255,31 +230,28 @@ background-size: cover;
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Participate</h2>
+    <h2 id="toc-title">Rules</h2>
    
   <ul>
-  <li><a href="#registration-and-setup" id="toc-registration-and-setup" class="nav-link active" data-scroll-target="#registration-and-setup">Registration and Setup</a>
+  <li><a href="#competition-rules" id="toc-competition-rules" class="nav-link active" data-scroll-target="#competition-rules">Competition Rules</a>
   <ul class="collapse">
-  <li><a href="#who-can-participate" id="toc-who-can-participate" class="nav-link" data-scroll-target="#who-can-participate">Who Can Participate</a></li>
-  <li><a href="#how-to-register" id="toc-how-to-register" class="nav-link" data-scroll-target="#how-to-register">How to Register</a></li>
-  <li><a href="#codabench-access-and-resources" id="toc-codabench-access-and-resources" class="nav-link" data-scroll-target="#codabench-access-and-resources">Codabench Access and Resources</a></li>
-  <li><a href="#participation-rules" id="toc-participation-rules" class="nav-link" data-scroll-target="#participation-rules">Participation Rules</a></li>
+  <li><a href="#eligibility" id="toc-eligibility" class="nav-link" data-scroll-target="#eligibility">Eligibility</a></li>
+  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration">Registration</a></li>
+  <li><a href="#team-accounts-and-shared-submissions" id="toc-team-accounts-and-shared-submissions" class="nav-link" data-scroll-target="#team-accounts-and-shared-submissions">Team Accounts and Shared Submissions</a></li>
+  <li><a href="#submission-rules" id="toc-submission-rules" class="nav-link" data-scroll-target="#submission-rules">Submission Rules</a></li>
+  <li><a href="#data-usage" id="toc-data-usage" class="nav-link" data-scroll-target="#data-usage">Data Usage</a></li>
   </ul></li>
-  <li><a href="#download-competition-files" id="toc-download-competition-files" class="nav-link" data-scroll-target="#download-competition-files">Download Competition Files</a></li>
-  <li><a href="#local-setup" id="toc-local-setup" class="nav-link" data-scroll-target="#local-setup">Local Setup</a></li>
-  <li><a href="#data-format" id="toc-data-format" class="nav-link" data-scroll-target="#data-format">Data Format</a></li>
-  <li><a href="#task-description" id="toc-task-description" class="nav-link" data-scroll-target="#task-description">Task Description</a></li>
-  <li><a href="#submission-format" id="toc-submission-format" class="nav-link" data-scroll-target="#submission-format">Submission Format</a></li>
-  <li><a href="#evaluation-metrics" id="toc-evaluation-metrics" class="nav-link" data-scroll-target="#evaluation-metrics">Evaluation Metrics</a></li>
-  <li><a href="#submission-instructions" id="toc-submission-instructions" class="nav-link" data-scroll-target="#submission-instructions">Submission Instructions</a></li>
-  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials">Required Materials</a>
+  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">Attribution</a>
   <ul class="collapse">
-  <li><a href="#technical-report" id="toc-technical-report" class="nav-link" data-scroll-target="#technical-report">Technical Report</a></li>
-  <li><a href="#code-and-reproducibility-package" id="toc-code-and-reproducibility-package" class="nav-link" data-scroll-target="#code-and-reproducibility-package">Code and Reproducibility Package</a></li>
+  <li><a href="#code-and-report-requirements" id="toc-code-and-report-requirements" class="nav-link" data-scroll-target="#code-and-report-requirements">Code and Report Requirements</a></li>
+  <li><a href="#winner-selection-criteria" id="toc-winner-selection-criteria" class="nav-link" data-scroll-target="#winner-selection-criteria">Winner Selection Criteria</a>
+  <ul class="collapse">
+  <li><a href="#leaderboard-performance-80" id="toc-leaderboard-performance-80" class="nav-link" data-scroll-target="#leaderboard-performance-80">Leaderboard Performance (80%)</a></li>
+  <li><a href="#qualitative-evaluation-20" id="toc-qualitative-evaluation-20" class="nav-link" data-scroll-target="#qualitative-evaluation-20">Qualitative Evaluation (20%)</a></li>
   </ul></li>
+  <li><a href="#conduct-and-disqualification" id="toc-conduct-and-disqualification" class="nav-link" data-scroll-target="#conduct-and-disqualification">Conduct and Disqualification</a></li>
   <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important Dates</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
-  <li><a href="#support-and-leaderboard" id="toc-support-and-leaderboard" class="nav-link" data-scroll-target="#support-and-leaderboard">Support and Leaderboard</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -290,291 +262,142 @@ background-size: cover;
 
 
 
-<section id="registration-and-setup" class="level2">
-<h2 class="anchored" data-anchor-id="registration-and-setup">Registration and Setup</h2>
-<section id="who-can-participate" class="level3">
-<h3 class="anchored" data-anchor-id="who-can-participate">Who Can Participate</h3>
-<p>The competition is open to everyone, including students, academics, and industry professionals. Participation is organized at the team level. Each team may include 1 to 5 members and must designate one Team Leader to manage registration, Codabench access, and submissions. We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).</p>
+<section id="competition-rules" class="level1">
+<h1>Competition Rules</h1>
+<section id="eligibility" class="level2">
+<h2 class="anchored" data-anchor-id="eligibility">Eligibility</h2>
+<p>The competition is open to students, academics, industry professionals, and independent participants.</p>
+<p>Participation is organized at the team level:</p>
+<ul>
+<li>Each team may include 1 to 5 members.</li>
+<li>Each team must designate one Team Leader.</li>
+<li>The Team Leader manages registration and is the main contact for the organizers.</li>
+<li>Each team may register only once.</li>
+<li>Each participant must have a Hugging Face account.</li>
+<li>Each team member must provide their exact Hugging Face username during registration.</li>
+<li>Multiple registrations representing the same team are not permitted.</li>
+</ul>
+<p>Team membership should remain unchanged after registration unless explicitly approved by the organizers.</p>
+<p>We strongly encourage and will give additional credit to teams composed of individuals with diverse backgrounds (e.g., Earth science + AI).</p>
+<p>To participate in the challenge, teams must first register and be approved through the official Hugging Face competition page.</p>
 </section>
-<section id="how-to-register" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-register">How to Register</h3>
+<section id="registration" class="level2">
+<h2 class="anchored" data-anchor-id="registration">Registration</h2>
 <ol type="1">
 <li>Form your team and select a Team Leader.</li>
-<li>Complete the <a href="https://docs.google.com/forms/d/1KUGGduTATQK3wUoRRzlClt3PU11XaHCNnyTB1SyBVfM/">team registration form</a>.</li>
-<li>Provide the following information:
-<ul>
-<li>Team name</li>
-<li>Team Leader’s name and email</li>
-<li>Names and affiliations of all team members</li>
-<li>Team Leader’s Codabench username (if already available)</li>
-</ul></li>
+<li>Create a Hugging Face account for each team member.</li>
+<li>Complete the team registration form <a href="https://docs.google.com/forms/d/1KUGGduTATQK3wUoRRzlClt3PU11XaHCNnyTB1SyBVfM/">here</a>.</li>
+<li>Provide the team name, Team Leader contact information, team member names and affiliations, and the exact Hugging Face username for every team member.</li>
+<li>The organizers will review registrations and verify eligibility.</li>
 </ol>
-<p>The organizers will review all registrations and verify team eligibility.</p>
-</section>
-<section id="codabench-access-and-resources" class="level3">
-<h3 class="anchored" data-anchor-id="codabench-access-and-resources">Codabench Access and Resources</h3>
-<p>After submitting the registration form:</p>
+<p>After registration:</p>
 <ol type="1">
-<li>The Team Leader should create a Codabench account at <a href="https://www.codabench.org">https://www.codabench.org</a>.</li>
-<li>Visit the competition page: <a href="https://www.codabench.org/competitions/10283/">GeoAI Arctic Challenge</a>.</li>
-<li>Click Join Competition.</li>
+<li>Visit the <a href="https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge">official competition page</a>.</li>
+<li>Log in with your Hugging Face account.</li>
 <li>Wait for organizer approval.</li>
+<li>Approved Hugging Face usernames will be added to the competition registration list.</li>
+<li>Once approved, registered team members can submit through <strong>New submission</strong> and view shared team history through <strong>My submissions</strong>.</li>
 </ol>
-<p>Access requests are reviewed manually. Approved teams will receive access to the competition resources and leaderboard.</p>
-<p>Once approved, the Team Leader can:</p>
-<ol type="1">
-<li>Access the competition files and documentation.</li>
-<li>Download the public dataset and starter materials.</li>
-<li>Follow the setup instructions provided in the repository or competition page.</li>
-<li>Submit predictions through Codabench.</li>
-</ol>
+<p>Access requests are reviewed manually. Users who are not listed as approved participants can browse the competition pages and leaderboard, but cannot upload submissions.</p>
 </section>
-<section id="participation-rules" class="level3">
-<h3 class="anchored" data-anchor-id="participation-rules">Participation Rules</h3>
+<section id="team-accounts-and-shared-submissions" class="level2">
+<h2 class="anchored" data-anchor-id="team-accounts-and-shared-submissions">Team Accounts and Shared Submissions</h2>
+<p>The competition uses Hugging Face usernames to identify registered participants.</p>
+<p>Registered users mapped to the same team share:</p>
 <ul>
-<li>Each team may register only once.</li>
-<li>Each team must use a single Codabench account managed by the Team Leader.</li>
-<li>Multiple Codabench accounts representing the same team are not permitted.</li>
-<li>Teams found circumventing participation limits through multiple accounts may be disqualified at the organizers’ discretion.</li>
-<li>Team membership should remain unchanged after registration unless explicitly approved by the organizers.</li>
-<li>Codabench will enforce platform-level competition settings, including maximum submissions per day, maximum upload size, public/private leaderboard behavior, final ranking metric, and displayed leaderboard columns.</li>
-<li>Code for the top-performing models must be submitted for verification to be eligible for awards.</li>
+<li><strong>My submissions</strong></li>
+<li><strong>New submission</strong> access</li>
+<li>The daily submission limit</li>
+<li>One leaderboard entry</li>
 </ul>
+<p>All approved team members can submit for the team. Team names are managed by the organizers based on the registration form.</p>
 </section>
-</section>
-<section id="download-competition-files" class="level2">
-<h2 class="anchored" data-anchor-id="download-competition-files">Download Competition Files</h2>
-<p>Once registered and approved, download the public release package from the <strong>Files</strong> section on Codabench. You can also visit the <a href="../challenge/dataset.html">Dataset Page</a> for detailed information about the data, annotations, and visualizations.</p>
-<p><strong>Release package contents:</strong></p>
+<section id="submission-rules" class="level2">
+<h2 class="anchored" data-anchor-id="submission-rules">Submission Rules</h2>
 <ul>
-<li>756 training image chips and 138 test image chips.</li>
-<li>Eight-band <code>.npz</code> image arrays with RGB, spectral indices, elevation, shaded relief, and NIR bands.</li>
-<li>COCO-style instance segmentation annotations for the training split.</li>
-<li>Hidden test labels used by the official scorer.</li>
-<li>Helper scripts for loading images, validating submissions, encoding masks, and local evaluation.</li>
-</ul>
-</section>
-<section id="local-setup" class="level2">
-<h2 class="anchored" data-anchor-id="local-setup">Local Setup</h2>
-<p>Install the helper dependencies in your Python environment:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Inspect the release package:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> tools/inspect_dataset.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Load one training image and decode one training instance mask:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> examples/load_image_and_label.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="data-format" class="level2">
-<h2 class="anchored" data-anchor-id="data-format">Data Format</h2>
-<p>The release is organized into training data, test data, metadata, tools, and examples:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">competition_release/</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">metadata/</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="ex">band_names.json</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">sample_submission.json</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">train_manifest.csv</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">test_manifest.csv</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="ex">tools/</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">coco_utils.py</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="ex">validate_submission.py</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="ex">evaluate_coco.py</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">inspect_dataset.py</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="ex">examples/</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="ex">load_image_and_label.py</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="ex">make_sample_submission.py</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="ex">encode_predictions.py</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="ex">train/</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images/*.npz</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="ex">annotations/instances_train.json</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="ex">test/</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images/*.npz</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Item</th>
-<th>Format</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Imagery</td>
-<td><code>.npz</code></td>
-<td>One array named <code>image</code> with shape <code>H x W x 8</code></td>
-</tr>
-<tr class="even">
-<td>Training labels</td>
-<td><code>.json</code></td>
-<td>COCO instance segmentation labels with compressed RLE masks</td>
-</tr>
-<tr class="odd">
-<td>Manifests</td>
-<td><code>.csv</code></td>
-<td>Public IDs, integer image IDs, filenames, widths, and heights</td>
-</tr>
-<tr class="even">
-<td>Sample submission</td>
-<td><code>.json</code></td>
-<td>Example COCO results-format submission</td>
-</tr>
-</tbody>
-</table>
-<p>The image bands are stored in HWC order: <code>red</code>, <code>green</code>, <code>blue</code>, <code>ndvi</code>, <code>relative_elevation</code>, <code>shaded_relief</code>, <code>nir</code>, and <code>ndwi</code>.</p>
-</section>
-<section id="task-description" class="level2">
-<h2 class="anchored" data-anchor-id="task-description">Task Description</h2>
-<p>Your task is to <strong>predict per-instance RTS masks</strong> for each test image chip.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Input</th>
-<th>Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Eight-band <code>.npz</code> image chip</td>
-<td>One compressed COCO RLE mask per predicted RTS instance</td>
-</tr>
-</tbody>
-</table>
-<p>There is one prediction category:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">"id"</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span> <span class="dt">"name"</span><span class="fu">:</span> <span class="st">"rts"</span><span class="fu">,</span> <span class="dt">"supercategory"</span><span class="fu">:</span> <span class="st">"landform"</span><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="submission-format" class="level2">
-<h2 class="anchored" data-anchor-id="submission-format">Submission Format</h2>
-<p>Submit a COCO results JSON list. Each prediction should include:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"image_id"</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"category_id"</span><span class="fu">:</span> <span class="dv">1</span><span class="fu">,</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"segmentation"</span><span class="fu">:</span> <span class="fu">{</span><span class="dt">"size"</span><span class="fu">:</span> <span class="ot">[</span><span class="dv">159</span><span class="ot">,</span> <span class="dv">289</span><span class="ot">]</span><span class="fu">,</span> <span class="dt">"counts"</span><span class="fu">:</span> <span class="st">"01nk</span><span class="ch">\\</span><span class="st">1"</span><span class="fu">},</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"score"</span><span class="fu">:</span> <span class="fl">0.95</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Submission rules:</p>
-<ul>
-<li><code>image_id</code> must be an integer from <code>metadata/test_manifest.csv</code>.</li>
-<li><code>category_id</code> must be <code>1</code>.</li>
-<li><code>segmentation</code> must be a compressed COCO RLE mask matching the image height and width.</li>
-<li><code>score</code> must be numeric and in <code>[0, 1]</code>.</li>
-<li>Empty submissions (<code>[]</code>) are valid and mean no predicted RTS instances.</li>
+<li>Submissions must be generated by automated model outputs.</li>
+<li>Manual labeling of the hidden test set is not permitted.</li>
+<li>Predictions must follow the required COCO results JSON format.</li>
+<li>Each prediction must use <code>category_id: 1</code>.</li>
+<li>Each mask must be encoded as compressed COCO RLE.</li>
+<li>Each score must be numeric and in <code>[0, 1]</code>.</li>
+<li>Empty submissions are valid and mean no predicted RTS instances.</li>
 <li>Images with no predictions are valid.</li>
 <li>Multiple predictions per image are valid.</li>
+<li>The official metric uses the top-scoring detections per image according to <code>maxDets=10</code>.</li>
+<li>You may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.</li>
 </ul>
-<p>If your model outputs binary masks, encode each mask as compressed RLE. If your model outputs polygons as <code>x1, y1, x2, y2, ...</code>, convert each polygon to compressed RLE before submission. Helper functions are provided in <code>tools/coco_utils.py</code>.</p>
-<p>Create a valid sample submission:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> examples/make_sample_submission.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Encode binary masks or polygon coordinates as compressed COCO RLE:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> examples/encode_predictions.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Validate a submission before upload:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> tools/validate_submission.py <span class="at">--submission</span> path/to/submission.json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Malformed submissions should be fixed before upload. The public validator checks JSON structure, image IDs, category IDs, scores, compressed RLE decodability, and mask sizes.</p>
+<p>The competition platform will enforce settings such as maximum submissions per day, maximum upload size, leaderboard behavior, final ranking metric, and displayed leaderboard columns.</p>
 </section>
-<section id="evaluation-metrics" class="level2">
-<h2 class="anchored" data-anchor-id="evaluation-metrics">Evaluation Metrics</h2>
-<p>Submissions are ranked on Codabench using COCO mask AP/AR (<code>segm</code>) with RTS-specific settings. The primary ranking metric is:</p>
+<section id="data-usage" class="level2">
+<h2 class="anchored" data-anchor-id="data-usage">Data Usage</h2>
+<p>The dataset is provided for research and competition purposes within this challenge.</p>
+<p>Redistribution of the dataset or derivatives outside the challenge requires permission from the original data owners and curators.</p>
+<p>Participants may use external data, but external data usage must be documented in the method description or technical report.</p>
+<p>Do not share labels, private data, submissions, or predictions across teams.</p>
+</section>
+</section>
+<section id="attribution" class="level1">
+<h1>Attribution</h1>
+<p>Works or publications using this dataset should cite:</p>
 <ul>
-<li><code>AP @[IoU=0.50:0.95, area=all, maxDets=10]</code></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0034425723000469"><em>Yang et al.</em> (2023)</a>, the source RTS dataset paper.</li>
+<li><a href="https://doi.org/10.1109/JSTARS.2025.3564310"><em>Li et al.</em> (2025)</a>, the related multimodal GeoAI RTS modeling paper.</li>
 </ul>
-<p>Additional displayed metrics may include:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>AP50</code></td>
-<td>Average Precision at IoU 0.50</td>
-</tr>
-<tr class="even">
-<td><code>AP75</code></td>
-<td>Average Precision at IoU 0.75</td>
-</tr>
-<tr class="odd">
-<td><code>AP_small</code></td>
-<td>Average Precision for objects with area <code>[0, 300]</code> pixels</td>
-</tr>
-<tr class="even">
-<td><code>AP_medium</code></td>
-<td>Average Precision for objects with area <code>[300, 2000]</code> pixels</td>
-</tr>
-<tr class="odd">
-<td><code>AP_large</code></td>
-<td>Average Precision for objects with area <code>[2000, 1e10]</code> pixels</td>
-</tr>
-<tr class="even">
-<td><code>AR_all</code></td>
-<td>Average Recall across all object sizes</td>
-</tr>
-</tbody>
-</table>
-<p>Official settings:</p>
+<p>Full citation information is available on the <a href="../challenge/resources.html">Resources</a> page.</p>
+<section id="code-and-report-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="code-and-report-requirements">Code and Report Requirements</h2>
+<p>All teams must submit a valid COCO results-format <code>submission.json</code> through the competition platform.</p>
+<p>Top-performing teams must submit code for verification to be eligible for awards. They may also be invited to contribute to an outcome publication and may be asked to provide:</p>
 <ul>
-<li><code>maxDets</code>: <code>[1, 5, 10]</code></li>
-<li><code>areaRngLbl</code>: <code>["all", "small", "medium", "large"]</code></li>
-<li><code>all</code>: <code>[0, 1e10]</code> pixels</li>
-<li><code>small</code>: <code>[0, 300]</code> pixels</li>
-<li><code>medium</code>: <code>[300, 2000]</code> pixels</li>
-<li><code>large</code>: <code>[2000, 1e10]</code> pixels</li>
-</ul>
-<p>The official metric uses the top-scoring detections per image according to <code>maxDets=10</code>. You may submit more than 10 predictions for an image, but predictions beyond the top 10 by score do not improve the official metric.</p>
-<p>Evaluate predictions against the public training labels or your own COCO-format validation split:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> tools/evaluate_coco.py <span class="dt">\</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">--ground-truth</span> train/annotations/instances_train.json <span class="dt">\</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">--submission</span> path/to/train_predictions.json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="submission-instructions" class="level2">
-<h2 class="anchored" data-anchor-id="submission-instructions">Submission Instructions</h2>
-<ol type="1">
-<li>Train your model locally.</li>
-<li>Generate predictions for the test set.</li>
-<li>Encode each predicted RTS instance as compressed COCO RLE.</li>
-<li>Build one <code>submission.json</code> COCO results list.</li>
-<li>Validate the JSON with <code>tools/validate_submission.py</code>.</li>
-<li>Upload the validated submission through Codabench.</li>
-<li>Check your score on the leaderboard.</li>
-</ol>
-</section>
-<section id="required-materials" class="level2">
-<h2 class="anchored" data-anchor-id="required-materials">Required Materials</h2>
-<p>All teams must submit a valid COCO results-format <code>submission.json</code> through Codabench. In addition to leaderboard submissions, top-performing teams will be invited to contribute to an outcome publication and may be asked to provide the following materials.</p>
-<section id="technical-report" class="level3">
-<h3 class="anchored" data-anchor-id="technical-report">Technical Report</h3>
-<p>Teams aiming for awards and paper inclusion must submit a short technical report (2-4 pages) covering:</p>
-<ul>
-<li>Team and affiliations: members, institution, country.</li>
-<li>Model architecture: CNN, Transformer, hybrid, or other approach.</li>
-<li>Training strategy: losses, augmentations, optimizers, batch size, and hardware.</li>
-<li>Special techniques: domain adaptation, self-training, ensembling, band selection, or other methods.</li>
-<li>Results and ablations: validation metrics, ablation tables, and sample outputs.</li>
-<li>Insights: challenges faced, lessons learned, and potential future improvements.</li>
-<li>References to related works.</li>
-</ul>
-<blockquote class="blockquote">
-<p>A report template will be provided to keep submissions consistent.</p>
-</blockquote>
-</section>
-<section id="code-and-reproducibility-package" class="level3">
-<h3 class="anchored" data-anchor-id="code-and-reproducibility-package">Code and Reproducibility Package</h3>
-<ul>
-<li>Final inference code or container to verify results.</li>
+<li>A short technical report of 2 to 4 pages.</li>
+<li>Final inference code or a container to verify results.</li>
 <li>Instructions for reproducing predictions on the test set.</li>
-<li>Training scripts are encouraged but optional.</li>
+<li>Training scripts, if available.</li>
 </ul>
+<p>The technical report should cover:</p>
+<ul>
+<li>Team members, affiliations, and country.</li>
+<li>Model architecture.</li>
+<li>Training strategy, including losses, augmentations, optimizer, batch size, and hardware.</li>
+<li>Special techniques such as domain adaptation, self-training, ensembling, or band selection.</li>
+<li>Results and ablations.</li>
+<li>Insights, challenges, lessons learned, and possible future improvements.</li>
+<li>References to related work.</li>
+</ul>
+<p>A report template will be provided to keep submissions consistent.</p>
 </section>
+<section id="winner-selection-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="winner-selection-criteria">Winner Selection Criteria</h2>
+<p>Competition winners will be selected based on a combination of leaderboard performance and qualitative evaluation.</p>
+<section id="leaderboard-performance-80" class="level3">
+<h3 class="anchored" data-anchor-id="leaderboard-performance-80">Leaderboard Performance (80%)</h3>
+<p>Leaderboard ranking will account for <strong>80%</strong> of the final score. This component reflects the performance of each team’s final submission according to the official competition evaluation metric.</p>
+</section>
+<section id="qualitative-evaluation-20" class="level3">
+<h3 class="anchored" data-anchor-id="qualitative-evaluation-20">Qualitative Evaluation (20%)</h3>
+<p>The remaining <strong>20%</strong> of the final score will be determined through a review conducted by the organizing committee. Evaluation will consider:</p>
+<ul>
+<li>Technical report quality, including clarity, completeness, and reproducibility;</li>
+<li>Novelty and innovation of the proposed methodology;</li>
+<li>Interdisciplinary collaboration, including the extent to which the team combines expertise from different disciplines (e.g., Earth science, remote sensing, computer vision, machine learning, or related fields).</li>
+</ul>
+<p>The organizers may request additional materials, including inference code or containers, to verify reported results before determining the final rankings.</p>
+<p>The final competition winners will be determined using the combined weighted score from the leaderboard performance and the qualitative evaluation.</p>
+</section>
+</section>
+<section id="conduct-and-disqualification" class="level2">
+<h2 class="anchored" data-anchor-id="conduct-and-disqualification">Conduct and Disqualification</h2>
+<p>Teams are expected to follow the competition rules, Hugging Face platform terms, and any competition-specific conduct policies.</p>
+<p>Teams may be disqualified at the organizers’ discretion for:</p>
+<ul>
+<li>Registering the same team multiple times.</li>
+<li>Circumventing participation or submission limits.</li>
+<li>Misusing the dataset.</li>
+<li>Sharing private labels, predictions, or submissions across teams.</li>
+<li>Attempting to game the leaderboard.</li>
+<li>Submitting manually labeled hidden test predictions.</li>
+</ul>
 </section>
 <section id="important-dates" class="level2">
 <h2 class="anchored" data-anchor-id="important-dates">Important Dates</h2>
@@ -587,43 +410,30 @@ background-size: cover;
 </thead>
 <tbody>
 <tr class="odd">
-<td>Competition Opens</td>
-<td>June 1, 2026</td>
+<td>Competition opens</td>
+<td>July 1, 2026</td>
 </tr>
 <tr class="even">
-<td>Dataset Released</td>
-<td>June 1, 2026</td>
+<td>Dataset released</td>
+<td>July 1, 2026</td>
 </tr>
 <tr class="odd">
-<td>Benchmark Phase Starts</td>
-<td>July 15, 2026</td>
+<td>Benchmark phase starts</td>
+<td>August 15, 2026</td>
 </tr>
 <tr class="even">
-<td>Final Submission</td>
-<td>December 31, 2026</td>
+<td>Final submission deadline</td>
+<td>January 31, 2027</td>
 </tr>
 <tr class="odd">
-<td>Winners Announced</td>
-<td>February 1, 2027</td>
+<td>Winners announced</td>
+<td>March 1, 2027</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">Awards</h2>
-<p>Prizes will be awarded to the top-performing teams based on the final leaderboard standings.</p>
-<ul>
-<li><strong>1st Place:</strong> $1,000 USD</li>
-<li><strong>2nd Place:</strong> $500 USD</li>
-<li><strong>3rd Place:</strong> $200 USD</li>
-</ul>
-</section>
-<section id="support-and-leaderboard" class="level2">
-<h2 class="anchored" data-anchor-id="support-and-leaderboard">Support and Leaderboard</h2>
-<p>Use the Codabench discussion forum for public challenge questions.</p>
-<p>The leaderboard will be updated regularly with the latest submissions.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
