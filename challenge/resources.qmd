@@ -2,9 +2,9 @@
 title: "2026 GeoAI Arctic Challenge"
 toc: true
 toc-title: "Resources and FAQ"
----
+toc-location: "left"
 
-# Resources and FAQ
+---
 
 This page collects starter materials, learning resources, contacts, citations, and frequently asked questions.
 

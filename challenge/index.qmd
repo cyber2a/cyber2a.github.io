@@ -2,8 +2,16 @@
 title: "2026 GeoAI Arctic Challenge"
 toc: true
 toc-title: "Overview"
+toc-location: "left"
 
 ---
+
+## News 
+
+- **July 1, 2026**: Competition kickoff. We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words [here](./welcome-words.qmd).
+- **July 1, 2026**: Public training data, hidden-label test images, starter scripts, and validation tools are released [here](https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset).
+- **August 15, 2026**: Benchmark phase starts.
+
 
 The 2026 GeoAI Arctic Challenge invites participants to develop GeoAI and deep learning models for mapping retrogressive thaw slumps (RTS) from multimodal Arctic remote sensing data.
 
@@ -13,12 +21,6 @@ RTS are landslide-like landforms that occur when ice-rich permafrost thaws and c
 
 ![Retrogressive thaw slump example. *Credit: [Woodwell Climate Research Center](https://permafrost.woodwellclimate.org/using-machine-learning-and-high-resolution-satellite-imagery-to-detect-a-major-greenhouse-gas-emitting-climate-hazard/)*](./assets/rts.png){width=70% fig-align="center"}
 
-
-## News
-
-- **July 1, 2026**: Competition kickoff. We are excited to announce the official launch of the 2026 GeoAI Arctic Challenge. Read welcoming words [here](./about.qmd).
-- **July 1, 2026**: Public training data, hidden-label test images, starter scripts, and validation tools are released [here](https://huggingface.co/datasets/cyber2a/2026GeoAIArcticChallengeDataset).
-- **August 15, 2026**: Benchmark phase starts.
 
 ## Challenge Task
 

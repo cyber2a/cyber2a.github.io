@@ -2,10 +2,9 @@
 title: "2026 GeoAI Arctic Challenge"
 toc: true
 toc-title: "Submission"
+toc-location: "left"
 
 ---
-
-# Submission Information
 
 ## Task
 

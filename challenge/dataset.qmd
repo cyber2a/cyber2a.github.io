@@ -2,10 +2,9 @@
 title: "2026 GeoAI Arctic Challenge"
 toc: true
 toc-title: "Dataset"
+toc-location: "left"
 
 ---
-
-# GeoAI Arctic Challenge Dataset {id="dataset"}
 
 The GeoAI Arctic Challenge dataset is an **instance segmentation** benchmark for detecting and delineating **retrogressive thaw slumps (RTS)** in Arctic image chips. The dataset builds on [*Yang et al.* (2023)](https://www.sciencedirect.com/science/article/pii/S0034425723000469), which provided semantic segmentation masks labeling each pixel as RTS or non-RTS. For this challenge, those labels have been extended and reformatted so each RTS feature is represented as an individual instance.
 

@@ -127,6 +127,8 @@ website:
       style: "floating"
       background: light
       contents:
+        - text: "Welcoming Words"
+          href: challenge/welcome-words.qmd
         - text: "Overview"
           href: challenge/index.qmd
         - text: "Dataset"

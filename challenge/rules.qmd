@@ -2,10 +2,9 @@
 title: "2026 GeoAI Arctic Challenge"
 toc: true
 toc-title: "Rules"
+toc-location: "left"
 
 ---
-
-# Competition Rules
 
 ## Eligibility
 

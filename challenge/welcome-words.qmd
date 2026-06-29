@@ -1,10 +1,9 @@
 ---
 title: "2026 GeoAI Arctic Challenge"
-toc: true
-toc-title: "About/Organizers"
-toc-location: "left"
 
 ---
+
+# Welcome to the 2026 GeoAI Arctic Challenge!
 
 The 2026 GeoAI Arctic Challenge is part of the continuing series of GeoAI challenges sponsored by the National Science Foundation (NSF) and hosted by the [NSF Cyber2A project team](https://cyber2a.github.io/). This challenge aims to bring together researchers, practitioners, and students from multiple disciplines and sectors, including geospatial sciences, computer science, Earth and environmental sciences, data science, and Arctic research communities. Our goal is to broaden participation in GeoAI research and education while fostering interdisciplinary collaboration to address pressing environmental challenges facing our planet.
 
@@ -22,38 +21,3 @@ Professor Wenwen Li <br>
 Director, Spatial Analysis Research Center (SPARC) <br>
 School of Geographical Sciences and Urban Planning <br>
 Arizona State University <br>
-
-## Collaborators
-
-- Wenwen Li, Arizona State University, USA
-- Chia-Yu Hsu, Arizona State University, USA
-- Anna Liljedahl, Woodwell Climate Research Center, USA
-- Yili Yang, Woodwell Climate Research Center, USA
-- Matthew Jones, University of California, Santa Barbara, USA
-- Kenton McHenry, University of Illinois at Urbana-Champaign, USA
-- Patricia Solis, Arizona State University, USA
-- Ingmar Nitze, Alfred Wegener Institute, Germany
-
-## Partners
-
-::: {layout="[[30, 30, 25, 20]]"}
-
-![](../assets/clients/ASU.png)
-
-![](../assets/clients/Woodwell.png)
-
-![](../assets/clients/ArcticDataCenter.png)
-
-![](../assets/clients/Ncsa_logo.gif)
-
-:::
-
-## Sponsors
-
-![](../assets/clients/NSF.png){width=20%}
-
-## Contact
-
-For competition support, contact [wenwen@asu.edu](mailto:wenwen@asu.edu) or [chiayuhsu@asu.edu](mailto:chiayuhsu@asu.edu).
-
-For technical questions that may help other teams, use the [discussion](https://huggingface.co/spaces/cyber2a/2026GeoAIArcticChallenge/discussions) area on the competition page. You may also contact the organizing team by email.
